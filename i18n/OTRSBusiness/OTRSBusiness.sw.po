@@ -1,0 +1,1622 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: OTRS\n"
+"POT-Creation-Date: 2014-08-08 19:10+0200\n"
+"PO-Revision-Date: 2015-12-08 09:43+0000\n"
+"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
+"Language-Team: Swahili (http://www.transifex.com/otrs/OTRS/language/sw/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sw\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Template: AAAOTRSBusiness
+msgid "Ticket Created"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Note Added"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Note Added (Customer)"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Outgoing Email"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Incoming Customer Email"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Dynamic Field Updated"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Outgoing Phone Call"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Incoming Phone Call"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Outgoing Answer"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "SLA Updated"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Service Updated"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Customer Updated"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "State Updated"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Incoming Follow-Up"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Escalation Update Time Stopped"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Escalation Solution Time Stopped"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Escalation First Response Time Stopped"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Escalation Response Time Stopped"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Link Added"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Link Deleted"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Ticket Merged"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Pending Time Set"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Ticket Locked"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Ticket Unlocked"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Queue Updated"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Priority Updated"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Title Updated"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Type Updated"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Incoming Web Request"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Automatic Follow-Up Sent"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Automatic Reply Sent"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Time Accounted"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "External Chat"
+msgstr ""
+
+#. Template: AAAOTRSBusiness
+msgid "Internal Chat"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Manage Chat Channels"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Add Chat Channel"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Edit Chat Channel"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "This field is required"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Name invalid"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Need Group"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Need Valid"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Comment invalid"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "SMS (Short Message Service)"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Cloud service status"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Cloud service availability"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Remaining SMS units"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Is not currently possible to check the state for this cloud service."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Phone field for agent"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"Agent data field from which the mobile phone number for sending messages via"
+" SMS should be taken."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Phone field for customer"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"Customer data field from which the mobile phone number for sending messages "
+"via SMS should be taken."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Sender string"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"Will be shown as sender name of the SMS (Not longer than 11 characters)."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "This field is required and must be not longer than 11 characters."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Allowed role members"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"If selected, only users assigned to theses roles will be able to receive "
+"messages via SMS (optional)."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Save configuration"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Data Protection Information"
+msgstr ""
+
+#. Template: AdminContactWithData
+msgid "Contact with data management"
+msgstr ""
+
+#. Template: AdminContactWithData
+msgid "Add contact with data"
+msgstr ""
+
+#. Template: AdminContactWithData
+msgid "Please enter a search term to look for contacts with data."
+msgstr ""
+
+#. Template: AdminContactWithData
+msgid "Edit contact with data"
+msgstr ""
+
+#. Template: AdminDynamicFieldContactWithData
+msgid "These are the possible data attributes for contacts."
+msgstr ""
+
+#. Template: AdminDynamicFieldContactWithData
+msgid "Mandatory fields"
+msgstr ""
+
+#. Template: AdminDynamicFieldContactWithData
+msgid ""
+"Comma separated list of mandatory keys (optional). Keys 'Name' and 'ValidID'"
+" are always mandatory and doesn't have to be listed here."
+msgstr ""
+
+#. Template: AdminDynamicFieldContactWithData
+msgid "Sorted fields"
+msgstr ""
+
+#. Template: AdminDynamicFieldContactWithData
+msgid ""
+"Comma separated list of keys in sort order (optional). Keys listed here come"
+" first, all remaining fields afterwards and sorted alphabetically."
+msgstr ""
+
+#. Template: AdminDynamicFieldContactWithData
+msgid "Searchable fields"
+msgstr ""
+
+#. Template: AdminDynamicFieldContactWithData
+msgid ""
+"Comma separated list of searchable keys (optional). Key 'Name' is always "
+"searchable and doesn't have to be listed here."
+msgstr ""
+
+#. Template: AdminDynamicFieldContactWithData
+msgid "Add/Edit"
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
+msgid "Datatype"
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
+msgid "Searchfield"
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
+msgid "Listfield"
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
+msgid "Driver"
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
+msgid "Server"
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
+msgid "Table / View"
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
+msgid "CacheTTL"
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
+msgid "Searchprefix"
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
+msgid "Searchsuffix"
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
+msgid "Result Limit"
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
+msgid "Case Sensitive"
+msgstr ""
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid "Recipient SMS numbers"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Manage Chats"
+msgstr "Simamia maongezi"
+
+#. Template: AgentChat
+msgid "Hints"
+msgstr "Madokezo"
+
+#. Template: AgentChat
+msgid ""
+"Please note: This tab will be used by any request which is related to chats."
+" If you leave the chat manager (e.g. by using the navigation bar on top of "
+"the page), starting a new chat or other chat-related actions will possibly "
+"reload this tab any time. This means that it is recommended to leave the "
+"chat manager opened in this particular tab."
+msgstr ""
+
+#. Template: AgentChat
+msgid "General Chat Requests From Customers"
+msgstr ""
+
+#. Template: AgentChat
+msgid "My Chat Channels"
+msgstr ""
+
+#. Template: AgentChat
+msgid "All Chat Channels"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Channel"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Requester"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Chat requests are being loaded, please stand by..."
+msgstr ""
+
+#. Template: AgentChat
+msgid "General Chat Requests From Public Users"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Personal Chat Requests For You"
+msgstr ""
+
+#. Template: AgentChat
+msgid "My Active Chats"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Open ticket"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Open company"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Discard & close this chat"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Monitoring all activity in this chat"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Monitoring customer activity in this chat"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Not monitoring this chat"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Toggle settings"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Leave chat"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Leave"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Create a new phone ticket from this chat and close if afterwards"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Append this chat to an existing ticket and close it afterwards"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Append"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Invite additional agent to join the chat"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Invite"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Change chat channel"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Channel change"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Switch to participant"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Participant"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Switch to an observer"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Observer"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Download this Chat"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Join invited chat as an observer"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Join invited chat as a participant"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Open chat in a Popup"
+msgstr ""
+
+#. Template: AgentChat
+msgid "New window"
+msgstr ""
+
+#. Template: AgentChat
+msgid "New Message"
+msgstr ""
+
+#. Template: AgentChat
+msgid "(Shift + Enter for new line)"
+msgstr ""
+
+#. Template: AgentChat
+msgid "%s has left this chat."
+msgstr "%s amejitoa kwenye haya maongezi"
+
+#. Template: AgentChat
+msgid "Online agents"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Reload online agents"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Destination channel"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Open chat"
+msgstr ""
+
+#. Template: AgentChat
+msgid "This user is currently active."
+msgstr ""
+
+#. Template: AgentChat
+msgid "This user is currently away."
+msgstr ""
+
+#. Template: AgentChat
+msgid "This user is currently unavailable."
+msgstr ""
+
+#. Template: AgentChat
+msgid "This user is currently offline."
+msgstr ""
+
+#. Template: AgentChat
+msgid "This user has already left the chat or has not yet joined it."
+msgstr ""
+
+#. Template: AgentChat
+msgid ""
+"You are no longer in this chat. Click this message to remove the chat box."
+msgstr ""
+
+#. Template: AgentChat
+msgid "There are currently no chat requests."
+msgstr ""
+
+#. Template: AgentChat
+msgid ""
+"This will permanently delete the chat contents. Do you want to continue?"
+msgstr ""
+
+#. Template: AgentChat
+msgid "This chat request was already accepted by another person."
+msgstr ""
+
+#. Template: AgentChat
+msgid "You have no permission to accept this chat request."
+msgstr ""
+
+#. Template: AgentChat
+msgid "An internal error occured."
+msgstr ""
+
+#. Template: AgentChat
+msgid "You must select user."
+msgstr ""
+
+#. Template: AgentChat
+msgid "You must select permission level."
+msgstr ""
+
+#. Template: AgentChat
+msgid "Invite Agent."
+msgstr ""
+
+#. Template: AgentChat
+msgid "Please, select destination chat channel."
+msgstr ""
+
+#. Template: AgentChat
+msgid "You must select a channel."
+msgstr ""
+
+#. Template: AgentChat
+msgid "Chat preview"
+msgstr ""
+
+#. Template: AgentChat
+msgid "You must select valid channel."
+msgstr ""
+
+#. Template: AgentChat
+msgid "Agent to customer chat."
+msgstr ""
+
+#. Template: AgentChat
+msgid "Customer to agent chat."
+msgstr ""
+
+#. Template: AgentChat
+msgid "Agent to agent chat."
+msgstr ""
+
+#. Template: AgentChat
+msgid "Public to agent chat."
+msgstr ""
+
+#. Template: AgentChat
+msgid "You can't leave Customer alone in the chat."
+msgstr ""
+
+#. Template: AgentChat
+msgid "You"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Your chat could not be started because of an internal error."
+msgstr ""
+
+#. Template: AgentChat
+msgid "Your chat request was created."
+msgstr ""
+
+#. Template: AgentChat
+msgid "There are currently %s open chat requests."
+msgstr ""
+
+#. Template: AgentChat
+msgid "User was already invited to your chat!"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Insufficient permissions."
+msgstr ""
+
+#. Template: AgentChat
+msgid "System was unable to save your chat order!"
+msgstr ""
+
+#. Template: AgentChatAppend
+msgid "Append Chat to Ticket"
+msgstr "Ambatanisha maongezi na tiketi"
+
+#. Template: AgentChatAppend
+msgid "Append to"
+msgstr "Ambatanisha na"
+
+#. Template: AgentChatAppend
+msgid "The chat will be appended as a new article to the chosen ticket."
+msgstr ""
+
+#. Template: AgentChatPopup
+msgid "Chat with"
+msgstr ""
+
+#. Template: AgentChatPopup
+msgid "LeaveChat"
+msgstr ""
+
+#. Template: AgentChatPopup
+msgid "This user is currently in the chat."
+msgstr ""
+
+#. Template: AgentChatPopup
+msgid ""
+"You are no longer in the chat. Click this message to remove the chat box."
+msgstr ""
+
+#. Template: AgentChatPreview
+msgid "Current chat channel"
+msgstr ""
+
+#. Template: AgentChatPreview
+msgid "Available channels"
+msgstr ""
+
+#. Template: AgentChatPreview
+msgid "Reload"
+msgstr ""
+
+#. Template: AgentChatPreview
+msgid "Update Channel"
+msgstr ""
+
+#. Template: AgentChatPreview
+msgid "Accept"
+msgstr ""
+
+#. Template: AgentChatPreview
+msgid "Decline"
+msgstr ""
+
+#. Template: AgentDynamicFieldDatabaseDetailedSearch
+msgid "Detailed search"
+msgstr ""
+
+#. Template: AgentDynamicFieldDatabaseDetailedSearch
+msgid "Add an additional attribute"
+msgstr ""
+
+#. Template: AgentDynamicFieldDatabaseDetails
+msgid "Details view"
+msgstr ""
+
+#. Template: AgentNotificationViewNavBar
+msgid "Notifications per page"
+msgstr ""
+
+#. Template: AgentNotificationViewSmall
+msgid "No notification data found."
+msgstr ""
+
+#. Template: AgentNotificationViewSmall
+msgid "Related To"
+msgstr ""
+
+#. Template: AgentNotificationViewSmall
+msgid "Select this notification"
+msgstr ""
+
+#. Template: AgentNotificationViewSmall
+msgid "Zoom into"
+msgstr ""
+
+#. Template: AgentNotificationViewSmall
+msgid "Dismiss this notification"
+msgstr ""
+
+#. Template: AgentNotificationViewSmall
+msgid "Dismiss Selected Notifications"
+msgstr ""
+
+#. Template: AgentNotificationViewSmall
+msgid "Do you really want to dismiss the selected notifications?"
+msgstr ""
+
+#. Template: AgentNotificationViewSmall
+msgid "OTRS Notification"
+msgstr ""
+
+#. Template: AgentNotificationViewSmall
+msgid "Dismiss"
+msgstr ""
+
+#. Template: AgentStatisticsReportsAdd
+msgid "Reports » Add"
+msgstr ""
+
+#. Template: AgentStatisticsReportsAdd
+msgid "Add New Statistics Report"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Reports » Edit — %s"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid ""
+"Here you can combine several statistics to a report which you can generate "
+"as a PDF manually or automatically at configured times."
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid ""
+"Please note that you can only select charts as statistics output format if "
+"you configured PhantomJS on your system."
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Configure PhantomJS"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "General settings"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Automatic generation settings"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Automatic generation times (cron)"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid ""
+"Specify when the report should be automatically generated in cron format, e."
+" g. \"10 1 * * *\" for every day at 1:10 am."
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Last automatic generation time"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Next planned automatic generation time"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Automatic generation language"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "The language to be used when the report is automatically generated."
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Email subject"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Specify recipent email addresses (comma separated)."
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Email body"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Specify the text for the automatically generated email."
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Email recipients"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Output settings"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Headline"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Caption for preamble"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Preamble"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Caption for epilogue"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Epilogue"
+msgstr ""
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Add statistic to report"
+msgstr ""
+
+#. Template: AgentStatisticsReportsOverview
+msgid "Reports » Overview"
+msgstr ""
+
+#. Template: AgentStatisticsReportsOverview
+msgid "Statistics Reports"
+msgstr ""
+
+#. Template: AgentStatisticsReportsOverview
+msgid "Edit statistics report \"%s\"."
+msgstr ""
+
+#. Template: AgentStatisticsReportsOverview
+msgid "Delete statistics report \"%s\""
+msgstr ""
+
+#. Template: AgentStatisticsReportsOverview
+msgid "Delete statistics report %s"
+msgstr ""
+
+#. Template: AgentStatisticsReportsOverview
+msgid "Do you really want to delete this report?"
+msgstr ""
+
+#. Template: AgentStatisticsReportsView
+msgid "Reports » View — %s"
+msgstr ""
+
+#. Template: AgentStatisticsReportsView
+msgid ""
+"This statistics report contains configuration errors and can currently not "
+"be used."
+msgstr ""
+
+#. Template: AgentTicketAttachmentView
+msgid "Attachments of"
+msgstr "Viambatanisho vya"
+
+#. Template: AgentTicketAttachmentView
+msgid "Attachment Overview"
+msgstr "Mapitio ya kiambatanisho"
+
+#. Template: AgentTicketAttachmentView
+msgid "This ticket does not have any attachments."
+msgstr "Hii tiketi haina viambatanisho vyovyote."
+
+#. Template: AgentTicketAttachmentView
+msgid "Filter Attachments"
+msgstr "Chuja viambatanisho"
+
+#. Template: AgentTicketAttachmentView
+msgid "Select All"
+msgstr "Chagua vyote"
+
+#. Template: AgentTicketAttachmentView
+msgid "Click to download this file"
+msgstr "Bonyeza kupakua faili hili"
+
+#. Template: AgentTicketAttachmentView
+msgid "Open article in main window"
+msgstr "Fungua makala katika dirisha kuu"
+
+#. Template: AgentTicketAttachmentView
+msgid "Download selected files as archive"
+msgstr "Pakua mafaili yaliyochaguliwa kama nyaraka"
+
+#. Template: CustomerChat
+msgid "%s has joined this chat."
+msgstr "%s amejiunga na haya maongezi"
+
+#. Template: CustomerChat
+msgid "Incoming chat requests"
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Outgoing chat requests"
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Active chats"
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Closed chats"
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Chat request description"
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Create new ticket"
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Add an article"
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Start a new chat"
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Select channel"
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Add to the exisitng ticket"
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Active Chat"
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Download Chat"
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Chat is being loaded..."
+msgstr ""
+
+#. Template: CustomerChat
+msgid "Chat complete"
+msgstr ""
+
+#. Template: OutputFilterPostSLASelectionDialog
+msgid "Please confirm your selection"
+msgstr ""
+
+#. Template: OutputFilterPostSLASelectionDialog
+msgid "Ok"
+msgstr ""
+
+#. Template: PublicChat
+msgid "Your name"
+msgstr ""
+
+#. Template: PublicChat
+msgid "Start a new Chat"
+msgstr ""
+
+#. Template: StatsWidget
+msgid "Remove statistic"
+msgstr ""
+
+#. Template: StatsWidget
+msgid ""
+"If you don't specify a title here, the title of the statistic will be used."
+msgstr ""
+
+#. Template: StatsWidget
+msgid "Preface"
+msgstr ""
+
+#. Template: StatsWidget
+msgid "Postface"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminChatChannel.pm
+msgid "Chat Channel %s added"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminChatChannel.pm
+msgid "Chat channel %s edited"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
+msgid "Cloud service \"%s\" updated!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
+msgid "Cloud Service config \"%s\" saved!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Chat %s has been closed and was successfully appended to Ticket %s."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has joined this chat"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "New request for joining a chat"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has switched his mode to participant."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has switched his mode to observer."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentNotificationView.pm
+msgid "All Notifications"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentNotificationView.pm
+msgid "Seen Notifications"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentNotificationView.pm
+msgid "Unseen Notifications"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentNotificationView.pm
+msgid "Notification Web View"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
+msgid "This name is already in use, please choose a different one."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
+msgid "Please provide a valid cron entry."
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
+msgid "You are unavailable for external chats. Would you like to go online?"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/Notification/ChatPreferredChannelsCheck.pm
+msgid "You don't have any external chat channel assigned."
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
+msgid "Dismiss Selected"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
+msgid "Object Type"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
+msgid "Open Chat Requests"
+msgstr ""
+
+#. Perl Module: Kernel/Output/PDF/StatisticsReports.pm
+msgid "%s Report"
+msgstr ""
+
+#. Perl Module: Kernel/Output/PDF/StatisticsReports.pm
+msgid "Error: this graph could not be generated: %s."
+msgstr ""
+
+#. Perl Module: Kernel/Output/PDF/StatisticsReports.pm
+msgid "Table of Contents"
+msgstr ""
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "Default chat channel"
+msgstr ""
+
+#. SysConfig
+msgid "Activates chat support."
+msgstr "Inaamsha usaidizi katika maongezi."
+
+#. SysConfig
+msgid ""
+"Agent frontend module registration (disable chat link if chat is inactive "
+"agent is not in chat group)."
+msgstr "Moduli ya frontend ya wakala ya usajili (Kutowezesha kiungo cha maongezi kama maongezi si hai wakala hayupo katika kundi hilo la maongezi) "
+
+#. SysConfig
+msgid "Agent group that can accept chat requests and chat."
+msgstr "Kundi la wakala ambalo linaweza kukubali maombi ya maongezi na kufanya maongezi. "
+
+#. SysConfig
+msgid "Agent group that can create chat requests."
+msgstr "Kundi la wakala ambalo linaweza kutengeneza maombi ya maongezi."
+
+#. SysConfig
+msgid "Agent interface availability."
+msgstr ""
+
+#. SysConfig
+msgid "Agent interface notification module to check for open chat requests."
+msgstr "Moduli ya taarifa kwa kiolesura cha wakala kuangalia kama kuna maombi ya maongezi."
+
+#. SysConfig
+msgid "Allow customer to select only channels that have available agent(s)."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Allow public users to select only channels that have available agent(s)."
+msgstr ""
+
+#. SysConfig
+msgid "Allows having a small format notification web view ."
+msgstr ""
+
+#. SysConfig
+msgid "Chat Channel"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Channel:"
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Chat channel that will be used for communication related to the tickets in "
+"this queue."
+msgstr ""
+
+#. SysConfig
+msgid "Chat overview"
+msgstr "Mapitio ya maongezi"
+
+#. SysConfig
+msgid "ChatChannel to Queue mapping."
+msgstr ""
+
+#. SysConfig
+msgid "Chats"
+msgstr "Maongezi"
+
+#. SysConfig
+msgid "Cleans up old chat logs."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Column notification web view filters for Notification web view type "
+"\"Small\"."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Columns that can be filtered in the notification web view of the agent "
+"interface. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by "
+"default."
+msgstr ""
+
+#. SysConfig
+msgid "Contact with data"
+msgstr ""
+
+#. SysConfig
+msgid "Create and manage chat channels."
+msgstr ""
+
+#. SysConfig
+msgid "Create new chat"
+msgstr "Tengeneza maongezi mpya"
+
+#. SysConfig
+msgid ""
+"Customer frontend module registration (disable chat link if chat is inactive"
+" or no chat agents are available)."
+msgstr "Moduli ya frontend ya mteja ya usajili (Kutowezesha kiungo cha maongezi kama maongezi si hai au wakala wa maongezi hayupo)"
+
+#. SysConfig
+msgid ""
+"Default agent name for customer and public interface. If enabled, the real "
+"name of the agent will not be visible to customers/public users while using "
+"the chat."
+msgstr "Chaguo-msingi la jina la wakala kwa ajili ya mteja na kiolesura cha umma. Kama imewezeshwa, jina la kweli la wakala halitaonekana kwa mteja/mtumiaji wa umma wakati wa maongezi."
+
+#. SysConfig
+msgid "Default text for the customer interface."
+msgstr "Chaguo-msingi la nakala kwa kiolesura cha mteja. "
+
+#. SysConfig
+msgid "Default text for the public interface."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Define a list of agent preferences group keys that will be visible in Customer interface (works only if DefaultAgentName is disabled).\n"
+"            Example: If you want to dispaly PreferencesGroups###Language, add Language."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Define a text for Agent Preferences in the Customer interface (works only if"
+" DefaultAgentName is disabled)."
+msgstr ""
+
+#. SysConfig
+msgid "Define chat windows order."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Define if customer users are able to select Chat Channel. If not, chat will "
+"be created in default Chat Channel."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Define if public users are able to select Chat Channel. If not, chat will be"
+" created in default Chat Channel."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Define should numbers be appended to DefaultAgentName. If enabled, together "
+"with DefaultAgentName will be numbers (e.g. 1,2,3,...)."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Define the period of time (in minutes) before agent goes offline due to "
+"inactivity."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Define the period of time before No Answer message is displayed to the "
+"customer (minutes)."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines the module to display a notification in the agent interface if the "
+"agent is available for external chats, but forgot to set preferred "
+"channel(s)."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines the module to display a notification in the agent interface, if the "
+"agent is not available for chat with customers (only if "
+"Ticket::Agent::AvailableForChatsAfterLogin is set to No)."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines the number of days a notification should be still shown in the "
+"notification web view screen (value of '0' means always show)."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines the path to the PhantomJS binary. You can use a static build from "
+"http://phantomjs.org/download.html for an easy installation process."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the settings for ticket notification."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the source dynamic field for storing historical data."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the target dynamic fields for storing historical data."
+msgstr ""
+
+#. SysConfig
+msgid "Display Create Chat request link in the ticket zoom view."
+msgstr ""
+
+#. SysConfig
+msgid "Dynamic Fields Contact Data Backend GUI"
+msgstr ""
+
+#. SysConfig
+msgid "Dynamic Fields Database Backend GUI"
+msgstr ""
+
+#. SysConfig
+msgid "Edit contacts with data"
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Enables notification web view bulk action feature for the agent frontend to "
+"work on more than one notification at a time."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Enables notification web view bulk action feature only for the listed "
+"groups."
+msgstr ""
+
+#. SysConfig
+msgid "Enables the timeline view in AgentTicketZoom."
+msgstr ""
+
+#. SysConfig
+msgid "Frontend module registration for the public interface."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Generate HTML comment hooks for the specified blocks so that filters can use"
+" them."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"If enabled it will check agents availability on login. If user is available "
+"for external chats, it will reduce availability to internal chats only."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"If this flag is set to yes agents can start a chat with customer without a "
+"ticket."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"If this flag is set to yes chat from agent ticket zoom view will only be "
+"available if ticket customer is online."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"If this flag is set to yes chat from customer ticket zoom view will only be "
+"available if there are available agents in linked chat channel."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"If this flag is set to yes customers can start a chat with an agent without "
+"a ticket."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"If this flag is set to yes only ticket customer can start a chat from a "
+"ticket zoom view."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"If this flag is set, system will display notification on each page if agent "
+"is not available for chat."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Is locking a ticket required to start a chat with customer from ticket zoom "
+"view."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Makes it possible to start a chat with a customer from the agent interface."
+msgstr "Inafanikisha kuanza maongezi na mteja kutoka kwenye kiolesura cha wakala."
+
+#. SysConfig
+msgid ""
+"Makes it possible to start a chat with an agent from the agent interface."
+msgstr "Inafanikisha kuanza maongezi na wakala kutoka kwenye kiolesura cha wakala."
+
+#. SysConfig
+msgid ""
+"Makes it possible to start a chat with an agent from the customer interface."
+msgstr "Inafanikisha kuanza maongezi na wakala kutoka kwenye kiolesura cha mteja."
+
+#. SysConfig
+msgid ""
+"Makes it possible to start a chat with an agent from the public interface."
+msgstr "Inafanikisha kuanza maongezi na wakala kutoka kwenye kiolesura cha umma."
+
+#. SysConfig
+msgid "My chats"
+msgstr "Maongezi yangu"
+
+#. SysConfig
+msgid ""
+"Name of default chat channel. If this channel does not exist, it will be "
+"created automatically. Please do not create a chat channel with the same "
+"name as default chat channel. Default channel won't be displayed if chat "
+"channels are enabled in Customer interface and Public interface. All Agent "
+"to agent chat will be in defaul channel."
+msgstr ""
+
+#. SysConfig
+msgid "No agents available message."
+msgstr ""
+
+#. SysConfig
+msgid "Notification limit per page for Notification web view \"Small\""
+msgstr ""
+
+#. SysConfig
+msgid "Notification web view"
+msgstr ""
+
+#. SysConfig
+msgid "Notification web view \"Small\" Limit"
+msgstr ""
+
+#. SysConfig
+msgid "Notifications Unseen:"
+msgstr ""
+
+#. SysConfig
+msgid "Number of days after chat will be deleted."
+msgstr ""
+
+#. SysConfig
+msgid "Number of hours after closed chat will be deleted."
+msgstr ""
+
+#. SysConfig
+msgid "Output filter to inject the necessary JavaScript into the views."
+msgstr ""
+
+#. SysConfig
+msgid "Outputfilter for standard tt files."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Parameters for the ChatChannel object in the preference view of the agent "
+"interface."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Parameters for the pages (in which the notifications are shown) of the small"
+" notifications view."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Permission level to start a chat with customer from agent ticket zoom view."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Please bear with us until one of our agents is able to handle your chat "
+"request. Thank you for your patience."
+msgstr ""
+
+#. SysConfig
+msgid "Prepend"
+msgstr ""
+
+#. SysConfig
+msgid "Remove closed chats older than ChatEngine::ChatTTL."
+msgstr ""
+
+#. SysConfig
+msgid "Remove old chats."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Runs an initial wildcard search of the existing contacts with data when "
+"accessing the AdminContactWithData module."
+msgstr ""
+
+#. SysConfig
+msgid "Sets if a chat request can be sent out from agent ticket zoom view."
+msgstr ""
+
+#. SysConfig
+msgid "Sets if a chat request can be sent out from customer ticket zoom view."
+msgstr ""
+
+#. SysConfig
+msgid "Show all ticket attachments"
+msgstr "Onyesha viambatanisho vyote vya tiketi"
+
+#. SysConfig
+msgid "Shows all attachments available in the ticket."
+msgstr "Inaonyesha viambatanisho vyote vinavyopatikana katika tiketi."
+
+#. SysConfig
+msgid "Start a chat with this customer"
+msgstr "Anza maongezi na mteja huyu"
+
+#. SysConfig
+msgid "Start new chat"
+msgstr "Anza maongezi mapya"
+
+#. SysConfig
+msgid ""
+"Text which is being displayed on selection of this SLA on "
+"CustomerTicketMessage."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"The logo shown in the header of the agent interface for the skin "
+"\"business\". See \"AgentLogo\" for further description."
+msgstr ""
+
+#. SysConfig
+msgid "There are no chat agents available at present. Please try again later."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"There are no chat agents available at present. To add an article to the "
+"existing ticket, please click here:"
+msgstr ""
+
+#. SysConfig
+msgid ""
+"There are no chat agents available at present. To create a new ticket, "
+"please click here:"
+msgstr ""
+
+#. SysConfig
+msgid "This chat is closed and will be removed automatically."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"This chat is closed. Please leave it or it will be closed automatically."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"This chat is closed. Please leave it or it will be closed automatically. You"
+" can download this chat."
+msgstr ""
+
+#. SysConfig
+msgid "This chat is complete. You can now close the chat window."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"This chat is complete. You can start a new chat using the button on top of "
+"this page."
+msgstr ""
+
+#. SysConfig
+msgid "Tool-bar item for a notification web view."
+msgstr ""
+
+#. SysConfig
+msgid "Update dynamic fields, if configured ones will be updated."
+msgstr ""
+
+#. SysConfig
+msgid "View notifications"
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Your selection of your favorite external chat channels. You will be notified"
+" about external chat requests in these chat channels."
+msgstr ""
