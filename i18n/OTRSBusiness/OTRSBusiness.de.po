@@ -1,10 +1,12 @@
 # 
 # Translators:
+# Martin Gruner <martin.gruner@otrs.com>, 2015-2016
+# Rudy R <rudy.rohde@googlemail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2014-08-08 19:10+0200\n"
-"PO-Revision-Date: 2015-12-08 09:43+0000\n"
+"PO-Revision-Date: 2016-01-07 13:30+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -198,8 +200,8 @@ msgid "Remaining SMS units"
 msgstr "Verbleibende SMS-Einheiten"
 
 #. Template: AdminCloudServiceSMS
-msgid "Is not currently possible to check the state for this cloud service."
-msgstr "Der Status dieses Cloudservice kann im Augenblick nicht geprüft werden."
+msgid "Is currently not possible to check the state for this cloud service."
+msgstr "Derzeit kann der Status für diesen Cloud-Service nicht geprüft werden."
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone field for agent"
@@ -240,9 +242,9 @@ msgstr "Erlaubte Rollen"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
-"If selected, only users assigned to theses roles will be able to receive "
+"If selected, only users assigned to these roles will be able to receive "
 "messages via SMS (optional)."
-msgstr "Wenn ausgewählt, können nur Benutzer, die den jeweiligen Rollen zugewiesen sind, SMS-Nachrichten empfangen (optional)."
+msgstr "Wenn ausgewählt, können nur Nutzer Benachrichtigungen per SMS erhalten, die Mitglied in einer der angegebenen Rollen sind (optional)."
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
@@ -352,7 +354,7 @@ msgstr "Groß-/Kleinschreibung unterscheiden"
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
-msgstr ""
+msgstr "Empfänger-SMS-Nummern"
 
 #. Template: AgentChat
 msgid "Manage Chats"
@@ -444,8 +446,8 @@ msgid "Leave"
 msgstr "Verlassen"
 
 #. Template: AgentChat
-msgid "Create a new phone ticket from this chat and close if afterwards"
-msgstr "Aus diesem Chat ein neues Telefonticket erstellen und Chat anschließend beenden"
+msgid "Create a new phone ticket from this chat and close it afterwards"
+msgstr "Aus dem Chat ein neues Telefon-Ticket erstellen und ihn danach schließen"
 
 #. Template: AgentChat
 msgid "Append this chat to an existing ticket and close it afterwards"
@@ -578,16 +580,16 @@ msgid "You have no permission to accept this chat request."
 msgstr "Sie haben nicht die erforderlichen Berechtigungen, um diese Chat-Anfrage anzunehmen."
 
 #. Template: AgentChat
-msgid "An internal error occured."
+msgid "An internal error occurred."
 msgstr "Ein interner Fehler ist aufgetreten."
 
 #. Template: AgentChat
-msgid "You must select user."
-msgstr "Sie müssen einen Benutzer auswählen."
+msgid "Please select a user."
+msgstr "Bitte wählen Sie einen Benutzer."
 
 #. Template: AgentChat
-msgid "You must select permission level."
-msgstr "Sie müssen eine Berechtigung auswählen."
+msgid "Please select a permission level."
+msgstr "Bitte wählen Sie ein Berechtigungslevel."
 
 #. Template: AgentChat
 msgid "Invite Agent."
@@ -598,16 +600,16 @@ msgid "Please, select destination chat channel."
 msgstr "Bitte wählen Sie einen Zielkanal."
 
 #. Template: AgentChat
-msgid "You must select a channel."
-msgstr "Sie müssen einen Kanal auswählen."
+msgid "Please select a channel."
+msgstr "Bitte wählen Sie einen Kanal."
 
 #. Template: AgentChat
 msgid "Chat preview"
 msgstr "Chat-Vorschau"
 
 #. Template: AgentChat
-msgid "You must select valid channel."
-msgstr "Sie müssen einen gültigen Kanal auswählen."
+msgid "Please select a valid channel."
+msgstr "Bitte wählen Sie einen gültigen Kanal."
 
 #. Template: AgentChat
 msgid "Agent to customer chat."
@@ -631,7 +633,7 @@ msgstr "Sie können den Kunden nicht alleine im Chat zurücklassen."
 
 #. Template: AgentChat
 msgid "You"
-msgstr ""
+msgstr "Sie"
 
 #. Template: AgentChat
 msgid "Your chat could not be started because of an internal error."
@@ -654,8 +656,8 @@ msgid "Insufficient permissions."
 msgstr "Unzureichende Berechtigungen."
 
 #. Template: AgentChat
-msgid "System was unable to save your chat order!"
-msgstr "Ihr Chat-Befehl konnte nicht gespeichert werden."
+msgid "System was unable to save your sequence of chats."
+msgstr "Das System konnte Ihre Chatreihenfolge nicht speichern."
 
 #. Template: AgentChatAppend
 msgid "Append Chat to Ticket"
@@ -674,17 +676,12 @@ msgid "Chat with"
 msgstr "Chat mit"
 
 #. Template: AgentChatPopup
-msgid "LeaveChat"
-msgstr ""
+msgid "Leave Chat"
+msgstr "Chat verlassen"
 
 #. Template: AgentChatPopup
 msgid "This user is currently in the chat."
 msgstr "Dieser Benutzer ist zur Zeit in diesem Chat."
-
-#. Template: AgentChatPopup
-msgid ""
-"You are no longer in the chat. Click this message to remove the chat box."
-msgstr "Sie befinden sich nicht länger in diesem Chat. Klicken Sie auf diese Nachricht, um die Chatbox zu entfernen."
 
 #. Template: AgentChatPreview
 msgid "Current chat channel"
@@ -829,8 +826,8 @@ msgid "Email subject"
 msgstr "E-Mail-Betreff"
 
 #. Template: AgentStatisticsReportsEdit
-msgid "Specify recipent email addresses (comma separated)."
-msgstr "Geben Sie die Empfängeradressen für die E-Mail an (Kommasepariert)."
+msgid "Specify recipient email addresses (comma separated)."
+msgstr "Geben Sie Empfänger-Email-Adressen an (durch Komma getrennt)."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email body"
@@ -843,6 +840,10 @@ msgstr "Geben Sie den Text für die E-Mail an."
 #. Template: AgentStatisticsReportsEdit
 msgid "Email recipients"
 msgstr "E-Mail-Empfänger"
+
+#. Template: AgentStatisticsReportsEdit
+msgid "Specify recipent email addresses (comma separated)."
+msgstr "Geben Sie die Empfängeradressen für die E-Mail an (Kommasepariert)."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Output settings"
@@ -887,10 +888,6 @@ msgstr "Statistik-Report \"%s\" bearbeiten."
 #. Template: AgentStatisticsReportsOverview
 msgid "Delete statistics report \"%s\""
 msgstr "Statistik-Report \"%s\" löschen."
-
-#. Template: AgentStatisticsReportsOverview
-msgid "Delete statistics report %s"
-msgstr "Statistik-Report %s löschen."
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Do you really want to delete this report?"
@@ -979,8 +976,8 @@ msgid "Select channel"
 msgstr "Kanal wählen"
 
 #. Template: CustomerChat
-msgid "Add to the exisitng ticket"
-msgstr "Zu bestehendem Ticket hinzufügen"
+msgid "Add to an existing ticket"
+msgstr "An bestehendes Ticket anhängen"
 
 #. Template: CustomerChat
 msgid "Active Chat"
@@ -995,16 +992,12 @@ msgid "Chat is being loaded..."
 msgstr "Chat wird geladen..."
 
 #. Template: CustomerChat
-msgid "Chat complete"
+msgid "Chat completed"
 msgstr "Chat abgeschlossen"
 
 #. Template: OutputFilterPostSLASelectionDialog
 msgid "Please confirm your selection"
 msgstr "Bitte bestätigen Sie Ihre Auswahl"
-
-#. Template: OutputFilterPostSLASelectionDialog
-msgid "Ok"
-msgstr "Ok"
 
 #. Template: PublicChat
 msgid "Your name"
@@ -1013,6 +1006,10 @@ msgstr "Ihr Name"
 #. Template: PublicChat
 msgid "Start a new Chat"
 msgstr "Einen neuen Chat beginnen"
+
+#. Template: PublicChat
+msgid "Chat complete"
+msgstr "Chat abgeschlossen"
 
 #. Template: StatsWidget
 msgid "Remove statistic"
@@ -1133,9 +1130,9 @@ msgstr "Aktiviert Chat-Unterstützung."
 
 #. SysConfig
 msgid ""
-"Agent frontend module registration (disable chat link if chat is inactive "
-"agent is not in chat group)."
-msgstr "Frontend-Modulregistrierung im Agenten-Interface (Link wird ausgeblendet falls Chat nicht aktiv ist oder der Nutzer nicht in einer Chat-Gruppe ist)."
+"Agent frontend module registration (disable chat link if chat feature is "
+"inactive or agent is not in chat group)."
+msgstr "Agenten-Frontend-Modulregistrierung (Chat-Link entfernen wenn das Chat-Feature nicht aktiv ist oder der Agent in keiner Chatgruppe berechtigt ist)"
 
 #. SysConfig
 msgid "Agent group that can accept chat requests and chat."
@@ -1147,7 +1144,7 @@ msgstr "Agenten-Gruppe, die Chat-Anfragen erstellen kann."
 
 #. SysConfig
 msgid "Agent interface availability."
-msgstr ""
+msgstr "Verfügbarkeit im Agenten-Interface."
 
 #. SysConfig
 msgid "Agent interface notification module to check for open chat requests."
@@ -1155,38 +1152,38 @@ msgstr "Benachrichtigungsmodul im Agenten-Interface, das auf offene Chat-Anfrage
 
 #. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
-msgstr ""
+msgstr "Dem Kunden nur die Auswahl von Chat-Kanälen mit verfügbaren Agenten erlauben."
 
 #. SysConfig
 msgid ""
 "Allow public users to select only channels that have available agent(s)."
-msgstr ""
+msgstr "Dem öffentlichen Benutzer nur die Auswahl von Chat-Kanälen mit verfügbaren Agenten erlauben."
 
 #. SysConfig
-msgid "Allows having a small format notification web view ."
-msgstr ""
+msgid "Allows having a small format notification web view."
+msgstr "Aktiviert eine Web-basierte Übersicht über die Benachrichtigungen."
 
 #. SysConfig
 msgid "Chat Channel"
-msgstr ""
+msgstr "Chat-Kanal"
 
 #. SysConfig
 msgid "Chat Channel:"
-msgstr ""
+msgstr "Chat-Kanal:"
 
 #. SysConfig
 msgid ""
 "Chat channel that will be used for communication related to the tickets in "
 "this queue."
-msgstr ""
+msgstr "Chat-Kanal, der für die Kommunikation zu Tickets in dieser Queue verwendet wird."
+
+#. SysConfig
+msgid "Chat channel to queue mapping."
+msgstr "Zuordnung von Chat-Kanälen zu Queues."
 
 #. SysConfig
 msgid "Chat overview"
 msgstr "Chat-Übersicht"
-
-#. SysConfig
-msgid "ChatChannel to Queue mapping."
-msgstr ""
 
 #. SysConfig
 msgid "Chats"
@@ -1194,20 +1191,20 @@ msgstr "Chats"
 
 #. SysConfig
 msgid "Cleans up old chat logs."
-msgstr ""
+msgstr "Löscht alte Chatprotokolle."
 
 #. SysConfig
 msgid ""
 "Column notification web view filters for Notification web view type "
 "\"Small\"."
-msgstr ""
+msgstr "Spalten-Filter für Web-Oberfläche für Benachrichtigungen vom Typ \"Klein\"."
 
 #. SysConfig
 msgid ""
 "Columns that can be filtered in the notification web view of the agent "
 "interface. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by "
 "default."
-msgstr ""
+msgstr "Spalten die in der Web-Ansicht für Benachrichtigungen gefiltert werden können. Mögliche Einstellungen: 0 = deaktiviert, 1 = aktiviert, 2 = aktiviert und benötigt."
 
 #. SysConfig
 msgid "Contact with data"
@@ -1215,7 +1212,7 @@ msgstr "Kontaktdaten"
 
 #. SysConfig
 msgid "Create and manage chat channels."
-msgstr ""
+msgstr "Chat-Kanäle erzeugen und verwalten."
 
 #. SysConfig
 msgid "Create new chat"
@@ -1223,9 +1220,9 @@ msgstr "Neuen Chat erstellen"
 
 #. SysConfig
 msgid ""
-"Customer frontend module registration (disable chat link if chat is inactive"
-" or no chat agents are available)."
-msgstr "Frontend-Modulregistrierung im Kunden-Interface (Link wird ausgeblendet falls Chat nicht aktiv ist oder kein Chat-Agent verfügbar ist)."
+"Customer frontend module registration (disable chat link if chat feature is "
+"inactive or no agents are available for chat)."
+msgstr "Kunden-Frontend-Modulregistrierung (Chat-Link entfernen wenn das Chat-Feature nicht aktiv ist oder keine Agenten für den Chat verfügbar sind)."
 
 #. SysConfig
 msgid ""
@@ -1245,52 +1242,46 @@ msgstr "Standardtext für das Public-Interface"
 #. SysConfig
 msgid ""
 "Define a list of agent preferences group keys that will be visible in Customer interface (works only if DefaultAgentName is disabled).\n"
-"            Example: If you want to dispaly PreferencesGroups###Language, add Language."
-msgstr ""
-
-#. SysConfig
-msgid ""
-"Define a text for Agent Preferences in the Customer interface (works only if"
-" DefaultAgentName is disabled)."
+"            Example: If you want to display PreferencesGroups###Language, add Language."
 msgstr ""
 
 #. SysConfig
 msgid "Define chat windows order."
+msgstr "Definiert die Anordnung der Chat-Fenster"
+
+#. SysConfig
+msgid ""
+"Defines a text for Agent Preferences in the Customer interface (works only "
+"if DefaultAgentName is disabled)."
 msgstr ""
 
 #. SysConfig
 msgid ""
-"Define if customer users are able to select Chat Channel. If not, chat will "
+"Defines if customer users are able to select Chat Channel. If not, chat will"
+" be created in default Chat Channel."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines if locking a ticket is required to start a chat with the customer "
+"from the ticket zoom view."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines if numbers should be appended to DefaultAgentName. If enabled, "
+"together with DefaultAgentName will be numbers (e.g. 1,2,3,...)."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines if public users are able to select Chat Channel. If not, chat will "
 "be created in default Chat Channel."
 msgstr ""
 
 #. SysConfig
 msgid ""
-"Define if public users are able to select Chat Channel. If not, chat will be"
-" created in default Chat Channel."
-msgstr ""
-
-#. SysConfig
-msgid ""
-"Define should numbers be appended to DefaultAgentName. If enabled, together "
-"with DefaultAgentName will be numbers (e.g. 1,2,3,...)."
-msgstr ""
-
-#. SysConfig
-msgid ""
-"Define the period of time (in minutes) before agent goes offline due to "
-"inactivity."
-msgstr ""
-
-#. SysConfig
-msgid ""
-"Define the period of time before No Answer message is displayed to the "
-"customer (minutes)."
-msgstr ""
-
-#. SysConfig
-msgid ""
-"Defines the module to display a notification in the agent interface if the "
+"Defines the module to display a notification in the agent interface, if the "
 "agent is available for external chats, but forgot to set preferred "
 "channel(s)."
 msgstr ""
@@ -1300,23 +1291,35 @@ msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is not available for chat with customers (only if "
 "Ticket::Agent::AvailableForChatsAfterLogin is set to No)."
-msgstr ""
+msgstr "Definiert das Modul um eine Benachrichtigung im Agent-Interface anzuzeigen falls der Agent für externe Chats verfügbar ist (nur wenn Ticket::Agent::AvailableForChatsAfterLogin deaktiviert ist)."
 
 #. SysConfig
 msgid ""
 "Defines the number of days a notification should be still shown in the "
 "notification web view screen (value of '0' means always show)."
-msgstr ""
+msgstr "Definiert wie viele Tage eine Benachrichtigung in der Web-Ansicht für Benachrichtigungen angezeigt werden soll (der Wert '0' bedeutet immer anzeigen)."
 
 #. SysConfig
 msgid ""
 "Defines the path to the PhantomJS binary. You can use a static build from "
 "http://phantomjs.org/download.html for an easy installation process."
+msgstr "Definiert den Pfad zur PhantomJS Binärdatei. Zur vereinfachten Installation können sie eine statische Version von http://phantomjs.org/download.html herunterladen."
+
+#. SysConfig
+msgid ""
+"Defines the period of time (in minutes) before No Answer message is "
+"displayed to the customer."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines the period of time (in minutes) before agent goes offline due to "
+"inactivity."
 msgstr ""
 
 #. SysConfig
 msgid "Defines the settings for ticket notification."
-msgstr ""
+msgstr "Definiert die Einstellungen für die Ticket Benachrichtigungen."
 
 #. SysConfig
 msgid "Defines the source dynamic field for storing historical data."
@@ -1328,7 +1331,7 @@ msgstr "Definiert das Ziel-DynamicField für die Speicherung historischer Daten.
 
 #. SysConfig
 msgid "Display Create Chat request link in the ticket zoom view."
-msgstr ""
+msgstr "Zeigt einen \"Erzeuge Chat Anfrage\" Link in der Ticket Zoom Ansicht."
 
 #. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
@@ -1346,17 +1349,21 @@ msgstr "Kontaktdaten editieren"
 msgid ""
 "Enables notification web view bulk action feature for the agent frontend to "
 "work on more than one notification at a time."
-msgstr ""
+msgstr "Schaltet die Sammelaktion in der Web-Ansicht für Benachrichtigungen im Agenten-Interface frei."
 
 #. SysConfig
 msgid ""
 "Enables notification web view bulk action feature only for the listed "
 "groups."
-msgstr ""
+msgstr "Aktiviert Sammelaktionen in der Web-Ansicht für Benachrichtigungen nur für die aufgeführten Gruppen."
 
 #. SysConfig
 msgid "Enables the timeline view in AgentTicketZoom."
 msgstr "Aktiviert die Timeline-Ansicht in AgentTicketZoom."
+
+#. SysConfig
+msgid "Event module registration (store historical data in dynamic fields)."
+msgstr ""
 
 #. SysConfig
 msgid "Frontend module registration for the public interface."
@@ -1366,54 +1373,49 @@ msgstr "Frontendmodul-Registrierung für das Public-Interface."
 msgid ""
 "Generate HTML comment hooks for the specified blocks so that filters can use"
 " them."
-msgstr ""
+msgstr "Generiert HTML-Kommentar Hooks für die einzelnen Blöcke so dass diese von Filtern genutzt werden können."
 
 #. SysConfig
 msgid ""
 "If enabled it will check agents availability on login. If user is available "
 "for external chats, it will reduce availability to internal chats only."
+msgstr "Wenn der Schalter aktiviert ist wird die Chat-Verfügbarkeit des Agenten beim Einloggen überprüft und angepasst. Falls die letzte Einstellung \"Verfügbar für externe Chats\" war, wird diese automatisch auf \"Verfügbar für interne Chats\" limitiert."
+
+#. SysConfig
+msgid ""
+"If this flag is set to Yes, a notification will be displayed on each page if"
+" the current agent is not available for chat."
 msgstr ""
 
 #. SysConfig
 msgid ""
-"If this flag is set to yes agents can start a chat with customer without a "
-"ticket."
-msgstr ""
-
-#. SysConfig
-msgid ""
-"If this flag is set to yes chat from agent ticket zoom view will only be "
-"available if ticket customer is online."
-msgstr ""
-
-#. SysConfig
-msgid ""
-"If this flag is set to yes chat from customer ticket zoom view will only be "
-"available if there are available agents in linked chat channel."
-msgstr ""
-
-#. SysConfig
-msgid ""
-"If this flag is set to yes customers can start a chat with an agent without "
+"If this flag is set to Yes, agents can start a chat with a customer without "
 "a ticket."
 msgstr ""
 
 #. SysConfig
 msgid ""
-"If this flag is set to yes only ticket customer can start a chat from a "
-"ticket zoom view."
+"If this flag is set to Yes, customers can start a chat with an agent without"
+" a ticket."
 msgstr ""
 
 #. SysConfig
 msgid ""
-"If this flag is set, system will display notification on each page if agent "
-"is not available for chat."
+"If this flag is set to Yes, only the ticket customer can start a chat from a"
+" ticket zoom view."
 msgstr ""
 
 #. SysConfig
 msgid ""
-"Is locking a ticket required to start a chat with customer from ticket zoom "
-"view."
+"If this flag is set to Yes, starting a chat from agent ticket zoom view will"
+" only be available, if the ticket customer is online."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"If this flag is set to Yes, starting a chat from customer ticket zoom view "
+"will only be possible, if there are available agents in the linked chat "
+"channel."
 msgstr ""
 
 #. SysConfig
@@ -1444,63 +1446,63 @@ msgstr "Meine Chats"
 msgid ""
 "Name of default chat channel. If this channel does not exist, it will be "
 "created automatically. Please do not create a chat channel with the same "
-"name as default chat channel. Default channel won't be displayed if chat "
-"channels are enabled in Customer interface and Public interface. All Agent "
-"to agent chat will be in defaul channel."
+"name as default chat channel. The default channel won't be displayed, if "
+"chat channels are enabled in Customer interface and Public interface. All "
+"agent to agent chats will be in the default channel."
 msgstr ""
 
 #. SysConfig
 msgid "No agents available message."
-msgstr ""
+msgstr "\"Keine Agenten verfügbar\" Nachricht."
 
 #. SysConfig
 msgid "Notification limit per page for Notification web view \"Small\""
-msgstr ""
+msgstr "in der \"Small\" Ansicht: Limit für die Benachrichtigungen pro Seite in der Web-Ansicht für Benachrichtigungen"
 
 #. SysConfig
 msgid "Notification web view"
-msgstr ""
+msgstr "Web-Ansicht für Benachrichtigungen"
 
 #. SysConfig
 msgid "Notification web view \"Small\" Limit"
-msgstr ""
+msgstr "Limit für die Web-Oberfläche für Benachrichtigungen in der kleinen Ansicht \"S\""
 
 #. SysConfig
 msgid "Notifications Unseen:"
-msgstr ""
+msgstr "Neue Benachrichtigungen:"
 
 #. SysConfig
 msgid "Number of days after chat will be deleted."
-msgstr ""
+msgstr "Anzahl Tage, nach welchen der Chat gelöscht wird."
 
 #. SysConfig
 msgid "Number of hours after closed chat will be deleted."
+msgstr "Anzahl Stunden, nach denen der geschlossene Chat gelöscht wird."
+
+#. SysConfig
+msgid "Output filter for standard tt files."
 msgstr ""
 
 #. SysConfig
 msgid "Output filter to inject the necessary JavaScript into the views."
-msgstr ""
-
-#. SysConfig
-msgid "Outputfilter for standard tt files."
-msgstr "Outputfilter für normale TT-Dateien."
+msgstr "Ausgabefilter zum Einfügen von notwendigem JavaScript in die Ansichten."
 
 #. SysConfig
 msgid ""
 "Parameters for the ChatChannel object in the preference view of the agent "
 "interface."
-msgstr ""
+msgstr "Parameter für die Chat-Kanäle in den Benutzereinstellungen im Agenten-Interface."
 
 #. SysConfig
 msgid ""
 "Parameters for the pages (in which the notifications are shown) of the small"
 " notifications view."
-msgstr ""
+msgstr "Parameter (für die Web-Oberfläche für Benachrichtigungen) in der Anzeige-Variante \"S\"."
 
 #. SysConfig
 msgid ""
 "Permission level to start a chat with customer from agent ticket zoom view."
-msgstr ""
+msgstr "Berechtigung um einen Chat mit einem Kunden aus der Agent Ticket Zoom Ansicht zu starten."
 
 #. SysConfig
 msgid ""
@@ -1510,15 +1512,15 @@ msgstr "Bitte haben Sie einen Moment Geduld, bis einer unserer Agenten Ihre Chat
 
 #. SysConfig
 msgid "Prepend"
-msgstr ""
+msgstr "Voranstellen"
 
 #. SysConfig
 msgid "Remove closed chats older than ChatEngine::ChatTTL."
-msgstr ""
+msgstr "Geschlossene Chats die älter als der unter ChatEngine::ChatTTL eingetragene Wert sind löschen."
 
 #. SysConfig
 msgid "Remove old chats."
-msgstr ""
+msgstr "Alte Chats löschen"
 
 #. SysConfig
 msgid ""
@@ -1528,11 +1530,11 @@ msgstr "Führt eine initiale Wildcard-Suche für existierende Kontakte aus, wenn
 
 #. SysConfig
 msgid "Sets if a chat request can be sent out from agent ticket zoom view."
-msgstr ""
+msgstr "Definiert ob eine Chat-Anfrage aus der Agent Ticket Zoom Ansicht gesendet werden kann."
 
 #. SysConfig
 msgid "Sets if a chat request can be sent out from customer ticket zoom view."
-msgstr ""
+msgstr "Definiert ob eine Chat-Anfrage aus der Kunden Ticket Zoom Ansicht gesendet werden kann."
 
 #. SysConfig
 msgid "Show all ticket attachments"
@@ -1579,37 +1581,29 @@ msgid ""
 msgstr "Im Augenblick sind leider keine Agenten für einen Chat verfügbar. Um ein neues Ticket zu erstellen, klicken Sie bitte hier:"
 
 #. SysConfig
-msgid "This chat is closed and will be removed automatically."
-msgstr "Dieser Chat ist abgeschlossen und wird automatisch entfernt."
+msgid ""
+"This chat has ended. Please leave it or it will be closed automatically."
+msgstr "Dieser Chat wurde beendet. Bitte verlassen Sie ihn, ansonsten wird er automatisch geschlossen. "
 
 #. SysConfig
 msgid ""
-"This chat is closed. Please leave it or it will be closed automatically."
-msgstr "Dieser Chat ist abgeschlossen. Sie können ihn nun verlassen oder er wird automatisch entfernt."
-
-#. SysConfig
-msgid ""
-"This chat is closed. Please leave it or it will be closed automatically. You"
+"This chat has ended. Please leave it or it will be closed automatically. You"
 " can download this chat."
-msgstr "Dieser Chat ist abgeschlossen und steht für Sie zum Download bereit. Sie können ihn nun verlassen oder er wird automatisch entfernt."
+msgstr "Dieser Chat wurde beendet. Bitte verlassen Sie ihn, ansonsten wird er automatisch geschlossen. Sie können den Chat herunterladen."
 
 #. SysConfig
-msgid "This chat is complete. You can now close the chat window."
+msgid "This chat is completed. You can now close the chat window."
 msgstr "Dieser Chat ist abgeschlossen. Sie können das Chat-Fenster nun schließen."
 
 #. SysConfig
 msgid ""
-"This chat is complete. You can start a new chat using the button on top of "
+"This chat is completed. You can start a new chat using the button on top of "
 "this page."
 msgstr "Dieser Chat ist abgeschlossen. Sie können jederzeit einen neuen Chat starten, indem Sie den entsprechenden Eintrag im Menü wählen."
 
 #. SysConfig
 msgid "Tool-bar item for a notification web view."
-msgstr ""
-
-#. SysConfig
-msgid "Update dynamic fields, if configured ones will be updated."
-msgstr "Speichert historische Daten, wenn ein Dynamic Field aktualisiert wird."
+msgstr "Werkzeugleisten Objekt für die Web-Oberfläche für Benachrichtigungen."
 
 #. SysConfig
 msgid "View notifications"
