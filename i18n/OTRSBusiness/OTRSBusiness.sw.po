@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2014-08-08 19:10+0200\n"
-"PO-Revision-Date: 2016-01-07 13:28+0000\n"
+"PO-Revision-Date: 2016-01-08 13:40+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Swahili (http://www.transifex.com/otrs/OTRS/language/sw/)\n"
 "MIME-Version: 1.0\n"
@@ -1047,7 +1047,7 @@ msgid "Chat %s has been closed and was successfully appended to Ticket %s."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
-msgid "%s has joined this chat"
+msgid "%s has joined this chat as an observer."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
@@ -1055,11 +1055,23 @@ msgid "New request for joining a chat"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
-msgid "%s has switched his mode to participant."
+msgid "Agent invited %s."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
-msgid "%s has switched his mode to observer."
+msgid "%s changed chat channel to %s."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has switched to participant mode."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has switched to observer mode."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has rejected the chat request."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm

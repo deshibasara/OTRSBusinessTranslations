@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2014-08-08 19:10+0200\n"
-"PO-Revision-Date: 2016-01-07 13:30+0000\n"
+"PO-Revision-Date: 2016-01-08 13:43+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -1049,20 +1049,32 @@ msgid "Chat %s has been closed and was successfully appended to Ticket %s."
 msgstr "Chat %s wurde geschlossen und erfolgreich zu Ticket %s hinzugefügt."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
-msgid "%s has joined this chat"
-msgstr "%s hat den Chat betreten"
+msgid "%s has joined this chat as an observer."
+msgstr "%s hat den Chat als Beobachter betreten."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
 msgstr "Neue Anfrage zum Betreten eines Chats"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
-msgid "%s has switched his mode to participant."
-msgstr "%s ist zum Modus \"Teilnehmer\" gewechselt."
+msgid "Agent invited %s."
+msgstr "Agent hat %s eingeladen."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
-msgid "%s has switched his mode to observer."
-msgstr "%s ist zum Modus \"Beobachter\" gewechselt."
+msgid "%s changed chat channel to %s."
+msgstr "%s hat den Chat-Kanal auf %s geändert."
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has switched to participant mode."
+msgstr "%s ist in den Modus \"Teilnehmer\" gewechselt."
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has switched to observer mode."
+msgstr "%s ist in den Modus \"Beobachter\" gewechselt."
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has rejected the chat request."
+msgstr "%s hat die Chat-Anfrage abgelehnt."
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
