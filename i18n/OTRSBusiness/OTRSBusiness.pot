@@ -1203,12 +1203,7 @@ msgid "Default text for the public interface."
 msgstr ""
 
 #. SysConfig
-msgid "Define a list of agent preferences group keys that will be visible in Customer interface (works only if DefaultAgentName is disabled).\n"
-"            Example: If you want to display PreferencesGroups###Language, add Language."
-msgstr ""
-
-#. SysConfig
-msgid "Define chat windows order."
+msgid "Defines a list of agent preferences group keys that will be visible in Customer interface (works only if DefaultAgentName is disabled). Example: If you want to display PreferencesGroups###Language, add Language."
 msgstr ""
 
 #. SysConfig
@@ -1241,6 +1236,10 @@ msgstr ""
 
 #. SysConfig
 msgid "Defines the number of days a notification should be still shown in the notification web view screen (value of '0' means always show)."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the order of chat windows."
 msgstr ""
 
 #. SysConfig
@@ -1328,7 +1327,7 @@ msgid "If this flag is set to Yes, only the ticket customer can start a chat fro
 msgstr ""
 
 #. SysConfig
-msgid "If this flag is set to Yes, starting a chat from agent ticket zoom view will only be available, if the ticket customer is online."
+msgid "If this flag is set to Yes, starting a chat from agent ticket zoom view will only be possible, if the ticket customer is online."
 msgstr ""
 
 #. SysConfig
