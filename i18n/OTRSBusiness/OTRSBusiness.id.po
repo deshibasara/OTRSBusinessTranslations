@@ -1,30 +1,30 @@
 # 
 # Translators:
-# OTRS SDN BHD <otrssdnbhd@gmail.com>, 2015-2016
+# OTRS SDN BHD <otrssdnbhd@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2016-08-15 15:32+0000\n"
 "PO-Revision-Date: 2016-08-15 13:33+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
-"Language-Team: Malay (http://www.transifex.com/otrs/OTRS/language/ms/)\n"
+"Language-Team: Indonesian (http://www.transifex.com/otrs/OTRS/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ms\n"
+"Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Template: AdminChatChannel
 msgid "Manage Chat Channels"
-msgstr "Urus Saluran Chat"
+msgstr "Mengatur obrolan"
 
 #. Template: AdminChatChannel
 msgid "Add Chat Channel"
-msgstr "Tambah Saluran Chat"
+msgstr "Tambah obrolan"
 
 #. Template: AdminChatChannel
 msgid "Edit Chat Channel"
-msgstr "Edit Saluran Chat"
+msgstr "Mengatur obrolan"
 
 #. Template: AdminChatChannel
 msgid "Name invalid"
@@ -32,74 +32,74 @@ msgstr "Nama tidak sah"
 
 #. Template: AdminChatChannel
 msgid "Need Group"
-msgstr "Perlu Kumpulan"
+msgstr "butuh Grup"
 
 #. Template: AdminChatChannel
 msgid "Need Valid"
-msgstr "Perlu Sah"
+msgstr "Perlu sah"
 
 #. Template: AdminChatChannel
 msgid "Comment invalid"
-msgstr "Komen tidak sah"
+msgstr "Komentar tidak sah"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service status"
-msgstr "Status servis Cloud"
+msgstr "status layanan cloud"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service availability"
-msgstr "Kebolehdapatan servis Cloud"
+msgstr "ketersediaan layanan cloud"
 
 #. Template: AdminCloudServiceSMS
 msgid "Remaining SMS units"
-msgstr "Baki unit SMS"
+msgstr "Sisa unit SMS"
 
 #. Template: AdminCloudServiceSMS
 msgid "Is currently not possible to check the state for this cloud service."
-msgstr "Adalah mustahil pada masa ini untuk memeriksa keadaan servis Cloud."
+msgstr "Saat ini tidak memungkinkan untuk memeriksa state untuk layanan cloud ini."
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone field for agent"
-msgstr "Medan telefon untuk agen"
+msgstr "bidang telepon untuk agen"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Agent data field from which the mobile phone number for sending messages via"
 " SMS should be taken."
-msgstr "Medan data agen di mana daripada nombor telefon untuk menghantar pesanan melalui SMS perlu diambil."
+msgstr "field data agen dari mana nomor ponsel untuk mengirim pesan melalui SMS harus diambil."
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone field for customer"
-msgstr "Medan telefon untuk pelanggan"
+msgstr "bidang telepon untuk pelanggan"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Customer data field from which the mobile phone number for sending messages "
 "via SMS should be taken."
-msgstr "Bidang data pelanggan yang nombor telefon bimbit untuk menghantar mesej melalui SMS perlu diambil."
+msgstr "data pelanggan lapangan dari mana nomor ponsel untuk mengirim pesan melalui SMS harus diambil."
 
 #. Template: AdminCloudServiceSMS
 msgid "Sender string"
-msgstr "String penghantar"
+msgstr "Pengirim"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Will be shown as sender name of the SMS (Not longer than 11 characters)."
-msgstr "Akan ditunjukkan sebagai nama penghantar SMS (Tidak lebih daripada 11 aksara)."
+msgstr "Akan ditampilkan sebagai nama pengirim SMS (Tidak lebih dari 11 karakter)."
 
 #. Template: AdminCloudServiceSMS
 msgid "This field is required and must be not longer than 11 characters."
-msgstr "Bidang ini diperlukan dan mestilah tidak melebihi 11 aksara."
+msgstr "Bidang ini diperlukan dan tidak lebih dari 11 karakter."
 
 #. Template: AdminCloudServiceSMS
 msgid "Allowed role members"
-msgstr "Membenarkan peranan ahli"
+msgstr "Memberikan ijin untuk role member"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "If selected, only users assigned to these roles will be able to receive "
 "messages via SMS (optional)."
-msgstr "Jika dipilih, hanya pengguna yang diberikan peranan ini akan dapat menerima mesej melalui SMS (pilihan)."
+msgstr "Jika terpilih, hanya pengguna yang ditugaskan untuk peran ini akan dapat menerima pesan melalui SMS (opsional)."
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
@@ -107,85 +107,85 @@ msgstr "Simpan konfigurasi"
 
 #. Template: AdminCloudServiceSMS
 msgid "Data Protection Information"
-msgstr "Maklumat Perlindungan Data"
+msgstr "Informasi Perlindungan Data"
 
 #. Template: AdminContactWithData
 msgid "Contact with data management"
-msgstr "Kenalan dengan pengurusan data"
+msgstr "Kontak dengan manajemen data"
 
 #. Template: AdminContactWithData
 msgid "Add contact with data"
-msgstr "Tambah kenalan dengan data"
+msgstr "Tambah kontak dengan data"
 
 #. Template: AdminContactWithData
 msgid "Please enter a search term to look for contacts with data."
-msgstr "Sila masukkan istilah carian untuk mencari kenalan dengan data."
+msgstr "Masukkan istilah pencarian untuk mencari kontak dengan data."
 
 #. Template: AdminContactWithData
 msgid "Edit contact with data"
-msgstr "Edit kenalan dengan data"
+msgstr "Edit kontak dengan data"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "These are the possible data attributes for contacts."
-msgstr "Ini adalah kemungkinan sifat-sifat data bagi kenalan."
+msgstr "Ini adalah atribut data yang mungkin untuk kontak."
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "Mandatory fields"
-msgstr "Medan wajib"
+msgstr "Bidang wajib"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid ""
 "Comma separated list of mandatory keys (optional). Keys 'Name' and 'ValidID'"
 " are always mandatory and doesn't have to be listed here."
-msgstr "Dipisahkan oleh koma senarai kekunci mandatori (pilihan). Kekunci 'Nama'  dan 'ValidID' sentiasa wajib dan tidak perlu disenaraikan di sini."
+msgstr "Daftar dipisahkan koma kunci wajib (opsional). Keys 'Nama' dan 'ValidID' selalu wajib dan tidak harus tercantum di sini."
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "Sorted fields"
-msgstr "Medan dikelaskan"
+msgstr "Susunan bidang"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid ""
 "Comma separated list of keys in sort order (optional). Keys listed here come"
 " first, all remaining fields afterwards and sorted alphabetically."
-msgstr "Dipisahkan oleh koma senarai kekunci untuk jenis (pilihan). Kunci disenaraikan di sini datang terdahulu, semua medan yang tinggal selepas itu dan disusun mengikut abjad."
+msgstr "Daftar dipisahkan koma kunci dalam urutan (opsional). Kunci tercantum di sini datang pertama, semua bidang yang tersisa setelah itu dan diurutkan berdasarkan abjad."
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "Searchable fields"
-msgstr "Medan boleh dicari"
+msgstr "Pencarian bidang"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid ""
 "Comma separated list of searchable keys (optional). Key 'Name' is always "
 "searchable and doesn't have to be listed here."
-msgstr "Dipisahkan oleh koma senarai kekunci dicari (pilihan). Kunci 'Nama' sentiasa boleh dicari dan tidak perlu disenaraikan di sini."
+msgstr "Daftar dipisahkan oleh koma, kunci dicari (opsional). Key 'Nama' selalu dicari dan tidak harus tercantum di sini."
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "Add/Edit"
-msgstr "Tambah/Edit"
+msgstr "Tambah/Aturan"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Datatype"
-msgstr "JenisData"
+msgstr "Jenis data"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Searchfield"
-msgstr "MedanCarian"
+msgstr "Bidang pencarian"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Listfield"
-msgstr "Medansenarai"
+msgstr "Susunan bidang"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Driver"
-msgstr "Pemacu"
+msgstr "Pengemudi"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Server"
-msgstr "Pelayan"
+msgstr "Server"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Table / View"
-msgstr "Jadual / Paparan"
+msgstr "Tabel / View"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "CacheTTL"
@@ -193,31 +193,31 @@ msgstr "CacheTTL"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Searchprefix"
-msgstr "Cariprefix"
+msgstr "Pencarian prefix"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Searchsuffix"
-msgstr "Carisuffix"
+msgstr "Pencarian Suffix"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Result Limit"
-msgstr "Had Keputusan"
+msgstr "Batas hasil"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Case Sensitive"
-msgstr "Huruf Sensitif"
+msgstr "Case sensitif"
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
-msgstr "Nombor SMS Penerima"
+msgstr "Penerima nomor SMS"
 
 #. Template: AgentChat
 msgid "Manage Chats"
-msgstr "Urus Chat"
+msgstr "Mengatur obrolan"
 
 #. Template: AgentChat
 msgid "Hints"
-msgstr "Petunjuk"
+msgstr "Hints"
 
 #. Template: AgentChat
 msgid ""
@@ -226,23 +226,23 @@ msgid ""
 "the page), starting a new chat or other chat-related actions will possibly "
 "reload this tab any time. This means that it is recommended to leave the "
 "chat manager opened in this particular tab."
-msgstr "Sila ambil perhatian: Tab ini akan digunakan oleh mana-mana permintaan yang berkaitan dengan chat. Jika anda meninggalkan pengurus chat (contohnya dengan menggunakan bar navigasi di bahagian atas halaman), memulakan chat baru atau tindakan chat lain yang berkaitan mungkin akan menambah nilai tab ini bila-bila masa. Ini bermakna adalah disyorkan untuk meninggalkan pengurus chat terbuka pada tab tertentu."
+msgstr "Harap dicatat: Tab ini akan digunakan oleh setiap permintaan yang berkaitan dengan obrolan. Jika Anda meninggalkan manajer chatting/obrolan (misalnya dengan menggunakan bar navigasi di atas halaman), memulai obrolan baru atau tindakan yang berhubungan dengan chat lainnya mungkin akan reload tab ini setiap saat. Ini berarti bahwa itu dianjurkan untuk meninggalkan manajer obrolan dibuka di tab tertentu."
 
 #. Template: AgentChat
 msgid "General Chat Requests From Customers"
-msgstr "Permohonan Chat Umum Daripada Pelanggan"
+msgstr "Obrolan Permintaan Umum Dari Pelanggan"
 
 #. Template: AgentChat
 msgid "My Chat Channels"
-msgstr "Saluran Chat Saya"
+msgstr "Channel obrolan saya"
 
 #. Template: AgentChat
 msgid "All Chat Channels"
-msgstr "Semua Saluran Chat"
+msgstr "Semua channel dari obrolan"
 
 #. Template: AgentChat
 msgid "Channel"
-msgstr "Saluran"
+msgstr "Channel"
 
 #. Template: AgentChat
 msgid "Requester"
@@ -250,51 +250,51 @@ msgstr "Pemohon"
 
 #. Template: AgentChat
 msgid "Chat requests are being loaded, please stand by..."
-msgstr "Permohonan chat sedang dimuatnaik, sila bersedia..."
+msgstr "Permintaan obrolan sedang dimuat, silakan bersedia ..."
 
 #. Template: AgentChat
 msgid "General Chat Requests From Public Users"
-msgstr "Permohonan Chat Umum Daripada Pengguna Awam"
+msgstr "Obrolan Permintaan Umum Dari Pengguna Umum"
 
 #. Template: AgentChat
 msgid "Personal Chat Requests For You"
-msgstr "Permohonan Chat Peribadi Untuk Anda"
+msgstr "Obrolan Permintaan Pribadi Untuk Anda"
 
 #. Template: AgentChat
 msgid "My Active Chats"
-msgstr "Chat Aktif Saya"
+msgstr "Obrolan aktif saya"
 
 #. Template: AgentChat
 msgid "Open ticket"
-msgstr "Buka tiket"
+msgstr "Tiket terbuka"
 
 #. Template: AgentChat
 msgid "Open company"
-msgstr "Buka syarikat"
+msgstr "Perusahaan terbuka"
 
 #. Template: AgentChat
 msgid "Discard & close this chat"
-msgstr "Buang & tutup chat ini"
+msgstr "Buang & menutup obrolan ini"
 
 #. Template: AgentChat
 msgid "Monitoring all activity in this chat"
-msgstr "Memantau kesemua aktiviti dalam chat ini"
+msgstr "Memonitor semua aktivitas di chat ini"
 
 #. Template: AgentChat
 msgid "Monitoring customer activity in this chat"
-msgstr "Memantau aktiviti pelanggan dalam chat ini"
+msgstr "Pemantauan aktivitas pelanggan dalam obrolan ini"
 
 #. Template: AgentChat
 msgid "Not monitoring this chat"
-msgstr "Tidak memantau chat ini"
+msgstr "Dilarang memantau obrolan ini"
 
 #. Template: AgentChat
 msgid "Toggle settings"
-msgstr "Tetapan toggle"
+msgstr "pengaturan beralih"
 
 #. Template: AgentChat
 msgid "Leave chat"
-msgstr "Tinggalkan chat"
+msgstr "Tinggalkan obrolan"
 
 #. Template: AgentChat
 msgid "Leave"
@@ -302,71 +302,71 @@ msgstr "Tinggalkan"
 
 #. Template: AgentChat
 msgid "Create a new phone ticket from this chat and close it afterwards"
-msgstr "Cipta tiket telefon baharu daripada chat ini dan tutup selepasnya"
+msgstr "Buat tiket ponsel baru dari obrolan ini dan menutupnya setelah itu"
 
 #. Template: AgentChat
 msgid "Append this chat to an existing ticket and close it afterwards"
-msgstr "Lampirkan chat ini ke tiket sedia ada dan tutup selepasnya"
+msgstr "Menambahkan obrolan ini ke tiket yang ada dan menutupnya setelah itu"
 
 #. Template: AgentChat
 msgid "Append"
-msgstr "Lampirkan"
+msgstr "Menambahkan"
 
 #. Template: AgentChat
 msgid "Invite additional agent to join the chat"
-msgstr "Jemput agen tambahan untuk menyertai chat ini"
+msgstr "Mengundang agen tambahan untuk bergabung dalam obrolan"
 
 #. Template: AgentChat
 msgid "Invite"
-msgstr "Jemput"
+msgstr "Mengundang"
 
 #. Template: AgentChat
 msgid "Change chat channel"
-msgstr "Tukar saluran chat"
+msgstr "Ubah obrolan channel"
 
 #. Template: AgentChat
 msgid "Channel change"
-msgstr "Tukar saluran"
+msgstr "Ubah channel"
 
 #. Template: AgentChat
 msgid "Switch to participant"
-msgstr "Beralih kepada peserta"
+msgstr "Tukar ke partisipan"
 
 #. Template: AgentChat
 msgid "Participant"
-msgstr "Peserta"
+msgstr "Partisipan"
 
 #. Template: AgentChat
 msgid "Switch to an observer"
-msgstr "Beralih kepada pemerhati"
+msgstr "Beralih ke pengamat"
 
 #. Template: AgentChat
 msgid "Observer"
-msgstr "Pemerhati"
+msgstr "Pengamat"
 
 #. Template: AgentChat
 msgid "Download this Chat"
-msgstr "Muat turun Chat ini"
+msgstr "Muat turun obrolan ini"
 
 #. Template: AgentChat
 msgid "Join invited chat as an observer"
-msgstr "Sertai chat jemputan sebagai pemerhati"
+msgstr "Bergabung obrolan sebagai pengamat"
 
 #. Template: AgentChat
 msgid "Join invited chat as a participant"
-msgstr "Sertai chat jemputan sebagai peserta"
+msgstr "Bergabung obrolan sebagai peserta"
 
 #. Template: AgentChat
 msgid "Open chat in a Popup"
-msgstr "Buka chat dalam Popup"
+msgstr "Obrolan terbuka disebuah Popup"
 
 #. Template: AgentChat
 msgid "New window"
-msgstr "Tetingkap baru"
+msgstr "Window baru"
 
 #. Template: AgentChat
 msgid "New Message"
-msgstr "Mesej baharu"
+msgstr "Pesan baru"
 
 #. Template: AgentChat
 msgid "(Shift + Enter for new line)"
@@ -374,117 +374,117 @@ msgstr "(Shift + Enter untuk baris baru)"
 
 #. Template: AgentChat
 msgid "%s has left this chat."
-msgstr "%s telah meninggalkan ruangan sembang ini."
+msgstr "%s meninggalkan obrolan"
 
 #. Template: AgentChat
 msgid "Online agents"
-msgstr "Agen dalam talian"
+msgstr "agen secara online"
 
 #. Template: AgentChat
 msgid "Reload online agents"
-msgstr "Muat semula agen dalam talian"
+msgstr "Reload agen secara online"
 
 #. Template: AgentChat
 msgid "Destination channel"
-msgstr "Saluran destinasi"
+msgstr "Tujuan channel"
 
 #. Template: AgentChat
 msgid "Open chat"
-msgstr "Buka chat"
+msgstr "Buka obrolan"
 
 #. Template: AgentChat
 msgid "This user is currently active."
-msgstr "Pengguna ini sedang aktif."
+msgstr "Pengguna ini sedang aktif"
 
 #. Template: AgentChat
 msgid "This user is currently away."
-msgstr "Pengguna ini sedang tiada."
+msgstr "Pengguna ini sedang tidak berada ditempat"
 
 #. Template: AgentChat
 msgid "This user is currently unavailable."
-msgstr "Pengguna ini sedang  tidak tersedia."
+msgstr "Pengguna ini tidak aktif"
 
 #. Template: AgentChat
 msgid "This user is currently offline."
-msgstr "Pengguna ini sedang tutup talian."
+msgstr "Pengguna ini sedang offline"
 
 #. Template: AgentChat
 msgid "This user has already left the chat or has not yet joined it."
-msgstr "Pengguna ini sudah meninggalkan chat atau tiada sesiapa yang menyertainya."
+msgstr "Pengguna ini telah meninggalkan chat atau belum bergabung "
 
 #. Template: AgentChat
 msgid ""
 "You are no longer in this chat. Click this message to remove the chat box."
-msgstr "Anda sudah tidak lagi di dalam chat ini. Klik mesej ini untuk memadam kotak chat."
+msgstr "Anda tidak lagi dalam obrolan ini. Klik pesan ini untuk menghapus kotak obrolan"
 
 #. Template: AgentChat
 msgid "There are currently no chat requests."
-msgstr "Tiada permohonan chat terkini."
+msgstr "Saat ini tidak ada permintaan obrolan"
 
 #. Template: AgentChat
 msgid ""
 "This will permanently delete the chat contents. Do you want to continue?"
-msgstr "Ini akan memadam sepenuhnya kandungan chat. Adakah anda ingin meneruskan?"
+msgstr "Ini akan menghapus isi obrolan secara permanen. Apakah Anda ingin melanjutkan?"
 
 #. Template: AgentChat
 msgid "This chat request was already accepted by another person."
-msgstr "Permohonan chat ini sudah diterima oleh orang lain."
+msgstr "Permintaan obrolan ini sudah diterima oleh orang lain."
 
 #. Template: AgentChat
 msgid "You have no permission to accept this chat request."
-msgstr "Anda tidak memiliki kebenaran untuk menerima permohonan chat ini."
+msgstr "Anda tidak memiliki izin untuk menerima permintaan obrolan ini."
 
 #. Template: AgentChat
 msgid "An internal error occurred."
-msgstr "Berlakunya kesilapan dalaman."
+msgstr "Terjadi kesalahan internal."
 
 #. Template: AgentChat
 msgid "Please select a user."
-msgstr "Sila pilih pengguna."
+msgstr "Silakan pilih pengguna."
 
 #. Template: AgentChat
 msgid "Please select a permission level."
-msgstr "Sila pilih peringkat keizinan."
+msgstr "Silakan pilih tingkat izin."
 
 #. Template: AgentChat
 msgid "Invite Agent."
-msgstr "Jemput Agen"
+msgstr "Undang Agen."
 
 #. Template: AgentChat
 msgid "Please, select destination chat channel."
-msgstr "Sila pilih destinasi saluran chat."
+msgstr "Silakan, pilih tujuan saluran obrolan"
 
 #. Template: AgentChat
 msgid "Please select a channel."
-msgstr "Sila pilih saluran."
+msgstr "Pilih saluran obrolan"
 
 #. Template: AgentChat
 msgid "Chat preview"
-msgstr "Perlihat chat"
+msgstr "Pratinjau obrolan"
 
 #. Template: AgentChat
 msgid "Please select a valid channel."
-msgstr "Sila pilih saluran yang sah."
+msgstr "Silakan pilih saluran sah"
 
 #. Template: AgentChat
 msgid "Agent to customer chat."
-msgstr "Agen untuk chat pelanggan."
+msgstr "Agen untuk pelanggan chat."
 
 #. Template: AgentChat
 msgid "Customer to agent chat."
-msgstr "Pelanggan untuk chat agen."
+msgstr "Pelanggan untuk agen chat."
 
 #. Template: AgentChat
 msgid "Agent to agent chat."
-msgstr "Agen untuk chat agen."
+msgstr "Obrolan agen ke agen"
 
 #. Template: AgentChat
 msgid "Public to agent chat."
-msgstr "Orang awam untuk chat agen."
+msgstr "Publik untuk obrolan agen"
 
 #. Template: AgentChat
 msgid "You can't leave Customer alone in the chat."
-msgstr "Anda tidak boleh meninggalkan Pelanggan berseorangan di dalam chat."
+msgstr "Anda tidak bisa meninggalkan Pelanggan sendiri dalam obrolan."
 
 #. Template: AgentChat
 msgid "You"
@@ -492,99 +492,99 @@ msgstr "Anda"
 
 #. Template: AgentChat
 msgid "Your chat could not be started because of an internal error."
-msgstr "Chat anda tidak dapat dimulakan kerana kesilapan dalaman."
+msgstr "Obrolan anda tidak dapat dimulai karena kesalahan internal."
 
 #. Template: AgentChat
 msgid "Your chat request was created."
-msgstr "Permohonan chat anda sudah dicipta."
+msgstr "Permintaan obrolan anda telah dibuat."
 
 #. Template: AgentChat
 msgid "There are currently %s open chat requests."
-msgstr "Pada masa ini terdapat permintaan chat terbuka %s."
+msgstr "Terdapat %s sedang terbuka permintaan chat."
 
 #. Template: AgentChat
 msgid "User was already invited to your chat!"
-msgstr "Pengguna sudah dijemput untuk chat anda!"
+msgstr "Pengguna sudah diundang untuk obrolan Anda!"
 
 #. Template: AgentChat
 msgid "Insufficient permissions."
-msgstr "Kebenaran tidak mencukupi."
+msgstr "izin tidak memadai."
 
 #. Template: AgentChat
 msgid "System was unable to save your sequence of chats."
-msgstr "Sistem tidak dapat menyimpan turutan chat anda."
+msgstr "Sistem tidak dapat menyimpan urutan obrolan anda"
 
 #. Template: AgentChatAppend
 msgid "Append Chat to Ticket"
-msgstr "Lampirkan Chat untuk Tiket"
+msgstr "Menambahkan obrolan untuk Tiket"
 
 #. Template: AgentChatAppend
 msgid "Append to"
-msgstr "Lampirkan ke"
+msgstr "menambahkan ke"
 
 #. Template: AgentChatAppend
 msgid "The chat will be appended as a new article to the chosen ticket."
-msgstr "Chat ini akan dilampirkan sebagai artikel baru untuk tiket yang dipilih."
+msgstr "obrolan akan ditambahkan sebagai artikel baru untuk tiket yang dipilih."
 
 #. Template: AgentChatPopup
 msgid "Chat with"
-msgstr "Chat dengan"
+msgstr "Obrolan dengan"
 
 #. Template: AgentChatPopup
 msgid "Leave Chat"
-msgstr "Tinggalkan Chat"
+msgstr "Tinggalkan obrolan"
 
 #. Template: AgentChatPopup
 msgid "This user is currently in the chat."
-msgstr "Pengguna ini sedang dalam chat."
+msgstr "Pengguna saat ini dalam obrolan."
 
 #. Template: AgentChatPreview
 msgid "Current chat channel"
-msgstr "Saluran chat terkini"
+msgstr "Saluran atur obrolan"
 
 #. Template: AgentChatPreview
 msgid "Available channels"
-msgstr "Saluran tersedia"
+msgstr "saluran yang tersedia"
 
 #. Template: AgentChatPreview
 msgid "Reload"
-msgstr "Muat semula"
+msgstr "Isi ulang"
 
 #. Template: AgentChatPreview
 msgid "Update Channel"
-msgstr "Kemaskini saluran"
+msgstr "Memperbarui saluran"
 
 #. Template: AgentChatPreview
 msgid "Accept"
-msgstr "Terima"
+msgstr "Menerima"
 
 #. Template: AgentChatPreview
 msgid "Decline"
-msgstr "Tolak"
+msgstr "Menolak"
 
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
 msgid "Detailed search"
-msgstr "Butiran carian"
+msgstr "Pencarian secara rinci"
 
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
 msgid "Add an additional attribute"
-msgstr "Tambah sifat atribut tambahan"
+msgstr "Menambahkan atribut tambahan"
 
 #. Template: AgentDynamicFieldDatabaseDetails
 msgid "Details view"
-msgstr "Lihat butiran"
+msgstr "melihat rincian"
 
 #. Template: AgentNotificationViewNavBar
 msgid "Notifications per page"
-msgstr "Pemberitahuan setiap muka surat"
+msgstr "Pemberitahuan per halaman"
 
 #. Template: AgentNotificationViewSmall
 msgid "No notification data found."
-msgstr "Tiada data pemberitahuan dijumpai."
+msgstr "Tidak ada data pemberitahuan ditemukan."
 
 #. Template: AgentNotificationViewSmall
 msgid "Related To"
-msgstr "Berkaitan dengan"
+msgstr "Berhubungan dengan"
 
 #. Template: AgentNotificationViewSmall
 msgid "Select this notification"
@@ -592,19 +592,19 @@ msgstr "Pilih pemberitahuan ini"
 
 #. Template: AgentNotificationViewSmall
 msgid "Zoom into"
-msgstr "Zum ke"
+msgstr "memperbesar"
 
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss this notification"
-msgstr "Abaikan pemberitahuan ini"
+msgstr "Mengabaikan pemberitahuan ini"
 
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss Selected Notifications"
-msgstr "Abaikan Pemberitahuan Dipilih"
+msgstr "Singkirkan Pemberitahuan Terpilih"
 
 #. Template: AgentNotificationViewSmall
 msgid "Do you really want to dismiss the selected notifications?"
-msgstr "Adakah anda benar-benar mahu untuk menyingkirkan pemberitahuan dipilih?"
+msgstr "Apakah Anda benar-benar ingin memberhentikan pemberitahuan yang dipilih?"
 
 #. Template: AgentNotificationViewSmall
 msgid "OTRS Notification"
@@ -612,73 +612,73 @@ msgstr "Pemberitahuan OTRS"
 
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss"
-msgstr "Abaikan"
+msgstr "Memberhentikan"
 
 #. Template: AgentStatisticsReportsAdd
 msgid "Reports » Add"
-msgstr "Laporan » Tambah"
+msgstr "Laporan > Tambah"
 
 #. Template: AgentStatisticsReportsAdd
 msgid "Add New Statistics Report"
-msgstr "Tambah Laporan Statistik Baru"
+msgstr "Tambahkan Statistik Laporan Baru"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Reports » Edit — %s"
-msgstr "Laporan » Edit — %s"
+msgstr "Laporan » Ubah -%s"
 
 #. Template: AgentStatisticsReportsEdit
 msgid ""
 "Here you can combine several statistics to a report which you can generate "
 "as a PDF manually or automatically at configured times."
-msgstr "Di sini anda boleh menggabungkan beberapa statistik ke laporan yang anda boleh janakan sebagai PDF secara manual atau secara automatik pada masa-masa dikonfigurasikan."
+msgstr "Di sini Anda dapat menggabungkan beberapa statistik laporan yang dapat Anda menghasilkan sebagai PDF secara manual atau secara otomatis pada waktu dikonfigurasi."
 
 #. Template: AgentStatisticsReportsEdit
 msgid ""
 "Please note that you can only select charts as statistics output format if "
 "you configured PhantomJS on your system."
-msgstr "Sila ambil perhatian bahawa anda hanya boleh memilih carta sebagai format output statistik jika anda konfigurasikan PhantomJS pada sistem anda."
+msgstr "Harap dicatat bahwa Anda hanya dapat memilih grafik sebagai format statistik output jika Anda dikonfigurasi PhantomJS pada sistem Anda."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Configure PhantomJS"
-msgstr "Mengkonfigurasi PhantomJS"
+msgstr "Konfigurasi PhantomJS"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "General settings"
-msgstr "Tetapan umum"
+msgstr "Pengaturan Umum"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Automatic generation settings"
-msgstr "Tetapan penjanaan automatik"
+msgstr "Pengaturan generasi otomatis"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Automatic generation times (cron)"
-msgstr "Tetapan penjanaan masa (cron)"
+msgstr "Generasi otomatis (cron)"
 
 #. Template: AgentStatisticsReportsEdit
 msgid ""
 "Specify when the report should be automatically generated in cron format, e."
 " g. \"10 1 * * *\" for every day at 1:10 am."
-msgstr "Nyatakan apabila laporan itu perlu secara automatik dijana dalam format cron , contoh: \"10 1 * * *\" untuk setiap hari pada 01:10 am. "
+msgstr "Menentukan kapan laporan harus dihasilkan secara otomatis dalam format cron, e. g. \"10 1 * * *\" untuk setiap hari di 1:10 am."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Last automatic generation time"
-msgstr "Tetapan penjanaan masa akhir "
+msgstr "Generasi terakhir otomatis"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Next planned automatic generation time"
-msgstr "Masa penjanaan automatik yang dirancang seterusnya"
+msgstr "Berikutnya direncanakan waktu generasi otomatis"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Automatic generation language"
-msgstr "Bahasa penjanaan automatik"
+msgstr "Bahasa generasi otomatis"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "The language to be used when the report is automatically generated."
-msgstr "Bahasa yang akan digunakan apabila laporan dijana secara automatik."
+msgstr "bahasa yang akan digunakan ketika laporan secara otomatis dihasilkan."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email subject"
-msgstr "Subjek emel"
+msgstr "subjek email"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Specify the subject for the automatically generated email."
@@ -686,93 +686,93 @@ msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email body"
-msgstr "Badan emel"
+msgstr "badan email"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Specify the text for the automatically generated email."
-msgstr "Tentukan teks untuk emel yang dijana secara automatik."
+msgstr "Tentukan teks untuk email secara otomatis."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email recipients"
-msgstr "Penerima emel"
+msgstr "penerima email"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Specify recipient email addresses (comma separated)."
-msgstr "Nyatakan alamat emel penerima (dipisahkan oleh koma)."
+msgstr "Tentukan alamat email penerima (dipisahkan koma)."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Output settings"
-msgstr "Tetapan output"
+msgstr "pengaturan output"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Headline"
-msgstr "Tajuk utama"
+msgstr "Headline"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Caption for preamble"
-msgstr "Keterangan untuk mukadimah"
+msgstr "Caption untuk basa-basi"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Preamble"
-msgstr "Mukadimah"
+msgstr "Pembukaan"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Caption for epilogue"
-msgstr "Keterangan untuk penutup"
+msgstr "Caption untuk epilog"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Epilogue"
-msgstr "Penutup"
+msgstr "epilog"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Add statistic to report"
-msgstr "Tambah statistik ke laporan"
+msgstr "Tambahkan statistik melaporkan"
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Reports » Overview"
-msgstr "Laporan » Gambaran keseluruhan"
+msgstr "Laporan » Ikhtisar"
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Statistics Reports"
-msgstr "Laporan Statistik "
+msgstr "statistik Laporan"
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Edit statistics report \"%s\"."
-msgstr "Edit laporan statistik \"%s\"."
+msgstr "Mengedit laporan statistik \"%s\"."
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Delete statistics report \"%s\""
-msgstr "Padam laporan statistik \"%s\"."
+msgstr "Menghapus laporan statistik \"%s\""
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Do you really want to delete this report?"
-msgstr "Adakah anda pasti untuk memadam laporan ini?"
+msgstr "Apakah Anda benar-benar ingin menghapus laporan ini?"
 
 #. Template: AgentStatisticsReportsView
 msgid "Reports » View — %s"
-msgstr "Laporan » Lihat - % s"
+msgstr "Laporan » Lihat - %s"
 
 #. Template: AgentStatisticsReportsView
 msgid ""
 "This statistics report contains configuration errors and can currently not "
 "be used."
-msgstr "Laporan statistik ini mengandungi ralat konfigurasi dan pada masa ini tidak boleh digunakan."
+msgstr "Laporan statistik ini mengandung kesalahan konfigurasi dan dapat saat ini tidak digunakan."
 
 #. Template: AgentTicketAttachmentView
 msgid "Attachments of"
-msgstr "Lampiran"
+msgstr "lampiran"
 
 #. Template: AgentTicketAttachmentView
 msgid "Attachment Overview"
-msgstr "Gambaran Keseluruhan Lampiran"
+msgstr "Ikhtisar lampiran"
 
 #. Template: AgentTicketAttachmentView
 msgid "This ticket does not have any attachments."
-msgstr "Tiket ini tidak mempunyai lampiran."
+msgstr "Tiket ini tidak memiliki lampiran."
 
 #. Template: AgentTicketAttachmentView
 msgid "Filter Attachments"
-msgstr "Tapis Lampiran"
+msgstr "Filter Lampiran"
 
 #. Template: AgentTicketAttachmentView
 msgid "Select All"
@@ -780,51 +780,51 @@ msgstr "Pilih Semua"
 
 #. Template: AgentTicketAttachmentView
 msgid "Click to download this file"
-msgstr "Klik untuk muat turun fail ini"
+msgstr "Klik untuk men-download file ini"
 
 #. Template: AgentTicketAttachmentView
 msgid "Open article in main window"
-msgstr "Buka artikel dalam tetingkap utama"
+msgstr "Terbuka artikel di jendela utama"
 
 #. Template: AgentTicketAttachmentView
 msgid "Download selected files as archive"
-msgstr "Muat turun fail dipilih sebagai arkib"
+msgstr "Download file terpilih sebagai arsip"
 
 #. Template: CustomerChat
 msgid "%s has joined this chat."
-msgstr "%s telah menyertai chat ini."
+msgstr "%s Telah bergabung obrolan ini"
 
 #. Template: CustomerChat
 msgid "Incoming chat requests"
-msgstr "Permintaan chat masuk"
+msgstr "permintaan obrolan masuk"
 
 #. Template: CustomerChat
 msgid "Outgoing chat requests"
-msgstr "Permintaan chat keluar"
+msgstr "permintaan chatting keluar"
 
 #. Template: CustomerChat
 msgid "Active chats"
-msgstr "Chat aktif"
+msgstr "obrolan aktif"
 
 #. Template: CustomerChat
 msgid "Closed chats"
-msgstr "Chat ditutup"
+msgstr "obrolan tertutup"
 
 #. Template: CustomerChat
 msgid "Chat request description"
-msgstr "Penerangan permohonan chat"
+msgstr "Deskripsi obrolan permintaan"
 
 #. Template: CustomerChat
 msgid "Create new ticket"
-msgstr "Cipta tiket baru"
+msgstr "Buat tiket baru"
 
 #. Template: CustomerChat
 msgid "Add an article"
-msgstr "Tambah artikel"
+msgstr "Menambahkan sebuah artikel"
 
 #. Template: CustomerChat
 msgid "Start a new chat"
-msgstr "Mulakan chat baru"
+msgstr "Membuat obrolan baru"
 
 #. Template: CustomerChat
 msgid "Select channel"
@@ -832,27 +832,27 @@ msgstr "Pilih saluran"
 
 #. Template: CustomerChat
 msgid "Add to an existing ticket"
-msgstr "Tambah ke tiket sedia ada"
+msgstr "Tambahkan ke tiket yang ada"
 
 #. Template: CustomerChat
 msgid "Active Chat"
-msgstr "Chat Aktif"
+msgstr "Aktifkan obrolan"
 
 #. Template: CustomerChat
 msgid "Download Chat"
-msgstr "Muat turun chat"
+msgstr "Memuat turun obrolan"
 
 #. Template: CustomerChat
 msgid "Chat is being loaded..."
-msgstr "Chat sedang dimuatkan..."
+msgstr "Obrolan sedang dimuat"
 
 #. Template: CustomerChat
 msgid "Chat completed"
-msgstr "Chat lengkap"
+msgstr "Obrolan selesai"
 
 #. Template: OutputFilterPostSLASelectionDialog
 msgid "Please confirm your selection"
-msgstr "Sila sahkan pilihan anda"
+msgstr "Silahkan konfirmasi pilihan anda"
 
 #. Template: PublicChat
 msgid "Your name"
@@ -860,24 +860,24 @@ msgstr "Nama anda"
 
 #. Template: PublicChat
 msgid "Start a new Chat"
-msgstr "Mulakan Chat baru"
+msgstr "Memulai obrolan baru"
 
 #. Template: PublicChat
 msgid "Chat complete"
-msgstr "Chat lengkap"
+msgstr "Obrolan selesai"
 
 #. Template: StatsWidget
 msgid "Remove statistic"
-msgstr "Keluarkan statistik"
+msgstr "Menghilangkan statistic"
 
 #. Template: StatsWidget
 msgid ""
 "If you don't specify a title here, the title of the statistic will be used."
-msgstr "Jika anda tidak menentukan tajuk di sini, tajuk statistik akan digunakan."
+msgstr "Jika anda tidak menentukan judul di sini, judul statistik akan digunakan."
 
 #. Template: StatsWidget
 msgid "Preface"
-msgstr "Prakata"
+msgstr "Kata pengantar"
 
 #. Template: StatsWidget
 msgid "Postface"
@@ -885,55 +885,55 @@ msgstr "Postface"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat Channel %s added"
-msgstr "Saluran Chat %s ditambah"
+msgstr "Saluran obrolan %s ditambahkan"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat channel %s edited"
-msgstr "Saluran chat %s diedit"
+msgstr "Saluran obrolan %s diubah"
 
 #. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
 msgid "Cloud service \"%s\" updated!"
-msgstr "Servis cloud \"%s\" dikemaskini!"
+msgstr "Layanan cloud \"%s\" diperbarukan!"
 
 #. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
 msgid "Cloud Service config \"%s\" saved!"
-msgstr "Konfigurasi Servis Cloud \"%s\" disimpan!"
+msgstr "Layanan konfigurasi cloud \"%s\" disimpan!"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Chat %s has been closed and was successfully appended to Ticket %s."
-msgstr "Chat %s telah ditutup dan telah berjaya dilampirkan pada tiket %s."
+msgstr "Obrolan %s telah ditutup dan berhasil ditambahkan ke Tiket  %s"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
-msgstr "%s telah menyertai chat ini sebagai pemerhati."
+msgstr "%s telah bergabung obrolan ini sebagai pengamat."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
-msgstr "Permintaan baru untuk menyertai chat"
+msgstr "permintaan baru untuk bergabung chatting"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Agent invited %s."
-msgstr "Agen menjemput %s."
+msgstr "Agen diundang %s."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s changed chat channel to %s."
-msgstr "%s menukar saluran chat kepada %s."
+msgstr "%s mengganti saluran obrolan menjadi %s."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has switched to participant mode."
-msgstr "%s telah menukar ke mod peserta."
+msgstr "%s telah beralih ke modus peserta."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has switched to observer mode."
-msgstr "%s telah menukar ke mod pemerhati."
+msgstr "%s telah beralih ke modus pengamat."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has rejected the chat request."
-msgstr "%s telah menolak permohonan chat."
+msgstr "%s telah menolak permintaan obrolan."
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
-msgstr "Semua pemberitahuan"
+msgstr "semua Pemberitahuan"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Seen Notifications"
@@ -941,207 +941,207 @@ msgstr "Pemberitahuan dilihat"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Unseen Notifications"
-msgstr "Pemberitahuan tidak dilihat"
+msgstr "Pemberitahuan gaib/tidak terlihat"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Notification Web View"
-msgstr "Pemberitahuan Paparan Web"
+msgstr "Pemberitahuan Webview"
 
 #. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
 msgid "This name is already in use, please choose a different one."
-msgstr "Nama ini telah digunakan, sila pilih yang lain."
+msgstr "Nama ini sudah digunakan, silahkan pilih satu yang berbeda."
 
 #. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
 msgid "Please provide a valid cron entry."
-msgstr "Sila berikan kemasukan cron yang sah."
+msgstr "Harap memberikan entri cron valid."
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
 msgid "You are unavailable for external chats. Would you like to go online?"
-msgstr "Anda tidak tersedia untuk chat luar. Adakah anda ingin pergi ke dalam talian?"
+msgstr "Anda tidak tersedia untuk obrolan eksternal. Apakah Anda ingin online?"
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatPreferredChannelsCheck.pm
 msgid "You don't have any external chat channel assigned."
-msgstr "Anda tidak mempunyai mana-mana saluran chat luaran yang diberikan."
+msgstr "Anda tidak memiliki saluran chatting eksternal ditugaskan."
 
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Dismiss Selected"
-msgstr "Abaikan Yang Dipilih"
+msgstr "Pilihan ditutup"
 
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Object Type"
-msgstr "Jenis Objek"
+msgstr "Jenis obyek"
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"
-msgstr "Permohonan Chat Terbuka"
+msgstr "Terbuka Permintaan obrolan"
 
 #. Perl Module: Kernel/Output/PDF/StatisticsReports.pm
 msgid "%s Report"
-msgstr "Laporan %s "
+msgstr "%s Laporan"
 
 #. Perl Module: Kernel/Output/PDF/StatisticsReports.pm
 msgid "Error: this graph could not be generated: %s."
-msgstr "Ralat: graf ini tidak dapat dijana : %s."
+msgstr "Kesalahan: grafik ini tidak dapat dihasilkan: %s."
 
 #. Perl Module: Kernel/Output/PDF/StatisticsReports.pm
 msgid "Table of Contents"
-msgstr "Isi kandungan"
+msgstr "Daftar Isi"
 
 #. Perl Module: Kernel/System/ChatChannel.pm
 msgid "Default chat channel"
-msgstr "Saluran chat default"
+msgstr "saluran default obrolan"
 
 #. SysConfig
 msgid "Activates chat support."
-msgstr "Mengaktifkan sokongan chat."
+msgstr "Mengaktifkan dukungan obrolan"
 
 #. SysConfig
 msgid ""
 "Agent frontend module registration (disable chat link if chat feature is "
 "inactive or agent is not in chat group)."
-msgstr "Pendaftaran modul agen bahagian hadapan (melumpuhkan pautan chat jika ciri chat tidak aktif atau agen tiada di dalam kumpulan chat)."
+msgstr "pendaftaran agen frontend modul (disable obrolan Link jika fitur chat tidak aktif atau agen tidak dalam grup chat)."
 
 #. SysConfig
 msgid "Agent group that can accept chat requests and chat."
-msgstr "Kumpulan agen yang boleh menerima permintaan chat dan berbual."
+msgstr "kelompok agen yang dapat menerima permintaan obrolan dan obrolan"
 
 #. SysConfig
 msgid "Agent group that can create chat requests."
-msgstr "Kumpulan ejen yang boleh membuat permintaan chat."
+msgstr "kelompok agen yang dapat membuat permintaan obrolan"
 
 #. SysConfig
 msgid "Agent interface availability."
-msgstr "Ketersediaan antara muka ejen."
+msgstr "ketersediaan antarmuka agen."
 
 #. SysConfig
 msgid "Agent interface notification module to check for open chat requests."
-msgstr "Modul pemberitahuan antara muka agen untuk memeriksa permintaan sembang terbuka."
+msgstr "Agen modul pemberitahuan untuk memeriksa permintaan obrolan"
 
 #. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
-msgstr "Membenarkan pelanggan untuk memilih saluran yang mempunyai ejen(ejen-ejen) tersedia sahaja."
+msgstr "Memungkinkan pelanggan untuk memilih saluran yang memiliki agen yang tersedia (s)."
 
 #. SysConfig
 msgid ""
 "Allow public users to select only channels that have available agent(s)."
-msgstr "Membenarkan pengguna awam untuk memilih saluran yang mempunyai ejen(ejen-ejen) tersedia sahaja."
+msgstr "Memungkinkan pengguna umum untuk memilih saluran yang memiliki agen yang tersedia (s)."
 
 #. SysConfig
 msgid "Allows having a small format notification web view."
-msgstr "Membenarkan mempunyai pandangan web pemberitahuan berformat kecil."
+msgstr "Memungkinkan memiliki tampilan pemberitahuan web Format kecil."
 
 #. SysConfig
 msgid "Chat Channel"
-msgstr "Saluran Chat"
+msgstr "Saluran obrolan"
 
 #. SysConfig
 msgid "Chat Channel:"
-msgstr "Saluran Chat:"
+msgstr "Saluran obrolan:"
 
 #. SysConfig
 msgid ""
 "Chat channel that will be used for communication related to the tickets in "
 "this queue."
-msgstr "Saluran chat yang akan digunakan untuk komunikasi yang berkaitan dengan tiket dalam barisan ini."
+msgstr "channel chat yang akan digunakan untuk komunikasi yang berkaitan dengan tiket di antrian ini."
 
 #. SysConfig
 msgid "Chat channel to queue mapping."
-msgstr "Saluran chat ke pemetaan barisan."
+msgstr "Obrolan saluran untuk antrian pemetaan."
 
 #. SysConfig
 msgid "Chat overview"
-msgstr "Tinjauan chat"
+msgstr "Obrolan secara keseluruhan"
 
 #. SysConfig
 msgid "Chats"
-msgstr "Chat"
+msgstr "Obrolan"
 
 #. SysConfig
 msgid "Cleans up old chat logs."
-msgstr "Membersihkan log chat lama."
+msgstr "Membersihkan obrolan lama"
 
 #. SysConfig
 msgid ""
 "Column notification web view filters for Notification web view type "
 "\"Small\"."
-msgstr "Penapis paparan web ruangan pemberitahuan untuk Paparan web Pemberitahuan jenis \"Kecil\"."
+msgstr "pemberitahuan kolom tampilan web filter untuk Pemberitahuan Jenis tampilan web \"kecil\""
 
 #. SysConfig
 msgid ""
 "Columns that can be filtered in the notification web view of the agent "
 "interface. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by "
 "default."
-msgstr "Kolum yang boleh ditapis dalam paparan web pemberitahuan bagi antara muka ejen. Tetapan yang mungkin: 0 = Dilumpuhkan, 1 = Tersedia, 2 = Diaktifkan secara default."
+msgstr "Kolom yang dapat disaring dalam pemberitahuan tampilan web dari antarmuka agen. pengaturan mungkin: 0 = Tidak tersedia, 1 = Tersedia, 2 = Diaktifkan secara default."
 
 #. SysConfig
 msgid "Contact with data"
-msgstr "Kenalan dengan data"
+msgstr "Kontak dengan data"
 
 #. SysConfig
 msgid "Create and manage chat channels."
-msgstr "Cipta dan uruskan saluran chat."
+msgstr "Membuat dan mengelola saluran obrolan"
 
 #. SysConfig
 msgid "Create new chat"
-msgstr "Cipta chat baru"
+msgstr "Buat obrolan baru"
 
 #. SysConfig
 msgid ""
 "Customer frontend module registration (disable chat link if chat feature is "
 "inactive or no agents are available for chat)."
-msgstr "Pendaftaran modul pelanggan bahagian hadapan (melumpuhkan pautan chat jika ciri chat tidak aktif atau tiada ejen tersedia untuk chat)."
+msgstr "pendaftaran modul frontend kustom (mematikan obrolan Link jika fitur chat tidak aktif atau tidak ada agen yang tersedia untuk chatting)."
 
 #. SysConfig
 msgid ""
 "Default agent name for customer and public interface. If enabled, the real "
 "name of the agent will not be visible to customers/public users while using "
 "the chat."
-msgstr "Nama ejen default untuk pelanggan dan antara muka awam. Jika didayakan, nama sebenar ejen itu tidak akan dapat dilihat oleh pelanggan/pengguna awam semasa menggunakan chat."
+msgstr "Nama agen default untuk pelanggan dan antarmuka publik. Jika diaktifkan, nama asli dari agen tidak akan terlihat oleh pelanggan / pengguna umum saat menggunakan chat."
 
 #. SysConfig
 msgid "Default text for the customer interface."
-msgstr "Teks default untuk antara muka pelanggan."
+msgstr "Teks default untuk antarmuka pelanggan."
 
 #. SysConfig
 msgid "Default text for the public interface."
-msgstr "Teks default untuk antara muka awam."
+msgstr "Teks default untuk antarmuka publik."
 
 #. SysConfig
 msgid ""
 "Defines a list of agent preferences group keys that will be visible in "
 "Customer interface (works only if DefaultAgentName is disabled). Example: If"
 " you want to display PreferencesGroups###Language, add Language."
-msgstr "Tentukan senarai kekunci kumpulan keutamaan agen yang akan dapat dilihat dalam antara muka Pelanggan (hanya berfungsi jika DefaultAgentName dilumpuhkan).\nContoh: Jika anda ingin paparkan PreferencesGroups###Language, tambah Bahasa."
+msgstr "Mendefinisikan daftar agen kunci kelompok preferensi yang akan terlihat dalam antarmuka Pelanggan (hanya bekerja jika DefaultAgentName dinonaktifkan). Contoh: Jika Anda ingin menampilkan PreferencesGroups###Language, tambah bahasa."
 
 #. SysConfig
 msgid ""
 "Defines a text for Agent Preferences in the Customer interface (works only "
 "if DefaultAgentName is disabled)."
-msgstr "Tentukan teks untuk Keutamaan Agen di antara muka Pelanggan (hanya berfungsi jika DefaultAgentName dilumpuhkan)."
+msgstr "Mendefinisikan teks untuk Preferences Agen di antarmuka Pelanggan (hanya bekerja jika DefaultAgentName dinonaktifkan)."
 
 #. SysConfig
 msgid ""
 "Defines if customer users are able to select Chat Channel. If not, chat will"
 " be created in default Chat Channel."
-msgstr "Menentukan jika pengguna pelanggan boleh memilih Saluran Chat. Jika tidak, chat akan dicipta dalam Saluran Chat default."
+msgstr "Mendefinisikan jika pengguna pelanggan dapat memilih saluran obrolan. Jika tidak, chatting akan dibuat default obrolan Channel."
 
 #. SysConfig
 msgid ""
 "Defines if locking a ticket is required to start a chat with the customer "
 "from the ticket zoom view."
-msgstr "Menentukan sekiranya tiket diperlukan untuk memulakan chat dengan pelanggan daripada pandangan zum tiket."
+msgstr "Mendefinisikan penguncian tiket diperlukan untuk memulai obrolan dengan pelanggan dari tampilan zoom tiket."
 
 #. SysConfig
 msgid ""
 "Defines if numbers should be appended to DefaultAgentName. If enabled, "
 "together with DefaultAgentName will be numbers (e.g. 1,2,3,...)."
-msgstr "Tentukan jika nombor perlu dilampirkan pada DefaultAgentName. Jika didayakan, bersama-sama dengan DefaultAgentName akan menjadi nombor (contohnya 1,2,3 ,...)."
+msgstr "Mendefinisikan jika nomor harus ditambahkan ke DefaultAgentName. Jika diaktifkan, bersama-sama dengan DefaultAgentName akan menjadi angka (misalnya 1,2,3, ...)."
 
 #. SysConfig
 msgid ""
 "Defines if public users are able to select Chat Channel. If not, chat will "
 "be created in default Chat Channel."
-msgstr "Menentukan jika pengguna awam boleh memilih Saluran Chat. Jika tidak, chat akan dicipta dalam Saluran Chat default."
+msgstr "Mendefinisikan pengguna publik dapat memilih saluran obrolan. Jika tidak, chatting akan dibuat default obrolan Channel."
 
 #. SysConfig
 msgid ""
@@ -1154,167 +1154,167 @@ msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is available for external chats, but forgot to set preferred "
 "channel(s)."
-msgstr "Mentakrifkan modul untuk memaparkan pemberitahuan dalam antara muka ejen, jika ejen itu tersedia untuk chat luar, tetapi terlupa untuk menetapkan saluran(saluran-saluran) pilihan."
+msgstr "Mendefinisikan modul untuk menampilkan pemberitahuan di antarmuka agen, jika agen yang tersedia untuk chatting eksternal, tapi lupa untuk mengatur saluran yang disukai (s)."
 
 #. SysConfig
 msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is not available for chat with customers (only if "
 "Ticket::Agent::AvailableForChatsAfterLogin is set to No)."
-msgstr "Mentakrifkan modul untuk memaparkan pemberitahuan dalam antara muka ejen, jika ejen itu tidak tersedia untuk berbual dengan pelanggan (hanya jikaTicket::Agent::AvailableForChatsAfterLogin ditetapkan ke Tidak)."
+msgstr "Mendefinisikan modul untuk menampilkan pemberitahuan di antarmuka agen, jika agen tidak tersedia untuk ngobrol dengan pelanggan (hanya jika Ticket::Agent::AvailableForChatsAfterLogin diatur menjadi Tidak)."
 
 #. SysConfig
 msgid ""
 "Defines the number of days a notification should be still shown in the "
 "notification web view screen (value of '0' means always show)."
-msgstr "Mentakrifkan bilangan hari pemberitahuan harus masih ditunjukkan dalam skrin paparan pemberitahuan web (nilai '0' bermaksud sentiasa menunjukkan)."
+msgstr "Mendefinisikan jumlah hari pemberitahuan harus tetap ditampilkan dalam tampilan layar web pemberitahuan (nilai '0' berarti selalu menunjukkan)."
 
 #. SysConfig
 msgid "Defines the order of chat windows."
-msgstr "Menentukan susunan tetingkap chat."
+msgstr "Mendefinisikan urutan jendela obrolan."
 
 #. SysConfig
 msgid ""
 "Defines the path to the PhantomJS binary. You can use a static build from "
 "http://phantomjs.org/download.html for an easy installation process."
-msgstr "Mentakrifkan jalan untuk binari PhantomJS. Anda boleh menggunakan binaan statik dari http://phantomjs.org/download.html untuk proses pemasangan yang mudah."
+msgstr "Mendefinisikan path ke biner PhantomJS. Anda dapat menggunakan membangun statis dari http://phantomjs.org/download.html untuk proses instalasi yang mudah."
 
 #. SysConfig
 msgid ""
 "Defines the period of time (in minutes) before No Answer message is "
 "displayed to the customer."
-msgstr "Menentukan tempoh masa (dalam minit) sebelum mesej Tiada Jawapan dipaparkan pada pelanggan."
+msgstr "Mendefinisikan periode waktu (dalam menit) sebelum ada Jawaban pesan ditampilkan kepada pelanggan."
 
 #. SysConfig
 msgid ""
 "Defines the period of time (in minutes) before agent goes offline due to "
 "inactivity."
-msgstr "Tentukan tempoh masa (dalam minit) sebelum ejen pergi luar talian kerana tidak aktif ."
+msgstr "Mendefinisikan periode waktu (dalam menit) sebelum agen berjalan offline karena tidak aktif."
 
 #. SysConfig
 msgid "Defines the settings for ticket notification."
-msgstr "Mentakrifkan tetapan untuk pemberitahuan tiket."
+msgstr "Menentukan pengaturan untuk pemberitahuan tiket."
 
 #. SysConfig
 msgid "Defines the source dynamic field for storing historical data."
-msgstr "Mentakrifkan sumber medan dinamik untuk menyimpan data bersejarah."
+msgstr "Mendefinisikan bidang yang dinamis sumber untuk menyimpan data historis."
 
 #. SysConfig
 msgid "Defines the target dynamic fields for storing historical data."
-msgstr "Mentakrifkan sasaran medan dinamik untuk menyimpan data bersejarah."
+msgstr "Mendefinisikan target bidang dinamis untuk menyimpan data historis."
 
 #. SysConfig
 msgid "Display Create Chat request link in the ticket zoom view."
-msgstr "Papar pautan permintaan Cipta Chat dalam pandangan zum tiket."
+msgstr "Tampilan Buat permintaan obrolan link dalam tampilan zoom tiket."
 
 #. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
-msgstr "GUI Backend Kenalan Data Medan Dinamik"
+msgstr "GUI dinamis Fields Hubungi data Backend"
 
 #. SysConfig
 msgid "Dynamic Fields Database Backend GUI"
-msgstr "GUI Backend Pangkalan Data Medan Dinamik"
+msgstr "Dinamis Fields database Backend GUI"
 
 #. SysConfig
 msgid "Edit contacts with data"
-msgstr "Edit kenalan dengan data"
+msgstr "Mengedit kontak dengan data"
 
 #. SysConfig
 msgid ""
 "Enables notification web view bulk action feature for the agent frontend to "
 "work on more than one notification at a time."
-msgstr "Membolehkan ciri pemberitahuan web paparan  tindakan pukal untuk bahagian hadapan ejen untuk bekerja pada lebih daripada satu pemberitahuan pada satu masa."
+msgstr "Mengaktifkan fitur notifikasi tampilan web tindakan massal untuk frontend agen untuk bekerja pada lebih dari satu notifikasi pada satu waktu."
 
 #. SysConfig
 msgid ""
 "Enables notification web view bulk action feature only for the listed "
 "groups."
-msgstr "Membolehkan ciri pemberitahuan web paparan  tindakan pukal hanya pada kumpulan yang disenaraikan."
+msgstr "Aktifkan fitur tindakan massal pemberitahuan tampilan web hanya untuk kelompok terdaftar."
 
 #. SysConfig
 msgid "Enables the timeline view in AgentTicketZoom."
-msgstr "Membolehkan pandangan garis masa dalam AgentTicketZoom."
+msgstr "Memungkinkan tampilan timeline di Agen Tiket Zoom."
 
 #. SysConfig
 msgid "Event module registration (store historical data in dynamic fields)."
-msgstr "Pendaftaran modul acara (simpan data bersejarah dalam medan dinamik)."
+msgstr "pendaftaran modul acara (menyimpan data historis dalam bidang yang dinamis)."
 
 #. SysConfig
 msgid "Frontend module registration for the public interface."
-msgstr "Frontend pendaftaran modul untuk antara muka awam."
+msgstr "Pendaftaran modul Halamandepan untuk antarmuka umum."
 
 #. SysConfig
 msgid ""
 "Generate HTML comment hooks for the specified blocks so that filters can use"
 " them."
-msgstr "Menjana cangkuk komen HTML untuk blok tertentu supaya penapis boleh menggunakannya."
+msgstr "Hasilkan HTML komentar kait untuk blok tertentu sehingga filter dapat menggunakannya."
 
 #. SysConfig
 msgid ""
 "If enabled it will check agents availability on login. If user is available "
 "for external chats, it will reduce availability to internal chats only."
-msgstr "Jika diaktifkan ia akan memeriksa ketersediaan ejen pada log masuk. Jika pengguna tersedia untuk chat luar, ia akan mengurangkan ketersediaan kepada perbualan dalaman sahaja."
+msgstr "Jika diaktifkan itu akan memeriksa ketersediaan agen pada login. Jika pengguna yang tersedia untuk chatting eksternal, itu akan mengurangi ketersediaan untuk chatting internal saja."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, a notification will be displayed on each page if"
 " the current agent is not available for chat."
-msgstr "Jika flag ini diset ke Ya, pemberitahuan akan dipaparkan dalam setiap halaman jika agen semasa tidak tersedia untuk chat."
+msgstr "Jika bendera ini diatur ke Ya, pemberitahuan akan ditampilkan di setiap halaman jika agen saat ini tidak tersedia untuk chatting."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, agents can start a chat with a customer without "
 "a ticket."
-msgstr "Jika flag ini disetkan kepada Ya, ejen boleh memulakan chat dengan pelanggan tanpa tiket."
+msgstr "Jika bendera ini diatur ke Ya, agen dapat memulai obrolan dengan pelanggan tanpa tiket."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, customers can start a chat with an agent without"
 " a ticket."
-msgstr "Jika flag ini disetkan kepada Ya, pelanggan boleh memulakan chat dengan ejen tanpa tiket."
+msgstr "Jika bendera ini diatur ke Ya, pelanggan dapat memulai obrolan dengan agen tanpa tiket."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, only the ticket customer can start a chat from a"
 " ticket zoom view."
-msgstr "Jika flag ini disetkan kepada Ya, hanya pelanggan tiket boleh memulakan sembang dari pandangan zum tiket."
+msgstr "Jika bendera ini diatur ke Ya, hanya pelanggan tiket dapat memulai obrolan dari pandangan zoom tiket."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, starting a chat from agent ticket zoom view will"
 " only be possible, if the ticket customer is online."
-msgstr "Jika flag ini disetkan kepada ya, memulakan chat daripada pandangan zum tiket ejen akan hanya dibolehkan, sekiranya pelanggan tiket berada di atas talian."
+msgstr "Jika bendera ini diatur ke Ya, mulai chatting dari pandangan zoom tiket agen hanya akan mungkin, jika pelanggan tiket online."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, starting a chat from customer ticket zoom view "
 "will only be possible, if there are available agents in the linked chat "
 "channel."
-msgstr "JIka flag ini disetkan ke Ya, memulakan chat daripada pandangan zum tiket akan hanya dibolehkan, sekiranya terdapat agen tersedia dalam saluran chat berkaitan."
+msgstr "Jika bendera ini diatur ke Ya, mulai chatting dari pandangan zoom tiket pelanggan hanya akan mungkin, jika ada agen yang tersedia di chat saluran terkait."
 
 #. SysConfig
 msgid ""
 "Makes it possible to start a chat with a customer from the agent interface."
-msgstr "Membolehkan untuk meulakan chat dengan pelanggan dari antara muka ejen."
+msgstr "Memungkinkan untuk memulai obrolan dengan seorang pelanggan dari antarmuka agen."
 
 #. SysConfig
 msgid ""
 "Makes it possible to start a chat with an agent from the agent interface."
-msgstr "Membolehkan untuk memulakan chat dengan agen dari antara muka ejen."
+msgstr "Memungkinkan untuk memulai obrolan dengan agen dari antarmuka agen."
 
 #. SysConfig
 msgid ""
 "Makes it possible to start a chat with an agent from the customer interface."
-msgstr "Membolehkan untuk meulakan chat dengan agen dari antara muka pelanggan."
+msgstr "Memungkinkan untuk memulai obrolan dengan agen dari antarmuka pelanggan."
 
 #. SysConfig
 msgid ""
 "Makes it possible to start a chat with an agent from the public interface."
-msgstr "Membolehkan untuk memulakan chat dengan agen dari antara muka awam."
+msgstr "Memungkinkan untuk memulai obrolan dengan agen dari antarmuka publik."
 
 #. SysConfig
 msgid "My chats"
-msgstr "Chat saya"
+msgstr "Obrolan saya"
 
 #. SysConfig
 msgid ""
@@ -1323,39 +1323,39 @@ msgid ""
 "name as default chat channel. The default channel won't be displayed, if "
 "chat channels are enabled in Customer interface and Public interface. All "
 "agent to agent chats will be in the default channel."
-msgstr "Nama saluran chat default. Jika saluran ini tidak wujud, ia akan dibuat secara automatik. Sila jangan wujudkan saluran chat dengan nama yang sama sebagai saluran sembang default. Saluran default tidak akan dipaparkan, jika saluran chat didayakan dalam antara muka Pelanggan dan antara muka Awam. Semua Ejen kepada chat ejen akan berada di dalam saluran default."
+msgstr "Nama saluran default chat. Jika saluran ini tidak ada, maka akan dibuat secara otomatis. Jangan membuat saluran chatting dengan nama yang sama dengan saluran default chat. Saluran default tidak akan ditampilkan, jika saluran chatting diaktifkan di antarmuka pelanggan dan antarmuka Umum. Semua agen untuk chatting agen akan di saluran default."
 
 #. SysConfig
 msgid "No agents available message."
-msgstr "Tiada mesej tersedia ejen."
+msgstr "Tidak ada agen pesan yang tersedia."
 
 #. SysConfig
 msgid "Notification limit per page for Notification web view \"Small\""
-msgstr "Had pemberitahuan setiap halaman untuk paparan \"Kecil\" pemberitahuan web "
+msgstr "Batas pemberitahuan per halaman untuk pemberitahuan tampilan web \"Kecil\""
 
 #. SysConfig
 msgid "Notification web view"
-msgstr "Paparan pemberitahuan web"
+msgstr "Pemberitahuan tampilan web"
 
 #. SysConfig
 msgid "Notification web view \"Small\" Limit"
-msgstr "Had pemberitahuan web paparan \"Kecil\""
+msgstr "Bata pemberitahuan tampilan web \"Kecil\" "
 
 #. SysConfig
 msgid "Notifications Unseen:"
-msgstr "Pemberitahuan Tidak Dilihat:"
+msgstr "Pemberitahuan tidak terlihat"
 
 #. SysConfig
 msgid "Number of days after chat will be deleted."
-msgstr "Beberapa hari selepas chat akan dipadamkan."
+msgstr "Jumlah hari setelah obrolan akan dihapus."
 
 #. SysConfig
 msgid "Number of hours after closed chat will be deleted."
-msgstr "Beberapa jam selepas chat ditutup akan dipadamkan."
+msgstr "Jumlah jam setelah chatting tertutup akan dihapus."
 
 #. SysConfig
 msgid "Output filter for standard tt files."
-msgstr "Penapis output untuk fail tt piawai."
+msgstr "Filter output untuk file tt standar."
 
 #. SysConfig
 msgid ""
@@ -1364,7 +1364,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Output filter to inject the necessary JavaScript into the views."
-msgstr "Penapis Output untuk menyuntik JavaScript diperlukan ke dalam pemandangan."
+msgstr "Filter output untuk menyuntikkan diperlukan JavaScript ke dalam pandangan."
 
 #. SysConfig
 msgid "Parameters for notification web view filters."
@@ -1374,119 +1374,119 @@ msgstr ""
 msgid ""
 "Parameters for the ChatChannel object in the preference view of the agent "
 "interface."
-msgstr "Parameter untuk objek SaluranChat dalam paparan pilihan bagi antara muka ejen."
+msgstr "Parameter untuk ChatChannel objek dalam tampilan preferensi antarmuka agen."
 
 #. SysConfig
 msgid ""
 "Parameters for the pages (in which the notifications are shown) of the small"
 " notifications view."
-msgstr "Parameter untuk halaman (di mana pemberitahuan ditunjukkan) pandangan pemberitahuan kecil."
+msgstr "Parameter untuk halaman (di mana pemberitahuan akan ditampilkan) dari pemberitahuan kecil."
 
 #. SysConfig
 msgid ""
 "Permission level to start a chat with customer from agent ticket zoom view."
-msgstr "Tahap kebenaran untuk memulakan chat dengan pelanggan dari pandangan zum tiket ejen."
+msgstr "tingkat izin untuk memulai obrolan dengan pelanggan dari pandangan zoom tiket agen."
 
 #. SysConfig
 msgid ""
 "Please bear with us until one of our agents is able to handle your chat "
 "request. Thank you for your patience."
-msgstr "Sila bersama dengan kami sehingga salah seorang daripada ejen-ejen kami mampu untuk mengendalikan permintaan chat anda. Terima kasih atas kesabaran anda."
+msgstr "Tolong beruang dengan kami sampai salah satu agen kami dapat menangani permintaan chat Anda. Terima kasih atas kesabaran Anda."
 
 #. SysConfig
 msgid "Prepend"
-msgstr "Bahagian awal"
+msgstr "Prepend"
 
 #. SysConfig
 msgid "Remove closed chats older than ChatEngine::ChatTTL."
-msgstr "Buang chat yang ditutup lama daripada ChatEngine::ChatTTL."
+msgstr "Hapus chattingan yang lebih lama dari ChatEngine::ChatTTL."
 
 #. SysConfig
 msgid "Remove old chats."
-msgstr "Buang chat lama."
+msgstr "Hapus chattingan lama"
 
 #. SysConfig
 msgid ""
 "Runs an initial wildcard search of the existing contacts with data when "
 "accessing the AdminContactWithData module."
-msgstr "Jalankan carian wildcard awal kenalan sedia ada dengan data semasa mengakses modul AdminContactWithData."
+msgstr "Menjalankan pencarian wildcard awal kontak yang ada dengan data saat mengakses AdminContactWithData modul "
 
 #. SysConfig
 msgid "Sets if a chat request can be sent out from agent ticket zoom view."
-msgstr "Set jika permintaan chat boleh dihantar dari pandangan zum tiket ejen."
+msgstr "Menetapkan jika permintaan chatting dapat dikirim keluar dari pandangan zoom tiket agen."
 
 #. SysConfig
 msgid "Sets if a chat request can be sent out from customer ticket zoom view."
-msgstr "Set jika permintaan chat boleh dihantar dari pandangan zum tiket pelanggan."
+msgstr "Menetapkan jika permintaan chatting dapat dikirim keluar dari pandangan zoom tiket pelanggan."
 
 #. SysConfig
 msgid "Show all ticket attachments"
-msgstr "Tunjuk semua lampiran tiket"
+msgstr "Tampilkan semua lampiran tiket"
 
 #. SysConfig
 msgid "Shows all attachments available in the ticket."
-msgstr "Menunjukkan semua lampiran yang terdapat dalam tiket."
+msgstr "Menunjukkan semua lampiran yang tersedia di tiket."
 
 #. SysConfig
 msgid "Start a chat with this customer"
-msgstr "Mulakan chat dengan pelanggan ini"
+msgstr "Memulai obrolan dengan pelanggan ini"
 
 #. SysConfig
 msgid "Start new chat"
-msgstr "Mulakan chat baru"
+msgstr "Mulai obrolan baru"
 
 #. SysConfig
 msgid ""
 "Text which is being displayed on selection of this SLA on "
 "CustomerTicketMessage."
-msgstr "Teks yang sedang dipaparkan pada pemilihan SLA ini di CustomerTicketMessage."
+msgstr "Teks yang sedang ditampilkan pada pemilihan SLA ini pada CustomerTicketMessage"
 
 #. SysConfig
 msgid ""
 "The logo shown in the header of the agent interface for the skin "
 "\"business\". See \"AgentLogo\" for further description."
-msgstr "Logo ditunjukkan di header antara muka ejen bagi kulit \"perniagaan\". Lihat \"AgentLogo\" untuk keterangan lanjut."
+msgstr "Logo dalam header dari antarmuka agen untuk \"bisnis\". Lihat \"Agen Logo\" untuk deskripsi lebih lanjut."
 
 #. SysConfig
 msgid "There are no chat agents available at present. Please try again later."
-msgstr "Tiada ejen chat tersedia pada masa ini. Sila cuba sebentar lagi."
+msgstr "Tidak ada obrolan agen yang tersedia saat ini. Silakan coba lagi nanti."
 
 #. SysConfig
 msgid ""
 "There are no chat agents available at present. To add an article to the "
 "existing ticket, please click here:"
-msgstr "Tiada ejen chat tersedia pada masa ini. Untuk menambah artikel untuk tiket yang sedia ada, sila klik di sini:"
+msgstr "Tidak ada obrolan agen yang tersedia saat ini. Untuk menambahkan sebuah artikel ke tiket yang ada, silakan klik di sini:"
 
 #. SysConfig
 msgid ""
 "There are no chat agents available at present. To create a new ticket, "
 "please click here:"
-msgstr "Tiada ejen chat tersedia pada masa ini. Untuk membuat tiket baru, sila klik di sini:"
+msgstr "Tidak ada obrolan agen yang tersedia saat ini. Untuk membuat tiket baru, silakan klik di sini:"
 
 #. SysConfig
 msgid ""
 "This chat has ended. Please leave it or it will be closed automatically."
-msgstr "Chat ini sudah berakhir. Sila tinggalkan atau ia akan ditutup secara automatik."
+msgstr "obrolan ini telah berakhir. Silakan tinggalkan atau akan ditutup secara otomatis."
 
 #. SysConfig
 msgid ""
 "This chat has ended. Please leave it or it will be closed automatically. You"
 " can download this chat."
-msgstr "Chat ini sudah berakhir. Sila tinggalkan atau ia akan ditutup secara automatik. Anda boleh memuat turun sembang ini."
+msgstr "obrolan ini telah berakhir. Silakan tinggalkan atau akan ditutup secara otomatis. Anda dapat men-download chat ini."
 
 #. SysConfig
 msgid "This chat is completed. You can now close the chat window."
-msgstr "Chat ini sudah selesai. Anda kini boleh menutup tetingkap chat."
+msgstr "obrolan ini selesai. Sekarang Anda dapat menutup jendela chat."
 
 #. SysConfig
 msgid ""
 "This chat is completed. You can start a new chat using the button on top of "
 "this page."
-msgstr "Chat ini sudah selesai. Anda boleh memulakan chat baru menggunakan butang di bahagian atas halaman ini."
+msgstr "obrolan ini selesai. Anda dapat memulai obrolan baru menggunakan tombol di atas halaman ini."
 
 #. SysConfig
 msgid "Tool-bar item for a notification web view."
-msgstr "Alat-bar item  untuk paparan pemberitahuan web."
+msgstr "Item Toolbar untuk tampilan web pemberitahuan."
 
 #. SysConfig
 msgid "View notifications"

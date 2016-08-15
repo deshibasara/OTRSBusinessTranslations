@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRSBusiness\n"
-"POT-Creation-Date: 2014-08-08 19:10+0200\n"
+"POT-Creation-Date: 2016-08-15 15:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,142 +9,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Created"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Note Added"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Note Added (Customer)"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Email"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Customer Email"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Dynamic Field Updated"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Phone Call"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Phone Call"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Answer"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "SLA Updated"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Service Updated"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Customer Updated"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "State Updated"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Follow-Up"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Update Time Stopped"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Solution Time Stopped"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation First Response Time Stopped"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Response Time Stopped"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Link Added"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Link Deleted"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Merged"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Pending Time Set"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Locked"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Unlocked"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Queue Updated"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Priority Updated"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Title Updated"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Type Updated"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Web Request"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Automatic Follow-Up Sent"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Automatic Reply Sent"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Time Accounted"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "External Chat"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Internal Chat"
-msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Manage Chat Channels"
@@ -156,10 +20,6 @@ msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Edit Chat Channel"
-msgstr ""
-
-#. Template: AdminChatChannel
-msgid "This field is required"
 msgstr ""
 
 #. Template: AdminChatChannel
@@ -176,10 +36,6 @@ msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Comment invalid"
-msgstr ""
-
-#. Template: AdminCloudServiceSMS
-msgid "SMS (Short Message Service)"
 msgstr ""
 
 #. Template: AdminCloudServiceSMS
@@ -795,7 +651,7 @@ msgid "Email subject"
 msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
-msgid "Specify recipient email addresses (comma separated)."
+msgid "Specify the subject for the automatically generated email."
 msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
@@ -811,7 +667,7 @@ msgid "Email recipients"
 msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
-msgid "Specify recipent email addresses (comma separated)."
+msgid "Specify recipient email addresses (comma separated)."
 msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
@@ -1227,6 +1083,10 @@ msgid "Defines if public users are able to select Chat Channel. If not, chat wil
 msgstr ""
 
 #. SysConfig
+msgid "Defines if the enhanced mode should be used (enables use of table, replace, subscript, superscript, paste from word, etc.) in customer interface."
+msgstr ""
+
+#. SysConfig
 msgid "Defines the module to display a notification in the agent interface, if the agent is available for external chats, but forgot to set preferred channel(s)."
 msgstr ""
 
@@ -1391,7 +1251,15 @@ msgid "Output filter for standard tt files."
 msgstr ""
 
 #. SysConfig
+msgid "Output filter to inject the necessary Dynamic field names in hidden input."
+msgstr ""
+
+#. SysConfig
 msgid "Output filter to inject the necessary JavaScript into the views."
+msgstr ""
+
+#. SysConfig
+msgid "Parameters for notification web view filters."
 msgstr ""
 
 #. SysConfig
@@ -1495,6 +1363,6 @@ msgid "View notifications"
 msgstr ""
 
 #. SysConfig
-msgid "Your selection of your favorite external chat channels. You will be notified about external chat requests in these chat channels."
+msgid "Your selection of your preferred external chat channels. You will be notified about external chat requests in these chat channels."
 msgstr ""
 

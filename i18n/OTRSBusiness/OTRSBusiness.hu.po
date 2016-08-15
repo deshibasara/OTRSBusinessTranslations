@@ -1,191 +1,191 @@
 # 
 # Translators:
-# OTRS SDN BHD <otrssdnbhd@gmail.com>, 2015-2016
+# Balázs Úr <urbalazs@gmail.com>, 2014-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2016-08-15 15:32+0000\n"
 "PO-Revision-Date: 2016-08-15 13:33+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
-"Language-Team: Malay (http://www.transifex.com/otrs/OTRS/language/ms/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ms\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Template: AdminChatChannel
 msgid "Manage Chat Channels"
-msgstr "Urus Saluran Chat"
+msgstr "Csevegőcsatornák kezelése"
 
 #. Template: AdminChatChannel
 msgid "Add Chat Channel"
-msgstr "Tambah Saluran Chat"
+msgstr "Csevegőcsatorna hozzáadása"
 
 #. Template: AdminChatChannel
 msgid "Edit Chat Channel"
-msgstr "Edit Saluran Chat"
+msgstr "Csevegőcsatorna szerkesztése"
 
 #. Template: AdminChatChannel
 msgid "Name invalid"
-msgstr "Nama tidak sah"
+msgstr "A név érvénytelen"
 
 #. Template: AdminChatChannel
 msgid "Need Group"
-msgstr "Perlu Kumpulan"
+msgstr "Csoport szükséges"
 
 #. Template: AdminChatChannel
 msgid "Need Valid"
-msgstr "Perlu Sah"
+msgstr "Érvényes szükséges"
 
 #. Template: AdminChatChannel
 msgid "Comment invalid"
-msgstr "Komen tidak sah"
+msgstr "A megjegyzés érvénytelen"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service status"
-msgstr "Status servis Cloud"
+msgstr "Felhőszolgáltatás állapota"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service availability"
-msgstr "Kebolehdapatan servis Cloud"
+msgstr "Felhőszolgáltatás elérhetősége"
 
 #. Template: AdminCloudServiceSMS
 msgid "Remaining SMS units"
-msgstr "Baki unit SMS"
+msgstr "Hátralévő SMS egységek"
 
 #. Template: AdminCloudServiceSMS
 msgid "Is currently not possible to check the state for this cloud service."
-msgstr "Adalah mustahil pada masa ini untuk memeriksa keadaan servis Cloud."
+msgstr "Jelenleg nem lehetséges a felhőszolgáltatás állapotának az ellenőrzése."
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone field for agent"
-msgstr "Medan telefon untuk agen"
+msgstr "Telefonmező az ügyintézőnél"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Agent data field from which the mobile phone number for sending messages via"
 " SMS should be taken."
-msgstr "Medan data agen di mana daripada nombor telefon untuk menghantar pesanan melalui SMS perlu diambil."
+msgstr "Ügyintézői adatmező, amelyből az SMS-ben történő üzenetküldésekhez a mobiltelefonszámot ki kell venni."
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone field for customer"
-msgstr "Medan telefon untuk pelanggan"
+msgstr "Telefonmező az ügyfélnél"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Customer data field from which the mobile phone number for sending messages "
 "via SMS should be taken."
-msgstr "Bidang data pelanggan yang nombor telefon bimbit untuk menghantar mesej melalui SMS perlu diambil."
+msgstr "Ügyfél adatmező, amelyből az SMS-ben történő üzenetküldésekhez a mobiltelefonszámot ki kell venni."
 
 #. Template: AdminCloudServiceSMS
 msgid "Sender string"
-msgstr "String penghantar"
+msgstr "Küldő szövege"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Will be shown as sender name of the SMS (Not longer than 11 characters)."
-msgstr "Akan ditunjukkan sebagai nama penghantar SMS (Tidak lebih daripada 11 aksara)."
+msgstr "Az SMS-küldő neveként fog megjelenni (nem lehet hosszabb 11 karakternél)."
 
 #. Template: AdminCloudServiceSMS
 msgid "This field is required and must be not longer than 11 characters."
-msgstr "Bidang ini diperlukan dan mestilah tidak melebihi 11 aksara."
+msgstr "Ez a mező kötelező, és nem lehet hosszabb 11 karakternél."
 
 #. Template: AdminCloudServiceSMS
 msgid "Allowed role members"
-msgstr "Membenarkan peranan ahli"
+msgstr "Engedélyezett szereptagok"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "If selected, only users assigned to these roles will be able to receive "
 "messages via SMS (optional)."
-msgstr "Jika dipilih, hanya pengguna yang diberikan peranan ini akan dapat menerima mesej melalui SMS (pilihan)."
+msgstr "Ha ki van választva, akkor csak az ezekhez a szerephez hozzárendelt felhasználók lesznek képesek SMS-ben üzeneteket fogadni (opcionális)."
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
-msgstr "Simpan konfigurasi"
+msgstr "Beállítások mentése"
 
 #. Template: AdminCloudServiceSMS
 msgid "Data Protection Information"
-msgstr "Maklumat Perlindungan Data"
+msgstr "Adatvédelmi információk"
 
 #. Template: AdminContactWithData
 msgid "Contact with data management"
-msgstr "Kenalan dengan pengurusan data"
+msgstr "Adatokkal rendelkező partner kezelése"
 
 #. Template: AdminContactWithData
 msgid "Add contact with data"
-msgstr "Tambah kenalan dengan data"
+msgstr "Adatokkal rendelkező partner hozzáadása"
 
 #. Template: AdminContactWithData
 msgid "Please enter a search term to look for contacts with data."
-msgstr "Sila masukkan istilah carian untuk mencari kenalan dengan data."
+msgstr "Adjon meg egy keresési kifejezést az adatokkal rendelkező partnerek kereséséhez."
 
 #. Template: AdminContactWithData
 msgid "Edit contact with data"
-msgstr "Edit kenalan dengan data"
+msgstr "Adatokkal rendelkező partner szerkesztése"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "These are the possible data attributes for contacts."
-msgstr "Ini adalah kemungkinan sifat-sifat data bagi kenalan."
+msgstr "Ezek a lehetséges adatattribútumok a partnereknél."
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "Mandatory fields"
-msgstr "Medan wajib"
+msgstr "Kötelező mezők"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid ""
 "Comma separated list of mandatory keys (optional). Keys 'Name' and 'ValidID'"
 " are always mandatory and doesn't have to be listed here."
-msgstr "Dipisahkan oleh koma senarai kekunci mandatori (pilihan). Kekunci 'Nama'  dan 'ValidID' sentiasa wajib dan tidak perlu disenaraikan di sini."
+msgstr "A kötelező kulcsok vesszővel elválasztott listája (opcionális). A „Name” és a „ValidID” kulcsok mindig kötelezőek, és nem kell azokat itt felsorolni."
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "Sorted fields"
-msgstr "Medan dikelaskan"
+msgstr "Rendezett mezők"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid ""
 "Comma separated list of keys in sort order (optional). Keys listed here come"
 " first, all remaining fields afterwards and sorted alphabetically."
-msgstr "Dipisahkan oleh koma senarai kekunci untuk jenis (pilihan). Kunci disenaraikan di sini datang terdahulu, semua medan yang tinggal selepas itu dan disusun mengikut abjad."
+msgstr "A kulcsok vesszővel elválasztott listája a rendezési sorrendben (opcionális). Az itt felsorolt kulcsok jönnek először, azután az összes hátralévő mező ábécé sorrendbe rendezve."
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "Searchable fields"
-msgstr "Medan boleh dicari"
+msgstr "Kereshető mezők"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid ""
 "Comma separated list of searchable keys (optional). Key 'Name' is always "
 "searchable and doesn't have to be listed here."
-msgstr "Dipisahkan oleh koma senarai kekunci dicari (pilihan). Kunci 'Nama' sentiasa boleh dicari dan tidak perlu disenaraikan di sini."
+msgstr "A kereshető kulcsok vesszővel elválasztott listája (opcionális). A „Name” kulcs mindig kereshető, és nem kell azt itt felsorolni."
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "Add/Edit"
-msgstr "Tambah/Edit"
+msgstr "Hozzáadás/szerkesztés"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Datatype"
-msgstr "JenisData"
+msgstr "Adattípus"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Searchfield"
-msgstr "MedanCarian"
+msgstr "Keresőmező"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Listfield"
-msgstr "Medansenarai"
+msgstr "Listamező"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Driver"
-msgstr "Pemacu"
+msgstr "Illesztőprogram"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Server"
-msgstr "Pelayan"
+msgstr "Kiszolgáló"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Table / View"
-msgstr "Jadual / Paparan"
+msgstr "Tábla / nézet"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "CacheTTL"
@@ -193,31 +193,31 @@ msgstr "CacheTTL"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Searchprefix"
-msgstr "Cariprefix"
+msgstr "Keresési előtag"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Searchsuffix"
-msgstr "Carisuffix"
+msgstr "Keresési utótag"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Result Limit"
-msgstr "Had Keputusan"
+msgstr "Találati korlát"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Case Sensitive"
-msgstr "Huruf Sensitif"
+msgstr "Kis- és nagybetűk megkülönböztetése"
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
-msgstr "Nombor SMS Penerima"
+msgstr "Címzett SMS számai"
 
 #. Template: AgentChat
 msgid "Manage Chats"
-msgstr "Urus Chat"
+msgstr "Csevegések kezelése"
 
 #. Template: AgentChat
 msgid "Hints"
-msgstr "Petunjuk"
+msgstr "Tippek"
 
 #. Template: AgentChat
 msgid ""
@@ -226,459 +226,459 @@ msgid ""
 "the page), starting a new chat or other chat-related actions will possibly "
 "reload this tab any time. This means that it is recommended to leave the "
 "chat manager opened in this particular tab."
-msgstr "Sila ambil perhatian: Tab ini akan digunakan oleh mana-mana permintaan yang berkaitan dengan chat. Jika anda meninggalkan pengurus chat (contohnya dengan menggunakan bar navigasi di bahagian atas halaman), memulakan chat baru atau tindakan chat lain yang berkaitan mungkin akan menambah nilai tab ini bila-bila masa. Ini bermakna adalah disyorkan untuk meninggalkan pengurus chat terbuka pada tab tertentu."
+msgstr "Ne feledje: ezt a lapot fogja használni minden olyan kérés, amely a csevegésekhez kapcsolódik. Ha elhagyja a csevegéskezelőt (például az oldal tetején lévő navigációs sáv használatával), új csevegést vagy egyéb csevegéssel kapcsolatos műveleteket indít, akkor az esetleg újra fogja tölteni ezt a lapot minden esetben. Ez azt jelenti, hogy ajánlott kilépni azon a bizonyos lapon megnyitott csevegéskezelőből."
 
 #. Template: AgentChat
 msgid "General Chat Requests From Customers"
-msgstr "Permohonan Chat Umum Daripada Pelanggan"
+msgstr "Általános csevegéskérések az ügyfelektől"
 
 #. Template: AgentChat
 msgid "My Chat Channels"
-msgstr "Saluran Chat Saya"
+msgstr "Saját csevegőcsatornák"
 
 #. Template: AgentChat
 msgid "All Chat Channels"
-msgstr "Semua Saluran Chat"
+msgstr "Minden csevegőcsatorna"
 
 #. Template: AgentChat
 msgid "Channel"
-msgstr "Saluran"
+msgstr "Csatorna"
 
 #. Template: AgentChat
 msgid "Requester"
-msgstr "Pemohon"
+msgstr "Kérelmező"
 
 #. Template: AgentChat
 msgid "Chat requests are being loaded, please stand by..."
-msgstr "Permohonan chat sedang dimuatnaik, sila bersedia..."
+msgstr "A csevegéskérések betöltése folyamatban van, kérem várjon…"
 
 #. Template: AgentChat
 msgid "General Chat Requests From Public Users"
-msgstr "Permohonan Chat Umum Daripada Pengguna Awam"
+msgstr "Általános csevegéskérések a nyilvános felhasználóktól"
 
 #. Template: AgentChat
 msgid "Personal Chat Requests For You"
-msgstr "Permohonan Chat Peribadi Untuk Anda"
+msgstr "Személyes csevegéskérések Önnek"
 
 #. Template: AgentChat
 msgid "My Active Chats"
-msgstr "Chat Aktif Saya"
+msgstr "Saját aktív csevegések"
 
 #. Template: AgentChat
 msgid "Open ticket"
-msgstr "Buka tiket"
+msgstr "Jegy megnyitása"
 
 #. Template: AgentChat
 msgid "Open company"
-msgstr "Buka syarikat"
+msgstr "Vállalat megnyitása"
 
 #. Template: AgentChat
 msgid "Discard & close this chat"
-msgstr "Buang & tutup chat ini"
+msgstr "Eldobás és a csevegés bezárása"
 
 #. Template: AgentChat
 msgid "Monitoring all activity in this chat"
-msgstr "Memantau kesemua aktiviti dalam chat ini"
+msgstr "Az összes tevékenység megfigyelése ebben a csevegésben"
 
 #. Template: AgentChat
 msgid "Monitoring customer activity in this chat"
-msgstr "Memantau aktiviti pelanggan dalam chat ini"
+msgstr "Az ügyféltevékenység megfigyelése ebben a csevegésben"
 
 #. Template: AgentChat
 msgid "Not monitoring this chat"
-msgstr "Tidak memantau chat ini"
+msgstr "Ne figyelje meg ezt a csevegést"
 
 #. Template: AgentChat
 msgid "Toggle settings"
-msgstr "Tetapan toggle"
+msgstr "Beállítások átváltása"
 
 #. Template: AgentChat
 msgid "Leave chat"
-msgstr "Tinggalkan chat"
+msgstr "Csevegés elhagyása"
 
 #. Template: AgentChat
 msgid "Leave"
-msgstr "Tinggalkan"
+msgstr "Kilépés"
 
 #. Template: AgentChat
 msgid "Create a new phone ticket from this chat and close it afterwards"
-msgstr "Cipta tiket telefon baharu daripada chat ini dan tutup selepasnya"
+msgstr "Új telefonos jegy létrehozása ebből a csevegésből, és azután bezárás"
 
 #. Template: AgentChat
 msgid "Append this chat to an existing ticket and close it afterwards"
-msgstr "Lampirkan chat ini ke tiket sedia ada dan tutup selepasnya"
+msgstr "Csevegés hozzáfűzése egy meglévő jegyhez, és azután bezárás"
 
 #. Template: AgentChat
 msgid "Append"
-msgstr "Lampirkan"
+msgstr "Hozzáfűzés"
 
 #. Template: AgentChat
 msgid "Invite additional agent to join the chat"
-msgstr "Jemput agen tambahan untuk menyertai chat ini"
+msgstr "További ügyintézők meghívása, hogy csatlakozzanak a csevegéshez"
 
 #. Template: AgentChat
 msgid "Invite"
-msgstr "Jemput"
+msgstr "Meghívás"
 
 #. Template: AgentChat
 msgid "Change chat channel"
-msgstr "Tukar saluran chat"
+msgstr "Csevegőcsatorna megváltoztatása"
 
 #. Template: AgentChat
 msgid "Channel change"
-msgstr "Tukar saluran"
+msgstr "Csatornaváltoztatás"
 
 #. Template: AgentChat
 msgid "Switch to participant"
-msgstr "Beralih kepada peserta"
+msgstr "Váltás a résztvevőre"
 
 #. Template: AgentChat
 msgid "Participant"
-msgstr "Peserta"
+msgstr "Résztvevő"
 
 #. Template: AgentChat
 msgid "Switch to an observer"
-msgstr "Beralih kepada pemerhati"
+msgstr "Váltás egy megfigyelőre"
 
 #. Template: AgentChat
 msgid "Observer"
-msgstr "Pemerhati"
+msgstr "Megfigyelő"
 
 #. Template: AgentChat
 msgid "Download this Chat"
-msgstr "Muat turun Chat ini"
+msgstr "Csevegés letöltése"
 
 #. Template: AgentChat
 msgid "Join invited chat as an observer"
-msgstr "Sertai chat jemputan sebagai pemerhati"
+msgstr "Csatlakozás a meghívott csevegéshez megfigyelőként"
 
 #. Template: AgentChat
 msgid "Join invited chat as a participant"
-msgstr "Sertai chat jemputan sebagai peserta"
+msgstr "Csatlakozás a meghívott csevegéshez résztvevőként"
 
 #. Template: AgentChat
 msgid "Open chat in a Popup"
-msgstr "Buka chat dalam Popup"
+msgstr "Csevegés megnyitása felugró ablakban"
 
 #. Template: AgentChat
 msgid "New window"
-msgstr "Tetingkap baru"
+msgstr "Új ablak"
 
 #. Template: AgentChat
 msgid "New Message"
-msgstr "Mesej baharu"
+msgstr "Új üzenet"
 
 #. Template: AgentChat
 msgid "(Shift + Enter for new line)"
-msgstr "(Shift + Enter untuk baris baru)"
+msgstr "(Shift + Enter az új sorhoz)"
 
 #. Template: AgentChat
 msgid "%s has left this chat."
-msgstr "%s telah meninggalkan ruangan sembang ini."
+msgstr "%s elhagyta ezt a csevegést."
 
 #. Template: AgentChat
 msgid "Online agents"
-msgstr "Agen dalam talian"
+msgstr "Elérhető ügyintézők"
 
 #. Template: AgentChat
 msgid "Reload online agents"
-msgstr "Muat semula agen dalam talian"
+msgstr "Elérhető ügyintézők újratöltése"
 
 #. Template: AgentChat
 msgid "Destination channel"
-msgstr "Saluran destinasi"
+msgstr "Célcsatorna"
 
 #. Template: AgentChat
 msgid "Open chat"
-msgstr "Buka chat"
+msgstr "Csevegés megnyitása"
 
 #. Template: AgentChat
 msgid "This user is currently active."
-msgstr "Pengguna ini sedang aktif."
+msgstr "Ez a felhasználó jelenleg aktív."
 
 #. Template: AgentChat
 msgid "This user is currently away."
-msgstr "Pengguna ini sedang tiada."
+msgstr "Ez a felhasználó jelenleg távol van."
 
 #. Template: AgentChat
 msgid "This user is currently unavailable."
-msgstr "Pengguna ini sedang  tidak tersedia."
+msgstr "Ez a felhasználó jelenleg nem érhető el."
 
 #. Template: AgentChat
 msgid "This user is currently offline."
-msgstr "Pengguna ini sedang tutup talian."
+msgstr "Ez a felhasználó jelenleg kilépett."
 
 #. Template: AgentChat
 msgid "This user has already left the chat or has not yet joined it."
-msgstr "Pengguna ini sudah meninggalkan chat atau tiada sesiapa yang menyertainya."
+msgstr "Ez a felhasználó már elhagyta a csevegést, vagy még nem csatlakozott hozzá."
 
 #. Template: AgentChat
 msgid ""
 "You are no longer in this chat. Click this message to remove the chat box."
-msgstr "Anda sudah tidak lagi di dalam chat ini. Klik mesej ini untuk memadam kotak chat."
+msgstr "Ön többé már nincs ebben a csevegésben. Kattintson erre az üzenetre a csevegődoboz eltávolításához."
 
 #. Template: AgentChat
 msgid "There are currently no chat requests."
-msgstr "Tiada permohonan chat terkini."
+msgstr "Jelenleg nincsenek csevegéskérések."
 
 #. Template: AgentChat
 msgid ""
 "This will permanently delete the chat contents. Do you want to continue?"
-msgstr "Ini akan memadam sepenuhnya kandungan chat. Adakah anda ingin meneruskan?"
+msgstr "Ez véglegesen törölni fogja a csevegéstartalmakat. Szeretné folytatni?"
 
 #. Template: AgentChat
 msgid "This chat request was already accepted by another person."
-msgstr "Permohonan chat ini sudah diterima oleh orang lain."
+msgstr "A csevegéskérést már elfogadta egy másik személy."
 
 #. Template: AgentChat
 msgid "You have no permission to accept this chat request."
-msgstr "Anda tidak memiliki kebenaran untuk menerima permohonan chat ini."
+msgstr "Nincs jogosultsága elfogadni ezt a csevegéskérést."
 
 #. Template: AgentChat
 msgid "An internal error occurred."
-msgstr "Berlakunya kesilapan dalaman."
+msgstr "Belső hiba történt."
 
 #. Template: AgentChat
 msgid "Please select a user."
-msgstr "Sila pilih pengguna."
+msgstr "Válasszon egy felhasználót."
 
 #. Template: AgentChat
 msgid "Please select a permission level."
-msgstr "Sila pilih peringkat keizinan."
+msgstr "Válasszon egy jogosultsági szintet."
 
 #. Template: AgentChat
 msgid "Invite Agent."
-msgstr "Jemput Agen"
+msgstr "Ügyintéző meghívása."
 
 #. Template: AgentChat
 msgid "Please, select destination chat channel."
-msgstr "Sila pilih destinasi saluran chat."
+msgstr "Válasszon cél csevegőcsatornát."
 
 #. Template: AgentChat
 msgid "Please select a channel."
-msgstr "Sila pilih saluran."
+msgstr "Válasszon egy csatornát."
 
 #. Template: AgentChat
 msgid "Chat preview"
-msgstr "Perlihat chat"
+msgstr "Csevegés előnézet"
 
 #. Template: AgentChat
 msgid "Please select a valid channel."
-msgstr "Sila pilih saluran yang sah."
+msgstr "Válasszon egy érvényes csatornát."
 
 #. Template: AgentChat
 msgid "Agent to customer chat."
-msgstr "Agen untuk chat pelanggan."
+msgstr "Ügyintéző - ügyfél csevegés."
 
 #. Template: AgentChat
 msgid "Customer to agent chat."
-msgstr "Pelanggan untuk chat agen."
+msgstr "Ügyfél - ügyintéző csevegés."
 
 #. Template: AgentChat
 msgid "Agent to agent chat."
-msgstr "Agen untuk chat agen."
+msgstr "Ügyintéző - ügyintéző csevegés."
 
 #. Template: AgentChat
 msgid "Public to agent chat."
-msgstr "Orang awam untuk chat agen."
+msgstr "Nyilvános felhasználó - ügyintéző csevegés."
 
 #. Template: AgentChat
 msgid "You can't leave Customer alone in the chat."
-msgstr "Anda tidak boleh meninggalkan Pelanggan berseorangan di dalam chat."
+msgstr "Nem hagyhatja egyedül az ügyfelet a csevegésben."
 
 #. Template: AgentChat
 msgid "You"
-msgstr "Anda"
+msgstr "Ön"
 
 #. Template: AgentChat
 msgid "Your chat could not be started because of an internal error."
-msgstr "Chat anda tidak dapat dimulakan kerana kesilapan dalaman."
+msgstr "A csevegését nem sikerült elindítani egy belső hiba miatt."
 
 #. Template: AgentChat
 msgid "Your chat request was created."
-msgstr "Permohonan chat anda sudah dicipta."
+msgstr "A csevegéskérése létrejött."
 
 #. Template: AgentChat
 msgid "There are currently %s open chat requests."
-msgstr "Pada masa ini terdapat permintaan chat terbuka %s."
+msgstr "Jelenleg %s nyitott csevegéskérés van."
 
 #. Template: AgentChat
 msgid "User was already invited to your chat!"
-msgstr "Pengguna sudah dijemput untuk chat anda!"
+msgstr "A felhasználót már meghívták a csevegésbe!"
 
 #. Template: AgentChat
 msgid "Insufficient permissions."
-msgstr "Kebenaran tidak mencukupi."
+msgstr "Nincsenek elegendő jogosultságai."
 
 #. Template: AgentChat
 msgid "System was unable to save your sequence of chats."
-msgstr "Sistem tidak dapat menyimpan turutan chat anda."
+msgstr "A rendszer nem tudta elmenteni a csevegések sorrendjét."
 
 #. Template: AgentChatAppend
 msgid "Append Chat to Ticket"
-msgstr "Lampirkan Chat untuk Tiket"
+msgstr "Csevegés hozzáfűzése egy jegyhez"
 
 #. Template: AgentChatAppend
 msgid "Append to"
-msgstr "Lampirkan ke"
+msgstr "Hozzáfűzés ehhez"
 
 #. Template: AgentChatAppend
 msgid "The chat will be appended as a new article to the chosen ticket."
-msgstr "Chat ini akan dilampirkan sebagai artikel baru untuk tiket yang dipilih."
+msgstr "A csevegés egy új bejegyzésként lesz hozzáfűzve a választott jegyhez."
 
 #. Template: AgentChatPopup
 msgid "Chat with"
-msgstr "Chat dengan"
+msgstr "Csevegés vele"
 
 #. Template: AgentChatPopup
 msgid "Leave Chat"
-msgstr "Tinggalkan Chat"
+msgstr "Csevegés elhagyása"
 
 #. Template: AgentChatPopup
 msgid "This user is currently in the chat."
-msgstr "Pengguna ini sedang dalam chat."
+msgstr "Ez a felhasználó jelenleg a csevegésben van."
 
 #. Template: AgentChatPreview
 msgid "Current chat channel"
-msgstr "Saluran chat terkini"
+msgstr "Jelenlegi csevegőcsatorna"
 
 #. Template: AgentChatPreview
 msgid "Available channels"
-msgstr "Saluran tersedia"
+msgstr "Elérhető csatornák"
 
 #. Template: AgentChatPreview
 msgid "Reload"
-msgstr "Muat semula"
+msgstr "Újratöltés"
 
 #. Template: AgentChatPreview
 msgid "Update Channel"
-msgstr "Kemaskini saluran"
+msgstr "Csatorna frissítése"
 
 #. Template: AgentChatPreview
 msgid "Accept"
-msgstr "Terima"
+msgstr "Elfogadás"
 
 #. Template: AgentChatPreview
 msgid "Decline"
-msgstr "Tolak"
+msgstr "Elutasítás"
 
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
 msgid "Detailed search"
-msgstr "Butiran carian"
+msgstr "Részletes keresés"
 
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
 msgid "Add an additional attribute"
-msgstr "Tambah sifat atribut tambahan"
+msgstr "Egy további attribútum hozzáadása"
 
 #. Template: AgentDynamicFieldDatabaseDetails
 msgid "Details view"
-msgstr "Lihat butiran"
+msgstr "Részletek nézet"
 
 #. Template: AgentNotificationViewNavBar
 msgid "Notifications per page"
-msgstr "Pemberitahuan setiap muka surat"
+msgstr "Oldalankénti értesítések"
 
 #. Template: AgentNotificationViewSmall
 msgid "No notification data found."
-msgstr "Tiada data pemberitahuan dijumpai."
+msgstr "Nem találhatók értesítési adatok."
 
 #. Template: AgentNotificationViewSmall
 msgid "Related To"
-msgstr "Berkaitan dengan"
+msgstr "Ehhez kapcsolódva"
 
 #. Template: AgentNotificationViewSmall
 msgid "Select this notification"
-msgstr "Pilih pemberitahuan ini"
+msgstr "Értesítés kijelölése"
 
 #. Template: AgentNotificationViewSmall
 msgid "Zoom into"
-msgstr "Zum ke"
+msgstr "Nagyítás"
 
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss this notification"
-msgstr "Abaikan pemberitahuan ini"
+msgstr "Értesítés eltüntetése"
 
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss Selected Notifications"
-msgstr "Abaikan Pemberitahuan Dipilih"
+msgstr "Kijelölt értesítések eltüntetése"
 
 #. Template: AgentNotificationViewSmall
 msgid "Do you really want to dismiss the selected notifications?"
-msgstr "Adakah anda benar-benar mahu untuk menyingkirkan pemberitahuan dipilih?"
+msgstr "Valóban el szeretné tüntetni a kijelölt értesítéseket?"
 
 #. Template: AgentNotificationViewSmall
 msgid "OTRS Notification"
-msgstr "Pemberitahuan OTRS"
+msgstr "OTRS értesítés"
 
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss"
-msgstr "Abaikan"
+msgstr "Eltüntetés"
 
 #. Template: AgentStatisticsReportsAdd
 msgid "Reports » Add"
-msgstr "Laporan » Tambah"
+msgstr "Jelentések » Hozzáadás"
 
 #. Template: AgentStatisticsReportsAdd
 msgid "Add New Statistics Report"
-msgstr "Tambah Laporan Statistik Baru"
+msgstr "Új statisztikai jelentés hozzáadása"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Reports » Edit — %s"
-msgstr "Laporan » Edit — %s"
+msgstr "Jelentések » Szerkesztés — %s"
 
 #. Template: AgentStatisticsReportsEdit
 msgid ""
 "Here you can combine several statistics to a report which you can generate "
 "as a PDF manually or automatically at configured times."
-msgstr "Di sini anda boleh menggabungkan beberapa statistik ke laporan yang anda boleh janakan sebagai PDF secara manual atau secara automatik pada masa-masa dikonfigurasikan."
+msgstr "Itt állíthat össze számos statisztikát egy olyan jelentésbe, amelyet előállíthat PDF-ként kézzel vagy automatikusan a beállított alkalmakkor."
 
 #. Template: AgentStatisticsReportsEdit
 msgid ""
 "Please note that you can only select charts as statistics output format if "
 "you configured PhantomJS on your system."
-msgstr "Sila ambil perhatian bahawa anda hanya boleh memilih carta sebagai format output statistik jika anda konfigurasikan PhantomJS pada sistem anda."
+msgstr "Ne feledje, hogy csak akkor választhat ki diagramokat a statisztikák kimeneti formátumaként, ha beállította a PhantomJS böngészőt a rendszeren."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Configure PhantomJS"
-msgstr "Mengkonfigurasi PhantomJS"
+msgstr "PhantomJS beállítása"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "General settings"
-msgstr "Tetapan umum"
+msgstr "Általános beállítások"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Automatic generation settings"
-msgstr "Tetapan penjanaan automatik"
+msgstr "Automatikus előállítás beállításai"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Automatic generation times (cron)"
-msgstr "Tetapan penjanaan masa (cron)"
+msgstr "Automatikus előállítás időpontjai (cron)"
 
 #. Template: AgentStatisticsReportsEdit
 msgid ""
 "Specify when the report should be automatically generated in cron format, e."
 " g. \"10 1 * * *\" for every day at 1:10 am."
-msgstr "Nyatakan apabila laporan itu perlu secara automatik dijana dalam format cron , contoh: \"10 1 * * *\" untuk setiap hari pada 01:10 am. "
+msgstr "Annak megadása cron formátumban, hogy a jelentést mikor kell automatikusan előállítani, például „10 1 * * *” esetén minden nap éjjel 1:10-kor."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Last automatic generation time"
-msgstr "Tetapan penjanaan masa akhir "
+msgstr "Utolsó automatikus előállítás ideje"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Next planned automatic generation time"
-msgstr "Masa penjanaan automatik yang dirancang seterusnya"
+msgstr "Következő tervezett automatikus előállítás ideje"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Automatic generation language"
-msgstr "Bahasa penjanaan automatik"
+msgstr "Automatikus előállítás nyelve"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "The language to be used when the report is automatically generated."
-msgstr "Bahasa yang akan digunakan apabila laporan dijana secara automatik."
+msgstr "A jelentés automatikus előállításakor használandó nyelv."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email subject"
-msgstr "Subjek emel"
+msgstr "E-mail tárgya"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Specify the subject for the automatically generated email."
@@ -686,462 +686,462 @@ msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email body"
-msgstr "Badan emel"
+msgstr "E-mail törzse"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Specify the text for the automatically generated email."
-msgstr "Tentukan teks untuk emel yang dijana secara automatik."
+msgstr "A szöveg megadása az automatikusan előállított e-mailhez."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email recipients"
-msgstr "Penerima emel"
+msgstr "E-mail címzettjei"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Specify recipient email addresses (comma separated)."
-msgstr "Nyatakan alamat emel penerima (dipisahkan oleh koma)."
+msgstr "A címzett e-mail címeinek megadása (vesszővel elválasztva)."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Output settings"
-msgstr "Tetapan output"
+msgstr "Kimeneti beállítások"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Headline"
-msgstr "Tajuk utama"
+msgstr "Főcím"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Caption for preamble"
-msgstr "Keterangan untuk mukadimah"
+msgstr "Az előszó felirata"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Preamble"
-msgstr "Mukadimah"
+msgstr "Előszó"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Caption for epilogue"
-msgstr "Keterangan untuk penutup"
+msgstr "Az utószó felirata"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Epilogue"
-msgstr "Penutup"
+msgstr "Utószó"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Add statistic to report"
-msgstr "Tambah statistik ke laporan"
+msgstr "Statisztika hozzáadása a jelentéshez"
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Reports » Overview"
-msgstr "Laporan » Gambaran keseluruhan"
+msgstr "Jelentések » Áttekintő"
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Statistics Reports"
-msgstr "Laporan Statistik "
+msgstr "Statisztikai jelentések"
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Edit statistics report \"%s\"."
-msgstr "Edit laporan statistik \"%s\"."
+msgstr "Statisztikai jelentés szerkesztése: „%s”."
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Delete statistics report \"%s\""
-msgstr "Padam laporan statistik \"%s\"."
+msgstr "Statisztikai jelentés törlése: „%s”"
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Do you really want to delete this report?"
-msgstr "Adakah anda pasti untuk memadam laporan ini?"
+msgstr "Valóban törölni szeretné ezt a jelentést?"
 
 #. Template: AgentStatisticsReportsView
 msgid "Reports » View — %s"
-msgstr "Laporan » Lihat - % s"
+msgstr "Jelentések » Nézet — %s"
 
 #. Template: AgentStatisticsReportsView
 msgid ""
 "This statistics report contains configuration errors and can currently not "
 "be used."
-msgstr "Laporan statistik ini mengandungi ralat konfigurasi dan pada masa ini tidak boleh digunakan."
+msgstr "Ez a statisztikai jelentés beállítási hibákat tartalmaz, és jelenleg nem használható."
 
 #. Template: AgentTicketAttachmentView
 msgid "Attachments of"
-msgstr "Lampiran"
+msgstr "Melléklete ennek"
 
 #. Template: AgentTicketAttachmentView
 msgid "Attachment Overview"
-msgstr "Gambaran Keseluruhan Lampiran"
+msgstr "Melléklet áttekintő"
 
 #. Template: AgentTicketAttachmentView
 msgid "This ticket does not have any attachments."
-msgstr "Tiket ini tidak mempunyai lampiran."
+msgstr "Ennek a jegynek nincs egyetlen melléklete sem."
 
 #. Template: AgentTicketAttachmentView
 msgid "Filter Attachments"
-msgstr "Tapis Lampiran"
+msgstr "Mellékletek szűrése"
 
 #. Template: AgentTicketAttachmentView
 msgid "Select All"
-msgstr "Pilih Semua"
+msgstr "Összes kijelölése"
 
 #. Template: AgentTicketAttachmentView
 msgid "Click to download this file"
-msgstr "Klik untuk muat turun fail ini"
+msgstr "Kattintson a fájl letöltéséhez"
 
 #. Template: AgentTicketAttachmentView
 msgid "Open article in main window"
-msgstr "Buka artikel dalam tetingkap utama"
+msgstr "Bejegyzés megnyitása a főablakban"
 
 #. Template: AgentTicketAttachmentView
 msgid "Download selected files as archive"
-msgstr "Muat turun fail dipilih sebagai arkib"
+msgstr "A kijelölt fájlok letöltése archívumként"
 
 #. Template: CustomerChat
 msgid "%s has joined this chat."
-msgstr "%s telah menyertai chat ini."
+msgstr "%s csatlakozott a csevegéshez."
 
 #. Template: CustomerChat
 msgid "Incoming chat requests"
-msgstr "Permintaan chat masuk"
+msgstr "Bejövő csevegéskérések"
 
 #. Template: CustomerChat
 msgid "Outgoing chat requests"
-msgstr "Permintaan chat keluar"
+msgstr "Kimenő csevegéskérések"
 
 #. Template: CustomerChat
 msgid "Active chats"
-msgstr "Chat aktif"
+msgstr "Aktív csevegések"
 
 #. Template: CustomerChat
 msgid "Closed chats"
-msgstr "Chat ditutup"
+msgstr "Bezárt csevegések"
 
 #. Template: CustomerChat
 msgid "Chat request description"
-msgstr "Penerangan permohonan chat"
+msgstr "Csevegéskérés leírása"
 
 #. Template: CustomerChat
 msgid "Create new ticket"
-msgstr "Cipta tiket baru"
+msgstr "Új jegy létrehozása"
 
 #. Template: CustomerChat
 msgid "Add an article"
-msgstr "Tambah artikel"
+msgstr "Bejegyzés hozzáadása"
 
 #. Template: CustomerChat
 msgid "Start a new chat"
-msgstr "Mulakan chat baru"
+msgstr "Új csevegés indítása"
 
 #. Template: CustomerChat
 msgid "Select channel"
-msgstr "Pilih saluran"
+msgstr "Csatorna kiválasztása"
 
 #. Template: CustomerChat
 msgid "Add to an existing ticket"
-msgstr "Tambah ke tiket sedia ada"
+msgstr "Hozzáadás egy meglévő jegyhez"
 
 #. Template: CustomerChat
 msgid "Active Chat"
-msgstr "Chat Aktif"
+msgstr "Aktív csevegés"
 
 #. Template: CustomerChat
 msgid "Download Chat"
-msgstr "Muat turun chat"
+msgstr "Csevegés letöltése"
 
 #. Template: CustomerChat
 msgid "Chat is being loaded..."
-msgstr "Chat sedang dimuatkan..."
+msgstr "A csevegés betöltése folyamatban…"
 
 #. Template: CustomerChat
 msgid "Chat completed"
-msgstr "Chat lengkap"
+msgstr "Csevegés befejezve"
 
 #. Template: OutputFilterPostSLASelectionDialog
 msgid "Please confirm your selection"
-msgstr "Sila sahkan pilihan anda"
+msgstr "Erősítse meg a választását"
 
 #. Template: PublicChat
 msgid "Your name"
-msgstr "Nama anda"
+msgstr "Az Ön neve"
 
 #. Template: PublicChat
 msgid "Start a new Chat"
-msgstr "Mulakan Chat baru"
+msgstr "Új csevegés indítása"
 
 #. Template: PublicChat
 msgid "Chat complete"
-msgstr "Chat lengkap"
+msgstr "Csevegés befejezve"
 
 #. Template: StatsWidget
 msgid "Remove statistic"
-msgstr "Keluarkan statistik"
+msgstr "Statisztika eltávolítása"
 
 #. Template: StatsWidget
 msgid ""
 "If you don't specify a title here, the title of the statistic will be used."
-msgstr "Jika anda tidak menentukan tajuk di sini, tajuk statistik akan digunakan."
+msgstr "Ha nem meg itt egy címet, akkor a statisztika címe lesz használva."
 
 #. Template: StatsWidget
 msgid "Preface"
-msgstr "Prakata"
+msgstr "Előszó"
 
 #. Template: StatsWidget
 msgid "Postface"
-msgstr "Postface"
+msgstr "Utószó"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat Channel %s added"
-msgstr "Saluran Chat %s ditambah"
+msgstr "Csevegőcsatorna hozzáadva: %s"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat channel %s edited"
-msgstr "Saluran chat %s diedit"
+msgstr "Csevegőcsatorna szerkesztve: %s"
 
 #. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
 msgid "Cloud service \"%s\" updated!"
-msgstr "Servis cloud \"%s\" dikemaskini!"
+msgstr "Felhőszolgáltatás frissítve: „%s”!"
 
 #. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
 msgid "Cloud Service config \"%s\" saved!"
-msgstr "Konfigurasi Servis Cloud \"%s\" disimpan!"
+msgstr "Felhőszolgáltatás beállítása elmentve: „%s”!"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Chat %s has been closed and was successfully appended to Ticket %s."
-msgstr "Chat %s telah ditutup dan telah berjaya dilampirkan pada tiket %s."
+msgstr "A(z) %s csevegést bezárták, és sikeresen hozzá lett fűzve a következő jegyhez: %s."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
-msgstr "%s telah menyertai chat ini sebagai pemerhati."
+msgstr "%s csatlakozott a csevegéshez megfigyelőként."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
-msgstr "Permintaan baru untuk menyertai chat"
+msgstr "Új kérés egy csevegéshez való csatlakozásra"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Agent invited %s."
-msgstr "Agen menjemput %s."
+msgstr "%s meghívást kapott egy ügyintézőtől."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s changed chat channel to %s."
-msgstr "%s menukar saluran chat kepada %s."
+msgstr "%s megváltoztatta a csevegőcsatornát erre: %s."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has switched to participant mode."
-msgstr "%s telah menukar ke mod peserta."
+msgstr "%s átváltott résztvevő módra."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has switched to observer mode."
-msgstr "%s telah menukar ke mod pemerhati."
+msgstr "%s átváltott megfigyelő módra."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has rejected the chat request."
-msgstr "%s telah menolak permohonan chat."
+msgstr "%s elutasította a csevegéskérést."
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
-msgstr "Semua pemberitahuan"
+msgstr "Minden értesítés"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Seen Notifications"
-msgstr "Pemberitahuan dilihat"
+msgstr "Olvasott értesítések"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Unseen Notifications"
-msgstr "Pemberitahuan tidak dilihat"
+msgstr "Olvasatlan értesítések"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Notification Web View"
-msgstr "Pemberitahuan Paparan Web"
+msgstr "Értesítési webnézet"
 
 #. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
 msgid "This name is already in use, please choose a different one."
-msgstr "Nama ini telah digunakan, sila pilih yang lain."
+msgstr "Ez a név már használatban van, válasszon egy másik nevet."
 
 #. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
 msgid "Please provide a valid cron entry."
-msgstr "Sila berikan kemasukan cron yang sah."
+msgstr "Egy érvényes cron bejegyzést adjon meg."
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
 msgid "You are unavailable for external chats. Would you like to go online?"
-msgstr "Anda tidak tersedia untuk chat luar. Adakah anda ingin pergi ke dalam talian?"
+msgstr "Nem érhető el a külső csevegésekhez. Szeretne elérhető lenni?"
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatPreferredChannelsCheck.pm
 msgid "You don't have any external chat channel assigned."
-msgstr "Anda tidak mempunyai mana-mana saluran chat luaran yang diberikan."
+msgstr "Nincs egyetlen hozzárendelt külső csevegőcsatornája sem."
 
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Dismiss Selected"
-msgstr "Abaikan Yang Dipilih"
+msgstr "Kijelölt eltüntetése"
 
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Object Type"
-msgstr "Jenis Objek"
+msgstr "Objektumtípus"
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"
-msgstr "Permohonan Chat Terbuka"
+msgstr "Nyitott csevegéskérések"
 
 #. Perl Module: Kernel/Output/PDF/StatisticsReports.pm
 msgid "%s Report"
-msgstr "Laporan %s "
+msgstr "%s jelentés"
 
 #. Perl Module: Kernel/Output/PDF/StatisticsReports.pm
 msgid "Error: this graph could not be generated: %s."
-msgstr "Ralat: graf ini tidak dapat dijana : %s."
+msgstr "Hiba: ezt a grafikont nem sikerült előállítani: %s."
 
 #. Perl Module: Kernel/Output/PDF/StatisticsReports.pm
 msgid "Table of Contents"
-msgstr "Isi kandungan"
+msgstr "Tartalomjegyzék"
 
 #. Perl Module: Kernel/System/ChatChannel.pm
 msgid "Default chat channel"
-msgstr "Saluran chat default"
+msgstr "Alapértelmezett csevegőcsatorna"
 
 #. SysConfig
 msgid "Activates chat support."
-msgstr "Mengaktifkan sokongan chat."
+msgstr "Aktiválja a csevegés támogatást."
 
 #. SysConfig
 msgid ""
 "Agent frontend module registration (disable chat link if chat feature is "
 "inactive or agent is not in chat group)."
-msgstr "Pendaftaran modul agen bahagian hadapan (melumpuhkan pautan chat jika ciri chat tidak aktif atau agen tiada di dalam kumpulan chat)."
+msgstr "Ügyintézői előtétprogram-modul regisztráció (csevegéshivatkozás letiltása, ha csevegés szolgáltatás nincs bekapcsolva, vagy az ügyintéző nincs a csevegéscsoportban)."
 
 #. SysConfig
 msgid "Agent group that can accept chat requests and chat."
-msgstr "Kumpulan agen yang boleh menerima permintaan chat dan berbual."
+msgstr "Ügyintézői csoport, amely csevegéskéréseket és csevegést fogadhat el."
 
 #. SysConfig
 msgid "Agent group that can create chat requests."
-msgstr "Kumpulan ejen yang boleh membuat permintaan chat."
+msgstr "Ügyintézői csoport, amely csevegéskéréseket hozhat létre."
 
 #. SysConfig
 msgid "Agent interface availability."
-msgstr "Ketersediaan antara muka ejen."
+msgstr "Ügyintézői felület elérhetősége."
 
 #. SysConfig
 msgid "Agent interface notification module to check for open chat requests."
-msgstr "Modul pemberitahuan antara muka agen untuk memeriksa permintaan sembang terbuka."
+msgstr "Ügyintézői felület értesítési modul a nyitott csevegéskérések ellenőrzéséhez."
 
 #. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
-msgstr "Membenarkan pelanggan untuk memilih saluran yang mempunyai ejen(ejen-ejen) tersedia sahaja."
+msgstr "Annak lehetővé tétele az ügyfeleknek, hogy csak olyan csatornákat válasszanak, amelyek rendelkeznek elérhető ügyintézőkkel."
 
 #. SysConfig
 msgid ""
 "Allow public users to select only channels that have available agent(s)."
-msgstr "Membenarkan pengguna awam untuk memilih saluran yang mempunyai ejen(ejen-ejen) tersedia sahaja."
+msgstr "Annak lehetővé tétele a nyilvános felhasználóknak, hogy csak olyan csatornákat válasszanak, amelyek rendelkeznek elérhető ügyintézőkkel."
 
 #. SysConfig
 msgid "Allows having a small format notification web view."
-msgstr "Membenarkan mempunyai pandangan web pemberitahuan berformat kecil."
+msgstr "Lehetővé teszi egy kis formátumú értesítési webnézet meglétét."
 
 #. SysConfig
 msgid "Chat Channel"
-msgstr "Saluran Chat"
+msgstr "Csevegőcsatorna"
 
 #. SysConfig
 msgid "Chat Channel:"
-msgstr "Saluran Chat:"
+msgstr "Csevegőcsatorna:"
 
 #. SysConfig
 msgid ""
 "Chat channel that will be used for communication related to the tickets in "
 "this queue."
-msgstr "Saluran chat yang akan digunakan untuk komunikasi yang berkaitan dengan tiket dalam barisan ini."
+msgstr "Csevegőcsatorna, amely az ebben a várólistában lévő jegyekkel kapcsolatos kommunikációhoz lesz használva."
 
 #. SysConfig
 msgid "Chat channel to queue mapping."
-msgstr "Saluran chat ke pemetaan barisan."
+msgstr "Csevegőcsatorna a várólista leképezéséhez."
 
 #. SysConfig
 msgid "Chat overview"
-msgstr "Tinjauan chat"
+msgstr "Csevegés áttekintő"
 
 #. SysConfig
 msgid "Chats"
-msgstr "Chat"
+msgstr "Csevegések"
 
 #. SysConfig
 msgid "Cleans up old chat logs."
-msgstr "Membersihkan log chat lama."
+msgstr "Törli a régi csevegési naplókat."
 
 #. SysConfig
 msgid ""
 "Column notification web view filters for Notification web view type "
 "\"Small\"."
-msgstr "Penapis paparan web ruangan pemberitahuan untuk Paparan web Pemberitahuan jenis \"Kecil\"."
+msgstr "Oszlop értesítési webnézet szűrők a „Kis” típusú értesítési webnézethez."
 
 #. SysConfig
 msgid ""
 "Columns that can be filtered in the notification web view of the agent "
 "interface. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by "
 "default."
-msgstr "Kolum yang boleh ditapis dalam paparan web pemberitahuan bagi antara muka ejen. Tetapan yang mungkin: 0 = Dilumpuhkan, 1 = Tersedia, 2 = Diaktifkan secara default."
+msgstr "Az ügyintézői felület értesítési webnézetében szűrhető oszlopok. Lehetséges beállítások: 0 = letiltva, 1 = elérhető, 2 = alapértelmezetten engedélyezett."
 
 #. SysConfig
 msgid "Contact with data"
-msgstr "Kenalan dengan data"
+msgstr "Adatokkal rendelkező partner"
 
 #. SysConfig
 msgid "Create and manage chat channels."
-msgstr "Cipta dan uruskan saluran chat."
+msgstr "Csevegőcsatornák létrehozása és kezelése."
 
 #. SysConfig
 msgid "Create new chat"
-msgstr "Cipta chat baru"
+msgstr "Új csevegés létrehozása"
 
 #. SysConfig
 msgid ""
 "Customer frontend module registration (disable chat link if chat feature is "
 "inactive or no agents are available for chat)."
-msgstr "Pendaftaran modul pelanggan bahagian hadapan (melumpuhkan pautan chat jika ciri chat tidak aktif atau tiada ejen tersedia untuk chat)."
+msgstr "Ügyfél előtétprogram-modul regisztráció (csevegéshivatkozás letiltása, ha a csevegés szolgáltatás nincs bekapcsolva, vagy nincs elérhető ügyintéző a csevegéshez)."
 
 #. SysConfig
 msgid ""
 "Default agent name for customer and public interface. If enabled, the real "
 "name of the agent will not be visible to customers/public users while using "
 "the chat."
-msgstr "Nama ejen default untuk pelanggan dan antara muka awam. Jika didayakan, nama sebenar ejen itu tidak akan dapat dilihat oleh pelanggan/pengguna awam semasa menggunakan chat."
+msgstr "Alapértelmezett ügyintézőnév az ügyfél- és a nyilvános felülethez. Ha engedélyezve van, akkor az ügyintéző valódi neve nem lesz látható az ügyfeleknek vagy a nyilvános felhasználóknak a csevegés használata közben."
 
 #. SysConfig
 msgid "Default text for the customer interface."
-msgstr "Teks default untuk antara muka pelanggan."
+msgstr "Alapértelmezett szöveg az ügyfélfelülethez."
 
 #. SysConfig
 msgid "Default text for the public interface."
-msgstr "Teks default untuk antara muka awam."
+msgstr "Alapértelmezett szöveg a nyilvános felülethez."
 
 #. SysConfig
 msgid ""
 "Defines a list of agent preferences group keys that will be visible in "
 "Customer interface (works only if DefaultAgentName is disabled). Example: If"
 " you want to display PreferencesGroups###Language, add Language."
-msgstr "Tentukan senarai kekunci kumpulan keutamaan agen yang akan dapat dilihat dalam antara muka Pelanggan (hanya berfungsi jika DefaultAgentName dilumpuhkan).\nContoh: Jika anda ingin paparkan PreferencesGroups###Language, tambah Bahasa."
+msgstr "Meghatározza azon ügyintézői beállítások csoportkulcsainak listáját, amelyek láthatóak lesznek az ügyfélfelületen (csak akkor működik, ha a DefaultAgentName le van tiltva). Példa: ha meg szeretné jeleníteni a PreferencesGroups###Language értékét, akkor adja hozzá a Language kulcsot."
 
 #. SysConfig
 msgid ""
 "Defines a text for Agent Preferences in the Customer interface (works only "
 "if DefaultAgentName is disabled)."
-msgstr "Tentukan teks untuk Keutamaan Agen di antara muka Pelanggan (hanya berfungsi jika DefaultAgentName dilumpuhkan)."
+msgstr "Meghatároz egy szöveget az ügyintézői beállításokhoz az ügyfélfelületen (csak akkor működik, ha a DefaultAgentName le van tiltva)."
 
 #. SysConfig
 msgid ""
 "Defines if customer users are able to select Chat Channel. If not, chat will"
 " be created in default Chat Channel."
-msgstr "Menentukan jika pengguna pelanggan boleh memilih Saluran Chat. Jika tidak, chat akan dicipta dalam Saluran Chat default."
+msgstr "Meghatározza, hogy az ügyfél-felhasználók képesek-e csevegőcsatornákat kiválasztani. Ha nem, akkor a csevegés az alapértelmezett csevegőcsatornában lesz létrehozva."
 
 #. SysConfig
 msgid ""
 "Defines if locking a ticket is required to start a chat with the customer "
 "from the ticket zoom view."
-msgstr "Menentukan sekiranya tiket diperlukan untuk memulakan chat dengan pelanggan daripada pandangan zum tiket."
+msgstr "Meghatározza, hogy egy jegy zárolása szükséges-e egy ügyféllel történő csevegés indításához a jegynagyítás nézetből."
 
 #. SysConfig
 msgid ""
 "Defines if numbers should be appended to DefaultAgentName. If enabled, "
 "together with DefaultAgentName will be numbers (e.g. 1,2,3,...)."
-msgstr "Tentukan jika nombor perlu dilampirkan pada DefaultAgentName. Jika didayakan, bersama-sama dengan DefaultAgentName akan menjadi nombor (contohnya 1,2,3 ,...)."
+msgstr "Meghatározza, hogy kell-e számokat hozzáfűzni az alapértelmezett ügyintézőnévhez. Ha engedélyezve van, akkor a DefaultAgentName értékével együtt számok lesznek (például 1, 2, 3, …)."
 
 #. SysConfig
 msgid ""
 "Defines if public users are able to select Chat Channel. If not, chat will "
 "be created in default Chat Channel."
-msgstr "Menentukan jika pengguna awam boleh memilih Saluran Chat. Jika tidak, chat akan dicipta dalam Saluran Chat default."
+msgstr "Meghatározza, hogy a nyilvános felhasználók képesek-e csevegőcsatornákat kiválasztani. Ha nem, akkor a csevegés az alapértelmezett csevegőcsatornában lesz létrehozva."
 
 #. SysConfig
 msgid ""
@@ -1154,167 +1154,167 @@ msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is available for external chats, but forgot to set preferred "
 "channel(s)."
-msgstr "Mentakrifkan modul untuk memaparkan pemberitahuan dalam antara muka ejen, jika ejen itu tersedia untuk chat luar, tetapi terlupa untuk menetapkan saluran(saluran-saluran) pilihan."
+msgstr "Meghatározza azt a modult, amely egy értesítést jelenít meg az ügyintézői felületen, ha az ügyintéző elérhető a külső csevegésekhez, de elfelejtette beállítani az előnyben részesített csatornákat."
 
 #. SysConfig
 msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is not available for chat with customers (only if "
 "Ticket::Agent::AvailableForChatsAfterLogin is set to No)."
-msgstr "Mentakrifkan modul untuk memaparkan pemberitahuan dalam antara muka ejen, jika ejen itu tidak tersedia untuk berbual dengan pelanggan (hanya jikaTicket::Agent::AvailableForChatsAfterLogin ditetapkan ke Tidak)."
+msgstr "Meghatározza azt a modult, amely egy értesítést jelenít meg az ügyintézői felületen, ha az ügyintéző nem érhető el az ügyfelekkel való csevegéshez (csak ha a Ticket::Agent::AvailableForChatsAfterLogin „Nem” értékre van állítva)."
 
 #. SysConfig
 msgid ""
 "Defines the number of days a notification should be still shown in the "
 "notification web view screen (value of '0' means always show)."
-msgstr "Mentakrifkan bilangan hari pemberitahuan harus masih ditunjukkan dalam skrin paparan pemberitahuan web (nilai '0' bermaksud sentiasa menunjukkan)."
+msgstr "Azon napok számát határozza meg, amíg egy értesítésnek láthatónak kell lennie az értesítési webnézet képernyőn (a „0” érték azt jeleni, hogy mindig látható)."
 
 #. SysConfig
 msgid "Defines the order of chat windows."
-msgstr "Menentukan susunan tetingkap chat."
+msgstr "Meghatározza a csevegésablakok sorrendjét."
 
 #. SysConfig
 msgid ""
 "Defines the path to the PhantomJS binary. You can use a static build from "
 "http://phantomjs.org/download.html for an easy installation process."
-msgstr "Mentakrifkan jalan untuk binari PhantomJS. Anda boleh menggunakan binaan statik dari http://phantomjs.org/download.html untuk proses pemasangan yang mudah."
+msgstr "Meghatározza a PhantomJS bináris útvonalát. Használhat egy statikus összeállítást a http://phantomjs.org/download.html oldalról a könnyű telepítési folyamathoz."
 
 #. SysConfig
 msgid ""
 "Defines the period of time (in minutes) before No Answer message is "
 "displayed to the customer."
-msgstr "Menentukan tempoh masa (dalam minit) sebelum mesej Tiada Jawapan dipaparkan pada pelanggan."
+msgstr "Meghatározza azt az időtartamot (percben), ami előtt „Nincs válasz” üzenet jelenik meg az ügyfélnek."
 
 #. SysConfig
 msgid ""
 "Defines the period of time (in minutes) before agent goes offline due to "
 "inactivity."
-msgstr "Tentukan tempoh masa (dalam minit) sebelum ejen pergi luar talian kerana tidak aktif ."
+msgstr "Meghatározza azt az időtartamot (percben), ami előtt az ügyintézők inaktivitás miatt ki lesznek lépve."
 
 #. SysConfig
 msgid "Defines the settings for ticket notification."
-msgstr "Mentakrifkan tetapan untuk pemberitahuan tiket."
+msgstr "Meghatározza a beállításokat a jegyértesítéshez."
 
 #. SysConfig
 msgid "Defines the source dynamic field for storing historical data."
-msgstr "Mentakrifkan sumber medan dinamik untuk menyimpan data bersejarah."
+msgstr "Meghatározza a forrás dinamikus mezőt a történeti adatok tárolásához."
 
 #. SysConfig
 msgid "Defines the target dynamic fields for storing historical data."
-msgstr "Mentakrifkan sasaran medan dinamik untuk menyimpan data bersejarah."
+msgstr "Meghatározza a cél dinamikus mezőket a történeti adatok tárolásához."
 
 #. SysConfig
 msgid "Display Create Chat request link in the ticket zoom view."
-msgstr "Papar pautan permintaan Cipta Chat dalam pandangan zum tiket."
+msgstr "Csevegéskérés létrehozása hivatkozást jelenít meg a jegynagyítás nézeten."
 
 #. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
-msgstr "GUI Backend Kenalan Data Medan Dinamik"
+msgstr "Dinamikus mezők partner adatai háttérprogram grafikus felület"
 
 #. SysConfig
 msgid "Dynamic Fields Database Backend GUI"
-msgstr "GUI Backend Pangkalan Data Medan Dinamik"
+msgstr "Dinamikus mezők adatbázis háttérprogram grafikus felület"
 
 #. SysConfig
 msgid "Edit contacts with data"
-msgstr "Edit kenalan dengan data"
+msgstr "Adatokkal rendelkező partnerek szerkesztése"
 
 #. SysConfig
 msgid ""
 "Enables notification web view bulk action feature for the agent frontend to "
 "work on more than one notification at a time."
-msgstr "Membolehkan ciri pemberitahuan web paparan  tindakan pukal untuk bahagian hadapan ejen untuk bekerja pada lebih daripada satu pemberitahuan pada satu masa."
+msgstr "Engedélyezi az értesítési webnézet tömeges művelet szolgáltatást az ügyintézői előtétprogramnál, hogy egyszerre több értesítésen tudjon dolgozni."
 
 #. SysConfig
 msgid ""
 "Enables notification web view bulk action feature only for the listed "
 "groups."
-msgstr "Membolehkan ciri pemberitahuan web paparan  tindakan pukal hanya pada kumpulan yang disenaraikan."
+msgstr "Csak a felsorolt csoportoknak engedélyezi az értesítési webnézet tömeges művelet szolgáltatást."
 
 #. SysConfig
 msgid "Enables the timeline view in AgentTicketZoom."
-msgstr "Membolehkan pandangan garis masa dalam AgentTicketZoom."
+msgstr "Engedélyezi az idővonal nézetet az AgentTicketZoom képernyőn."
 
 #. SysConfig
 msgid "Event module registration (store historical data in dynamic fields)."
-msgstr "Pendaftaran modul acara (simpan data bersejarah dalam medan dinamik)."
+msgstr "Eseménymodul regisztráció (történeti adatok tárolása dinamikus mezőkben)."
 
 #. SysConfig
 msgid "Frontend module registration for the public interface."
-msgstr "Frontend pendaftaran modul untuk antara muka awam."
+msgstr "Előtétprogram-modul regisztráció a nyilvános felülethez."
 
 #. SysConfig
 msgid ""
 "Generate HTML comment hooks for the specified blocks so that filters can use"
 " them."
-msgstr "Menjana cangkuk komen HTML untuk blok tertentu supaya penapis boleh menggunakannya."
+msgstr "HTML tartalomhorgok előállítása a megadott blokkoknál azért, hogy a szűrők használhassák azokat."
 
 #. SysConfig
 msgid ""
 "If enabled it will check agents availability on login. If user is available "
 "for external chats, it will reduce availability to internal chats only."
-msgstr "Jika diaktifkan ia akan memeriksa ketersediaan ejen pada log masuk. Jika pengguna tersedia untuk chat luar, ia akan mengurangkan ketersediaan kepada perbualan dalaman sahaja."
+msgstr "Ha engedélyezve van, akkor ellenőrizni fogja az ügyintézők elérhetőségét a bejelentkezéskor. Ha a felhasználó elérhető a külső csevegésekhez, akkor csökkenteni fogja az elérhetőséget kizárólag a belső csevegésekre."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, a notification will be displayed on each page if"
 " the current agent is not available for chat."
-msgstr "Jika flag ini diset ke Ya, pemberitahuan akan dipaparkan dalam setiap halaman jika agen semasa tidak tersedia untuk chat."
+msgstr "Ha ez a jelző „Igen” értékre van állítva, akkor egy értesítés fog megjelenni minden egyes oldalon, ha a jelenlegi ügyintéző nem érhető el csevegéshez."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, agents can start a chat with a customer without "
 "a ticket."
-msgstr "Jika flag ini disetkan kepada Ya, ejen boleh memulakan chat dengan pelanggan tanpa tiket."
+msgstr "Ha ez a jelző „Igen” értékre van állítva, akkor az ügyintézők jegy nélkül is indíthatnak csevegést az ügyféllel."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, customers can start a chat with an agent without"
 " a ticket."
-msgstr "Jika flag ini disetkan kepada Ya, pelanggan boleh memulakan chat dengan ejen tanpa tiket."
+msgstr "Ha ez a jelző „Igen” értékre van állítva, akkor az ügyfelek jegy nélkül is indíthatnak csevegést egy ügyintézővel."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, only the ticket customer can start a chat from a"
 " ticket zoom view."
-msgstr "Jika flag ini disetkan kepada Ya, hanya pelanggan tiket boleh memulakan sembang dari pandangan zum tiket."
+msgstr "Ha ez a jelző „Igen” értékre van állítva, akkor csak a jegy ügyfele indíthat csevegést egy jegynagyítás nézetből."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, starting a chat from agent ticket zoom view will"
 " only be possible, if the ticket customer is online."
-msgstr "Jika flag ini disetkan kepada ya, memulakan chat daripada pandangan zum tiket ejen akan hanya dibolehkan, sekiranya pelanggan tiket berada di atas talian."
+msgstr "Ha ez a jelző „Igen” értékre van állítva, akkor az ügyintézői jegynagyítás nézetből indított csevegés csak akkor lesz lehetséges, ha a jegy ügyfele éppen elérhető."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, starting a chat from customer ticket zoom view "
 "will only be possible, if there are available agents in the linked chat "
 "channel."
-msgstr "JIka flag ini disetkan ke Ya, memulakan chat daripada pandangan zum tiket akan hanya dibolehkan, sekiranya terdapat agen tersedia dalam saluran chat berkaitan."
+msgstr "Ha ez a jelző „Igen” értékre van állítva, akkor az ügyfél jegynagyítás nézetből indított csevegés csak akkor lesz lehetséges, ha vannak elérhető ügyintézők a hozzákapcsolt csevegőcsatornán."
 
 #. SysConfig
 msgid ""
 "Makes it possible to start a chat with a customer from the agent interface."
-msgstr "Membolehkan untuk meulakan chat dengan pelanggan dari antara muka ejen."
+msgstr "Lehetővé teszi egy ügyféllel történő csevegés indítását az ügyintézői felületről."
 
 #. SysConfig
 msgid ""
 "Makes it possible to start a chat with an agent from the agent interface."
-msgstr "Membolehkan untuk memulakan chat dengan agen dari antara muka ejen."
+msgstr "Lehetővé teszi egy ügyintézővel történő csevegés indítását az ügyintézői felületről."
 
 #. SysConfig
 msgid ""
 "Makes it possible to start a chat with an agent from the customer interface."
-msgstr "Membolehkan untuk meulakan chat dengan agen dari antara muka pelanggan."
+msgstr "Lehetővé teszi egy ügyintézővel történő csevegés indítását az ügyfélfelületről."
 
 #. SysConfig
 msgid ""
 "Makes it possible to start a chat with an agent from the public interface."
-msgstr "Membolehkan untuk memulakan chat dengan agen dari antara muka awam."
+msgstr "Lehetővé teszi egy ügyintézővel történő csevegés indítását a nyilvános felületről."
 
 #. SysConfig
 msgid "My chats"
-msgstr "Chat saya"
+msgstr "Saját csevegések"
 
 #. SysConfig
 msgid ""
@@ -1323,39 +1323,39 @@ msgid ""
 "name as default chat channel. The default channel won't be displayed, if "
 "chat channels are enabled in Customer interface and Public interface. All "
 "agent to agent chats will be in the default channel."
-msgstr "Nama saluran chat default. Jika saluran ini tidak wujud, ia akan dibuat secara automatik. Sila jangan wujudkan saluran chat dengan nama yang sama sebagai saluran sembang default. Saluran default tidak akan dipaparkan, jika saluran chat didayakan dalam antara muka Pelanggan dan antara muka Awam. Semua Ejen kepada chat ejen akan berada di dalam saluran default."
+msgstr "Az alapértelmezett csevegőcsatorna neve. Ha ez a csatorna nem létezik, akkor automatikusan létre lesz hozva. Ne hozzon létre ugyanolyan nevű csevegőcsatornát, mint az alapértelmezett csevegőcsatorna. Az alapértelmezett csatorna nem lesz megjelenítve, ha a csevegőcsatornák engedélyezve vannak az ügyfélfelületen és a nyilvános felületen. Az összes ügyintéző-ügyintéző csevegés az alapértelmezett csatornában lesz."
 
 #. SysConfig
 msgid "No agents available message."
-msgstr "Tiada mesej tersedia ejen."
+msgstr "Nincsenek elérhető ügyintézők üzenet."
 
 #. SysConfig
 msgid "Notification limit per page for Notification web view \"Small\""
-msgstr "Had pemberitahuan setiap halaman untuk paparan \"Kecil\" pemberitahuan web "
+msgstr "Oldalankénti értesítéskorlát a „Kis” értesítési webnézetnél"
 
 #. SysConfig
 msgid "Notification web view"
-msgstr "Paparan pemberitahuan web"
+msgstr "Értesítési webnézet"
 
 #. SysConfig
 msgid "Notification web view \"Small\" Limit"
-msgstr "Had pemberitahuan web paparan \"Kecil\""
+msgstr "„Kis” értesítési webnézet korlát"
 
 #. SysConfig
 msgid "Notifications Unseen:"
-msgstr "Pemberitahuan Tidak Dilihat:"
+msgstr "Olvasatlan értesítések:"
 
 #. SysConfig
 msgid "Number of days after chat will be deleted."
-msgstr "Beberapa hari selepas chat akan dipadamkan."
+msgstr "A napok száma, miután a csevegés törlésre kerül."
 
 #. SysConfig
 msgid "Number of hours after closed chat will be deleted."
-msgstr "Beberapa jam selepas chat ditutup akan dipadamkan."
+msgstr "Az órák száma, miután a bezárt csevegés törlésre kerül."
 
 #. SysConfig
 msgid "Output filter for standard tt files."
-msgstr "Penapis output untuk fail tt piawai."
+msgstr "Kimenetszűrő a szabványos tt fájlokhoz."
 
 #. SysConfig
 msgid ""
@@ -1364,7 +1364,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Output filter to inject the necessary JavaScript into the views."
-msgstr "Penapis Output untuk menyuntik JavaScript diperlukan ke dalam pemandangan."
+msgstr "Kimenetszűrő a szükséges JavaScript beágyazásához a nézetekbe."
 
 #. SysConfig
 msgid "Parameters for notification web view filters."
@@ -1374,123 +1374,123 @@ msgstr ""
 msgid ""
 "Parameters for the ChatChannel object in the preference view of the agent "
 "interface."
-msgstr "Parameter untuk objek SaluranChat dalam paparan pilihan bagi antara muka ejen."
+msgstr "A ChatChannel objektum paraméterei az ügyintézői felület beállítás nézetében."
 
 #. SysConfig
 msgid ""
 "Parameters for the pages (in which the notifications are shown) of the small"
 " notifications view."
-msgstr "Parameter untuk halaman (di mana pemberitahuan ditunjukkan) pandangan pemberitahuan kecil."
+msgstr "Paraméterek a kis értesítési nézet oldalaihoz (amelyekben az értesítések megjelennek)."
 
 #. SysConfig
 msgid ""
 "Permission level to start a chat with customer from agent ticket zoom view."
-msgstr "Tahap kebenaran untuk memulakan chat dengan pelanggan dari pandangan zum tiket ejen."
+msgstr "Jogosultsági szint egy ügyféllel történő csevegés indításához az ügyintéző jegynagyítás nézetéből."
 
 #. SysConfig
 msgid ""
 "Please bear with us until one of our agents is able to handle your chat "
 "request. Thank you for your patience."
-msgstr "Sila bersama dengan kami sehingga salah seorang daripada ejen-ejen kami mampu untuk mengendalikan permintaan chat anda. Terima kasih atas kesabaran anda."
+msgstr "Kérjük legyen elnéző velünk, amíg az ügyintézőink egyike kezelni tudja a csevegéskérését. Köszönjük a türelmét."
 
 #. SysConfig
 msgid "Prepend"
-msgstr "Bahagian awal"
+msgstr "Eléfűzés"
 
 #. SysConfig
 msgid "Remove closed chats older than ChatEngine::ChatTTL."
-msgstr "Buang chat yang ditutup lama daripada ChatEngine::ChatTTL."
+msgstr "Bezárt csevegések eltávolítása, amelyek régebbiek mint a ChatEngine::ChatTTL."
 
 #. SysConfig
 msgid "Remove old chats."
-msgstr "Buang chat lama."
+msgstr "Régi csevegések eltávolítása."
 
 #. SysConfig
 msgid ""
 "Runs an initial wildcard search of the existing contacts with data when "
 "accessing the AdminContactWithData module."
-msgstr "Jalankan carian wildcard awal kenalan sedia ada dengan data semasa mengakses modul AdminContactWithData."
+msgstr "A meglévő adatokkal rendelkező partnerek kezdeti helyettesítő karakter keresését futtatja az AdminContactWithData modulhoz való hozzáféréskor."
 
 #. SysConfig
 msgid "Sets if a chat request can be sent out from agent ticket zoom view."
-msgstr "Set jika permintaan chat boleh dihantar dari pandangan zum tiket ejen."
+msgstr "Beállítja, hogy egy csevegéskérés kiküldhető-e az ügyintéző jegynagyítás nézetéből."
 
 #. SysConfig
 msgid "Sets if a chat request can be sent out from customer ticket zoom view."
-msgstr "Set jika permintaan chat boleh dihantar dari pandangan zum tiket pelanggan."
+msgstr "Beállítja, hogy egy csevegéskérés kiküldhető-e az ügyfél jegynagyítás nézetéből."
 
 #. SysConfig
 msgid "Show all ticket attachments"
-msgstr "Tunjuk semua lampiran tiket"
+msgstr "Az összes jegymelléklet megjelenítése"
 
 #. SysConfig
 msgid "Shows all attachments available in the ticket."
-msgstr "Menunjukkan semua lampiran yang terdapat dalam tiket."
+msgstr "Megjeleníti a jegyben elérhető összes mellékletet."
 
 #. SysConfig
 msgid "Start a chat with this customer"
-msgstr "Mulakan chat dengan pelanggan ini"
+msgstr "Csevegés indítása ezzel az ügyféllel"
 
 #. SysConfig
 msgid "Start new chat"
-msgstr "Mulakan chat baru"
+msgstr "Új csevegés indítása"
 
 #. SysConfig
 msgid ""
 "Text which is being displayed on selection of this SLA on "
 "CustomerTicketMessage."
-msgstr "Teks yang sedang dipaparkan pada pemilihan SLA ini di CustomerTicketMessage."
+msgstr "Az a szöveg, amely ezen SLA kijelölésén jelenik meg a CustomerTicketMessage képernyőn."
 
 #. SysConfig
 msgid ""
 "The logo shown in the header of the agent interface for the skin "
 "\"business\". See \"AgentLogo\" for further description."
-msgstr "Logo ditunjukkan di header antara muka ejen bagi kulit \"perniagaan\". Lihat \"AgentLogo\" untuk keterangan lanjut."
+msgstr "Az ügyintézői felület fejlécében megjelenített logó a „business” felszínnél. További leírásért nézze meg az „AgentLogo” bejegyzést."
 
 #. SysConfig
 msgid "There are no chat agents available at present. Please try again later."
-msgstr "Tiada ejen chat tersedia pada masa ini. Sila cuba sebentar lagi."
+msgstr "Jelenleg nincsenek elérhető csevegés ügyintézők. Próbálja meg később."
 
 #. SysConfig
 msgid ""
 "There are no chat agents available at present. To add an article to the "
 "existing ticket, please click here:"
-msgstr "Tiada ejen chat tersedia pada masa ini. Untuk menambah artikel untuk tiket yang sedia ada, sila klik di sini:"
+msgstr "Jelenleg nincsenek elérhető csevegés ügyintézők. A meglévő jegyhez való bejegyzés hozzáadásához kattintson ide:"
 
 #. SysConfig
 msgid ""
 "There are no chat agents available at present. To create a new ticket, "
 "please click here:"
-msgstr "Tiada ejen chat tersedia pada masa ini. Untuk membuat tiket baru, sila klik di sini:"
+msgstr "Jelenleg nincsenek elérhető csevegés ügyintézők. Egy új jegy létrehozásához kattintson ide:"
 
 #. SysConfig
 msgid ""
 "This chat has ended. Please leave it or it will be closed automatically."
-msgstr "Chat ini sudah berakhir. Sila tinggalkan atau ia akan ditutup secara automatik."
+msgstr "Ez a csevegés véget ért. Hagyja el azt, vagy automatikusan le lesz zárva."
 
 #. SysConfig
 msgid ""
 "This chat has ended. Please leave it or it will be closed automatically. You"
 " can download this chat."
-msgstr "Chat ini sudah berakhir. Sila tinggalkan atau ia akan ditutup secara automatik. Anda boleh memuat turun sembang ini."
+msgstr "Ez a csevegés véget ért. Hagyja el azt, vagy automatikusan le lesz zárva. Letöltheti ezt a csevegést."
 
 #. SysConfig
 msgid "This chat is completed. You can now close the chat window."
-msgstr "Chat ini sudah selesai. Anda kini boleh menutup tetingkap chat."
+msgstr "Ez a csevegés befejeződött. Most már bezárhatja a csevegésablakot."
 
 #. SysConfig
 msgid ""
 "This chat is completed. You can start a new chat using the button on top of "
 "this page."
-msgstr "Chat ini sudah selesai. Anda boleh memulakan chat baru menggunakan butang di bahagian atas halaman ini."
+msgstr "Ez a csevegés befejeződött. Az oldal tetején lévő gomb használatával indíthat egy új csevegést."
 
 #. SysConfig
 msgid "Tool-bar item for a notification web view."
-msgstr "Alat-bar item  untuk paparan pemberitahuan web."
+msgstr "Eszköztárelem egy értesítési webnézethez."
 
 #. SysConfig
 msgid "View notifications"
-msgstr "Lihat pemberitahuan"
+msgstr "Értesítések megtekintése"
 
 #. SysConfig
 msgid ""

@@ -1,12 +1,16 @@
 # 
 # Translators:
+# christopher.kuhn <christopher.kuhn@otrs.com>, 2016
+# Ettore Atalan <atalanttore@googlemail.com>, 2016
+# Marc A. Bonsels, 2016
 # Martin Gruner <martin.gruner@otrs.com>, 2015-2016
+# ru_otrs <robert.ullrich@otrs.com>, 2016
 # Rudy R <rudy.rohde@googlemail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2014-08-08 19:10+0200\n"
-"PO-Revision-Date: 2016-01-11 10:07+0000\n"
+"POT-Creation-Date: 2016-08-15 15:32+0000\n"
+"PO-Revision-Date: 2016-08-15 13:35+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -14,142 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Created"
-msgstr "Ticket erstellt"
-
-#. Template: AAAOTRSBusiness
-msgid "Note Added"
-msgstr "Notiz hinzugefügt"
-
-#. Template: AAAOTRSBusiness
-msgid "Note Added (Customer)"
-msgstr "Notiz hinzugefügt (Kunde)"
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Email"
-msgstr "Ausgehende E-Mail"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Customer Email"
-msgstr "Eingehende E-Mail (Kunde)"
-
-#. Template: AAAOTRSBusiness
-msgid "Dynamic Field Updated"
-msgstr "Dynamisches Feld aktualisiert"
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Phone Call"
-msgstr "Ausgehender Telefonanruf"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Phone Call"
-msgstr "Eingehender Telefonanruf"
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Answer"
-msgstr "Ausgehende Antwort"
-
-#. Template: AAAOTRSBusiness
-msgid "SLA Updated"
-msgstr "SLA aktualisiert"
-
-#. Template: AAAOTRSBusiness
-msgid "Service Updated"
-msgstr "Service aktualisiert"
-
-#. Template: AAAOTRSBusiness
-msgid "Customer Updated"
-msgstr "Kunde aktualisiert"
-
-#. Template: AAAOTRSBusiness
-msgid "State Updated"
-msgstr "Status aktualisiert"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Follow-Up"
-msgstr "Eingehende Rückfrage"
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Update Time Stopped"
-msgstr "Aktualisierungszeit-Eskalation angehalten"
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Solution Time Stopped"
-msgstr "Lösungszeit-Eskalation angehalten"
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation First Response Time Stopped"
-msgstr "Erstreaktionszeit-Eskalation angehalten"
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Response Time Stopped"
-msgstr "Antwortzeit-Eskalation angehalten"
-
-#. Template: AAAOTRSBusiness
-msgid "Link Added"
-msgstr "Link hinzugefügt"
-
-#. Template: AAAOTRSBusiness
-msgid "Link Deleted"
-msgstr "Link gelöscht"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Merged"
-msgstr "Ticket zusammengefasst"
-
-#. Template: AAAOTRSBusiness
-msgid "Pending Time Set"
-msgstr "Wartezeit gesetzt"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Locked"
-msgstr "Ticket gesperrt"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Unlocked"
-msgstr "Ticket entsperrt"
-
-#. Template: AAAOTRSBusiness
-msgid "Queue Updated"
-msgstr "Queue aktualisiert"
-
-#. Template: AAAOTRSBusiness
-msgid "Priority Updated"
-msgstr "Priorität aktualisiert"
-
-#. Template: AAAOTRSBusiness
-msgid "Title Updated"
-msgstr "Titel aktualisiert"
-
-#. Template: AAAOTRSBusiness
-msgid "Type Updated"
-msgstr "Typ aktualisiert"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Web Request"
-msgstr "Eingehende Webanfrage"
-
-#. Template: AAAOTRSBusiness
-msgid "Automatic Follow-Up Sent"
-msgstr "Automatische Rückfrage gesendet"
-
-#. Template: AAAOTRSBusiness
-msgid "Automatic Reply Sent"
-msgstr "Automatische Antwort gesendet"
-
-#. Template: AAAOTRSBusiness
-msgid "Time Accounted"
-msgstr "Zeit erfasst"
-
-#. Template: AAAOTRSBusiness
-msgid "External Chat"
-msgstr "Chat (extern)"
-
-#. Template: AAAOTRSBusiness
-msgid "Internal Chat"
-msgstr "Chat (intern)"
 
 #. Template: AdminChatChannel
 msgid "Manage Chat Channels"
@@ -162,10 +30,6 @@ msgstr "Chat-Kanal hinzufügen"
 #. Template: AdminChatChannel
 msgid "Edit Chat Channel"
 msgstr "Chat-Kanal bearbeiten"
-
-#. Template: AdminChatChannel
-msgid "This field is required"
-msgstr "Dieses Feld wird benötigt"
 
 #. Template: AdminChatChannel
 msgid "Name invalid"
@@ -182,10 +46,6 @@ msgstr "Gültigkeit wird benötigt"
 #. Template: AdminChatChannel
 msgid "Comment invalid"
 msgstr "Kommentar ungültig"
-
-#. Template: AdminCloudServiceSMS
-msgid "SMS (Short Message Service)"
-msgstr "SMS (Short Message Service)"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service status"
@@ -826,8 +686,8 @@ msgid "Email subject"
 msgstr "E-Mail-Betreff"
 
 #. Template: AgentStatisticsReportsEdit
-msgid "Specify recipient email addresses (comma separated)."
-msgstr "Geben Sie Empfänger-Email-Adressen an (durch Komma getrennt)."
+msgid "Specify the subject for the automatically generated email."
+msgstr "Geben sie den Betreff für die automatisch erzeugte E-Mail an."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email body"
@@ -842,8 +702,8 @@ msgid "Email recipients"
 msgstr "E-Mail-Empfänger"
 
 #. Template: AgentStatisticsReportsEdit
-msgid "Specify recipent email addresses (comma separated)."
-msgstr "Geben Sie die Empfängeradressen für die E-Mail an (Kommasepariert)."
+msgid "Specify recipient email addresses (comma separated)."
+msgstr "Geben Sie Empfänger-Email-Adressen an (durch Komma getrennt)."
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Output settings"
@@ -1256,36 +1116,42 @@ msgid ""
 "Defines a list of agent preferences group keys that will be visible in "
 "Customer interface (works only if DefaultAgentName is disabled). Example: If"
 " you want to display PreferencesGroups###Language, add Language."
-msgstr ""
+msgstr "Definiert eine Liste von Gruppenschlüsseln für die Benutzereinstellungen die im der Kunden-Oberfläche sichtbar sind (funktioniert nur wenn DefaultAgentName deaktiviert ist).\nBeispiel: wenn sie PreferencesGroups###Language anzeigen wollen, fügen sie \"Language\" hinzu."
 
 #. SysConfig
 msgid ""
 "Defines a text for Agent Preferences in the Customer interface (works only "
 "if DefaultAgentName is disabled)."
-msgstr ""
+msgstr "Definiert einen Text für die Benutzereinstellungen im der Kunden-Oberfläche (funktioniert nur wenn  DefaultAgentName deaktiviert ist)."
 
 #. SysConfig
 msgid ""
 "Defines if customer users are able to select Chat Channel. If not, chat will"
 " be created in default Chat Channel."
-msgstr ""
+msgstr "Definiert ob Kundenbenutzer den Chat-Kanal auswählen können. Wenn nicht, dann wird der Chat im Standard Chat-Kanal erstellt."
 
 #. SysConfig
 msgid ""
 "Defines if locking a ticket is required to start a chat with the customer "
 "from the ticket zoom view."
-msgstr ""
+msgstr "Wenn Schalter aktiviert ist, muss das Ticket vom Agenten gesperrt werden um einen Chat zu starten."
 
 #. SysConfig
 msgid ""
 "Defines if numbers should be appended to DefaultAgentName. If enabled, "
 "together with DefaultAgentName will be numbers (e.g. 1,2,3,...)."
-msgstr ""
+msgstr "Definiert ob fortlaufende Nummern an DefaultAgentName angefügt werden sollen. Wenn eingeschaltet, werden Zahlen (z.B. 1,2,3..) an den Namen angefügt."
 
 #. SysConfig
 msgid ""
 "Defines if public users are able to select Chat Channel. If not, chat will "
 "be created in default Chat Channel."
+msgstr "Definiert ob öffentliche Benutzer den Chat-Kanal auswählen können. Wenn nicht, dann wird der Chat im Standard Chat-Kanal erstellt."
+
+#. SysConfig
+msgid ""
+"Defines if the enhanced mode should be used (enables use of table, replace, "
+"subscript, superscript, paste from word, etc.) in customer interface."
 msgstr ""
 
 #. SysConfig
@@ -1293,7 +1159,7 @@ msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is available for external chats, but forgot to set preferred "
 "channel(s)."
-msgstr ""
+msgstr "Definiert das Modul um eine Benachrichtigung im Agent-Interface anzuzeigen falls der Agent für externe Chats verfügbar ist aber keine Chat-Kanal (Kanäle) in seinen Benutzereinstellungen eingetragen hat."
 
 #. SysConfig
 msgid ""
@@ -1322,13 +1188,13 @@ msgstr "Definiert den Pfad zur PhantomJS Binärdatei. Zur vereinfachten Installa
 msgid ""
 "Defines the period of time (in minutes) before No Answer message is "
 "displayed to the customer."
-msgstr ""
+msgstr "Definiert die Zeitspanne (in Minuten) bis ein Kunde die \"Keine Antwort\" Meldung angezeigt bekommt"
 
 #. SysConfig
 msgid ""
 "Defines the period of time (in minutes) before agent goes offline due to "
 "inactivity."
-msgstr ""
+msgstr "Definiert die Zeitspanne (in Minuten) bevor ein Agent wegen Inaktivität als Offline geführt wird"
 
 #. SysConfig
 msgid "Defines the settings for ticket notification."
@@ -1376,7 +1242,7 @@ msgstr "Aktiviert die Timeline-Ansicht in AgentTicketZoom."
 
 #. SysConfig
 msgid "Event module registration (store historical data in dynamic fields)."
-msgstr ""
+msgstr "Ereignismodulregistrierung (Speicherung historischer Daten in dynamischen Feldern)."
 
 #. SysConfig
 msgid "Frontend module registration for the public interface."
@@ -1398,38 +1264,38 @@ msgstr "Wenn der Schalter aktiviert ist wird die Chat-Verfügbarkeit des Agenten
 msgid ""
 "If this flag is set to Yes, a notification will be displayed on each page if"
 " the current agent is not available for chat."
-msgstr ""
+msgstr "Wenn auf \"Ja\" gesetzt, zeigt das System in jedem Bildschirm eine Benachrichtigung an falls der Agent nicht für Chats verfügbar ist."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, agents can start a chat with a customer without "
 "a ticket."
-msgstr ""
+msgstr "Wenn auf \"Ja\" gesetzt, können Agenten auch ohne ein bestehendes Ticket einen Chat mit Kunden starten."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, customers can start a chat with an agent without"
 " a ticket."
-msgstr ""
+msgstr "Wenn auf \"Ja\" gesetzt, können Kunden auch ohne ein bestehendes Ticket einen Chat mit einem Agenten starten."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, only the ticket customer can start a chat from a"
 " ticket zoom view."
-msgstr ""
+msgstr "Wenn auf \"Ja\" gesetzt, kann nur der am Ticket gesetzte Kunde einen Chat aus der Ticketansicht heraus starten."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, starting a chat from agent ticket zoom view will"
 " only be possible, if the ticket customer is online."
-msgstr ""
+msgstr "Wenn auf \"Ja\" gesetzt, ist das Starten eines Chats aus der Ticketansicht nur möglich, wenn der Kunde gerade online ist."
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, starting a chat from customer ticket zoom view "
 "will only be possible, if there are available agents in the linked chat "
 "channel."
-msgstr ""
+msgstr "Wenn auf \"Ja\" gesetzt, ist das Starten eines Chats aus der Ticketansicht für Kunden nur möglich, wenn im verlinkten Chat-Kanal Agenten verfügbar sind."
 
 #. SysConfig
 msgid ""
@@ -1462,7 +1328,7 @@ msgid ""
 "name as default chat channel. The default channel won't be displayed, if "
 "chat channels are enabled in Customer interface and Public interface. All "
 "agent to agent chats will be in the default channel."
-msgstr ""
+msgstr "Name des Standard-Chat-Kanals. Existiert der Kanal nicht, wird er automatisch erstellt. Bitte erstellen Sie keinen Kanal mit demselben Namen wie der Standard-Kanal. Ist die Auswahl eines Kanals für Kunden- und Public-Bereich eingeschaltet, wird der Standard-Kanal nicht angezeigt. Alle Agent-zu-Agent-Chats werden im Standard-Kanal angelegt."
 
 #. SysConfig
 msgid "No agents available message."
@@ -1494,11 +1360,20 @@ msgstr "Anzahl Stunden, nach denen der geschlossene Chat gelöscht wird."
 
 #. SysConfig
 msgid "Output filter for standard tt files."
-msgstr ""
+msgstr "Der Ausgabefilter für Standard tt Dateien"
+
+#. SysConfig
+msgid ""
+"Output filter to inject the necessary Dynamic field names in hidden input."
+msgstr "Ausgabefilter zum Einfügen der erforderlichen DynamicField-Namen in versteckte Felder."
 
 #. SysConfig
 msgid "Output filter to inject the necessary JavaScript into the views."
 msgstr "Ausgabefilter zum Einfügen von notwendigem JavaScript in die Ansichten."
+
+#. SysConfig
+msgid "Parameters for notification web view filters."
+msgstr "Parameter für Filter in der Web-Ansicht für Benachrichtigungen."
 
 #. SysConfig
 msgid ""
@@ -1624,6 +1499,6 @@ msgstr "Benachrichtigungen betrachten"
 
 #. SysConfig
 msgid ""
-"Your selection of your favorite external chat channels. You will be notified"
-" about external chat requests in these chat channels."
-msgstr "Auswahl Ihrer favorisierten Chat-Kanäle. Für ausgewählte Kanäle erhalten Sie eine Benachrichtigung bei externen Chat-Anfragen."
+"Your selection of your preferred external chat channels. You will be "
+"notified about external chat requests in these chat channels."
+msgstr "Auswahl Ihrer bevorzugten Chat-Kanäle. Für ausgewählte Kanäle erhalten Sie eine Benachrichtigung bei externen Chat-Anfragen."
