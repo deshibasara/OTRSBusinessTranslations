@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-08-15 15:32+0000\n"
-"PO-Revision-Date: 2016-08-15 13:33+0000\n"
+"POT-Creation-Date: 2016-10-07 12:06+0000\n"
+"PO-Revision-Date: 2016-10-07 10:07+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Thai (Thailand) (http://www.transifex.com/otrs/OTRS/language/th_TH/)\n"
 "MIME-Version: 1.0\n"
@@ -212,6 +212,229 @@ msgstr "case สำคัญ"
 msgid "Recipient SMS numbers"
 msgstr "หมายเลขผู้รับ SMS"
 
+#. Template: AgentAppointmentResourceOverview
+msgid "Resource Overview"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Teams"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Team Agents"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Add new Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Add Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Filter for calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "URL"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Copy public calendar URL"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "This is a resource overview page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"No calendars found. Please add a calendar first by using Manage Calendars "
+"page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "No teams found. Please add a team first by using Manage Teams page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Team"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"No team agents found. Please assign agents to a team first by using Manage "
+"Team Agents page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Too many active calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"Please either turn some off first or increase the limit in configuration."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Restore default settings"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Week"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Month"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Week"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Day"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Jump"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "This is a repeating appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Would you like to edit just this occurrence or all occurrences?"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "All occurrences"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Just this occurrence"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Dismiss"
+msgstr "ยกเลิก"
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Shown resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Available Resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Filter available resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Visible Resources (order by drag & drop)"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Basic information"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Resource"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Date/Time"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "End date"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Repeat"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Add Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Team Import"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid ""
+"Here you can upload a configuration file to import a team to your system. "
+"The file needs to be in .yml format as exported by team management module."
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Upload team configuration"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Import team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Filter for teams"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Export team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Edit Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Team with same name already exists."
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Permission group"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Filter for agents"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Teams"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Manage Team-Agent Relations"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Change Agent Relations for Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Change Team Relations for Agent"
+msgstr ""
+
 #. Template: AgentChat
 msgid "Manage Chats"
 msgstr "จัดการแชท"
@@ -288,6 +511,14 @@ msgstr "การตรวจสอบกิจกรรมของลูกค
 #. Template: AgentChat
 msgid "Not monitoring this chat"
 msgstr "ไม่ต้องตรวจสอบแชทนี้"
+
+#. Template: AgentChat
+msgid "Audio Call"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Video Call"
+msgstr ""
 
 #. Template: AgentChat
 msgid "Toggle settings"
@@ -436,10 +667,6 @@ msgid "You have no permission to accept this chat request."
 msgstr "คุณไม่มีสิทธิ์ที่จะยอมรับคำขอแชทนี้"
 
 #. Template: AgentChat
-msgid "An internal error occurred."
-msgstr "มีข้อผิดพลาดภายในเกิดขึ้น"
-
-#. Template: AgentChat
 msgid "Please select a user."
 msgstr "กรุณาเลือกผู้ใช้"
 
@@ -555,14 +782,6 @@ msgstr "โหลดใหม่"
 msgid "Update Channel"
 msgstr "อัปเดตช่องทางแชท"
 
-#. Template: AgentChatPreview
-msgid "Accept"
-msgstr "ยอมรับ"
-
-#. Template: AgentChatPreview
-msgid "Decline"
-msgstr "ปฏิเสธ"
-
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
 msgid "Detailed search"
 msgstr "ค้นหารายละเอียด"
@@ -610,10 +829,6 @@ msgstr "คุณต้องการที่จะปิดการแจ้
 #. Template: AgentNotificationViewSmall
 msgid "OTRS Notification"
 msgstr "การแจ้งเตือน OTRS"
-
-#. Template: AgentNotificationViewSmall
-msgid "Dismiss"
-msgstr "ยกเลิก"
 
 #. Template: AgentStatisticsReportsAdd
 msgid "Reports » Add"
@@ -772,6 +987,10 @@ msgid "This ticket does not have any attachments."
 msgstr "ตั๋วนี้ไม่มีเอกสารแนบมา"
 
 #. Template: AgentTicketAttachmentView
+msgid "Hide inline attachments"
+msgstr ""
+
+#. Template: AgentTicketAttachmentView
 msgid "Filter Attachments"
 msgstr "ตัวกรองสิ่งที่แนบมา"
 
@@ -790,6 +1009,62 @@ msgstr "เปิดบทความในหน้าต่างหลัก
 #. Template: AgentTicketAttachmentView
 msgid "Download selected files as archive"
 msgstr "ดาวน์โหลดไฟล์ที่เลือกเป็นข้อมูลถาวร"
+
+#. Template: AgentVideoChat
+msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Close video call"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Mute audio"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Mute video"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "User has declined your video call invitation."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Target user's browser does not support video call."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "User has left the video call."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Attempt to connect was unsuccessful. Please try again."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Requesting media stream..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Waiting for other party to respond..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Accepting the invitation..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Initializing..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Connecting, please wait..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Connection established!"
+msgstr ""
 
 #. Template: CustomerChat
 msgid "%s has joined this chat."
@@ -851,6 +1126,10 @@ msgstr "แชทกำลังโหลด"
 msgid "Chat completed"
 msgstr "เสร็จสิ้นการแชท"
 
+#. Template: CustomerVideoChat
+msgid "Fullscreen"
+msgstr ""
+
 #. Template: OutputFilterPostSLASelectionDialog
 msgid "Please confirm your selection"
 msgstr "กรุณายืนยันการเลือกของคุณ"
@@ -900,13 +1179,39 @@ msgstr "อัพเดต \"%s\" การบริการระบบคล�
 msgid "Cloud Service config \"%s\" saved!"
 msgstr "การกำหนดค่าบริการระบบคลาวด์ \"%s\"  บันทึกไว้แล้ว!"
 
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Need TeamID!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Could not retrieve data for given TeamID"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeamList.pm
+msgid "Unassigned"
+msgstr ""
+
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Chat %s has been closed and was successfully appended to Ticket %s."
 msgstr "แชท %s ได้ถูกปิดและถูกผนวกลงในตั๋วสำเร็จแล้ว"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
+msgid ""
+"Video call feature has been disabled! Please check if %s is available for "
+"the current system."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
 msgstr "%sเข้าร่วมแชทในฐานะผู้สังเกตการณ์"
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Customer <b>%s</b> invited you to a video call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "User <b>%s</b> invited you to a video call."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
@@ -932,6 +1237,14 @@ msgstr "%s ได้เปลี่ยนไปเป็นโหมดสัง
 msgid "%s has rejected the chat request."
 msgstr "%s ได้ปฏิเสธคำขอของการแชท"
 
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Need"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has invited %s to a video call"
+msgstr ""
+
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
 msgstr "การแจ้งเตือนทั้งหมด"
@@ -955,6 +1268,14 @@ msgstr "ชื่อนี้ถูกใช้งานแล้ว โปร�
 #. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
 msgid "Please provide a valid cron entry."
 msgstr "โปรดระบุรายการ cron ที่ถูกต้อง"
+
+#. Perl Module: Kernel/Modules/AgentVideoChat.pm
+msgid "You are not participant in this chat!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "You have been invited to a video call."
+msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
 msgid "You are unavailable for external chats. Would you like to go online?"
@@ -1009,6 +1330,10 @@ msgstr "กลุ่มเอเย่นต์ที่สามารถยอ
 #. SysConfig
 msgid "Agent group that can create chat requests."
 msgstr "กลุ่มเอเย่นต์ที่สามารถสร้างการร้องขอแชท"
+
+#. SysConfig
+msgid "Agent group that can use video calling feature in chats."
+msgstr ""
 
 #. SysConfig
 msgid "Agent interface availability."
@@ -1146,12 +1471,6 @@ msgstr "กำหนดถ้าผู้ใช้สาธารณะสาม
 
 #. SysConfig
 msgid ""
-"Defines if the enhanced mode should be used (enables use of table, replace, "
-"subscript, superscript, paste from word, etc.) in customer interface."
-msgstr ""
-
-#. SysConfig
-msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is available for external chats, but forgot to set preferred "
 "channel(s)."
@@ -1209,6 +1528,14 @@ msgid "Display Create Chat request link in the ticket zoom view."
 msgstr "แสดงผลการสร้างการเชื่อมโยงคำขอสำหรับการพูดคุยในมุมมองการซูมตั๋ว"
 
 #. SysConfig
+msgid "Display audio call link in the ticket zoom view."
+msgstr ""
+
+#. SysConfig
+msgid "Display video call link in the ticket zoom view."
+msgstr ""
+
+#. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
 msgstr "ฟิลด์ไดนามิก Contact Data Backend GUI"
 
@@ -1239,6 +1566,10 @@ msgstr "เปิดใช้งานมุมมองไทม์ไลน์
 #. SysConfig
 msgid "Event module registration (store historical data in dynamic fields)."
 msgstr "การลงทะเบียนโมดูลอีเว้นท์ (เก็บข้อมูลที่ผ่านมาในฟิลด์แบบไดนามิก)"
+
+#. SysConfig
+msgid "Frontend module registration for the cusotmer interface."
+msgstr ""
 
 #. SysConfig
 msgid "Frontend module registration for the public interface."
@@ -1312,6 +1643,10 @@ msgstr "ทำให้มันเป็นไปได้ที่จะเร
 msgid ""
 "Makes it possible to start a chat with an agent from the public interface."
 msgstr "ทำให้มันเป็นไปได้ที่จะเริ่มต้นการสนทนากับเอเย่นต์จากอินเตอร์เฟซสาธารณะ"
+
+#. SysConfig
+msgid "Manage team agents."
+msgstr ""
 
 #. SysConfig
 msgid "My chats"
@@ -1407,6 +1742,18 @@ msgid "Remove old chats."
 msgstr "ลบการสนทนาเก่า"
 
 #. SysConfig
+msgid "Resource overview page."
+msgstr ""
+
+#. SysConfig
+msgid "Resource overview screen."
+msgstr ""
+
+#. SysConfig
+msgid "Resources list."
+msgstr ""
+
+#. SysConfig
 msgid ""
 "Runs an initial wildcard search of the existing contacts with data when "
 "accessing the AdminContactWithData module."
@@ -1433,8 +1780,32 @@ msgid "Start a chat with this customer"
 msgstr "เริ่มต้นการสนทนากับลูกค้ารายนี้"
 
 #. SysConfig
+msgid "Start a video call with this customer"
+msgstr ""
+
+#. SysConfig
+msgid "Start an audio call with this customer"
+msgstr ""
+
+#. SysConfig
 msgid "Start new chat"
 msgstr "เริ่มการแชทใหม่"
+
+#. SysConfig
+msgid "Team agents management screen."
+msgstr ""
+
+#. SysConfig
+msgid "Team list"
+msgstr ""
+
+#. SysConfig
+msgid "Team management screen."
+msgstr ""
+
+#. SysConfig
+msgid "Team management."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1488,6 +1859,10 @@ msgstr "แชทนี้เสร็จสมบูรณ์แล้ว ค�
 #. SysConfig
 msgid "Tool-bar item for a notification web view."
 msgstr "รายการแถบเครื่องมือสำหรับการแจ้งเตือน WebView"
+
+#. SysConfig
+msgid "Video call screen."
+msgstr ""
 
 #. SysConfig
 msgid "View notifications"

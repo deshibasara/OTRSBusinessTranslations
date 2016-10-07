@@ -1,10 +1,11 @@
 # 
 # Translators:
+# Hisatoshi Onishi <hisatoshi.onishi@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2014-08-08 19:10+0200\n"
-"PO-Revision-Date: 2016-01-11 10:06+0000\n"
+"POT-Creation-Date: 2016-10-07 12:06+0000\n"
+"PO-Revision-Date: 2016-10-07 10:07+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/otrs/OTRS/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -13,181 +14,37 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. Template: AAAOTRSBusiness
-msgid "Ticket Created"
-msgstr "チケット作成済み"
-
-#. Template: AAAOTRSBusiness
-msgid "Note Added"
-msgstr "注釈作成済み"
-
-#. Template: AAAOTRSBusiness
-msgid "Note Added (Customer)"
-msgstr "注釈作成済み(顧客)"
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Email"
-msgstr "送信 Email"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Customer Email"
-msgstr "顧客からの受信 Email"
-
-#. Template: AAAOTRSBusiness
-msgid "Dynamic Field Updated"
-msgstr "動的領域 更新済み"
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Phone Call"
-msgstr "架電"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Phone Call"
-msgstr "入電"
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Answer"
-msgstr "回答"
-
-#. Template: AAAOTRSBusiness
-msgid "SLA Updated"
-msgstr "SLA 更新済み"
-
-#. Template: AAAOTRSBusiness
-msgid "Service Updated"
-msgstr "サービスが更新されました"
-
-#. Template: AAAOTRSBusiness
-msgid "Customer Updated"
-msgstr "顧客が更新されました"
-
-#. Template: AAAOTRSBusiness
-msgid "State Updated"
-msgstr "状態が更新されました"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Follow-Up"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Update Time Stopped"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Solution Time Stopped"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation First Response Time Stopped"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Response Time Stopped"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Link Added"
-msgstr "リンクが追加されました"
-
-#. Template: AAAOTRSBusiness
-msgid "Link Deleted"
-msgstr "リンクが削除されました"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Merged"
-msgstr "チケットが結合されました"
-
-#. Template: AAAOTRSBusiness
-msgid "Pending Time Set"
-msgstr "保留時間を設定"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Locked"
-msgstr "チケットがロックされました"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Unlocked"
-msgstr "チケットのロックが解除されました"
-
-#. Template: AAAOTRSBusiness
-msgid "Queue Updated"
-msgstr "キューが更新されました"
-
-#. Template: AAAOTRSBusiness
-msgid "Priority Updated"
-msgstr "優先度が更新されました"
-
-#. Template: AAAOTRSBusiness
-msgid "Title Updated"
-msgstr "タイトルが更新されました"
-
-#. Template: AAAOTRSBusiness
-msgid "Type Updated"
-msgstr "タイプが更新されました"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Web Request"
-msgstr "受信Webリクエスト"
-
-#. Template: AAAOTRSBusiness
-msgid "Automatic Follow-Up Sent"
-msgstr "自動Follow-Up 送信"
-
-#. Template: AAAOTRSBusiness
-msgid "Automatic Reply Sent"
-msgstr "自動返信送信"
-
-#. Template: AAAOTRSBusiness
-msgid "Time Accounted"
-msgstr "アカウンテッドタイム"
-
-#. Template: AAAOTRSBusiness
-msgid "External Chat"
-msgstr "外部チャット"
-
-#. Template: AAAOTRSBusiness
-msgid "Internal Chat"
-msgstr "内部チャット"
-
 #. Template: AdminChatChannel
 msgid "Manage Chat Channels"
-msgstr ""
+msgstr "チャットチャネルを設定"
 
 #. Template: AdminChatChannel
 msgid "Add Chat Channel"
-msgstr ""
+msgstr "チャットチャネルを追加"
 
 #. Template: AdminChatChannel
 msgid "Edit Chat Channel"
-msgstr ""
-
-#. Template: AdminChatChannel
-msgid "This field is required"
-msgstr "このフィールドは必須です"
+msgstr "チャットチャネルを編集"
 
 #. Template: AdminChatChannel
 msgid "Name invalid"
-msgstr ""
+msgstr "無効な名前です"
 
 #. Template: AdminChatChannel
 msgid "Need Group"
-msgstr ""
+msgstr "グループの選択が必要です。"
 
 #. Template: AdminChatChannel
 msgid "Need Valid"
-msgstr ""
+msgstr "「有効」を選択する必要があります"
 
 #. Template: AdminChatChannel
 msgid "Comment invalid"
-msgstr ""
-
-#. Template: AdminCloudServiceSMS
-msgid "SMS (Short Message Service)"
-msgstr ""
+msgstr "無効なコメントです"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service status"
-msgstr ""
+msgstr "クラウドサービスの状態"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service availability"
@@ -228,7 +85,7 @@ msgstr ""
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Will be shown as sender name of the SMS (Not longer than 11 characters)."
-msgstr ""
+msgstr "SMSの送信者名に表示されます (11文字まで)"
 
 #. Template: AdminCloudServiceSMS
 msgid "This field is required and must be not longer than 11 characters."
@@ -246,7 +103,7 @@ msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
-msgstr ""
+msgstr "設定を保存する"
 
 #. Template: AdminCloudServiceSMS
 msgid "Data Protection Information"
@@ -352,6 +209,229 @@ msgstr ""
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
+msgstr "受信者のSMSナンバー"
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Resource Overview"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Teams"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Team Agents"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Add new Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Add Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Filter for calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "URL"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Copy public calendar URL"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "This is a resource overview page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"No calendars found. Please add a calendar first by using Manage Calendars "
+"page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "No teams found. Please add a team first by using Manage Teams page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Team"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"No team agents found. Please assign agents to a team first by using Manage "
+"Team Agents page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Too many active calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"Please either turn some off first or increase the limit in configuration."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Restore default settings"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Week"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Month"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Week"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Day"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Jump"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "This is a repeating appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Would you like to edit just this occurrence or all occurrences?"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "All occurrences"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Just this occurrence"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Dismiss"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Shown resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Available Resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Filter available resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Visible Resources (order by drag & drop)"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Basic information"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Resource"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Date/Time"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "End date"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Repeat"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Add Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Team Import"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid ""
+"Here you can upload a configuration file to import a team to your system. "
+"The file needs to be in .yml format as exported by team management module."
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Upload team configuration"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Import team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Filter for teams"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Export team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Edit Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Team with same name already exists."
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Permission group"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Filter for agents"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Teams"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Manage Team-Agent Relations"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Change Agent Relations for Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Change Team Relations for Agent"
 msgstr ""
 
 #. Template: AgentChat
@@ -373,15 +453,15 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "General Chat Requests From Customers"
-msgstr ""
+msgstr "顧客からの通常チャットリクエスト"
 
 #. Template: AgentChat
 msgid "My Chat Channels"
-msgstr ""
+msgstr "マイ・チャットチャネル"
 
 #. Template: AgentChat
 msgid "All Chat Channels"
-msgstr ""
+msgstr "すべてのチャットチャネル"
 
 #. Template: AgentChat
 msgid "Channel"
@@ -397,7 +477,7 @@ msgstr "チャット要求者がロードされました、しばらくお待ち
 
 #. Template: AgentChat
 msgid "General Chat Requests From Public Users"
-msgstr "公開ユーザーからの一般チャット要求"
+msgstr "公開ユーザーからの通常チャット要求"
 
 #. Template: AgentChat
 msgid "Personal Chat Requests For You"
@@ -417,7 +497,7 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "Discard & close this chat"
-msgstr "破棄しこのチャットを閉じる"
+msgstr "このチャットを破棄して閉じる"
 
 #. Template: AgentChat
 msgid "Monitoring all activity in this chat"
@@ -429,6 +509,14 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "Not monitoring this chat"
+msgstr "このチャットをモニタしない"
+
+#. Template: AgentChat
+msgid "Audio Call"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Video Call"
 msgstr ""
 
 #. Template: AgentChat
@@ -437,7 +525,7 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "Leave chat"
-msgstr "チャットから離れる"
+msgstr "チャットから離脱する"
 
 #. Template: AgentChat
 msgid "Leave"
@@ -453,51 +541,51 @@ msgstr "既存のチケットにこのチャットを追加後、チャットを
 
 #. Template: AgentChat
 msgid "Append"
-msgstr ""
+msgstr "追加"
 
 #. Template: AgentChat
 msgid "Invite additional agent to join the chat"
-msgstr ""
+msgstr "チャットに担当者を追加招待する"
 
 #. Template: AgentChat
 msgid "Invite"
-msgstr ""
+msgstr "招待"
 
 #. Template: AgentChat
 msgid "Change chat channel"
-msgstr ""
+msgstr "チャットチャネルを切替える"
 
 #. Template: AgentChat
 msgid "Channel change"
-msgstr ""
+msgstr "チャネルの変更"
 
 #. Template: AgentChat
 msgid "Switch to participant"
-msgstr ""
+msgstr "発言者に切替える"
 
 #. Template: AgentChat
 msgid "Participant"
-msgstr ""
+msgstr "発言者"
 
 #. Template: AgentChat
 msgid "Switch to an observer"
-msgstr ""
+msgstr "観察者に切替え"
 
 #. Template: AgentChat
 msgid "Observer"
-msgstr ""
+msgstr "観察者"
 
 #. Template: AgentChat
 msgid "Download this Chat"
-msgstr ""
+msgstr "このチャットをダウンロード"
 
 #. Template: AgentChat
 msgid "Join invited chat as an observer"
-msgstr ""
+msgstr "招待されたチャットに観察者として参加する"
 
 #. Template: AgentChat
 msgid "Join invited chat as a participant"
-msgstr ""
+msgstr "招待されたチャットに発言者として参加する"
 
 #. Template: AgentChat
 msgid "Open chat in a Popup"
@@ -505,7 +593,7 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "New window"
-msgstr ""
+msgstr "新しいウィンドウ"
 
 #. Template: AgentChat
 msgid "New Message"
@@ -513,7 +601,7 @@ msgstr "新規メッセージ"
 
 #. Template: AgentChat
 msgid "(Shift + Enter for new line)"
-msgstr ""
+msgstr "(Shift + Enter で改行します)"
 
 #. Template: AgentChat
 msgid "%s has left this chat."
@@ -521,11 +609,11 @@ msgstr "%s はチャットから退出しました"
 
 #. Template: AgentChat
 msgid "Online agents"
-msgstr ""
+msgstr "オンラインの担当者"
 
 #. Template: AgentChat
 msgid "Reload online agents"
-msgstr ""
+msgstr "オンラインの担当者をリロードする"
 
 #. Template: AgentChat
 msgid "Destination channel"
@@ -537,19 +625,19 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "This user is currently active."
-msgstr ""
+msgstr "このユーザーは現在オンラインです"
 
 #. Template: AgentChat
 msgid "This user is currently away."
-msgstr ""
+msgstr "このユーザーは現在離席中です"
 
 #. Template: AgentChat
 msgid "This user is currently unavailable."
-msgstr ""
+msgstr "このユーザーは現在利用できません。"
 
 #. Template: AgentChat
 msgid "This user is currently offline."
-msgstr ""
+msgstr "このユーザーは現在オフラインです"
 
 #. Template: AgentChat
 msgid "This user has already left the chat or has not yet joined it."
@@ -558,11 +646,11 @@ msgstr "ユーザーはチャットから退出済みか、まだ参加してい
 #. Template: AgentChat
 msgid ""
 "You are no longer in this chat. Click this message to remove the chat box."
-msgstr ""
+msgstr "あなたはこのチャットから離脱しました。このメッセージをクリックすると、チャットボックスを削除します。"
 
 #. Template: AgentChat
 msgid "There are currently no chat requests."
-msgstr ""
+msgstr "現在チャット要求はありません。"
 
 #. Template: AgentChat
 msgid ""
@@ -571,27 +659,23 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "This chat request was already accepted by another person."
-msgstr ""
+msgstr "このチャット要求は他の方によって承認済みです。"
 
 #. Template: AgentChat
 msgid "You have no permission to accept this chat request."
-msgstr ""
-
-#. Template: AgentChat
-msgid "An internal error occurred."
-msgstr ""
+msgstr "チャット要求を承認する権限がありません。"
 
 #. Template: AgentChat
 msgid "Please select a user."
-msgstr ""
+msgstr "ユーザーを選択してください"
 
 #. Template: AgentChat
 msgid "Please select a permission level."
-msgstr ""
+msgstr "権限のグループを選択してください。"
 
 #. Template: AgentChat
 msgid "Invite Agent."
-msgstr ""
+msgstr "担当者を招待する"
 
 #. Template: AgentChat
 msgid "Please, select destination chat channel."
@@ -599,7 +683,7 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "Please select a channel."
-msgstr ""
+msgstr "チャネルを選択してください。"
 
 #. Template: AgentChat
 msgid "Chat preview"
@@ -627,7 +711,7 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "You can't leave Customer alone in the chat."
-msgstr ""
+msgstr "顧客が取り残されてしまいますので、あなたは離脱する事はできません。"
 
 #. Template: AgentChat
 msgid "You"
@@ -635,7 +719,7 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "Your chat could not be started because of an internal error."
-msgstr ""
+msgstr "内部エラーが発生したため、チャットを解しできませんでした。"
 
 #. Template: AgentChat
 msgid "Your chat request was created."
@@ -675,7 +759,7 @@ msgstr "..とチャット"
 
 #. Template: AgentChatPopup
 msgid "Leave Chat"
-msgstr ""
+msgstr "チャットから離脱する"
 
 #. Template: AgentChatPopup
 msgid "This user is currently in the chat."
@@ -695,14 +779,6 @@ msgstr ""
 
 #. Template: AgentChatPreview
 msgid "Update Channel"
-msgstr ""
-
-#. Template: AgentChatPreview
-msgid "Accept"
-msgstr ""
-
-#. Template: AgentChatPreview
-msgid "Decline"
 msgstr ""
 
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
@@ -753,13 +829,9 @@ msgstr ""
 msgid "OTRS Notification"
 msgstr ""
 
-#. Template: AgentNotificationViewSmall
-msgid "Dismiss"
-msgstr ""
-
 #. Template: AgentStatisticsReportsAdd
 msgid "Reports » Add"
-msgstr ""
+msgstr "レポート » 追加"
 
 #. Template: AgentStatisticsReportsAdd
 msgid "Add New Statistics Report"
@@ -767,7 +839,7 @@ msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Reports » Edit — %s"
-msgstr ""
+msgstr "レポート » 編集 — %s"
 
 #. Template: AgentStatisticsReportsEdit
 msgid ""
@@ -821,15 +893,15 @@ msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email subject"
-msgstr ""
+msgstr "メールの表題"
 
 #. Template: AgentStatisticsReportsEdit
-msgid "Specify recipient email addresses (comma separated)."
+msgid "Specify the subject for the automatically generated email."
 msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email body"
-msgstr ""
+msgstr "メール本文"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Specify the text for the automatically generated email."
@@ -837,11 +909,11 @@ msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email recipients"
-msgstr ""
+msgstr "メールの受信者"
 
 #. Template: AgentStatisticsReportsEdit
-msgid "Specify recipent email addresses (comma separated)."
-msgstr ""
+msgid "Specify recipient email addresses (comma separated)."
+msgstr "受信者のアドレスを設定してください (コンマ区切りで複数設定可)。"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Output settings"
@@ -914,6 +986,10 @@ msgid "This ticket does not have any attachments."
 msgstr "このチケットに添付はありません"
 
 #. Template: AgentTicketAttachmentView
+msgid "Hide inline attachments"
+msgstr ""
+
+#. Template: AgentTicketAttachmentView
 msgid "Filter Attachments"
 msgstr "添付をフィルタする"
 
@@ -932,6 +1008,62 @@ msgstr "添付をメイン画面で表示する"
 #. Template: AgentTicketAttachmentView
 msgid "Download selected files as archive"
 msgstr "選択したファイルをアーカイブとしてダウンロードする"
+
+#. Template: AgentVideoChat
+msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Close video call"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Mute audio"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Mute video"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "User has declined your video call invitation."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Target user's browser does not support video call."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "User has left the video call."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Attempt to connect was unsuccessful. Please try again."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Requesting media stream..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Waiting for other party to respond..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Accepting the invitation..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Initializing..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Connecting, please wait..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Connection established!"
+msgstr ""
 
 #. Template: CustomerChat
 msgid "%s has joined this chat."
@@ -959,11 +1091,11 @@ msgstr ""
 
 #. Template: CustomerChat
 msgid "Create new ticket"
-msgstr ""
+msgstr "新規チケット作成"
 
 #. Template: CustomerChat
 msgid "Add an article"
-msgstr ""
+msgstr "記事を追加"
 
 #. Template: CustomerChat
 msgid "Start a new chat"
@@ -971,7 +1103,7 @@ msgstr "新規チャットを開始する"
 
 #. Template: CustomerChat
 msgid "Select channel"
-msgstr ""
+msgstr "チャネルを選択する"
 
 #. Template: CustomerChat
 msgid "Add to an existing ticket"
@@ -983,7 +1115,7 @@ msgstr "アクティブなチャット"
 
 #. Template: CustomerChat
 msgid "Download Chat"
-msgstr ""
+msgstr "チャットをダウンロードする"
 
 #. Template: CustomerChat
 msgid "Chat is being loaded..."
@@ -991,6 +1123,10 @@ msgstr "チャットが読み込まれています..."
 
 #. Template: CustomerChat
 msgid "Chat completed"
+msgstr "チャットは終了しました"
+
+#. Template: CustomerVideoChat
+msgid "Fullscreen"
 msgstr ""
 
 #. Template: OutputFilterPostSLASelectionDialog
@@ -1024,67 +1160,101 @@ msgstr "序文"
 
 #. Template: StatsWidget
 msgid "Postface"
-msgstr ""
+msgstr "後書き"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat Channel %s added"
-msgstr ""
+msgstr "チャットチャネル %s が追加されました"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat channel %s edited"
-msgstr ""
+msgstr "チャットチャネル %s が変更されました"
 
 #. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
 msgid "Cloud service \"%s\" updated!"
-msgstr ""
+msgstr "クラウドサービス \"%s\" が更新されました！"
 
 #. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
 msgid "Cloud Service config \"%s\" saved!"
+msgstr "クラウドサービス \"%s\" が保存されました！"
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Need TeamID!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Could not retrieve data for given TeamID"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeamList.pm
+msgid "Unassigned"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Chat %s has been closed and was successfully appended to Ticket %s."
+msgstr "チャットは終了し、チケット %s の記事として正常に追加されました。"
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid ""
+"Video call feature has been disabled! Please check if %s is available for "
+"the current system."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
+msgstr "%s がオブザーバーとしてチャットに参加しました"
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Customer <b>%s</b> invited you to a video call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "User <b>%s</b> invited you to a video call."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
-msgstr ""
+msgstr "チャットへの新しい参加要求があります。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Agent invited %s."
-msgstr ""
+msgstr "担当者は %s を招待しました。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s changed chat channel to %s."
-msgstr ""
+msgstr "%s はチャットチャネルを %s に切替えました。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has switched to participant mode."
-msgstr ""
+msgstr "%s は発言者モードになりました。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has switched to observer mode."
-msgstr ""
+msgstr "%s は観察者モードになりました。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has rejected the chat request."
+msgstr "%s はチャットへの応答を辞退しました。"
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Need"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has invited %s to a video call"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
-msgstr ""
+msgstr "すべての通知"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Seen Notifications"
-msgstr ""
+msgstr "確認済みの通知"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Unseen Notifications"
-msgstr ""
+msgstr "未確認の通知"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Notification Web View"
@@ -1092,10 +1262,18 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
 msgid "This name is already in use, please choose a different one."
-msgstr ""
+msgstr "この名前はすでに使われています。別の名前を選択してください。"
 
 #. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
 msgid "Please provide a valid cron entry."
+msgstr "正しいcronのエントリを指定してください"
+
+#. Perl Module: Kernel/Modules/AgentVideoChat.pm
+msgid "You are not participant in this chat!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "You have been invited to a video call."
 msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
@@ -1112,7 +1290,7 @@ msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Object Type"
-msgstr ""
+msgstr "オブジェクトタイプ"
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"
@@ -1151,6 +1329,10 @@ msgstr "チャットと、チャットリクエストを受けることの出来
 #. SysConfig
 msgid "Agent group that can create chat requests."
 msgstr "チャットリクエストが作成できるエージェントグループ"
+
+#. SysConfig
+msgid "Agent group that can use video calling feature in chats."
+msgstr ""
 
 #. SysConfig
 msgid "Agent interface availability."
@@ -1342,6 +1524,14 @@ msgstr ""
 
 #. SysConfig
 msgid "Display Create Chat request link in the ticket zoom view."
+msgstr "チャット開始リクエストのリンクをチケットズームビューに表示する"
+
+#. SysConfig
+msgid "Display audio call link in the ticket zoom view."
+msgstr ""
+
+#. SysConfig
+msgid "Display video call link in the ticket zoom view."
 msgstr ""
 
 #. SysConfig
@@ -1374,6 +1564,10 @@ msgstr ""
 
 #. SysConfig
 msgid "Event module registration (store historical data in dynamic fields)."
+msgstr ""
+
+#. SysConfig
+msgid "Frontend module registration for the cusotmer interface."
 msgstr ""
 
 #. SysConfig
@@ -1450,6 +1644,10 @@ msgid ""
 msgstr "公開画面からエージェントとのチャットが開始出来るようにする"
 
 #. SysConfig
+msgid "Manage team agents."
+msgstr ""
+
+#. SysConfig
 msgid "My chats"
 msgstr "マイチャット"
 
@@ -1480,22 +1678,31 @@ msgstr ""
 
 #. SysConfig
 msgid "Notifications Unseen:"
-msgstr ""
+msgstr "未確認の通知 :"
 
 #. SysConfig
 msgid "Number of days after chat will be deleted."
-msgstr ""
+msgstr "チャットが削除されるまでの日数"
 
 #. SysConfig
 msgid "Number of hours after closed chat will be deleted."
-msgstr ""
+msgstr "チャットが削除されるまでの時間"
 
 #. SysConfig
 msgid "Output filter for standard tt files."
 msgstr ""
 
 #. SysConfig
+msgid ""
+"Output filter to inject the necessary Dynamic field names in hidden input."
+msgstr ""
+
+#. SysConfig
 msgid "Output filter to inject the necessary JavaScript into the views."
+msgstr ""
+
+#. SysConfig
+msgid "Parameters for notification web view filters."
 msgstr ""
 
 #. SysConfig
@@ -1527,10 +1734,22 @@ msgstr ""
 
 #. SysConfig
 msgid "Remove closed chats older than ChatEngine::ChatTTL."
-msgstr ""
+msgstr "ChatEngine::ChatTTL より古い、終了したチャットを削除する"
 
 #. SysConfig
 msgid "Remove old chats."
+msgstr "古いチャットを削除する"
+
+#. SysConfig
+msgid "Resource overview page."
+msgstr ""
+
+#. SysConfig
+msgid "Resource overview screen."
+msgstr ""
+
+#. SysConfig
+msgid "Resources list."
 msgstr ""
 
 #. SysConfig
@@ -1560,8 +1779,32 @@ msgid "Start a chat with this customer"
 msgstr "顧客とチャットを開始する"
 
 #. SysConfig
+msgid "Start a video call with this customer"
+msgstr ""
+
+#. SysConfig
+msgid "Start an audio call with this customer"
+msgstr ""
+
+#. SysConfig
 msgid "Start new chat"
 msgstr "新規チャットを開始する"
+
+#. SysConfig
+msgid "Team agents management screen."
+msgstr ""
+
+#. SysConfig
+msgid "Team list"
+msgstr ""
+
+#. SysConfig
+msgid "Team management screen."
+msgstr ""
+
+#. SysConfig
+msgid "Team management."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1577,51 +1820,55 @@ msgstr ""
 
 #. SysConfig
 msgid "There are no chat agents available at present. Please try again later."
-msgstr ""
+msgstr "現在チャット機能は利用できません。のちほどご確認ください。"
 
 #. SysConfig
 msgid ""
 "There are no chat agents available at present. To add an article to the "
 "existing ticket, please click here:"
-msgstr ""
+msgstr "現在チャット機能は利用できません。既存のチケットに記事を追加するには、こちらをクリックしてください :"
 
 #. SysConfig
 msgid ""
 "There are no chat agents available at present. To create a new ticket, "
 "please click here:"
-msgstr ""
+msgstr "現在チャット機能は利用できません。新しいチケットを作成するには、こちらをクリックしてください :"
 
 #. SysConfig
 msgid ""
 "This chat has ended. Please leave it or it will be closed automatically."
-msgstr ""
+msgstr "このチャットは閉鎖されました。ここから離脱してください（または自動的にクローズされます）。"
 
 #. SysConfig
 msgid ""
 "This chat has ended. Please leave it or it will be closed automatically. You"
 " can download this chat."
-msgstr ""
+msgstr "このチャットは閉鎖されました。ここから離脱してください（または自動的にクローズされます）。このチャットの内容はダウンロードが可能です。"
 
 #. SysConfig
 msgid "This chat is completed. You can now close the chat window."
-msgstr ""
+msgstr "このチャットは終了しました。このウィンドウを閉じても構いません。"
 
 #. SysConfig
 msgid ""
 "This chat is completed. You can start a new chat using the button on top of "
 "this page."
-msgstr ""
+msgstr "このチャットは終了しました。新しくチャットを開始するにはページ上部のボタンを押してください。"
 
 #. SysConfig
 msgid "Tool-bar item for a notification web view."
 msgstr ""
 
 #. SysConfig
-msgid "View notifications"
+msgid "Video call screen."
 msgstr ""
 
 #. SysConfig
+msgid "View notifications"
+msgstr "通知を見る"
+
+#. SysConfig
 msgid ""
-"Your selection of your favorite external chat channels. You will be notified"
-" about external chat requests in these chat channels."
+"Your selection of your preferred external chat channels. You will be "
+"notified about external chat requests in these chat channels."
 msgstr ""

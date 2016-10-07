@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-08-15 15:32+0000\n"
-"PO-Revision-Date: 2016-08-15 13:33+0000\n"
+"POT-Creation-Date: 2016-10-07 12:06+0000\n"
+"PO-Revision-Date: 2016-10-07 10:07+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Malay (http://www.transifex.com/otrs/OTRS/language/ms/)\n"
 "MIME-Version: 1.0\n"
@@ -211,6 +211,229 @@ msgstr "Huruf Sensitif"
 msgid "Recipient SMS numbers"
 msgstr "Nombor SMS Penerima"
 
+#. Template: AgentAppointmentResourceOverview
+msgid "Resource Overview"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Teams"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Team Agents"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Add new Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Add Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Filter for calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "URL"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Copy public calendar URL"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "This is a resource overview page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"No calendars found. Please add a calendar first by using Manage Calendars "
+"page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "No teams found. Please add a team first by using Manage Teams page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Team"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"No team agents found. Please assign agents to a team first by using Manage "
+"Team Agents page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Too many active calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"Please either turn some off first or increase the limit in configuration."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Restore default settings"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Week"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Month"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Week"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Day"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Jump"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "This is a repeating appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Would you like to edit just this occurrence or all occurrences?"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "All occurrences"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Just this occurrence"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Dismiss"
+msgstr "Abaikan"
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Shown resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Available Resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Filter available resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Visible Resources (order by drag & drop)"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Basic information"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Resource"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Date/Time"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "End date"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Repeat"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Add Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Team Import"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid ""
+"Here you can upload a configuration file to import a team to your system. "
+"The file needs to be in .yml format as exported by team management module."
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Upload team configuration"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Import team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Filter for teams"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Export team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Edit Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Team with same name already exists."
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Permission group"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Filter for agents"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Teams"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Manage Team-Agent Relations"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Change Agent Relations for Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Change Team Relations for Agent"
+msgstr ""
+
 #. Template: AgentChat
 msgid "Manage Chats"
 msgstr "Urus Chat"
@@ -287,6 +510,14 @@ msgstr "Memantau aktiviti pelanggan dalam chat ini"
 #. Template: AgentChat
 msgid "Not monitoring this chat"
 msgstr "Tidak memantau chat ini"
+
+#. Template: AgentChat
+msgid "Audio Call"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Video Call"
+msgstr ""
 
 #. Template: AgentChat
 msgid "Toggle settings"
@@ -435,10 +666,6 @@ msgid "You have no permission to accept this chat request."
 msgstr "Anda tidak memiliki kebenaran untuk menerima permohonan chat ini."
 
 #. Template: AgentChat
-msgid "An internal error occurred."
-msgstr "Berlakunya kesilapan dalaman."
-
-#. Template: AgentChat
 msgid "Please select a user."
 msgstr "Sila pilih pengguna."
 
@@ -554,14 +781,6 @@ msgstr "Muat semula"
 msgid "Update Channel"
 msgstr "Kemaskini saluran"
 
-#. Template: AgentChatPreview
-msgid "Accept"
-msgstr "Terima"
-
-#. Template: AgentChatPreview
-msgid "Decline"
-msgstr "Tolak"
-
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
 msgid "Detailed search"
 msgstr "Butiran carian"
@@ -609,10 +828,6 @@ msgstr "Adakah anda benar-benar mahu untuk menyingkirkan pemberitahuan dipilih?"
 #. Template: AgentNotificationViewSmall
 msgid "OTRS Notification"
 msgstr "Pemberitahuan OTRS"
-
-#. Template: AgentNotificationViewSmall
-msgid "Dismiss"
-msgstr "Abaikan"
 
 #. Template: AgentStatisticsReportsAdd
 msgid "Reports » Add"
@@ -771,6 +986,10 @@ msgid "This ticket does not have any attachments."
 msgstr "Tiket ini tidak mempunyai lampiran."
 
 #. Template: AgentTicketAttachmentView
+msgid "Hide inline attachments"
+msgstr ""
+
+#. Template: AgentTicketAttachmentView
 msgid "Filter Attachments"
 msgstr "Tapis Lampiran"
 
@@ -789,6 +1008,62 @@ msgstr "Buka artikel dalam tetingkap utama"
 #. Template: AgentTicketAttachmentView
 msgid "Download selected files as archive"
 msgstr "Muat turun fail dipilih sebagai arkib"
+
+#. Template: AgentVideoChat
+msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Close video call"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Mute audio"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Mute video"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "User has declined your video call invitation."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Target user's browser does not support video call."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "User has left the video call."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Attempt to connect was unsuccessful. Please try again."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Requesting media stream..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Waiting for other party to respond..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Accepting the invitation..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Initializing..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Connecting, please wait..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Connection established!"
+msgstr ""
 
 #. Template: CustomerChat
 msgid "%s has joined this chat."
@@ -850,6 +1125,10 @@ msgstr "Chat sedang dimuatkan..."
 msgid "Chat completed"
 msgstr "Chat lengkap"
 
+#. Template: CustomerVideoChat
+msgid "Fullscreen"
+msgstr ""
+
 #. Template: OutputFilterPostSLASelectionDialog
 msgid "Please confirm your selection"
 msgstr "Sila sahkan pilihan anda"
@@ -899,13 +1178,39 @@ msgstr "Servis cloud \"%s\" dikemaskini!"
 msgid "Cloud Service config \"%s\" saved!"
 msgstr "Konfigurasi Servis Cloud \"%s\" disimpan!"
 
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Need TeamID!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Could not retrieve data for given TeamID"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeamList.pm
+msgid "Unassigned"
+msgstr ""
+
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Chat %s has been closed and was successfully appended to Ticket %s."
 msgstr "Chat %s telah ditutup dan telah berjaya dilampirkan pada tiket %s."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
+msgid ""
+"Video call feature has been disabled! Please check if %s is available for "
+"the current system."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
 msgstr "%s telah menyertai chat ini sebagai pemerhati."
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Customer <b>%s</b> invited you to a video call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "User <b>%s</b> invited you to a video call."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
@@ -931,6 +1236,14 @@ msgstr "%s telah menukar ke mod pemerhati."
 msgid "%s has rejected the chat request."
 msgstr "%s telah menolak permohonan chat."
 
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Need"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has invited %s to a video call"
+msgstr ""
+
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
 msgstr "Semua pemberitahuan"
@@ -954,6 +1267,14 @@ msgstr "Nama ini telah digunakan, sila pilih yang lain."
 #. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
 msgid "Please provide a valid cron entry."
 msgstr "Sila berikan kemasukan cron yang sah."
+
+#. Perl Module: Kernel/Modules/AgentVideoChat.pm
+msgid "You are not participant in this chat!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "You have been invited to a video call."
+msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
 msgid "You are unavailable for external chats. Would you like to go online?"
@@ -1008,6 +1329,10 @@ msgstr "Kumpulan agen yang boleh menerima permintaan chat dan berbual."
 #. SysConfig
 msgid "Agent group that can create chat requests."
 msgstr "Kumpulan ejen yang boleh membuat permintaan chat."
+
+#. SysConfig
+msgid "Agent group that can use video calling feature in chats."
+msgstr ""
 
 #. SysConfig
 msgid "Agent interface availability."
@@ -1145,12 +1470,6 @@ msgstr "Menentukan jika pengguna awam boleh memilih Saluran Chat. Jika tidak, ch
 
 #. SysConfig
 msgid ""
-"Defines if the enhanced mode should be used (enables use of table, replace, "
-"subscript, superscript, paste from word, etc.) in customer interface."
-msgstr ""
-
-#. SysConfig
-msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is available for external chats, but forgot to set preferred "
 "channel(s)."
@@ -1208,6 +1527,14 @@ msgid "Display Create Chat request link in the ticket zoom view."
 msgstr "Papar pautan permintaan Cipta Chat dalam pandangan zum tiket."
 
 #. SysConfig
+msgid "Display audio call link in the ticket zoom view."
+msgstr ""
+
+#. SysConfig
+msgid "Display video call link in the ticket zoom view."
+msgstr ""
+
+#. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
 msgstr "GUI Backend Kenalan Data Medan Dinamik"
 
@@ -1238,6 +1565,10 @@ msgstr "Membolehkan pandangan garis masa dalam AgentTicketZoom."
 #. SysConfig
 msgid "Event module registration (store historical data in dynamic fields)."
 msgstr "Pendaftaran modul acara (simpan data bersejarah dalam medan dinamik)."
+
+#. SysConfig
+msgid "Frontend module registration for the cusotmer interface."
+msgstr ""
 
 #. SysConfig
 msgid "Frontend module registration for the public interface."
@@ -1311,6 +1642,10 @@ msgstr "Membolehkan untuk meulakan chat dengan agen dari antara muka pelanggan."
 msgid ""
 "Makes it possible to start a chat with an agent from the public interface."
 msgstr "Membolehkan untuk memulakan chat dengan agen dari antara muka awam."
+
+#. SysConfig
+msgid "Manage team agents."
+msgstr ""
 
 #. SysConfig
 msgid "My chats"
@@ -1406,6 +1741,18 @@ msgid "Remove old chats."
 msgstr "Buang chat lama."
 
 #. SysConfig
+msgid "Resource overview page."
+msgstr ""
+
+#. SysConfig
+msgid "Resource overview screen."
+msgstr ""
+
+#. SysConfig
+msgid "Resources list."
+msgstr ""
+
+#. SysConfig
 msgid ""
 "Runs an initial wildcard search of the existing contacts with data when "
 "accessing the AdminContactWithData module."
@@ -1432,8 +1779,32 @@ msgid "Start a chat with this customer"
 msgstr "Mulakan chat dengan pelanggan ini"
 
 #. SysConfig
+msgid "Start a video call with this customer"
+msgstr ""
+
+#. SysConfig
+msgid "Start an audio call with this customer"
+msgstr ""
+
+#. SysConfig
 msgid "Start new chat"
 msgstr "Mulakan chat baru"
+
+#. SysConfig
+msgid "Team agents management screen."
+msgstr ""
+
+#. SysConfig
+msgid "Team list"
+msgstr ""
+
+#. SysConfig
+msgid "Team management screen."
+msgstr ""
+
+#. SysConfig
+msgid "Team management."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1487,6 +1858,10 @@ msgstr "Chat ini sudah selesai. Anda boleh memulakan chat baru menggunakan butan
 #. SysConfig
 msgid "Tool-bar item for a notification web view."
 msgstr "Alat-bar item  untuk paparan pemberitahuan web."
+
+#. SysConfig
+msgid "Video call screen."
+msgstr ""
 
 #. SysConfig
 msgid "View notifications"

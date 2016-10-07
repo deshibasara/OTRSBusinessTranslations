@@ -1,10 +1,13 @@
 # 
 # Translators:
+# 文浩坚 <never.min@gmail.com>, 2016
+# 汇民 王 <whuim@163.com>, 2016
+# 陈德文 <sggggy@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2014-08-08 19:10+0200\n"
-"PO-Revision-Date: 2016-01-11 10:06+0000\n"
+"POT-Creation-Date: 2016-10-07 12:06+0000\n"
+"PO-Revision-Date: 2016-10-07 10:07+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -13,244 +16,100 @@ msgstr ""
 "Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. Template: AAAOTRSBusiness
-msgid "Ticket Created"
-msgstr "工单已创建"
-
-#. Template: AAAOTRSBusiness
-msgid "Note Added"
-msgstr "已增加备注"
-
-#. Template: AAAOTRSBusiness
-msgid "Note Added (Customer)"
-msgstr "已增加备注(用户)"
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Email"
-msgstr "发出的邮件"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Customer Email"
-msgstr "来信"
-
-#. Template: AAAOTRSBusiness
-msgid "Dynamic Field Updated"
-msgstr "动态字段已更新"
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Phone Call"
-msgstr "致电"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Phone Call"
-msgstr "来电"
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Answer"
-msgstr "答复"
-
-#. Template: AAAOTRSBusiness
-msgid "SLA Updated"
-msgstr "SLA 已更新"
-
-#. Template: AAAOTRSBusiness
-msgid "Service Updated"
-msgstr "服务已更新"
-
-#. Template: AAAOTRSBusiness
-msgid "Customer Updated"
-msgstr "用户已更新"
-
-#. Template: AAAOTRSBusiness
-msgid "State Updated"
-msgstr "状态已更新"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Follow-Up"
-msgstr "进入的跟进"
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Update Time Stopped"
-msgstr "升级更新时间已停止"
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Solution Time Stopped"
-msgstr "升级解决时间已停止"
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation First Response Time Stopped"
-msgstr "升级首次响应时间已停止"
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Response Time Stopped"
-msgstr "升级响应时间已停止"
-
-#. Template: AAAOTRSBusiness
-msgid "Link Added"
-msgstr "连接已增加"
-
-#. Template: AAAOTRSBusiness
-msgid "Link Deleted"
-msgstr "连接已删除"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Merged"
-msgstr "工单已合并"
-
-#. Template: AAAOTRSBusiness
-msgid "Pending Time Set"
-msgstr "挂起时间设置"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Locked"
-msgstr "工单已锁定"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Unlocked"
-msgstr "工单已解锁"
-
-#. Template: AAAOTRSBusiness
-msgid "Queue Updated"
-msgstr "队列已更新"
-
-#. Template: AAAOTRSBusiness
-msgid "Priority Updated"
-msgstr "优先级已更新"
-
-#. Template: AAAOTRSBusiness
-msgid "Title Updated"
-msgstr "主题已更新"
-
-#. Template: AAAOTRSBusiness
-msgid "Type Updated"
-msgstr "类型已更新"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Web Request"
-msgstr "从网页进入的请求"
-
-#. Template: AAAOTRSBusiness
-msgid "Automatic Follow-Up Sent"
-msgstr "发送自动跟进"
-
-#. Template: AAAOTRSBusiness
-msgid "Automatic Reply Sent"
-msgstr "发送自动回复"
-
-#. Template: AAAOTRSBusiness
-msgid "Time Accounted"
-msgstr "所用时间"
-
-#. Template: AAAOTRSBusiness
-msgid "External Chat"
-msgstr "外部对话"
-
-#. Template: AAAOTRSBusiness
-msgid "Internal Chat"
-msgstr "内部对话"
-
 #. Template: AdminChatChannel
 msgid "Manage Chat Channels"
-msgstr ""
+msgstr "管理聊天频道"
 
 #. Template: AdminChatChannel
 msgid "Add Chat Channel"
-msgstr ""
+msgstr "添加聊天频道"
 
 #. Template: AdminChatChannel
 msgid "Edit Chat Channel"
-msgstr ""
-
-#. Template: AdminChatChannel
-msgid "This field is required"
-msgstr "这个字段是必需的"
+msgstr "编辑聊天频道"
 
 #. Template: AdminChatChannel
 msgid "Name invalid"
-msgstr ""
+msgstr "无效的名字"
 
 #. Template: AdminChatChannel
 msgid "Need Group"
-msgstr ""
+msgstr "需要群组"
 
 #. Template: AdminChatChannel
 msgid "Need Valid"
-msgstr ""
+msgstr "需要有效值"
 
 #. Template: AdminChatChannel
 msgid "Comment invalid"
-msgstr ""
-
-#. Template: AdminCloudServiceSMS
-msgid "SMS (Short Message Service)"
-msgstr ""
+msgstr "无效的注释"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service status"
-msgstr ""
+msgstr "云服务状态"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service availability"
-msgstr ""
+msgstr "云服务可用性"
 
 #. Template: AdminCloudServiceSMS
 msgid "Remaining SMS units"
-msgstr ""
+msgstr "剩余短信次数"
 
 #. Template: AdminCloudServiceSMS
 msgid "Is currently not possible to check the state for this cloud service."
-msgstr ""
+msgstr "当前伏法检查该云服务器的状态。"
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone field for agent"
-msgstr ""
+msgstr "服务人员电话字段"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Agent data field from which the mobile phone number for sending messages via"
 " SMS should be taken."
-msgstr ""
+msgstr "应填写用于通过短信发送消息的手机号码的服务人员数据字段。"
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone field for customer"
-msgstr ""
+msgstr "客户电话字段"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Customer data field from which the mobile phone number for sending messages "
 "via SMS should be taken."
-msgstr ""
+msgstr "应填写用于通过短信发送消息的手机号码的客户数据字段。"
 
 #. Template: AdminCloudServiceSMS
 msgid "Sender string"
-msgstr ""
+msgstr "发件人字段"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Will be shown as sender name of the SMS (Not longer than 11 characters)."
-msgstr ""
+msgstr "显示为短信发件人名称（不超过11个字符）。"
 
 #. Template: AdminCloudServiceSMS
 msgid "This field is required and must be not longer than 11 characters."
-msgstr ""
+msgstr "这个字段是必须的，并且不能超过11个字符长度。"
 
 #. Template: AdminCloudServiceSMS
 msgid "Allowed role members"
-msgstr ""
+msgstr "许可的角色成员"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "If selected, only users assigned to these roles will be able to receive "
 "messages via SMS (optional)."
-msgstr ""
+msgstr "如果选择了本选项，则只有分配给这些角色的用户才能接收到短信消息（可选）。"
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
-msgstr ""
+msgstr "保存配置"
 
 #. Template: AdminCloudServiceSMS
 msgid "Data Protection Information"
-msgstr ""
+msgstr "数据保护信息"
 
 #. Template: AdminContactWithData
 msgid "Contact with data management"
@@ -258,7 +117,7 @@ msgstr "联系信息管理"
 
 #. Template: AdminContactWithData
 msgid "Add contact with data"
-msgstr "增加联系信息"
+msgstr "添加联系信息"
 
 #. Template: AdminContactWithData
 msgid "Please enter a search term to look for contacts with data."
@@ -270,41 +129,41 @@ msgstr "编辑联系信息"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "These are the possible data attributes for contacts."
-msgstr ""
+msgstr "这些是可用于联系的数据属性。"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "Mandatory fields"
-msgstr ""
+msgstr "必须的字段"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid ""
 "Comma separated list of mandatory keys (optional). Keys 'Name' and 'ValidID'"
 " are always mandatory and doesn't have to be listed here."
-msgstr ""
+msgstr "逗号分隔的必填字段列表（可选）。'Name'和'ValidID'始终是必填字段，无论在这里有没有。"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "Sorted fields"
-msgstr ""
+msgstr "排序字段"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid ""
 "Comma separated list of keys in sort order (optional). Keys listed here come"
 " first, all remaining fields afterwards and sorted alphabetically."
-msgstr ""
+msgstr "逗号分隔的排序字段列表（可选）。在这里列出的字段会先出现，其它的字段按字母顺序随后。"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "Searchable fields"
-msgstr ""
+msgstr "可搜索的字段"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid ""
 "Comma separated list of searchable keys (optional). Key 'Name' is always "
 "searchable and doesn't have to be listed here."
-msgstr ""
+msgstr "逗号分隔的可搜索字段列表（可选）。'Name'始终是可搜索的，无论在这里有没有。"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "Add/Edit"
-msgstr "新增/编辑"
+msgstr "添加/编辑"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Datatype"
@@ -316,11 +175,11 @@ msgstr "搜索字段"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Listfield"
-msgstr ""
+msgstr "列表区域"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Driver"
-msgstr ""
+msgstr "驱动程序"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Server"
@@ -328,19 +187,19 @@ msgstr "服务器"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Table / View"
-msgstr ""
+msgstr "表/视图"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "CacheTTL"
-msgstr ""
+msgstr "缓存生存时间(CacheTTL)"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Searchprefix"
-msgstr ""
+msgstr "搜索前缀"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Searchsuffix"
-msgstr "搜索前缀"
+msgstr "搜索后缀"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Result Limit"
@@ -348,15 +207,238 @@ msgstr "限制返回结果"
 
 #. Template: AdminDynamicFieldDatabase
 msgid "Case Sensitive"
-msgstr ""
+msgstr "区分大小写"
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
+msgstr "收件人短信号码"
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Resource Overview"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Teams"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Team Agents"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Add new Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Add Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Filter for calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "URL"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Copy public calendar URL"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "This is a resource overview page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"No calendars found. Please add a calendar first by using Manage Calendars "
+"page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "No teams found. Please add a team first by using Manage Teams page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Team"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"No team agents found. Please assign agents to a team first by using Manage "
+"Team Agents page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Too many active calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"Please either turn some off first or increase the limit in configuration."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Restore default settings"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Week"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Month"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Week"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Day"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Jump"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "This is a repeating appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Would you like to edit just this occurrence or all occurrences?"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "All occurrences"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Just this occurrence"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Dismiss"
+msgstr "取消"
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Shown resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Available Resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Filter available resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Visible Resources (order by drag & drop)"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Basic information"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Resource"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Date/Time"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "End date"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Repeat"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Add Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Team Import"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid ""
+"Here you can upload a configuration file to import a team to your system. "
+"The file needs to be in .yml format as exported by team management module."
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Upload team configuration"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Import team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Filter for teams"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Export team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Edit Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Team with same name already exists."
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Permission group"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Filter for agents"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Teams"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Manage Team-Agent Relations"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Change Agent Relations for Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Change Team Relations for Agent"
 msgstr ""
 
 #. Template: AgentChat
 msgid "Manage Chats"
-msgstr "对话管理"
+msgstr "聊天管理"
 
 #. Template: AgentChat
 msgid "Hints"
@@ -369,23 +451,23 @@ msgid ""
 "the page), starting a new chat or other chat-related actions will possibly "
 "reload this tab any time. This means that it is recommended to leave the "
 "chat manager opened in this particular tab."
-msgstr ""
+msgstr "请注意：这个标签可用于与聊天相关的任何请求。如果你离开了聊天管理器（如通过使用了页面顶部的导航栏），开始一个新聊天或其它聊天相关操作可能随时重载这个标签。这意味着建议离开在这个特定标签打开的聊天管理器。"
 
 #. Template: AgentChat
 msgid "General Chat Requests From Customers"
-msgstr "由用户发起的一般对话请求"
+msgstr "由客户发起的一般聊天请求"
 
 #. Template: AgentChat
 msgid "My Chat Channels"
-msgstr ""
+msgstr "我的聊天频道"
 
 #. Template: AgentChat
 msgid "All Chat Channels"
-msgstr ""
+msgstr "所有聊天频道"
 
 #. Template: AgentChat
 msgid "Channel"
-msgstr ""
+msgstr "频道"
 
 #. Template: AgentChat
 msgid "Requester"
@@ -393,119 +475,127 @@ msgstr "发起人"
 
 #. Template: AgentChat
 msgid "Chat requests are being loaded, please stand by..."
-msgstr "对话请求正在加载, 请稍候..."
+msgstr "聊天请求正在加载, 请稍候..."
 
 #. Template: AgentChat
 msgid "General Chat Requests From Public Users"
-msgstr "未登录系统的用户发起的对话请求"
+msgstr "公共用户发起的聊天请求"
 
 #. Template: AgentChat
 msgid "Personal Chat Requests For You"
-msgstr "你的私人对话请求"
+msgstr "你的私人聊天请求"
 
 #. Template: AgentChat
 msgid "My Active Chats"
-msgstr "活跃中的对话"
+msgstr "活跃中的聊天"
 
 #. Template: AgentChat
 msgid "Open ticket"
-msgstr ""
+msgstr "处理工单"
 
 #. Template: AgentChat
 msgid "Open company"
-msgstr ""
+msgstr "打开客户单位"
 
 #. Template: AgentChat
 msgid "Discard & close this chat"
-msgstr "放弃并关闭该对话"
+msgstr "放弃并关闭该聊天"
 
 #. Template: AgentChat
 msgid "Monitoring all activity in this chat"
-msgstr ""
+msgstr "在该聊天中监控所有活动"
 
 #. Template: AgentChat
 msgid "Monitoring customer activity in this chat"
-msgstr ""
+msgstr "在该聊天中监控用户活动"
 
 #. Template: AgentChat
 msgid "Not monitoring this chat"
+msgstr "没有监控该聊天"
+
+#. Template: AgentChat
+msgid "Audio Call"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Video Call"
 msgstr ""
 
 #. Template: AgentChat
 msgid "Toggle settings"
-msgstr ""
+msgstr "切换设置"
 
 #. Template: AgentChat
 msgid "Leave chat"
-msgstr "离开对话"
+msgstr "离开聊天"
 
 #. Template: AgentChat
 msgid "Leave"
-msgstr ""
+msgstr "离开"
 
 #. Template: AgentChat
 msgid "Create a new phone ticket from this chat and close it afterwards"
-msgstr ""
+msgstr "从该聊天创建一个新的电话工单，然后关闭该聊天"
 
 #. Template: AgentChat
 msgid "Append this chat to an existing ticket and close it afterwards"
-msgstr "该对话一旦结束将内容追加到现有工单"
+msgstr "将该聊天内容追加到一个现有工单，然后关闭该聊天"
 
 #. Template: AgentChat
 msgid "Append"
-msgstr ""
+msgstr "追加"
 
 #. Template: AgentChat
 msgid "Invite additional agent to join the chat"
-msgstr ""
+msgstr "邀请其它服务人员加入该聊天"
 
 #. Template: AgentChat
 msgid "Invite"
-msgstr ""
+msgstr "邀请"
 
 #. Template: AgentChat
 msgid "Change chat channel"
-msgstr ""
+msgstr "改变聊天频道"
 
 #. Template: AgentChat
 msgid "Channel change"
-msgstr ""
+msgstr "频道更改"
 
 #. Template: AgentChat
 msgid "Switch to participant"
-msgstr ""
+msgstr "切换为参与者"
 
 #. Template: AgentChat
 msgid "Participant"
-msgstr ""
+msgstr "参与者"
 
 #. Template: AgentChat
 msgid "Switch to an observer"
-msgstr ""
+msgstr "切换为观察人员"
 
 #. Template: AgentChat
 msgid "Observer"
-msgstr ""
+msgstr "观察人员"
 
 #. Template: AgentChat
 msgid "Download this Chat"
-msgstr ""
+msgstr "下载该聊天"
 
 #. Template: AgentChat
 msgid "Join invited chat as an observer"
-msgstr ""
+msgstr "作为观察人员加入受邀聊天"
 
 #. Template: AgentChat
 msgid "Join invited chat as a participant"
-msgstr ""
+msgstr "作为参与者加入受邀聊天"
 
 #. Template: AgentChat
 msgid "Open chat in a Popup"
-msgstr ""
+msgstr "在弹出窗口打开聊天"
 
 #. Template: AgentChat
 msgid "New window"
-msgstr ""
+msgstr "新窗口"
 
 #. Template: AgentChat
 msgid "New Message"
@@ -513,153 +603,149 @@ msgstr "新的消息"
 
 #. Template: AgentChat
 msgid "(Shift + Enter for new line)"
-msgstr ""
+msgstr "(Shift + Enter 换行)"
 
 #. Template: AgentChat
 msgid "%s has left this chat."
-msgstr "%s 已离开了对话"
+msgstr "%s 已离开了该聊天。"
 
 #. Template: AgentChat
 msgid "Online agents"
-msgstr ""
+msgstr "在线服务人员"
 
 #. Template: AgentChat
 msgid "Reload online agents"
-msgstr ""
+msgstr "刷新在线服务人员"
 
 #. Template: AgentChat
 msgid "Destination channel"
-msgstr ""
+msgstr "目标频道"
 
 #. Template: AgentChat
 msgid "Open chat"
-msgstr ""
+msgstr "受理聊天"
 
 #. Template: AgentChat
 msgid "This user is currently active."
-msgstr ""
+msgstr "该用户当前在线。"
 
 #. Template: AgentChat
 msgid "This user is currently away."
-msgstr ""
+msgstr "该用户当前离开。"
 
 #. Template: AgentChat
 msgid "This user is currently unavailable."
-msgstr ""
+msgstr "该用户当前不可用。"
 
 #. Template: AgentChat
 msgid "This user is currently offline."
-msgstr ""
+msgstr "该用户当前离线。"
 
 #. Template: AgentChat
 msgid "This user has already left the chat or has not yet joined it."
-msgstr "该用户已经离开或未加入对话."
+msgstr "该用户已经离开或未加入聊天。"
 
 #. Template: AgentChat
 msgid ""
 "You are no longer in this chat. Click this message to remove the chat box."
-msgstr ""
+msgstr "你不再这个聊天中，点击这个消息以移除聊天窗口。"
 
 #. Template: AgentChat
 msgid "There are currently no chat requests."
-msgstr "当前没有会话请求."
+msgstr "当前没有聊天请求。"
 
 #. Template: AgentChat
 msgid ""
 "This will permanently delete the chat contents. Do you want to continue?"
-msgstr "该对话内容装彻底删除, 你确认继续吗?"
+msgstr "该聊天内容将彻底删除, 你确认继续吗?"
 
 #. Template: AgentChat
 msgid "This chat request was already accepted by another person."
-msgstr "该对话已由其他的人员响应."
+msgstr "该聊天请求已由其他人员响应。"
 
 #. Template: AgentChat
 msgid "You have no permission to accept this chat request."
-msgstr ""
-
-#. Template: AgentChat
-msgid "An internal error occurred."
-msgstr ""
+msgstr "你没有权限接入该聊天请求。"
 
 #. Template: AgentChat
 msgid "Please select a user."
-msgstr ""
+msgstr "请选择一个用户。"
 
 #. Template: AgentChat
 msgid "Please select a permission level."
-msgstr ""
+msgstr "请选择一个权限级别。"
 
 #. Template: AgentChat
 msgid "Invite Agent."
-msgstr ""
+msgstr "邀请服务人员。"
 
 #. Template: AgentChat
 msgid "Please, select destination chat channel."
-msgstr ""
+msgstr "请选择一个目标聊天频道。"
 
 #. Template: AgentChat
 msgid "Please select a channel."
-msgstr ""
+msgstr "请选择一个频道。"
 
 #. Template: AgentChat
 msgid "Chat preview"
-msgstr ""
+msgstr "聊天预览"
 
 #. Template: AgentChat
 msgid "Please select a valid channel."
-msgstr ""
+msgstr "请选择一个有效的频道。"
 
 #. Template: AgentChat
 msgid "Agent to customer chat."
-msgstr ""
+msgstr "服务人员到客户的聊天。"
 
 #. Template: AgentChat
 msgid "Customer to agent chat."
-msgstr ""
+msgstr "客户到服务人员的聊天。"
 
 #. Template: AgentChat
 msgid "Agent to agent chat."
-msgstr ""
+msgstr "服务人员到服务人员的聊天。"
 
 #. Template: AgentChat
 msgid "Public to agent chat."
-msgstr ""
+msgstr "公共用户到服务人员的聊天。"
 
 #. Template: AgentChat
 msgid "You can't leave Customer alone in the chat."
-msgstr ""
+msgstr "你不能不管聊天中的客户。"
 
 #. Template: AgentChat
 msgid "You"
-msgstr ""
+msgstr "你"
 
 #. Template: AgentChat
 msgid "Your chat could not be started because of an internal error."
-msgstr "由于内部错误, 你无法开始该对话."
+msgstr "由于内部错误, 你无法开始该聊天。"
 
 #. Template: AgentChat
 msgid "Your chat request was created."
-msgstr "你的对话请求已经创建."
+msgstr "你的聊天请求已经创建。"
 
 #. Template: AgentChat
 msgid "There are currently %s open chat requests."
-msgstr "当前打开的对话请求 %s."
+msgstr "当前已受理%s聊天请求。"
 
 #. Template: AgentChat
 msgid "User was already invited to your chat!"
-msgstr ""
+msgstr "你的聊天已经邀请了此用户！"
 
 #. Template: AgentChat
 msgid "Insufficient permissions."
-msgstr ""
+msgstr "权限不足。"
 
 #. Template: AgentChat
 msgid "System was unable to save your sequence of chats."
-msgstr ""
+msgstr "系统不能保存你的聊天序列。"
 
 #. Template: AgentChatAppend
 msgid "Append Chat to Ticket"
-msgstr "追加对话到工单"
+msgstr "追加聊天到工单"
 
 #. Template: AgentChatAppend
 msgid "Append to"
@@ -667,51 +753,43 @@ msgstr "追加到"
 
 #. Template: AgentChatAppend
 msgid "The chat will be appended as a new article to the chosen ticket."
-msgstr "该对话已追加到选中的工单里."
+msgstr "该聊天将作为一个新的信件追加到选择的工单里。"
 
 #. Template: AgentChatPopup
 msgid "Chat with"
-msgstr "正在进行对话"
+msgstr "聊天对象："
 
 #. Template: AgentChatPopup
 msgid "Leave Chat"
-msgstr ""
+msgstr "离开聊天"
 
 #. Template: AgentChatPopup
 msgid "This user is currently in the chat."
-msgstr "该用户在当前的对话里."
+msgstr "该用户在当前的聊天里。"
 
 #. Template: AgentChatPreview
 msgid "Current chat channel"
-msgstr ""
+msgstr "当前聊天频道"
 
 #. Template: AgentChatPreview
 msgid "Available channels"
-msgstr ""
+msgstr "可用的频道"
 
 #. Template: AgentChatPreview
 msgid "Reload"
-msgstr ""
+msgstr "刷新"
 
 #. Template: AgentChatPreview
 msgid "Update Channel"
-msgstr ""
-
-#. Template: AgentChatPreview
-msgid "Accept"
-msgstr ""
-
-#. Template: AgentChatPreview
-msgid "Decline"
-msgstr ""
+msgstr "更新频道"
 
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
 msgid "Detailed search"
-msgstr ""
+msgstr "详情搜索"
 
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
 msgid "Add an additional attribute"
-msgstr ""
+msgstr "增加另一个搜索条件"
 
 #. Template: AgentDynamicFieldDatabaseDetails
 msgid "Details view"
@@ -719,187 +797,183 @@ msgstr "详细视图"
 
 #. Template: AgentNotificationViewNavBar
 msgid "Notifications per page"
-msgstr ""
+msgstr "每页通知数"
 
 #. Template: AgentNotificationViewSmall
 msgid "No notification data found."
-msgstr ""
+msgstr "没有找到通知数据。"
 
 #. Template: AgentNotificationViewSmall
 msgid "Related To"
-msgstr ""
+msgstr "相关"
 
 #. Template: AgentNotificationViewSmall
 msgid "Select this notification"
-msgstr ""
+msgstr "选择此通知"
 
 #. Template: AgentNotificationViewSmall
 msgid "Zoom into"
-msgstr ""
+msgstr "放大"
 
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss this notification"
-msgstr ""
+msgstr "取消该通知"
 
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss Selected Notifications"
-msgstr ""
+msgstr "取消选择的通知"
 
 #. Template: AgentNotificationViewSmall
 msgid "Do you really want to dismiss the selected notifications?"
-msgstr ""
+msgstr "你真的要取消选择的通知吗？"
 
 #. Template: AgentNotificationViewSmall
 msgid "OTRS Notification"
-msgstr ""
-
-#. Template: AgentNotificationViewSmall
-msgid "Dismiss"
-msgstr ""
+msgstr "OTRS通知"
 
 #. Template: AgentStatisticsReportsAdd
 msgid "Reports » Add"
-msgstr ""
+msgstr "报告 » 添加"
 
 #. Template: AgentStatisticsReportsAdd
 msgid "Add New Statistics Report"
-msgstr ""
+msgstr "添加新的统计报告"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Reports » Edit — %s"
-msgstr ""
+msgstr "报告 » 编辑 - %s"
 
 #. Template: AgentStatisticsReportsEdit
 msgid ""
 "Here you can combine several statistics to a report which you can generate "
 "as a PDF manually or automatically at configured times."
-msgstr ""
+msgstr "这里可以将几个统计组合到一个报告中，在配置的时候手动或自动生成PDF文档。"
 
 #. Template: AgentStatisticsReportsEdit
 msgid ""
 "Please note that you can only select charts as statistics output format if "
 "you configured PhantomJS on your system."
-msgstr ""
+msgstr "请注意：如果系统中配置了PhantomJS，你只能选择图表作为统计输出格式。"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Configure PhantomJS"
-msgstr ""
+msgstr "配置PhantomJS"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "General settings"
-msgstr ""
+msgstr "通用设置"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Automatic generation settings"
-msgstr ""
+msgstr "自动生成设置"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Automatic generation times (cron)"
-msgstr ""
+msgstr "自动生成时间（cron）"
 
 #. Template: AgentStatisticsReportsEdit
 msgid ""
 "Specify when the report should be automatically generated in cron format, e."
 " g. \"10 1 * * *\" for every day at 1:10 am."
-msgstr ""
+msgstr "用CRON格式指定自动生成报告的时间，例如：\"10 1 * * *\"表明在每天凌晨1:10。"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Last automatic generation time"
-msgstr ""
+msgstr "最近自动生成时间"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Next planned automatic generation time"
-msgstr ""
+msgstr "下次自动生成时间"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Automatic generation language"
-msgstr ""
+msgstr "自动生成的语言"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "The language to be used when the report is automatically generated."
-msgstr ""
+msgstr "自动生成报告时使用的语言。"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email subject"
-msgstr ""
+msgstr "电子邮件主题"
 
 #. Template: AgentStatisticsReportsEdit
-msgid "Specify recipient email addresses (comma separated)."
-msgstr ""
+msgid "Specify the subject for the automatically generated email."
+msgstr "指定自动生成的电子邮件的主题。"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email body"
-msgstr ""
+msgstr "电子邮件正文"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Specify the text for the automatically generated email."
-msgstr ""
+msgstr "指定自动生成的电子邮件的正文内容。"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Email recipients"
-msgstr ""
+msgstr "电子邮件收件人"
 
 #. Template: AgentStatisticsReportsEdit
-msgid "Specify recipent email addresses (comma separated)."
-msgstr ""
+msgid "Specify recipient email addresses (comma separated)."
+msgstr "指定自动生成的电子邮件的收件人地址（逗号分隔）。"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Output settings"
-msgstr ""
+msgstr "输出设置"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Headline"
-msgstr ""
+msgstr "标题"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Caption for preamble"
-msgstr ""
+msgstr "前言标题"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Preamble"
-msgstr ""
+msgstr "前言"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Caption for epilogue"
-msgstr ""
+msgstr "结尾标题"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Epilogue"
-msgstr ""
+msgstr "结尾"
 
 #. Template: AgentStatisticsReportsEdit
 msgid "Add statistic to report"
-msgstr ""
+msgstr "添加统计到报告"
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Reports » Overview"
-msgstr ""
+msgstr "报告 » 概览"
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Statistics Reports"
-msgstr ""
+msgstr "统计报告"
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Edit statistics report \"%s\"."
-msgstr ""
+msgstr "编辑统计报告“%s”。"
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Delete statistics report \"%s\""
-msgstr ""
+msgstr "删除统计报告“%s”"
 
 #. Template: AgentStatisticsReportsOverview
 msgid "Do you really want to delete this report?"
-msgstr ""
+msgstr "你确定要删除这个该报告吗？"
 
 #. Template: AgentStatisticsReportsView
 msgid "Reports » View — %s"
-msgstr ""
+msgstr "报告 » 视图 - %s"
 
 #. Template: AgentStatisticsReportsView
 msgid ""
 "This statistics report contains configuration errors and can currently not "
 "be used."
-msgstr ""
+msgstr "该统计报告有配置错误，当前无法使用。"
 
 #. Template: AgentTicketAttachmentView
 msgid "Attachments of"
@@ -912,6 +986,10 @@ msgstr "附件概况"
 #. Template: AgentTicketAttachmentView
 msgid "This ticket does not have any attachments."
 msgstr "该工单没有包含附件"
+
+#. Template: AgentTicketAttachmentView
+msgid "Hide inline attachments"
+msgstr ""
 
 #. Template: AgentTicketAttachmentView
 msgid "Filter Attachments"
@@ -933,69 +1011,129 @@ msgstr "在主窗口打开"
 msgid "Download selected files as archive"
 msgstr "下载选中的文件以存档"
 
+#. Template: AgentVideoChat
+msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Close video call"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Mute audio"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Mute video"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "User has declined your video call invitation."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Target user's browser does not support video call."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "User has left the video call."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Attempt to connect was unsuccessful. Please try again."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Requesting media stream..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Waiting for other party to respond..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Accepting the invitation..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Initializing..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Connecting, please wait..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Connection established!"
+msgstr ""
+
 #. Template: CustomerChat
 msgid "%s has joined this chat."
-msgstr "%s 已加入该对话中"
+msgstr "%s 已加入该聊天中。"
 
 #. Template: CustomerChat
 msgid "Incoming chat requests"
-msgstr ""
+msgstr "进入的聊天请求"
 
 #. Template: CustomerChat
 msgid "Outgoing chat requests"
-msgstr ""
+msgstr "发出的聊天请求"
 
 #. Template: CustomerChat
 msgid "Active chats"
-msgstr ""
+msgstr "活动的聊天"
 
 #. Template: CustomerChat
 msgid "Closed chats"
-msgstr ""
+msgstr "已关闭的聊天"
 
 #. Template: CustomerChat
 msgid "Chat request description"
-msgstr ""
+msgstr "聊天请求描述"
 
 #. Template: CustomerChat
 msgid "Create new ticket"
-msgstr ""
+msgstr "创建新工单"
 
 #. Template: CustomerChat
 msgid "Add an article"
-msgstr ""
+msgstr "添加信件"
 
 #. Template: CustomerChat
 msgid "Start a new chat"
-msgstr "开始新的对话"
+msgstr "开始新的聊天"
 
 #. Template: CustomerChat
 msgid "Select channel"
-msgstr ""
+msgstr "选择频道"
 
 #. Template: CustomerChat
 msgid "Add to an existing ticket"
-msgstr ""
+msgstr "添加到现有工单"
 
 #. Template: CustomerChat
 msgid "Active Chat"
-msgstr "激活对话"
+msgstr "激活聊天"
 
 #. Template: CustomerChat
 msgid "Download Chat"
-msgstr ""
+msgstr "下载聊天"
 
 #. Template: CustomerChat
 msgid "Chat is being loaded..."
-msgstr "对话已加开始加载..."
+msgstr "聊天已加开始加载..."
 
 #. Template: CustomerChat
 msgid "Chat completed"
+msgstr "聊天已完成"
+
+#. Template: CustomerVideoChat
+msgid "Fullscreen"
 msgstr ""
 
 #. Template: OutputFilterPostSLASelectionDialog
 msgid "Please confirm your selection"
-msgstr ""
+msgstr "请确认你的选择"
 
 #. Template: PublicChat
 msgid "Your name"
@@ -1003,20 +1141,20 @@ msgstr "你的大名"
 
 #. Template: PublicChat
 msgid "Start a new Chat"
-msgstr "开始新的对话"
+msgstr "开始新的聊天"
 
 #. Template: PublicChat
 msgid "Chat complete"
-msgstr "对话完成"
+msgstr "聊天完成"
 
 #. Template: StatsWidget
 msgid "Remove statistic"
-msgstr ""
+msgstr "移除统计"
 
 #. Template: StatsWidget
 msgid ""
 "If you don't specify a title here, the title of the statistic will be used."
-msgstr ""
+msgstr "如果你不在这里指定一个标题，将使用统计的标题。"
 
 #. Template: StatsWidget
 msgid "Preface"
@@ -1024,197 +1162,243 @@ msgstr "前言"
 
 #. Template: StatsWidget
 msgid "Postface"
-msgstr ""
+msgstr "后记"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat Channel %s added"
-msgstr ""
+msgstr "聊天频道 %s已添加"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat channel %s edited"
-msgstr ""
+msgstr "聊天频道 %s已编辑"
 
 #. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
 msgid "Cloud service \"%s\" updated!"
-msgstr ""
+msgstr "云服务“%s”已更新！"
 
 #. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
 msgid "Cloud Service config \"%s\" saved!"
+msgstr "云服务配置“%s”已保存！"
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Need TeamID!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Could not retrieve data for given TeamID"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeamList.pm
+msgid "Unassigned"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Chat %s has been closed and was successfully appended to Ticket %s."
+msgstr "聊天%s已经关闭并成功追加到工单%s。"
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid ""
+"Video call feature has been disabled! Please check if %s is available for "
+"the current system."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
+msgstr "%s已作为观察者加入该聊天。"
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Customer <b>%s</b> invited you to a video call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "User <b>%s</b> invited you to a video call."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
-msgstr ""
+msgstr "加入一个聊天的新请求"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Agent invited %s."
-msgstr ""
+msgstr "服务人员已邀请%s。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s changed chat channel to %s."
-msgstr ""
+msgstr "%s已修改聊天频道为%s。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has switched to participant mode."
-msgstr ""
+msgstr "%s已经切换为参与者。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has switched to observer mode."
-msgstr ""
+msgstr "%s已经切换为观察者。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has rejected the chat request."
+msgstr "%s已经拒绝了该聊天请求。"
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Need"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has invited %s to a video call"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
-msgstr ""
+msgstr "所有通知"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Seen Notifications"
-msgstr ""
+msgstr "已阅通知"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Unseen Notifications"
-msgstr ""
+msgstr "未读通知"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Notification Web View"
-msgstr ""
+msgstr "通知网页视图"
 
 #. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
 msgid "This name is already in use, please choose a different one."
-msgstr ""
+msgstr "名称已使用，请选择另外一个。"
 
 #. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
 msgid "Please provide a valid cron entry."
+msgstr "请提供一条有效的cron条目。"
+
+#. Perl Module: Kernel/Modules/AgentVideoChat.pm
+msgid "You are not participant in this chat!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "You have been invited to a video call."
 msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
 msgid "You are unavailable for external chats. Would you like to go online?"
-msgstr ""
+msgstr "你不可用外部聊天，要上线吗？"
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatPreferredChannelsCheck.pm
 msgid "You don't have any external chat channel assigned."
-msgstr ""
+msgstr "你没有分配任何外部聊天。"
 
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Dismiss Selected"
-msgstr ""
+msgstr "取消选择"
 
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Object Type"
-msgstr ""
+msgstr "对象类型"
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"
-msgstr ""
+msgstr "受理聊天请求"
 
 #. Perl Module: Kernel/Output/PDF/StatisticsReports.pm
 msgid "%s Report"
-msgstr ""
+msgstr "%s报告"
 
 #. Perl Module: Kernel/Output/PDF/StatisticsReports.pm
 msgid "Error: this graph could not be generated: %s."
-msgstr ""
+msgstr "错误：该图片无法生成-%s。"
 
 #. Perl Module: Kernel/Output/PDF/StatisticsReports.pm
 msgid "Table of Contents"
-msgstr ""
+msgstr "目录"
 
 #. Perl Module: Kernel/System/ChatChannel.pm
 msgid "Default chat channel"
-msgstr ""
+msgstr "默认聊天频道"
 
 #. SysConfig
 msgid "Activates chat support."
-msgstr "激活对话支持"
+msgstr "激活聊天支持"
 
 #. SysConfig
 msgid ""
 "Agent frontend module registration (disable chat link if chat feature is "
 "inactive or agent is not in chat group)."
-msgstr ""
+msgstr "服务人员前端模块注册（如果聊天功能未激活或服务人员不在聊天组中则禁用聊天链接）。"
 
 #. SysConfig
 msgid "Agent group that can accept chat requests and chat."
-msgstr ""
+msgstr "能够接受聊天请求和聊天的服务人员组。"
 
 #. SysConfig
 msgid "Agent group that can create chat requests."
+msgstr "能够创建聊天请求的服务人员组。"
+
+#. SysConfig
+msgid "Agent group that can use video calling feature in chats."
 msgstr ""
 
 #. SysConfig
 msgid "Agent interface availability."
-msgstr ""
+msgstr "服务人员界面可用性。"
 
 #. SysConfig
 msgid "Agent interface notification module to check for open chat requests."
-msgstr ""
+msgstr "服务人员界面检查聊天请求的通知模块。"
 
 #. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
-msgstr ""
+msgstr "允许客户只选择有可用服务人员的频道。"
 
 #. SysConfig
 msgid ""
 "Allow public users to select only channels that have available agent(s)."
-msgstr ""
+msgstr "允许公共用户只选择有可用服务人员的频道。"
 
 #. SysConfig
 msgid "Allows having a small format notification web view."
-msgstr ""
+msgstr "允许拥有简洁格式通知的网页视图。"
 
 #. SysConfig
 msgid "Chat Channel"
-msgstr ""
+msgstr "聊天频道"
 
 #. SysConfig
 msgid "Chat Channel:"
-msgstr ""
+msgstr "聊天频道："
 
 #. SysConfig
 msgid ""
 "Chat channel that will be used for communication related to the tickets in "
 "this queue."
-msgstr ""
+msgstr "聊天频道用于该队列相关工单的沟通。"
 
 #. SysConfig
 msgid "Chat channel to queue mapping."
-msgstr ""
+msgstr "聊天频道到队列的映射。"
 
 #. SysConfig
 msgid "Chat overview"
-msgstr "对话一览"
+msgstr "聊天一览"
 
 #. SysConfig
 msgid "Chats"
-msgstr "对话"
+msgstr "聊天"
 
 #. SysConfig
 msgid "Cleans up old chat logs."
-msgstr ""
+msgstr "清除旧的聊天日志。"
 
 #. SysConfig
 msgid ""
 "Column notification web view filters for Notification web view type "
 "\"Small\"."
-msgstr ""
+msgstr "“简洁”类型通知网页视图的列过滤器。"
 
 #. SysConfig
 msgid ""
 "Columns that can be filtered in the notification web view of the agent "
 "interface. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by "
 "default."
-msgstr ""
+msgstr "服务人员界面通知网页视图中用来过滤的列。可能的设置：0 = 禁用，1 = 可用，2 = 默认启用。"
 
 #. SysConfig
 msgid "Contact with data"
@@ -1222,135 +1406,143 @@ msgstr "连接数据"
 
 #. SysConfig
 msgid "Create and manage chat channels."
-msgstr ""
+msgstr "创建并管理聊天频道。"
 
 #. SysConfig
 msgid "Create new chat"
-msgstr "创建新的对话"
+msgstr "创建新的聊天"
 
 #. SysConfig
 msgid ""
 "Customer frontend module registration (disable chat link if chat feature is "
 "inactive or no agents are available for chat)."
-msgstr ""
+msgstr "客户前端模块注册（如果聊天功能未激活或没有可供聊天的服务人员则禁用聊天链接）。"
 
 #. SysConfig
 msgid ""
 "Default agent name for customer and public interface. If enabled, the real "
 "name of the agent will not be visible to customers/public users while using "
 "the chat."
-msgstr ""
+msgstr "客户和公共用户界面看到的默认服务人员姓名。如果启用了，聊天时客户/公共用户无法知晓服务人员的真实姓名。"
 
 #. SysConfig
 msgid "Default text for the customer interface."
-msgstr ""
+msgstr "客户界面的默认文本。"
 
 #. SysConfig
 msgid "Default text for the public interface."
-msgstr ""
+msgstr "公共用户界面的默认文本。"
 
 #. SysConfig
 msgid ""
 "Defines a list of agent preferences group keys that will be visible in "
 "Customer interface (works only if DefaultAgentName is disabled). Example: If"
 " you want to display PreferencesGroups###Language, add Language."
-msgstr ""
+msgstr "定义一个客户界面可见的服务人员首选项组键的列表（仅当禁用DefaultAgentName才有效）。例如：你要显示PreferencesGroups###Language，添加语言。"
 
 #. SysConfig
 msgid ""
 "Defines a text for Agent Preferences in the Customer interface (works only "
 "if DefaultAgentName is disabled)."
-msgstr ""
+msgstr "定义客户界面服务人员首选项的一段文本（仅当禁用DefaultAgentName才有效）。"
 
 #. SysConfig
 msgid ""
 "Defines if customer users are able to select Chat Channel. If not, chat will"
 " be created in default Chat Channel."
-msgstr ""
+msgstr "定义客户用户能否选择聊天频道。如果不能，就在默认聊天频道创建聊天。"
 
 #. SysConfig
 msgid ""
 "Defines if locking a ticket is required to start a chat with the customer "
 "from the ticket zoom view."
-msgstr ""
+msgstr "定义从工单详情视图中开始与客户聊天时是否必须锁定工单。"
 
 #. SysConfig
 msgid ""
 "Defines if numbers should be appended to DefaultAgentName. If enabled, "
 "together with DefaultAgentName will be numbers (e.g. 1,2,3,...)."
-msgstr ""
+msgstr "定义是否在默认服务人员姓名后追加数字，如果启用，将在默认服务人员姓名后加上数字（如1、2、3……）。"
 
 #. SysConfig
 msgid ""
 "Defines if public users are able to select Chat Channel. If not, chat will "
 "be created in default Chat Channel."
-msgstr ""
+msgstr "定义公共用户能否选择聊天频道。如果不能，就在默认聊天频道创建聊天。"
 
 #. SysConfig
 msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is available for external chats, but forgot to set preferred "
 "channel(s)."
-msgstr ""
+msgstr "定义在服务人员界面显示一个通知的模块，用于服务人员能够使用外部聊天，但是忘记设置优先频道的时候。"
 
 #. SysConfig
 msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is not available for chat with customers (only if "
 "Ticket::Agent::AvailableForChatsAfterLogin is set to No)."
-msgstr ""
+msgstr "定义在服务人员界面显示一个通知的模块，用于服务人员不能与客户聊天的时候（仅当Ticket::Agent::AvailableForChatsAfterLogin设置为“否”时）。"
 
 #. SysConfig
 msgid ""
 "Defines the number of days a notification should be still shown in the "
 "notification web view screen (value of '0' means always show)."
-msgstr ""
+msgstr "定义在通知网页视图显示一个通知的天数（设置为0意味着始终显示）。"
 
 #. SysConfig
 msgid "Defines the order of chat windows."
-msgstr ""
+msgstr "定义聊天窗口的顺序。"
 
 #. SysConfig
 msgid ""
 "Defines the path to the PhantomJS binary. You can use a static build from "
 "http://phantomjs.org/download.html for an easy installation process."
-msgstr ""
+msgstr "定义到PhantomJS程序的路径。可以使用http://phantomjs.org/download.html已编译的文件以简化安装过程。"
 
 #. SysConfig
 msgid ""
 "Defines the period of time (in minutes) before No Answer message is "
 "displayed to the customer."
-msgstr ""
+msgstr "定义显示“无应答”消息给客户的时间段（分钟）。"
 
 #. SysConfig
 msgid ""
 "Defines the period of time (in minutes) before agent goes offline due to "
 "inactivity."
-msgstr ""
+msgstr "定义服务人员因不活动而下线的时间段（分钟）。"
 
 #. SysConfig
 msgid "Defines the settings for ticket notification."
-msgstr ""
+msgstr "定义工单通知的设置。"
 
 #. SysConfig
 msgid "Defines the source dynamic field for storing historical data."
-msgstr ""
+msgstr "定义存储历史数据的源动态字段。"
 
 #. SysConfig
 msgid "Defines the target dynamic fields for storing historical data."
-msgstr ""
+msgstr "定义存储历史数据的目标动态字段。"
 
 #. SysConfig
 msgid "Display Create Chat request link in the ticket zoom view."
+msgstr "在工单详情视图显示创建聊天请求的链接。"
+
+#. SysConfig
+msgid "Display audio call link in the ticket zoom view."
+msgstr ""
+
+#. SysConfig
+msgid "Display video call link in the ticket zoom view."
 msgstr ""
 
 #. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
-msgstr ""
+msgstr "动态字段联系数据后端GUI"
 
 #. SysConfig
 msgid "Dynamic Fields Database Backend GUI"
-msgstr ""
+msgstr "动态字段数据库后端GUI"
 
 #. SysConfig
 msgid "Edit contacts with data"
@@ -1360,98 +1552,106 @@ msgstr "编辑联系信息"
 msgid ""
 "Enables notification web view bulk action feature for the agent frontend to "
 "work on more than one notification at a time."
-msgstr ""
+msgstr "启用服务人员界面通知网页视图批量操作功能，以一次性处理多个通知。"
 
 #. SysConfig
 msgid ""
 "Enables notification web view bulk action feature only for the listed "
 "groups."
-msgstr ""
+msgstr "仅对列表中的组启用服务人员界面通知网页视图批量操作功能。"
 
 #. SysConfig
 msgid "Enables the timeline view in AgentTicketZoom."
-msgstr ""
+msgstr "在服务人员工单详情窗口启用时间轴视图。"
 
 #. SysConfig
 msgid "Event module registration (store historical data in dynamic fields)."
+msgstr "事件模块注册（在动态字段中存储历史数据）。"
+
+#. SysConfig
+msgid "Frontend module registration for the cusotmer interface."
 msgstr ""
 
 #. SysConfig
 msgid "Frontend module registration for the public interface."
-msgstr ""
+msgstr "公共界面的前端模块注册。"
 
 #. SysConfig
 msgid ""
 "Generate HTML comment hooks for the specified blocks so that filters can use"
 " them."
-msgstr ""
+msgstr "为指定的块生成HTML注释钩子，以供过滤器使用。"
 
 #. SysConfig
 msgid ""
 "If enabled it will check agents availability on login. If user is available "
 "for external chats, it will reduce availability to internal chats only."
-msgstr ""
+msgstr "如果启用本选项，将在登录时检查服务人员的可用性。如果用户可用外部聊天，就仅减少内部聊天的可用性。"
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, a notification will be displayed on each page if"
 " the current agent is not available for chat."
-msgstr ""
+msgstr "如果本选项设置为“是”，就在每个页面上显示一条当前服务人员无法聊天的通知消息。"
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, agents can start a chat with a customer without "
 "a ticket."
-msgstr ""
+msgstr "如果本选项设置为“是”，服务人员无需工单就能与客户发起聊天。"
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, customers can start a chat with an agent without"
 " a ticket."
-msgstr ""
+msgstr "如果本选项设置为“是”，客户无需工单就能与服务人员发起聊天。"
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, only the ticket customer can start a chat from a"
 " ticket zoom view."
-msgstr ""
+msgstr "如果本选项设置为“是”，仅工单详情视图中的工单客户可以发起聊天。"
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, starting a chat from agent ticket zoom view will"
 " only be possible, if the ticket customer is online."
-msgstr ""
+msgstr "如果本选项设置为“是”，在服务人员工单详情视图仅当工单客户在线时才能发起聊天。"
 
 #. SysConfig
 msgid ""
 "If this flag is set to Yes, starting a chat from customer ticket zoom view "
 "will only be possible, if there are available agents in the linked chat "
 "channel."
-msgstr ""
+msgstr "如果本选项设置为“是”，在客户工单详情视图仅当可用的服务人员在链接的聊天频道时才能发起聊天。"
 
 #. SysConfig
 msgid ""
 "Makes it possible to start a chat with a customer from the agent interface."
-msgstr ""
+msgstr "从服务人员界面可以发起与一个客户的聊天。"
 
 #. SysConfig
 msgid ""
 "Makes it possible to start a chat with an agent from the agent interface."
-msgstr ""
+msgstr "从服务人员界面可以发起与一个服务人员的聊天。"
 
 #. SysConfig
 msgid ""
 "Makes it possible to start a chat with an agent from the customer interface."
-msgstr ""
+msgstr "从客户界面可以发起与一个服务人员的聊天。"
 
 #. SysConfig
 msgid ""
 "Makes it possible to start a chat with an agent from the public interface."
+msgstr "从公共用户界面可以发起与一个服务人员的聊天。"
+
+#. SysConfig
+msgid "Manage team agents."
 msgstr ""
 
 #. SysConfig
 msgid "My chats"
-msgstr "我的对话"
+msgstr "我的聊天"
 
 #. SysConfig
 msgid ""
@@ -1460,92 +1660,113 @@ msgid ""
 "name as default chat channel. The default channel won't be displayed, if "
 "chat channels are enabled in Customer interface and Public interface. All "
 "agent to agent chats will be in the default channel."
-msgstr ""
+msgstr "默认的聊天频道名称。如果该频道不存在，将自动创建它。请不要创建一个与默认聊天频道相同名称的聊天频道。如果客户界面和公共用户界面启用了聊天频道，默认频道不会显示出来。所有的服务人员之间的聊天都在默认频道中。"
 
 #. SysConfig
 msgid "No agents available message."
-msgstr ""
+msgstr "没有服务人员可用的消息。"
 
 #. SysConfig
 msgid "Notification limit per page for Notification web view \"Small\""
-msgstr ""
+msgstr "“简洁”通知网页视图每页的通知限制"
 
 #. SysConfig
 msgid "Notification web view"
-msgstr ""
+msgstr "通知网页视图"
 
 #. SysConfig
 msgid "Notification web view \"Small\" Limit"
-msgstr ""
+msgstr "“简洁”通知网页视图限制"
 
 #. SysConfig
 msgid "Notifications Unseen:"
-msgstr ""
+msgstr "未读通知："
 
 #. SysConfig
 msgid "Number of days after chat will be deleted."
-msgstr ""
+msgstr "聊天删除前保留的天数。"
 
 #. SysConfig
 msgid "Number of hours after closed chat will be deleted."
-msgstr ""
+msgstr "已关闭的聊天删除前保留的小时数。"
 
 #. SysConfig
 msgid "Output filter for standard tt files."
-msgstr ""
+msgstr "标准tt文件的输出过滤器。"
+
+#. SysConfig
+msgid ""
+"Output filter to inject the necessary Dynamic field names in hidden input."
+msgstr "在隐藏输入框中注入需要的动态字段名称的输出过滤器。"
 
 #. SysConfig
 msgid "Output filter to inject the necessary JavaScript into the views."
-msgstr ""
+msgstr "注入需要的JavaScript到视图中的输出过滤器。"
+
+#. SysConfig
+msgid "Parameters for notification web view filters."
+msgstr "通知网页视图过滤器的参数。"
 
 #. SysConfig
 msgid ""
 "Parameters for the ChatChannel object in the preference view of the agent "
 "interface."
-msgstr ""
+msgstr "服务人员界面偏好设置视图用于聊天频道对象的参数。"
 
 #. SysConfig
 msgid ""
 "Parameters for the pages (in which the notifications are shown) of the small"
 " notifications view."
-msgstr ""
+msgstr "简洁通知视图页面（显示通知的页面）的参数。"
 
 #. SysConfig
 msgid ""
 "Permission level to start a chat with customer from agent ticket zoom view."
-msgstr ""
+msgstr "从服务人员工单详情视图发起一个与客户的聊天所需的权限级别。"
 
 #. SysConfig
 msgid ""
 "Please bear with us until one of our agents is able to handle your chat "
 "request. Thank you for your patience."
-msgstr ""
+msgstr "请稍候，我们的服务人员会尽快处理你的聊天请求，感谢您的耐心。"
 
 #. SysConfig
 msgid "Prepend"
-msgstr ""
+msgstr "预先考虑"
 
 #. SysConfig
 msgid "Remove closed chats older than ChatEngine::ChatTTL."
-msgstr ""
+msgstr "移除超过ChatEngine::ChatTTL设置的已关闭聊天。"
 
 #. SysConfig
 msgid "Remove old chats."
+msgstr "移除旧的聊天。"
+
+#. SysConfig
+msgid "Resource overview page."
+msgstr ""
+
+#. SysConfig
+msgid "Resource overview screen."
+msgstr ""
+
+#. SysConfig
+msgid "Resources list."
 msgstr ""
 
 #. SysConfig
 msgid ""
 "Runs an initial wildcard search of the existing contacts with data when "
 "accessing the AdminContactWithData module."
-msgstr ""
+msgstr "访问AdminContactWithData（管理联系信息）模块时运行一次全部现有联系信息的搜索。"
 
 #. SysConfig
 msgid "Sets if a chat request can be sent out from agent ticket zoom view."
-msgstr ""
+msgstr "设置服务人员工单详情视图能否发出聊天请求。"
 
 #. SysConfig
 msgid "Sets if a chat request can be sent out from customer ticket zoom view."
-msgstr ""
+msgstr "设置客户工单详情视图能否发出聊天请求。"
 
 #. SysConfig
 msgid "Show all ticket attachments"
@@ -1553,75 +1774,103 @@ msgstr "显示该工单所有的附件"
 
 #. SysConfig
 msgid "Shows all attachments available in the ticket."
-msgstr "显示该工单所有可用的附件"
+msgstr "显示该工单所有可用的附件。"
 
 #. SysConfig
 msgid "Start a chat with this customer"
-msgstr "与该用户开始对话"
+msgstr "与该客户开始聊天"
+
+#. SysConfig
+msgid "Start a video call with this customer"
+msgstr ""
+
+#. SysConfig
+msgid "Start an audio call with this customer"
+msgstr ""
 
 #. SysConfig
 msgid "Start new chat"
-msgstr "开始新的对话"
+msgstr "开始新的聊天"
+
+#. SysConfig
+msgid "Team agents management screen."
+msgstr ""
+
+#. SysConfig
+msgid "Team list"
+msgstr ""
+
+#. SysConfig
+msgid "Team management screen."
+msgstr ""
+
+#. SysConfig
+msgid "Team management."
+msgstr ""
 
 #. SysConfig
 msgid ""
 "Text which is being displayed on selection of this SLA on "
 "CustomerTicketMessage."
-msgstr ""
+msgstr "在该SLA选定的客户工单消息上显示的文本。"
 
 #. SysConfig
 msgid ""
 "The logo shown in the header of the agent interface for the skin "
 "\"business\". See \"AgentLogo\" for further description."
-msgstr ""
+msgstr "服务人员界面皮肤“business（商业版）”中显示在页面顶端的LOGO。查看“AgentLogo”以获得更多描述。"
 
 #. SysConfig
 msgid "There are no chat agents available at present. Please try again later."
-msgstr ""
+msgstr "当前没有服务人员可以聊天，请稍后再试。"
 
 #. SysConfig
 msgid ""
 "There are no chat agents available at present. To add an article to the "
 "existing ticket, please click here:"
-msgstr ""
+msgstr "当前没有服务人员可以聊天，要添加信件到现有工单，请点击这里："
 
 #. SysConfig
 msgid ""
 "There are no chat agents available at present. To create a new ticket, "
 "please click here:"
-msgstr ""
+msgstr "当前没有服务人员可以聊天，要创建一个新工单，请点击这里："
 
 #. SysConfig
 msgid ""
 "This chat has ended. Please leave it or it will be closed automatically."
-msgstr ""
+msgstr "该聊天已经结束，请离开或等它自动关闭。"
 
 #. SysConfig
 msgid ""
 "This chat has ended. Please leave it or it will be closed automatically. You"
 " can download this chat."
-msgstr ""
+msgstr "该聊天已经结束，请离开或等它自动关闭。你可以下载该聊天。"
 
 #. SysConfig
 msgid "This chat is completed. You can now close the chat window."
-msgstr ""
+msgstr "该聊天已经完成，现在可以关闭该聊天窗口。"
 
 #. SysConfig
 msgid ""
 "This chat is completed. You can start a new chat using the button on top of "
 "this page."
-msgstr ""
+msgstr "该聊天已经完成，你可以使用本页面顶部的按钮发起一个新的聊天。"
 
 #. SysConfig
 msgid "Tool-bar item for a notification web view."
+msgstr "一个通知网页视图的工具栏条目。"
+
+#. SysConfig
+msgid "Video call screen."
 msgstr ""
 
 #. SysConfig
 msgid "View notifications"
-msgstr ""
+msgstr "查看通知"
 
 #. SysConfig
 msgid ""
-"Your selection of your favorite external chat channels. You will be notified"
-" about external chat requests in these chat channels."
-msgstr ""
+"Your selection of your preferred external chat channels. You will be "
+"notified about external chat requests in these chat channels."
+msgstr "你选择的优先外部聊天频道，这些聊天频道有外部聊天请求时你会接到通知。"

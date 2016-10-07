@@ -1,10 +1,12 @@
 # 
 # Translators:
+# Alex Pelikh <alex.pelikh@icloud.com>, 2016
+# Владислав Тырышкин, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2014-08-08 19:10+0200\n"
-"PO-Revision-Date: 2016-01-11 10:06+0000\n"
+"POT-Creation-Date: 2016-10-07 12:06+0000\n"
+"PO-Revision-Date: 2016-10-07 10:07+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Russian (http://www.transifex.com/otrs/OTRS/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -13,189 +15,45 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#. Template: AAAOTRSBusiness
-msgid "Ticket Created"
-msgstr "Заявка создана"
-
-#. Template: AAAOTRSBusiness
-msgid "Note Added"
-msgstr "Добавлена заметка"
-
-#. Template: AAAOTRSBusiness
-msgid "Note Added (Customer)"
-msgstr "Добавлена заметка (Клиент)"
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Email"
-msgstr "Исходящее письмо"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Customer Email"
-msgstr "Входящее письмо клиента"
-
-#. Template: AAAOTRSBusiness
-msgid "Dynamic Field Updated"
-msgstr "Динамическое поле обновлено"
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Phone Call"
-msgstr "Исходящий телефонный звонок"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Phone Call"
-msgstr "Входящий телефонный звонок"
-
-#. Template: AAAOTRSBusiness
-msgid "Outgoing Answer"
-msgstr "Исходящий ответ"
-
-#. Template: AAAOTRSBusiness
-msgid "SLA Updated"
-msgstr "SLA обновлено"
-
-#. Template: AAAOTRSBusiness
-msgid "Service Updated"
-msgstr "Сервис обновлен"
-
-#. Template: AAAOTRSBusiness
-msgid "Customer Updated"
-msgstr "Клиент обновлен"
-
-#. Template: AAAOTRSBusiness
-msgid "State Updated"
-msgstr "Состояние обновлено"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Follow-Up"
-msgstr "Входящее дополнение к заявке"
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Update Time Stopped"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Solution Time Stopped"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation First Response Time Stopped"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Escalation Response Time Stopped"
-msgstr ""
-
-#. Template: AAAOTRSBusiness
-msgid "Link Added"
-msgstr "Добавлена связь "
-
-#. Template: AAAOTRSBusiness
-msgid "Link Deleted"
-msgstr "Связь удалена"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Merged"
-msgstr "Заявка объединена"
-
-#. Template: AAAOTRSBusiness
-msgid "Pending Time Set"
-msgstr "Установлено время ожидания"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Locked"
-msgstr "Заявка заблокирована"
-
-#. Template: AAAOTRSBusiness
-msgid "Ticket Unlocked"
-msgstr "Заявка разблокирована"
-
-#. Template: AAAOTRSBusiness
-msgid "Queue Updated"
-msgstr "Очередь обновлена"
-
-#. Template: AAAOTRSBusiness
-msgid "Priority Updated"
-msgstr "Приоритет обновлен"
-
-#. Template: AAAOTRSBusiness
-msgid "Title Updated"
-msgstr "Заголовок обновлен"
-
-#. Template: AAAOTRSBusiness
-msgid "Type Updated"
-msgstr "Тип обновлен"
-
-#. Template: AAAOTRSBusiness
-msgid "Incoming Web Request"
-msgstr "Входящий веб-запрос"
-
-#. Template: AAAOTRSBusiness
-msgid "Automatic Follow-Up Sent"
-msgstr "Автоответ клиента отправлен"
-
-#. Template: AAAOTRSBusiness
-msgid "Automatic Reply Sent"
-msgstr "Автоответ отправлен"
-
-#. Template: AAAOTRSBusiness
-msgid "Time Accounted"
-msgstr "Затраченное время"
-
-#. Template: AAAOTRSBusiness
-msgid "External Chat"
-msgstr "Внешний чат"
-
-#. Template: AAAOTRSBusiness
-msgid "Internal Chat"
-msgstr "Внутренний чат"
-
 #. Template: AdminChatChannel
 msgid "Manage Chat Channels"
-msgstr ""
+msgstr "Управление каналами чатов"
 
 #. Template: AdminChatChannel
 msgid "Add Chat Channel"
-msgstr ""
+msgstr "Добавить канал чата"
 
 #. Template: AdminChatChannel
 msgid "Edit Chat Channel"
-msgstr ""
-
-#. Template: AdminChatChannel
-msgid "This field is required"
-msgstr "Это поле обязательно"
+msgstr "Редактировать канал чата"
 
 #. Template: AdminChatChannel
 msgid "Name invalid"
-msgstr ""
+msgstr "Некорректное имя"
 
 #. Template: AdminChatChannel
 msgid "Need Group"
-msgstr ""
+msgstr "Требуется группа"
 
 #. Template: AdminChatChannel
 msgid "Need Valid"
-msgstr ""
+msgstr "Требуется Действительность"
 
 #. Template: AdminChatChannel
 msgid "Comment invalid"
-msgstr ""
-
-#. Template: AdminCloudServiceSMS
-msgid "SMS (Short Message Service)"
-msgstr ""
+msgstr "Комментарий некорректен"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service status"
-msgstr ""
+msgstr "Статус облачного сервиса"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service availability"
-msgstr ""
+msgstr "Доступность облачного сервиса"
 
 #. Template: AdminCloudServiceSMS
 msgid "Remaining SMS units"
-msgstr ""
+msgstr "Остаток СМС"
 
 #. Template: AdminCloudServiceSMS
 msgid "Is currently not possible to check the state for this cloud service."
@@ -203,7 +61,7 @@ msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone field for agent"
-msgstr ""
+msgstr "Поле \"Телефон\" для агента"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
@@ -213,7 +71,7 @@ msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone field for customer"
-msgstr ""
+msgstr "Поле \"Телефон\" для клиента"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
@@ -223,7 +81,7 @@ msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Sender string"
-msgstr ""
+msgstr "Строка отправки"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
@@ -232,11 +90,11 @@ msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "This field is required and must be not longer than 11 characters."
-msgstr ""
+msgstr "Данное поле обязательно и не должно быть длиннее 11 символов"
 
 #. Template: AdminCloudServiceSMS
 msgid "Allowed role members"
-msgstr ""
+msgstr "Разрешенные роли участников"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
@@ -246,7 +104,7 @@ msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
-msgstr ""
+msgstr "Сохранить конфигурацию"
 
 #. Template: AdminCloudServiceSMS
 msgid "Data Protection Information"
@@ -354,6 +212,229 @@ msgstr "Чувствительно к регистру"
 msgid "Recipient SMS numbers"
 msgstr ""
 
+#. Template: AgentAppointmentResourceOverview
+msgid "Resource Overview"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Teams"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Manage Team Agents"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Add new Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Add Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Filter for calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "URL"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Copy public calendar URL"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "This is a resource overview page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"No calendars found. Please add a calendar first by using Manage Calendars "
+"page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "No teams found. Please add a team first by using Manage Teams page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Team"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"No team agents found. Please assign agents to a team first by using Manage "
+"Team Agents page."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Too many active calendars"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid ""
+"Please either turn some off first or increase the limit in configuration."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Restore default settings"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Week"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Month"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Week"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Timeline Day"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Jump"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "This is a repeating appointment"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Would you like to edit just this occurrence or all occurrences?"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "All occurrences"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Just this occurrence"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Dismiss"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Shown resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Available Resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Filter available resources"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Visible Resources (order by drag & drop)"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Basic information"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Resource"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Date/Time"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "End date"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Repeat"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Add Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Team Import"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid ""
+"Here you can upload a configuration file to import a team to your system. "
+"The file needs to be in .yml format as exported by team management module."
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Upload team configuration"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Import team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Filter for teams"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Export team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Edit Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Team with same name already exists."
+msgstr ""
+
+#. Template: AgentAppointmentTeam
+msgid "Permission group"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Filter for agents"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Teams"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Manage Team-Agent Relations"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Change Agent Relations for Team"
+msgstr ""
+
+#. Template: AgentAppointmentTeamUser
+msgid "Change Team Relations for Agent"
+msgstr ""
+
 #. Template: AgentChat
 msgid "Manage Chats"
 msgstr "Управление чатами"
@@ -377,15 +458,15 @@ msgstr "Запросы от клиентов в Общем чате"
 
 #. Template: AgentChat
 msgid "My Chat Channels"
-msgstr ""
+msgstr "Мои каналы чатов"
 
 #. Template: AgentChat
 msgid "All Chat Channels"
-msgstr ""
+msgstr "Все каналы чатов"
 
 #. Template: AgentChat
 msgid "Channel"
-msgstr ""
+msgstr "Канал"
 
 #. Template: AgentChat
 msgid "Requester"
@@ -409,7 +490,7 @@ msgstr "Мои активные чаты"
 
 #. Template: AgentChat
 msgid "Open ticket"
-msgstr ""
+msgstr "Открыть заявку"
 
 #. Template: AgentChat
 msgid "Open company"
@@ -421,14 +502,22 @@ msgstr "Отказаться и закрыть этот чат"
 
 #. Template: AgentChat
 msgid "Monitoring all activity in this chat"
-msgstr ""
+msgstr "Наблюдать за всей активностью в этом чате"
 
 #. Template: AgentChat
 msgid "Monitoring customer activity in this chat"
-msgstr ""
+msgstr "Наблюдать за активностью клиента в этом чате"
 
 #. Template: AgentChat
 msgid "Not monitoring this chat"
+msgstr "Не наблюдать за этим чатом"
+
+#. Template: AgentChat
+msgid "Audio Call"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Video Call"
 msgstr ""
 
 #. Template: AgentChat
@@ -441,11 +530,11 @@ msgstr "Покинуть чат"
 
 #. Template: AgentChat
 msgid "Leave"
-msgstr ""
+msgstr "Покинуть"
 
 #. Template: AgentChat
 msgid "Create a new phone ticket from this chat and close it afterwards"
-msgstr ""
+msgstr "Создать новую телефонную заявку из этого чата и закрыть его после этого"
 
 #. Template: AgentChat
 msgid "Append this chat to an existing ticket and close it afterwards"
@@ -457,19 +546,19 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "Invite additional agent to join the chat"
-msgstr ""
+msgstr "Пригласить агента в этот чат"
 
 #. Template: AgentChat
 msgid "Invite"
-msgstr ""
+msgstr "Пригласить"
 
 #. Template: AgentChat
 msgid "Change chat channel"
-msgstr ""
+msgstr "Сменить канал чата"
 
 #. Template: AgentChat
 msgid "Channel change"
-msgstr ""
+msgstr "Канал изменен"
 
 #. Template: AgentChat
 msgid "Switch to participant"
@@ -489,7 +578,7 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "Download this Chat"
-msgstr ""
+msgstr "Сохранить чат"
 
 #. Template: AgentChat
 msgid "Join invited chat as an observer"
@@ -505,7 +594,7 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "New window"
-msgstr ""
+msgstr "Новое окно"
 
 #. Template: AgentChat
 msgid "New Message"
@@ -513,7 +602,7 @@ msgstr "Новое сообщение"
 
 #. Template: AgentChat
 msgid "(Shift + Enter for new line)"
-msgstr ""
+msgstr "(Shift + Enter для новой строки)"
 
 #. Template: AgentChat
 msgid "%s has left this chat."
@@ -521,15 +610,15 @@ msgstr "%s покинул это обсуждение."
 
 #. Template: AgentChat
 msgid "Online agents"
-msgstr ""
+msgstr "Агенты онлайн"
 
 #. Template: AgentChat
 msgid "Reload online agents"
-msgstr ""
+msgstr "Обновить агентов онлайн"
 
 #. Template: AgentChat
 msgid "Destination channel"
-msgstr ""
+msgstr "Канал назначения"
 
 #. Template: AgentChat
 msgid "Open chat"
@@ -537,19 +626,19 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "This user is currently active."
-msgstr ""
+msgstr "Этот пользователь в настоящее время активен"
 
 #. Template: AgentChat
 msgid "This user is currently away."
-msgstr ""
+msgstr "Этот пользователь в настоящее время отсутствует"
 
 #. Template: AgentChat
 msgid "This user is currently unavailable."
-msgstr ""
+msgstr "Этот пользователь в настоящее время недоступен"
 
 #. Template: AgentChat
 msgid "This user is currently offline."
-msgstr ""
+msgstr "Этот пользователь в настоящее время не подключен"
 
 #. Template: AgentChat
 msgid "This user has already left the chat or has not yet joined it."
@@ -578,56 +667,52 @@ msgid "You have no permission to accept this chat request."
 msgstr ""
 
 #. Template: AgentChat
-msgid "An internal error occurred."
-msgstr ""
-
-#. Template: AgentChat
 msgid "Please select a user."
-msgstr ""
+msgstr "Пожалуйста, выберите пользователя"
 
 #. Template: AgentChat
 msgid "Please select a permission level."
-msgstr ""
+msgstr "Пожалуйста, выберите уровень доступа"
 
 #. Template: AgentChat
 msgid "Invite Agent."
-msgstr ""
+msgstr "Пригласить агента"
 
 #. Template: AgentChat
 msgid "Please, select destination chat channel."
-msgstr ""
+msgstr "Пожалуйста, выберите целевой канал чата"
 
 #. Template: AgentChat
 msgid "Please select a channel."
-msgstr ""
+msgstr "Пожалуйста, выберите канал"
 
 #. Template: AgentChat
 msgid "Chat preview"
-msgstr ""
+msgstr "Предпросмотр чата"
 
 #. Template: AgentChat
 msgid "Please select a valid channel."
-msgstr ""
+msgstr "Пожалуйста, выберите доступный канал"
 
 #. Template: AgentChat
 msgid "Agent to customer chat."
-msgstr ""
+msgstr "Чат от агента к клиенту"
 
 #. Template: AgentChat
 msgid "Customer to agent chat."
-msgstr ""
+msgstr "Чат от клиента к агенту"
 
 #. Template: AgentChat
 msgid "Agent to agent chat."
-msgstr ""
+msgstr "Чат между агентами"
 
 #. Template: AgentChat
 msgid "Public to agent chat."
-msgstr ""
+msgstr "Публичный чат с агентом"
 
 #. Template: AgentChat
 msgid "You can't leave Customer alone in the chat."
-msgstr ""
+msgstr "Вы не можете оставить клиента в этом чате одного"
 
 #. Template: AgentChat
 msgid "You"
@@ -647,7 +732,7 @@ msgstr "В настоящий момент имеется %s открытых з
 
 #. Template: AgentChat
 msgid "User was already invited to your chat!"
-msgstr ""
+msgstr "Пользователь уже приглашен в ваш чат"
 
 #. Template: AgentChat
 msgid "Insufficient permissions."
@@ -675,7 +760,7 @@ msgstr "Чат с"
 
 #. Template: AgentChatPopup
 msgid "Leave Chat"
-msgstr ""
+msgstr "Покинуть чат"
 
 #. Template: AgentChatPopup
 msgid "This user is currently in the chat."
@@ -683,27 +768,19 @@ msgstr "Этот пользователь уже в чате."
 
 #. Template: AgentChatPreview
 msgid "Current chat channel"
-msgstr ""
+msgstr "Текущий канал чата"
 
 #. Template: AgentChatPreview
 msgid "Available channels"
-msgstr ""
+msgstr "Доступные каналы"
 
 #. Template: AgentChatPreview
 msgid "Reload"
-msgstr ""
+msgstr "Перезагрузить"
 
 #. Template: AgentChatPreview
 msgid "Update Channel"
-msgstr ""
-
-#. Template: AgentChatPreview
-msgid "Accept"
-msgstr ""
-
-#. Template: AgentChatPreview
-msgid "Decline"
-msgstr ""
+msgstr "Обновить канал"
 
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
 msgid "Detailed search"
@@ -719,7 +796,7 @@ msgstr "Подробный обзор"
 
 #. Template: AgentNotificationViewNavBar
 msgid "Notifications per page"
-msgstr ""
+msgstr "Уведомлений на страницу"
 
 #. Template: AgentNotificationViewSmall
 msgid "No notification data found."
@@ -751,10 +828,6 @@ msgstr ""
 
 #. Template: AgentNotificationViewSmall
 msgid "OTRS Notification"
-msgstr ""
-
-#. Template: AgentNotificationViewSmall
-msgid "Dismiss"
 msgstr ""
 
 #. Template: AgentStatisticsReportsAdd
@@ -824,7 +897,7 @@ msgid "Email subject"
 msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
-msgid "Specify recipient email addresses (comma separated)."
+msgid "Specify the subject for the automatically generated email."
 msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
@@ -840,7 +913,7 @@ msgid "Email recipients"
 msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
-msgid "Specify recipent email addresses (comma separated)."
+msgid "Specify recipient email addresses (comma separated)."
 msgstr ""
 
 #. Template: AgentStatisticsReportsEdit
@@ -914,6 +987,10 @@ msgid "This ticket does not have any attachments."
 msgstr "Эта заявка не имеет вложений."
 
 #. Template: AgentTicketAttachmentView
+msgid "Hide inline attachments"
+msgstr ""
+
+#. Template: AgentTicketAttachmentView
 msgid "Filter Attachments"
 msgstr "Фильтровать вложения"
 
@@ -932,6 +1009,62 @@ msgstr "Открыть сообщение/заметку в главном ок�
 #. Template: AgentTicketAttachmentView
 msgid "Download selected files as archive"
 msgstr "Загрузить выбранные файлы как архив"
+
+#. Template: AgentVideoChat
+msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Close video call"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Mute audio"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Mute video"
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "User has declined your video call invitation."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Target user's browser does not support video call."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "User has left the video call."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Attempt to connect was unsuccessful. Please try again."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Requesting media stream..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Waiting for other party to respond..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Accepting the invitation..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Initializing..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Connecting, please wait..."
+msgstr ""
+
+#. Template: AgentVideoChat
+msgid "Connection established!"
+msgstr ""
 
 #. Template: CustomerChat
 msgid "%s has joined this chat."
@@ -993,6 +1126,10 @@ msgstr "Чат загружается..."
 msgid "Chat completed"
 msgstr ""
 
+#. Template: CustomerVideoChat
+msgid "Fullscreen"
+msgstr ""
+
 #. Template: OutputFilterPostSLASelectionDialog
 msgid "Please confirm your selection"
 msgstr ""
@@ -1042,12 +1179,38 @@ msgstr ""
 msgid "Cloud Service config \"%s\" saved!"
 msgstr ""
 
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Need TeamID!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Could not retrieve data for given TeamID"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeamList.pm
+msgid "Unassigned"
+msgstr ""
+
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Chat %s has been closed and was successfully appended to Ticket %s."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
+msgid ""
+"Video call feature has been disabled! Please check if %s is available for "
+"the current system."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Customer <b>%s</b> invited you to a video call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "User <b>%s</b> invited you to a video call."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
@@ -1074,6 +1237,14 @@ msgstr ""
 msgid "%s has rejected the chat request."
 msgstr ""
 
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Need"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "%s has invited %s to a video call"
+msgstr ""
+
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
 msgstr ""
@@ -1096,6 +1267,14 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
 msgid "Please provide a valid cron entry."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentVideoChat.pm
+msgid "You are not participant in this chat!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "You have been invited to a video call."
 msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
@@ -1151,6 +1330,10 @@ msgstr "Группа агентов, которые могут принимат�
 #. SysConfig
 msgid "Agent group that can create chat requests."
 msgstr "Группы агентов, которые могут создавать запросы на обсуждение."
+
+#. SysConfig
+msgid "Agent group that can use video calling feature in chats."
+msgstr ""
 
 #. SysConfig
 msgid "Agent interface availability."
@@ -1345,6 +1528,14 @@ msgid "Display Create Chat request link in the ticket zoom view."
 msgstr ""
 
 #. SysConfig
+msgid "Display audio call link in the ticket zoom view."
+msgstr ""
+
+#. SysConfig
+msgid "Display video call link in the ticket zoom view."
+msgstr ""
+
+#. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
 msgstr ""
 
@@ -1374,6 +1565,10 @@ msgstr "Включает Хронологический вид в AgentTicketZoo
 
 #. SysConfig
 msgid "Event module registration (store historical data in dynamic fields)."
+msgstr ""
+
+#. SysConfig
+msgid "Frontend module registration for the cusotmer interface."
 msgstr ""
 
 #. SysConfig
@@ -1450,6 +1645,10 @@ msgid ""
 msgstr "Дает возможность начать обсуждение с агентом из общедоступного интерфейса."
 
 #. SysConfig
+msgid "Manage team agents."
+msgstr ""
+
+#. SysConfig
 msgid "My chats"
 msgstr "Мои обсуждения/chats"
 
@@ -1480,7 +1679,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Notifications Unseen:"
-msgstr ""
+msgstr "Непросмотренных уведомлений:"
 
 #. SysConfig
 msgid "Number of days after chat will be deleted."
@@ -1495,7 +1694,16 @@ msgid "Output filter for standard tt files."
 msgstr ""
 
 #. SysConfig
+msgid ""
+"Output filter to inject the necessary Dynamic field names in hidden input."
+msgstr ""
+
+#. SysConfig
 msgid "Output filter to inject the necessary JavaScript into the views."
+msgstr ""
+
+#. SysConfig
+msgid "Parameters for notification web view filters."
 msgstr ""
 
 #. SysConfig
@@ -1531,6 +1739,18 @@ msgstr ""
 
 #. SysConfig
 msgid "Remove old chats."
+msgstr "Удалить старые чаты"
+
+#. SysConfig
+msgid "Resource overview page."
+msgstr ""
+
+#. SysConfig
+msgid "Resource overview screen."
+msgstr ""
+
+#. SysConfig
+msgid "Resources list."
 msgstr ""
 
 #. SysConfig
@@ -1560,8 +1780,32 @@ msgid "Start a chat with this customer"
 msgstr "Начать обсуждение с этим клиентом"
 
 #. SysConfig
+msgid "Start a video call with this customer"
+msgstr ""
+
+#. SysConfig
+msgid "Start an audio call with this customer"
+msgstr ""
+
+#. SysConfig
 msgid "Start new chat"
 msgstr "Начать новое обсуждение/chat"
+
+#. SysConfig
+msgid "Team agents management screen."
+msgstr ""
+
+#. SysConfig
+msgid "Team list"
+msgstr ""
+
+#. SysConfig
+msgid "Team management screen."
+msgstr ""
+
+#. SysConfig
+msgid "Team management."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1617,11 +1861,15 @@ msgid "Tool-bar item for a notification web view."
 msgstr ""
 
 #. SysConfig
-msgid "View notifications"
+msgid "Video call screen."
 msgstr ""
 
 #. SysConfig
+msgid "View notifications"
+msgstr "Просмотр уведомлений"
+
+#. SysConfig
 msgid ""
-"Your selection of your favorite external chat channels. You will be notified"
-" about external chat requests in these chat channels."
+"Your selection of your preferred external chat channels. You will be "
+"notified about external chat requests in these chat channels."
 msgstr ""
