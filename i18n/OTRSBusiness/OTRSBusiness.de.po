@@ -9,9 +9,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-10-07 12:06+0000\n"
-"PO-Revision-Date: 2016-10-07 10:07+0000\n"
-"Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
+"POT-Creation-Date: 2016-10-25 14:26+0000\n"
+"PO-Revision-Date: 2016-10-24 14:15+0000\n"
+"Last-Translator: Marc A. Bonsels\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -218,120 +218,120 @@ msgstr "Empfänger-SMS-Nummern"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource Overview"
-msgstr ""
+msgstr "Resourcenübersicht"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Manage Calendars"
-msgstr ""
+msgstr "Kalender verwalten"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Manage Teams"
-msgstr ""
+msgstr "Teams verwalten"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Manage Team Agents"
-msgstr ""
+msgstr "Team-Agenten verwalten"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Add new Appointment"
-msgstr ""
+msgstr "Einen neuen Termin anlegen"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Add Appointment"
-msgstr ""
+msgstr "Termin hinzufügen"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Calendars"
-msgstr ""
+msgstr "Kalender"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Filter for calendars"
-msgstr ""
+msgstr "Filter für Kalender"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Copy public calendar URL"
-msgstr ""
+msgstr "Öffentliche Kalender-URL kopieren"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "This is a resource overview page."
-msgstr ""
+msgstr "Dies ist eine Ressourcen-Übersicht."
 
 #. Template: AgentAppointmentResourceOverview
 msgid ""
 "No calendars found. Please add a calendar first by using Manage Calendars "
 "page."
-msgstr ""
+msgstr "Keine Kalender gefunden. Bitte legen Sie zuerst einen Kalender über die Kalenderverwaltung an."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "No teams found. Please add a team first by using Manage Teams page."
-msgstr ""
+msgstr "Keine Teams gefunden. Bitte fügen Sie zuerst ein Team über die Teamverwaltung hinzu."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Team"
-msgstr ""
+msgstr "Team"
 
 #. Template: AgentAppointmentResourceOverview
 msgid ""
 "No team agents found. Please assign agents to a team first by using Manage "
 "Team Agents page."
-msgstr ""
+msgstr "Keine Team-Agenten gefunden. Bitte weisen Sie einem Team über die Team-Agenten-Verwaltung zunächst Agenten zu."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Too many active calendars"
-msgstr ""
+msgstr "Zuviele aktive Kalender"
 
 #. Template: AgentAppointmentResourceOverview
 msgid ""
 "Please either turn some off first or increase the limit in configuration."
-msgstr ""
+msgstr "Bitte deaktivieren Sie zuerst einige oder erhöhen Sie das Limit in der Konfiguration."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Restore default settings"
-msgstr ""
+msgstr "Standard-Einstellungen wiederherstellen"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Week"
-msgstr ""
+msgstr "Woche"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Timeline Month"
-msgstr ""
+msgstr "Zeitstrahl Monat"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Timeline Week"
-msgstr ""
+msgstr "Zeitstrahl Woche"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Timeline Day"
-msgstr ""
+msgstr "Zeitstrahl Tag"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Jump"
-msgstr ""
+msgstr "Springen"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Appointment"
-msgstr ""
+msgstr "Termin"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "This is a repeating appointment"
-msgstr ""
+msgstr "Dieser Termin wiederholt sich"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Would you like to edit just this occurrence or all occurrences?"
-msgstr ""
+msgstr "Möchten Sie nur diesen Termin oder alle Vorkommnisse bearbeiten?"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "All occurrences"
-msgstr ""
+msgstr "Alle Vorkommnisse"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Just this occurrence"
-msgstr ""
+msgstr "Nur diesen Termin"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Dismiss"
@@ -339,105 +339,105 @@ msgstr "Verwerfen"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resources"
-msgstr ""
+msgstr "Ressourcen"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Shown resources"
-msgstr ""
+msgstr "Angezeigte Ressourcen"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Available Resources"
-msgstr ""
+msgstr "Verfügbare Ressourcen"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Filter available resources"
-msgstr ""
+msgstr "Verfügbare Ressourcen filtern"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Visible Resources (order by drag & drop)"
-msgstr ""
+msgstr "Sichtbare Ressourcen (mit Drag & Drop sortieren)"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Basic information"
-msgstr ""
+msgstr "Grundlegende Informationen"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource"
-msgstr ""
+msgstr "Resource"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Date/Time"
-msgstr ""
+msgstr "Datum/Zeit"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "End date"
-msgstr ""
+msgstr "Endzeitpunkt"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Repeat"
-msgstr ""
+msgstr "Wiederholung"
 
 #. Template: AgentAppointmentTeam
 msgid "Add Team"
-msgstr ""
+msgstr "Team hinzufügen"
 
 #. Template: AgentAppointmentTeam
 msgid "Team Import"
-msgstr ""
+msgstr "Team-Import"
 
 #. Template: AgentAppointmentTeam
 msgid ""
 "Here you can upload a configuration file to import a team to your system. "
 "The file needs to be in .yml format as exported by team management module."
-msgstr ""
+msgstr "Hier können Sie eine Konfigurations-Datei zum Importieren eines Teams hochladen. Die Datei muss im .yml-Format vorliegen, so wie sie auch im Team-Verwaltungs-Modul exportiert wird."
 
 #. Template: AgentAppointmentTeam
 msgid "Upload team configuration"
-msgstr ""
+msgstr "Team-Konfiguration hochladen."
 
 #. Template: AgentAppointmentTeam
 msgid "Import team"
-msgstr ""
+msgstr "Team importieren"
 
 #. Template: AgentAppointmentTeam
 msgid "Filter for teams"
-msgstr ""
+msgstr "Filter für Teams"
 
 #. Template: AgentAppointmentTeam
 msgid "Export team"
-msgstr ""
+msgstr "Team exportieren"
 
 #. Template: AgentAppointmentTeam
 msgid "Edit Team"
-msgstr ""
+msgstr "Team bearbeiten"
 
 #. Template: AgentAppointmentTeam
 msgid "Team with same name already exists."
-msgstr ""
+msgstr "Ein Team mit diesem Namen existiert bereits."
 
 #. Template: AgentAppointmentTeam
 msgid "Permission group"
-msgstr ""
+msgstr "Berechtigungsgruppe"
 
 #. Template: AgentAppointmentTeamUser
 msgid "Filter for agents"
-msgstr ""
+msgstr "Filter für Agenten"
 
 #. Template: AgentAppointmentTeamUser
 msgid "Teams"
-msgstr ""
+msgstr "Teams"
 
 #. Template: AgentAppointmentTeamUser
 msgid "Manage Team-Agent Relations"
-msgstr ""
+msgstr "Team-Agent-Beziehungen verwalten"
 
 #. Template: AgentAppointmentTeamUser
 msgid "Change Agent Relations for Team"
-msgstr ""
+msgstr "Agenten-Beziehungen für Team verwalten"
 
 #. Template: AgentAppointmentTeamUser
 msgid "Change Team Relations for Agent"
-msgstr ""
+msgstr "Team-Beziehungen für Agent verwalten"
 
 #. Template: AgentChat
 msgid "Manage Chats"
@@ -518,11 +518,11 @@ msgstr "Aktivitäten in diesem Chat werden derzeit nicht beobachtet"
 
 #. Template: AgentChat
 msgid "Audio Call"
-msgstr ""
+msgstr "Audio-Anruf"
 
 #. Template: AgentChat
 msgid "Video Call"
-msgstr ""
+msgstr "Video-Anruf"
 
 #. Template: AgentChat
 msgid "Toggle settings"
@@ -992,7 +992,7 @@ msgstr "Dieses Ticket hat keine Anlagen."
 
 #. Template: AgentTicketAttachmentView
 msgid "Hide inline attachments"
-msgstr ""
+msgstr "Inline-Anhänge ausblenden"
 
 #. Template: AgentTicketAttachmentView
 msgid "Filter Attachments"
@@ -1016,59 +1016,63 @@ msgstr "Ausgewählte Dateien als Archiv herunterladen"
 
 #. Template: AgentVideoChat
 msgid "Your browser does not support HTML5 video."
-msgstr ""
+msgstr "Ihr Browser unterstützt kein HTML5-Video."
 
 #. Template: AgentVideoChat
 msgid "Close video call"
-msgstr ""
+msgstr "Video-Anruf schließen"
 
 #. Template: AgentVideoChat
-msgid "Mute audio"
-msgstr ""
+msgid "Toggle audio"
+msgstr "Ton umschalten"
 
 #. Template: AgentVideoChat
-msgid "Mute video"
-msgstr ""
+msgid "Toggle video"
+msgstr "Video umschalten"
 
 #. Template: AgentVideoChat
-msgid "User has declined your video call invitation."
-msgstr ""
+msgid "User has declined your invitation."
+msgstr "Der Benutzer hat Ihre Einladung abgelehnt."
 
 #. Template: AgentVideoChat
-msgid "Target user's browser does not support video call."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "User has left the video call."
-msgstr ""
+msgid "User has left the call."
+msgstr "Der Benutzer hat den Anruf verlassen."
 
 #. Template: AgentVideoChat
 msgid "Attempt to connect was unsuccessful. Please try again."
-msgstr ""
+msgstr "Verbindungsversuch fehlgeschlagen. Bitte versuchen Sie es erneut."
+
+#. Template: AgentVideoChat
+msgid "Permission to media stream has been denied."
+msgstr "Zugriff auf Mediastream wurde nicht gestattet."
+
+#. Template: AgentVideoChat
+msgid "Please allow this page to use your video and audio stream."
+msgstr "Bitte erlauben Sie dieser Seite, Ihre Video- und Audiostreams zu nutzen."
 
 #. Template: AgentVideoChat
 msgid "Requesting media stream..."
-msgstr ""
+msgstr "Media-Stream wird angefragt..."
 
 #. Template: AgentVideoChat
 msgid "Waiting for other party to respond..."
-msgstr ""
+msgstr "Warte auf Antwort der anderen Seite..."
 
 #. Template: AgentVideoChat
 msgid "Accepting the invitation..."
-msgstr ""
+msgstr "Bestätige die Einladung..."
 
 #. Template: AgentVideoChat
 msgid "Initializing..."
-msgstr ""
+msgstr "Initialisiere..."
 
 #. Template: AgentVideoChat
 msgid "Connecting, please wait..."
-msgstr ""
+msgstr "Verbinde, bitte warten..."
 
 #. Template: AgentVideoChat
 msgid "Connection established!"
-msgstr ""
+msgstr "Verbindung hergestellt!"
 
 #. Template: CustomerChat
 msgid "%s has joined this chat."
@@ -1132,7 +1136,7 @@ msgstr "Chat abgeschlossen"
 
 #. Template: CustomerVideoChat
 msgid "Fullscreen"
-msgstr ""
+msgstr "Vollbild"
 
 #. Template: OutputFilterPostSLASelectionDialog
 msgid "Please confirm your selection"
@@ -1183,17 +1187,23 @@ msgstr "Cloudservice \"%s\" aktualisiert!"
 msgid "Cloud Service config \"%s\" saved!"
 msgstr "Cloudservice-Konfiguration \"%s\" gespeichert!"
 
+#. Perl Module: Kernel/Modules/AgentAppointmentResourceOverview.pm
+msgid ""
+"This feature is part of the %s package. Please install this free add-on "
+"before trying to use it again."
+msgstr "Dieses Feature ist Teil des Pakets %s. Bitte installieren Sie diese kostenlose Erweiterung, bevor Sie nochmals versuchen, das Feature zu nutzen."
+
 #. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
 msgid "Need TeamID!"
-msgstr ""
+msgstr "Benötige TeamID!"
 
 #. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
 msgid "Could not retrieve data for given TeamID"
-msgstr ""
+msgstr "Konnte keine Daten für diese TeamID ermitteln"
 
 #. Perl Module: Kernel/Modules/AgentAppointmentTeamList.pm
 msgid "Unassigned"
-msgstr ""
+msgstr "Nicht zugewiesen"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Chat %s has been closed and was successfully appended to Ticket %s."
@@ -1203,19 +1213,11 @@ msgstr "Chat %s wurde geschlossen und erfolgreich zu Ticket %s hinzugefügt."
 msgid ""
 "Video call feature has been disabled! Please check if %s is available for "
 "the current system."
-msgstr ""
+msgstr "Das Video-Anruf-Feature ist deaktiviert! Bitte prüfen Sie, ob %s für das aktuelle System verfügbar ist."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
 msgstr "%s hat den Chat als Beobachter betreten."
-
-#. Perl Module: Kernel/Modules/AgentChat.pm
-msgid "Customer <b>%s</b> invited you to a video call."
-msgstr ""
-
-#. Perl Module: Kernel/Modules/AgentChat.pm
-msgid "User <b>%s</b> invited you to a video call."
-msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
@@ -1243,11 +1245,7 @@ msgstr "%s hat die Chat-Anfrage abgelehnt."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Need"
-msgstr ""
-
-#. Perl Module: Kernel/Modules/AgentChat.pm
-msgid "%s has invited %s to a video call"
-msgstr ""
+msgstr "Benötige"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
@@ -1275,11 +1273,7 @@ msgstr "Bitte geben Sie einen gültigen Cron-Eintrag an."
 
 #. Perl Module: Kernel/Modules/AgentVideoChat.pm
 msgid "You are not participant in this chat!"
-msgstr ""
-
-#. Perl Module: Kernel/Modules/CustomerChat.pm
-msgid "You have been invited to a video call."
-msgstr ""
+msgstr "Sie sind kein Teilnehmer dieses Chats!"
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
 msgid "You are unavailable for external chats. Would you like to go online?"
@@ -1337,7 +1331,7 @@ msgstr "Agenten-Gruppe, die Chat-Anfragen erstellen kann."
 
 #. SysConfig
 msgid "Agent group that can use video calling feature in chats."
-msgstr ""
+msgstr "Agenten-Gruppe, die das Video-Anruf-Feature in Chats nutzen darf."
 
 #. SysConfig
 msgid "Agent interface availability."
@@ -1511,9 +1505,23 @@ msgstr "Definiert die Zeitspanne (in Minuten) bis ein Kunde die \"Keine Antwort\
 
 #. SysConfig
 msgid ""
-"Defines the period of time (in minutes) before agent goes offline due to "
-"inactivity."
-msgstr "Definiert die Zeitspanne (in Minuten) bevor ein Agent wegen Inaktivität als Offline geführt wird"
+"Defines the period of time (in minutes) before agent is marked as \"away\" "
+"due to inactivity."
+msgstr "Legt die Zeit (in Minuten) fest, bevor ein Agent aufgrund von Inaktivität als \"Abwesend\" angezeigt wird."
+
+#. SysConfig
+msgid ""
+"Defines the period of time (in minutes) before customer is marked as "
+"\"away\" due to inactivity."
+msgstr "Legt die Zeit (in Minuten) fest, bevor ein Kunde aufgrund von Inaktivität als \"Abwesend\" angezeigt wird."
+
+#. SysConfig
+msgid "Defines the settings for appointment notification."
+msgstr "Legt die Einstellungen für Veranstaltungsbenachrichtigungen fest."
+
+#. SysConfig
+msgid "Defines the settings for calendar notification."
+msgstr "Legt die Einstellungen für Kalenderbenachrichtigungen fest."
 
 #. SysConfig
 msgid "Defines the settings for ticket notification."
@@ -1526,18 +1534,6 @@ msgstr "Definiert das Quell-DynamicField für die Speicherung historischer Daten
 #. SysConfig
 msgid "Defines the target dynamic fields for storing historical data."
 msgstr "Definiert das Ziel-DynamicField für die Speicherung historischer Daten."
-
-#. SysConfig
-msgid "Display Create Chat request link in the ticket zoom view."
-msgstr "Zeigt einen \"Erzeuge Chat Anfrage\" Link in der Ticket Zoom Ansicht."
-
-#. SysConfig
-msgid "Display audio call link in the ticket zoom view."
-msgstr ""
-
-#. SysConfig
-msgid "Display video call link in the ticket zoom view."
-msgstr ""
 
 #. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
@@ -1573,7 +1569,7 @@ msgstr "Ereignismodulregistrierung (Speicherung historischer Daten in dynamische
 
 #. SysConfig
 msgid "Frontend module registration for the cusotmer interface."
-msgstr ""
+msgstr "Frontend-Modul-Registrierung für den Kunden-Bereich."
 
 #. SysConfig
 msgid "Frontend module registration for the public interface."
@@ -1650,7 +1646,7 @@ msgstr "Ermöglicht es, aus dem Public-Interface heraus einen Chat mit einem Age
 
 #. SysConfig
 msgid "Manage team agents."
-msgstr ""
+msgstr "Team-Agenten verwalten."
 
 #. SysConfig
 msgid "My chats"
@@ -1747,15 +1743,15 @@ msgstr "Alte Chats löschen"
 
 #. SysConfig
 msgid "Resource overview page."
-msgstr ""
+msgstr "Ressourcen-Übersichtsseite."
 
 #. SysConfig
 msgid "Resource overview screen."
-msgstr ""
+msgstr "Ressourcen-Übersichtsbildschirm."
 
 #. SysConfig
 msgid "Resources list."
-msgstr ""
+msgstr "Ressourcen-Liste."
 
 #. SysConfig
 msgid ""
@@ -1780,36 +1776,24 @@ msgid "Shows all attachments available in the ticket."
 msgstr "Alle Anlagen anzeigen, die im Ticket verfügbar sind."
 
 #. SysConfig
-msgid "Start a chat with this customer"
-msgstr "Einen Chat mit diesem Kunden beginnen"
-
-#. SysConfig
-msgid "Start a video call with this customer"
-msgstr ""
-
-#. SysConfig
-msgid "Start an audio call with this customer"
-msgstr ""
-
-#. SysConfig
 msgid "Start new chat"
 msgstr "Einen Chat beginnen"
 
 #. SysConfig
 msgid "Team agents management screen."
-msgstr ""
+msgstr "Team-Agenten-Verwaltungsbildschirm."
 
 #. SysConfig
 msgid "Team list"
-msgstr ""
+msgstr "Team-Liste"
 
 #. SysConfig
 msgid "Team management screen."
-msgstr ""
+msgstr "Team-Verwaltungsbildschirm."
 
 #. SysConfig
 msgid "Team management."
-msgstr ""
+msgstr "Team-Verwaltung."
 
 #. SysConfig
 msgid ""
@@ -1865,8 +1849,8 @@ msgid "Tool-bar item for a notification web view."
 msgstr "Werkzeugleisten Objekt für die Web-Oberfläche für Benachrichtigungen."
 
 #. SysConfig
-msgid "Video call screen."
-msgstr ""
+msgid "Video and audio call screen."
+msgstr "Bildschirm für Video- und Audio-Anrufe."
 
 #. SysConfig
 msgid "View notifications"
