@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-10-25 14:26+0000\n"
-"PO-Revision-Date: 2016-10-24 09:28+0000\n"
+"POT-Creation-Date: 2017-01-09 14:51+0000\n"
+"PO-Revision-Date: 2017-01-09 14:01+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Japanese (http://www.transifex.com/otrs/OTRS/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -188,6 +188,10 @@ msgid "Table / View"
 msgstr "テーブル/ビュー"
 
 #. Template: AdminDynamicFieldDatabase
+msgid "Must be unique column from the table entered in Table/View."
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
 msgid "CacheTTL"
 msgstr "キャッシュTTL"
 
@@ -262,7 +266,11 @@ msgid ""
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
-msgid "No teams found. Please add a team first by using Manage Teams page."
+msgid "No teams found."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Please add a team first by using Manage Teams page."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
@@ -270,9 +278,11 @@ msgid "Team"
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
-msgid ""
-"No team agents found. Please assign agents to a team first by using Manage "
-"Team Agents page."
+msgid "No team agents found."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Please assign agents to a team first by using Manage Team Agents page."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
@@ -624,24 +634,8 @@ msgid "Open chat"
 msgstr ""
 
 #. Template: AgentChat
-msgid "This user is currently active."
-msgstr "このユーザーは現在オンラインです"
-
-#. Template: AgentChat
-msgid "This user is currently away."
-msgstr "このユーザーは現在離席中です"
-
-#. Template: AgentChat
-msgid "This user is currently unavailable."
-msgstr "このユーザーは現在利用できません。"
-
-#. Template: AgentChat
-msgid "This user is currently offline."
-msgstr "このユーザーは現在オフラインです"
-
-#. Template: AgentChat
-msgid "This user has already left the chat or has not yet joined it."
-msgstr "ユーザーはチャットから退出済みか、まだ参加していません。"
+msgid "User has already left the chat or has not yet joined it."
+msgstr ""
 
 #. Template: AgentChat
 msgid ""
@@ -762,8 +756,8 @@ msgid "Leave Chat"
 msgstr "チャットから離脱する"
 
 #. Template: AgentChatPopup
-msgid "This user is currently in the chat."
-msgstr "このユーザーはチャットにログイン中です"
+msgid "User is currently in the chat."
+msgstr ""
 
 #. Template: AgentChatPreview
 msgid "Current chat channel"
@@ -1193,6 +1187,10 @@ msgid "Need TeamID!"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Invalid GroupID!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
 msgid "Could not retrieve data for given TeamID"
 msgstr ""
 
@@ -1213,6 +1211,10 @@ msgstr ""
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
 msgstr "%s がオブザーバーとしてチャットに参加しました"
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "If you accept, any active call you may have will be closed."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
@@ -1285,6 +1287,12 @@ msgstr ""
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Object Type"
 msgstr "オブジェクトタイプ"
+
+#. Perl Module: Kernel/Output/HTML/Preferences/CustomChatChannel.pm
+msgid ""
+"You do not have access to any chat channels in the system. Please contact "
+"the administrator."
+msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"

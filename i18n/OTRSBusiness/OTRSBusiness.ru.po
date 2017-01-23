@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-10-25 14:26+0000\n"
-"PO-Revision-Date: 2016-10-24 09:28+0000\n"
+"POT-Creation-Date: 2017-01-09 14:51+0000\n"
+"PO-Revision-Date: 2017-01-09 14:01+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Russian (http://www.transifex.com/otrs/OTRS/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -189,6 +189,10 @@ msgid "Table / View"
 msgstr "Таблица / Обзор/View"
 
 #. Template: AdminDynamicFieldDatabase
+msgid "Must be unique column from the table entered in Table/View."
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
 msgid "CacheTTL"
 msgstr "CacheTTL"
 
@@ -263,7 +267,11 @@ msgid ""
 msgstr "Не назначен календарь. Добавьте календарь используя экран управления календарями."
 
 #. Template: AgentAppointmentResourceOverview
-msgid "No teams found. Please add a team first by using Manage Teams page."
+msgid "No teams found."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Please add a team first by using Manage Teams page."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
@@ -271,9 +279,11 @@ msgid "Team"
 msgstr "Команда"
 
 #. Template: AgentAppointmentResourceOverview
-msgid ""
-"No team agents found. Please assign agents to a team first by using Manage "
-"Team Agents page."
+msgid "No team agents found."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Please assign agents to a team first by using Manage Team Agents page."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
@@ -625,24 +635,8 @@ msgid "Open chat"
 msgstr ""
 
 #. Template: AgentChat
-msgid "This user is currently active."
-msgstr "Этот пользователь в настоящее время активен"
-
-#. Template: AgentChat
-msgid "This user is currently away."
-msgstr "Этот пользователь в настоящее время отсутствует"
-
-#. Template: AgentChat
-msgid "This user is currently unavailable."
-msgstr "Этот пользователь в настоящее время недоступен"
-
-#. Template: AgentChat
-msgid "This user is currently offline."
-msgstr "Этот пользователь в настоящее время не подключен"
-
-#. Template: AgentChat
-msgid "This user has already left the chat or has not yet joined it."
-msgstr "Этот пользователь уже покинул чат или еще не входил в него."
+msgid "User has already left the chat or has not yet joined it."
+msgstr ""
 
 #. Template: AgentChat
 msgid ""
@@ -763,8 +757,8 @@ msgid "Leave Chat"
 msgstr "Покинуть чат"
 
 #. Template: AgentChatPopup
-msgid "This user is currently in the chat."
-msgstr "Этот пользователь уже в чате."
+msgid "User is currently in the chat."
+msgstr ""
 
 #. Template: AgentChatPreview
 msgid "Current chat channel"
@@ -1194,6 +1188,10 @@ msgid "Need TeamID!"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Invalid GroupID!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
 msgid "Could not retrieve data for given TeamID"
 msgstr ""
 
@@ -1213,6 +1211,10 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "If you accept, any active call you may have will be closed."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
@@ -1285,6 +1287,12 @@ msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Object Type"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/Preferences/CustomChatChannel.pm
+msgid ""
+"You do not have access to any chat channels in the system. Please contact "
+"the administrator."
 msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm

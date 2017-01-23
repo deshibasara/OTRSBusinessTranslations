@@ -1,12 +1,12 @@
 # 
 # Translators:
 # Dusan Vuckovic, 2016
-# Милорад Јовановић <j.milorad@gmail.com>, 2016
+# Милорад Јовановић <j.milorad@gmail.com>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-10-25 14:26+0000\n"
-"PO-Revision-Date: 2016-10-24 09:56+0000\n"
+"POT-Creation-Date: 2017-01-09 14:51+0000\n"
+"PO-Revision-Date: 2017-01-20 11:45+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Serbian (http://www.transifex.com/otrs/OTRS/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -189,6 +189,10 @@ msgid "Table / View"
 msgstr "Табела / Преглед"
 
 #. Template: AdminDynamicFieldDatabase
+msgid "Must be unique column from the table entered in Table/View."
+msgstr "Мора да буде јединствена колона у табели унета на прегледу табела."
+
+#. Template: AdminDynamicFieldDatabase
 msgid "CacheTTL"
 msgstr "Истек периода кеша"
 
@@ -263,18 +267,24 @@ msgid ""
 msgstr "Није пронађен ниједан календар. Молимо прво додајте календар коришћењем екрана Управљање календарима."
 
 #. Template: AgentAppointmentResourceOverview
-msgid "No teams found. Please add a team first by using Manage Teams page."
-msgstr "Ниједан тим није пронађен. Молимо прво додајте тим коришћењеем екрана Управљање тимовима"
+msgid "No teams found."
+msgstr "Ниједан тим није пронађен."
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Please add a team first by using Manage Teams page."
+msgstr "Молимо прво додајте тим коришћењем екрана Управљање тимовима."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Team"
 msgstr "Тим"
 
 #. Template: AgentAppointmentResourceOverview
-msgid ""
-"No team agents found. Please assign agents to a team first by using Manage "
-"Team Agents page."
-msgstr "Ниједан оператер није пронађен у тиму. Молимо прво додајте оператера у тим коришћењем Управљање оператерима у тимовима."
+msgid "No team agents found."
+msgstr "Ниједан оператер није пронађен у тиму."
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Please assign agents to a team first by using Manage Team Agents page."
+msgstr "Молимо прво додајте оператера у тим коришћењем екрана Управљање оператерима у тимовима."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Too many active calendars"
@@ -625,24 +635,8 @@ msgid "Open chat"
 msgstr "Отвори ћаскање"
 
 #. Template: AgentChat
-msgid "This user is currently active."
-msgstr "Овај корисник је тренутно активан."
-
-#. Template: AgentChat
-msgid "This user is currently away."
-msgstr "Овај корисник је тренутно одсутан."
-
-#. Template: AgentChat
-msgid "This user is currently unavailable."
-msgstr "Овај корисник је треутно недоступан."
-
-#. Template: AgentChat
-msgid "This user is currently offline."
-msgstr "Овај корисник тренутно није на вези."
-
-#. Template: AgentChat
-msgid "This user has already left the chat or has not yet joined it."
-msgstr "Овај корисник је већ напустио ћаскање или се још није придружио."
+msgid "User has already left the chat or has not yet joined it."
+msgstr "Корисник је већ напустио ћаскање или се још није придружио."
 
 #. Template: AgentChat
 msgid ""
@@ -763,8 +757,8 @@ msgid "Leave Chat"
 msgstr "Напусти ћаскање"
 
 #. Template: AgentChatPopup
-msgid "This user is currently in the chat."
-msgstr "Овај корисник је тренутно у ћаскању."
+msgid "User is currently in the chat."
+msgstr "Корисник је тренутно у ћаскању."
 
 #. Template: AgentChatPreview
 msgid "Current chat channel"
@@ -1194,6 +1188,10 @@ msgid "Need TeamID!"
 msgstr "Потребан ИД тима!"
 
 #. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Invalid GroupID!"
+msgstr "Неисправан GroupID!"
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
 msgid "Could not retrieve data for given TeamID"
 msgstr "Не могу прибавити податке за дати TeamID"
 
@@ -1214,6 +1212,10 @@ msgstr "Функција видео позива је искључена! Мол
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
 msgstr "%s се придружио овом ћаскању као посматрач."
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "If you accept, any active call you may have will be closed."
+msgstr "Уколико прихватите, сви активни позиви ће бити прекинути."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
@@ -1286,6 +1288,12 @@ msgstr "Одбаци изабрано"
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Object Type"
 msgstr "Тип објекта"
+
+#. Perl Module: Kernel/Output/HTML/Preferences/CustomChatChannel.pm
+msgid ""
+"You do not have access to any chat channels in the system. Please contact "
+"the administrator."
+msgstr "Немате приступ каналима за ћаскање у систему. Молимо контактирајте администратора."
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"

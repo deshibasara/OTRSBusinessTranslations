@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-10-25 14:26+0000\n"
-"PO-Revision-Date: 2016-10-24 09:28+0000\n"
+"POT-Creation-Date: 2017-01-09 14:51+0000\n"
+"PO-Revision-Date: 2017-01-09 14:01+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -191,6 +191,10 @@ msgid "Table / View"
 msgstr "表/视图"
 
 #. Template: AdminDynamicFieldDatabase
+msgid "Must be unique column from the table entered in Table/View."
+msgstr ""
+
+#. Template: AdminDynamicFieldDatabase
 msgid "CacheTTL"
 msgstr "缓存生存时间(CacheTTL)"
 
@@ -265,18 +269,24 @@ msgid ""
 msgstr "没有找到日历。请先通过管理日历界面添加一个日历。"
 
 #. Template: AgentAppointmentResourceOverview
-msgid "No teams found. Please add a team first by using Manage Teams page."
-msgstr "没有找到团队。请先通过管理团队界面添加一个团队。"
+msgid "No teams found."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Please add a team first by using Manage Teams page."
+msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Team"
 msgstr "团队"
 
 #. Template: AgentAppointmentResourceOverview
-msgid ""
-"No team agents found. Please assign agents to a team first by using Manage "
-"Team Agents page."
-msgstr "团队中没有服务人员。请先通过管理团队服务人员界面给这个团队分配服务人员。"
+msgid "No team agents found."
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Please assign agents to a team first by using Manage Team Agents page."
+msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Too many active calendars"
@@ -627,24 +637,8 @@ msgid "Open chat"
 msgstr "受理聊天"
 
 #. Template: AgentChat
-msgid "This user is currently active."
-msgstr "该用户当前在线。"
-
-#. Template: AgentChat
-msgid "This user is currently away."
-msgstr "该用户当前离开。"
-
-#. Template: AgentChat
-msgid "This user is currently unavailable."
-msgstr "该用户当前不可用。"
-
-#. Template: AgentChat
-msgid "This user is currently offline."
-msgstr "该用户当前离线。"
-
-#. Template: AgentChat
-msgid "This user has already left the chat or has not yet joined it."
-msgstr "该用户已经离开或未加入聊天。"
+msgid "User has already left the chat or has not yet joined it."
+msgstr ""
 
 #. Template: AgentChat
 msgid ""
@@ -765,8 +759,8 @@ msgid "Leave Chat"
 msgstr "离开聊天"
 
 #. Template: AgentChatPopup
-msgid "This user is currently in the chat."
-msgstr "该用户在当前的聊天里。"
+msgid "User is currently in the chat."
+msgstr ""
 
 #. Template: AgentChatPreview
 msgid "Current chat channel"
@@ -1022,19 +1016,19 @@ msgstr "关闭视频通话"
 
 #. Template: AgentVideoChat
 msgid "Toggle audio"
-msgstr ""
+msgstr "切换语音"
 
 #. Template: AgentVideoChat
 msgid "Toggle video"
-msgstr ""
+msgstr "切换视频"
 
 #. Template: AgentVideoChat
 msgid "User has declined your invitation."
-msgstr ""
+msgstr "用户拒绝了您的邀请。"
 
 #. Template: AgentVideoChat
 msgid "User has left the call."
-msgstr ""
+msgstr "用户已经断开了通话。"
 
 #. Template: AgentVideoChat
 msgid "Attempt to connect was unsuccessful. Please try again."
@@ -1042,11 +1036,11 @@ msgstr "尝试连接未成功，请重试。"
 
 #. Template: AgentVideoChat
 msgid "Permission to media stream has been denied."
-msgstr ""
+msgstr "媒体流权限已被拒绝。"
 
 #. Template: AgentVideoChat
 msgid "Please allow this page to use your video and audio stream."
-msgstr ""
+msgstr "要使用视频和音频流，请允许这个页面。"
 
 #. Template: AgentVideoChat
 msgid "Requesting media stream..."
@@ -1189,11 +1183,15 @@ msgstr "云服务配置“%s”已保存！"
 msgid ""
 "This feature is part of the %s package. Please install this free add-on "
 "before trying to use it again."
-msgstr ""
+msgstr "这个功能是%s软件包的一部分，请首先免费安装这个附加组件再重试。"
 
 #. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
 msgid "Need TeamID!"
 msgstr "需要团队ID！"
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Invalid GroupID!"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
 msgid "Could not retrieve data for given TeamID"
@@ -1216,6 +1214,10 @@ msgstr "视频通话功能已被禁用！请检查当前系统%s是否可用。"
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
 msgstr "%s已作为观察者加入该聊天。"
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "If you accept, any active call you may have will be closed."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
@@ -1288,6 +1290,12 @@ msgstr "取消选择"
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Object Type"
 msgstr "对象类型"
+
+#. Perl Module: Kernel/Output/HTML/Preferences/CustomChatChannel.pm
+msgid ""
+"You do not have access to any chat channels in the system. Please contact "
+"the administrator."
+msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"
@@ -1505,21 +1513,21 @@ msgstr "定义显示“无应答”消息给客户的时间段（分钟）。"
 msgid ""
 "Defines the period of time (in minutes) before agent is marked as \"away\" "
 "due to inactivity."
-msgstr ""
+msgstr "定义服务人员因不活动而标记为“离开”的时间段（分钟）。"
 
 #. SysConfig
 msgid ""
 "Defines the period of time (in minutes) before customer is marked as "
 "\"away\" due to inactivity."
-msgstr ""
+msgstr "定义客户因不活动而标记为“离开”的时间段（分钟）。"
 
 #. SysConfig
 msgid "Defines the settings for appointment notification."
-msgstr ""
+msgstr "定义预约通知的设置。"
 
 #. SysConfig
 msgid "Defines the settings for calendar notification."
-msgstr ""
+msgstr "定义日历通知的设置。"
 
 #. SysConfig
 msgid "Defines the settings for ticket notification."
@@ -1848,7 +1856,7 @@ msgstr "一个通知网页视图的工具栏条目。"
 
 #. SysConfig
 msgid "Video and audio call screen."
-msgstr ""
+msgstr "视频和音频通话窗口。"
 
 #. SysConfig
 msgid "View notifications"

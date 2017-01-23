@@ -1,12 +1,12 @@
 # 
 # Translators:
-# Balázs Úr <urbalazs@gmail.com>, 2014-2016
+# Balázs Úr <urbalazs@gmail.com>, 2014-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-10-25 14:26+0000\n"
-"PO-Revision-Date: 2016-10-24 09:28+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"POT-Creation-Date: 2017-01-09 14:51+0000\n"
+"PO-Revision-Date: 2017-01-15 16:24+0000\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -188,6 +188,10 @@ msgid "Table / View"
 msgstr "Tábla / nézet"
 
 #. Template: AdminDynamicFieldDatabase
+msgid "Must be unique column from the table entered in Table/View."
+msgstr "Egyedi oszlopnak kell lennie a tábla/nézet helyen megadott táblából."
+
+#. Template: AdminDynamicFieldDatabase
 msgid "CacheTTL"
 msgstr "CacheTTL"
 
@@ -262,18 +266,24 @@ msgid ""
 msgstr "Nem találhatók naptárak. Először adjon hozzá egy naptárat a naptárak kezelése oldal használatával."
 
 #. Template: AgentAppointmentResourceOverview
-msgid "No teams found. Please add a team first by using Manage Teams page."
-msgstr "Nem találhatók csapatok. Először adjon hozzá egy csapatot a csapatok kezelése oldal használatával."
+msgid "No teams found."
+msgstr "Nem találhatók csapatok."
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Please add a team first by using Manage Teams page."
+msgstr "Először adjon hozzá egy csapatot a csapatok kezelése oldal használatával."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Team"
 msgstr "Csapat"
 
 #. Template: AgentAppointmentResourceOverview
-msgid ""
-"No team agents found. Please assign agents to a team first by using Manage "
-"Team Agents page."
-msgstr "Nem találhatók csapatügyintézők. Először rendeljen hozzá ügyintézőket egy csapathoz a csapatügyintézők kezelése oldal használatával."
+msgid "No team agents found."
+msgstr "Nem találhatók csapatügyintézők."
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Please assign agents to a team first by using Manage Team Agents page."
+msgstr "Először rendeljen hozzá ügyintézőket egy csapathoz a csapatügyintézők kezelése oldal használatával."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Too many active calendars"
@@ -624,24 +634,8 @@ msgid "Open chat"
 msgstr "Csevegés megnyitása"
 
 #. Template: AgentChat
-msgid "This user is currently active."
-msgstr "Ez a felhasználó jelenleg aktív."
-
-#. Template: AgentChat
-msgid "This user is currently away."
-msgstr "Ez a felhasználó jelenleg távol van."
-
-#. Template: AgentChat
-msgid "This user is currently unavailable."
-msgstr "Ez a felhasználó jelenleg nem érhető el."
-
-#. Template: AgentChat
-msgid "This user is currently offline."
-msgstr "Ez a felhasználó jelenleg kilépett."
-
-#. Template: AgentChat
-msgid "This user has already left the chat or has not yet joined it."
-msgstr "Ez a felhasználó már elhagyta a csevegést, vagy még nem csatlakozott hozzá."
+msgid "User has already left the chat or has not yet joined it."
+msgstr "A felhasználó már elhagyta a csevegést, vagy még nem csatlakozott hozzá."
 
 #. Template: AgentChat
 msgid ""
@@ -762,8 +756,8 @@ msgid "Leave Chat"
 msgstr "Csevegés elhagyása"
 
 #. Template: AgentChatPopup
-msgid "This user is currently in the chat."
-msgstr "Ez a felhasználó jelenleg a csevegésben van."
+msgid "User is currently in the chat."
+msgstr "A felhasználó jelenleg a csevegésben van."
 
 #. Template: AgentChatPreview
 msgid "Current chat channel"
@@ -1019,19 +1013,19 @@ msgstr "Videohívás bezárása"
 
 #. Template: AgentVideoChat
 msgid "Toggle audio"
-msgstr ""
+msgstr "Hang ki- és bekapcsolása"
 
 #. Template: AgentVideoChat
 msgid "Toggle video"
-msgstr ""
+msgstr "Videó ki- és bekapcsolása"
 
 #. Template: AgentVideoChat
 msgid "User has declined your invitation."
-msgstr ""
+msgstr "A felhasználó visszautasította a meghívását."
 
 #. Template: AgentVideoChat
 msgid "User has left the call."
-msgstr ""
+msgstr "A felhasználó elhagyta a hívást."
 
 #. Template: AgentVideoChat
 msgid "Attempt to connect was unsuccessful. Please try again."
@@ -1039,11 +1033,11 @@ msgstr "A kapcsolódási kísérlet sikertelen volt. Próbálja újra."
 
 #. Template: AgentVideoChat
 msgid "Permission to media stream has been denied."
-msgstr ""
+msgstr "A médiafolyamhoz történő hozzáférés meg lett tagadva."
 
 #. Template: AgentVideoChat
 msgid "Please allow this page to use your video and audio stream."
-msgstr ""
+msgstr "Engedélyezze ezt az oldalt a video- és hangadatfolyam használatához."
 
 #. Template: AgentVideoChat
 msgid "Requesting media stream..."
@@ -1186,11 +1180,15 @@ msgstr "Felhőszolgáltatás beállítása elmentve: „%s”!"
 msgid ""
 "This feature is part of the %s package. Please install this free add-on "
 "before trying to use it again."
-msgstr ""
+msgstr "Ez a szolgáltatás a(z) %s csomag része. Telepítse ezt az ingyenes kiegészítőt, mielőtt ismét megpróbálná használni azt."
 
 #. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
 msgid "Need TeamID!"
 msgstr "Csapat-azonosító szükséges!"
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Invalid GroupID!"
+msgstr "Érvénytelen csoportazonosító!"
 
 #. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
 msgid "Could not retrieve data for given TeamID"
@@ -1213,6 +1211,10 @@ msgstr "A videohívás funkció le lett tiltva! Ellenőrizze, hogy a(z) %s elér
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
 msgstr "%s csatlakozott a csevegéshez megfigyelőként."
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "If you accept, any active call you may have will be closed."
+msgstr "Ha elfogadja, akkor az összes aktív csevegése be lesz zárva."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
@@ -1285,6 +1287,12 @@ msgstr "Kijelölt eltüntetése"
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Object Type"
 msgstr "Objektumtípus"
+
+#. Perl Module: Kernel/Output/HTML/Preferences/CustomChatChannel.pm
+msgid ""
+"You do not have access to any chat channels in the system. Please contact "
+"the administrator."
+msgstr "Nincs hozzáférése egyetlen csevegőcsatornához sem a rendszeren. Vegye fel a kapcsolatot a rendszergazdával."
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"
@@ -1496,27 +1504,27 @@ msgstr "Meghatározza a PhantomJS bináris útvonalát. Használhat egy statikus
 msgid ""
 "Defines the period of time (in minutes) before No Answer message is "
 "displayed to the customer."
-msgstr "Meghatározza azt az időtartamot (percben), ami előtt „Nincs válasz” üzenet jelenik meg az ügyfélnek."
+msgstr "Meghatározza azt az időtartamot (percben), mielőtt „Nincs válasz” üzenet jelenik meg az ügyfélnek."
 
 #. SysConfig
 msgid ""
 "Defines the period of time (in minutes) before agent is marked as \"away\" "
 "due to inactivity."
-msgstr ""
+msgstr "Meghatározza azt az időtartamot (percben), mielőtt az ügyintéző „távol” lesz inaktivitás miatt."
 
 #. SysConfig
 msgid ""
 "Defines the period of time (in minutes) before customer is marked as "
 "\"away\" due to inactivity."
-msgstr ""
+msgstr "Meghatározza azt az időtartamot (percben), mielőtt az ügyfél „távol” lesz inaktivitás miatt."
 
 #. SysConfig
 msgid "Defines the settings for appointment notification."
-msgstr ""
+msgstr "Meghatározza a beállításokat az értekezlet értesítéshez."
 
 #. SysConfig
 msgid "Defines the settings for calendar notification."
-msgstr ""
+msgstr "Meghatározza a beállításokat a naptár értesítéshez."
 
 #. SysConfig
 msgid "Defines the settings for ticket notification."
@@ -1845,7 +1853,7 @@ msgstr "Eszköztárelem egy értesítési webnézethez."
 
 #. SysConfig
 msgid "Video and audio call screen."
-msgstr ""
+msgstr "Video- és hanghívás képernyő."
 
 #. SysConfig
 msgid "View notifications"

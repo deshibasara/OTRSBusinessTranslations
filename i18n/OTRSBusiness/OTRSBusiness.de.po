@@ -2,16 +2,18 @@
 # Translators:
 # christopher.kuhn <christopher.kuhn@otrs.com>, 2016
 # Ettore Atalan <atalanttore@googlemail.com>, 2016
+# Jonas Kohls <Jonas.kohls@outlook.de>, 2016
 # Marc A. Bonsels, 2016
 # Martin Gruner <martin.gruner@otrs.com>, 2015-2016
+# Rik sof <khan.jonas@riksof.com>, 2017
 # ru_otrs <robert.ullrich@otrs.com>, 2016
 # Rudy R <rudy.rohde@googlemail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2016-10-25 14:26+0000\n"
-"PO-Revision-Date: 2016-10-24 14:15+0000\n"
-"Last-Translator: Marc A. Bonsels\n"
+"POT-Creation-Date: 2017-01-09 14:51+0000\n"
+"PO-Revision-Date: 2017-01-20 14:43+0000\n"
+"Last-Translator: Rik sof <khan.jonas@riksof.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -193,6 +195,10 @@ msgid "Table / View"
 msgstr "Tabelle / Ansicht"
 
 #. Template: AdminDynamicFieldDatabase
+msgid "Must be unique column from the table entered in Table/View."
+msgstr "Muss eine eindeutige Spalte der in Tabelle/Ansicht eingetragenen Tabelle sein. "
+
+#. Template: AdminDynamicFieldDatabase
 msgid "CacheTTL"
 msgstr "CacheTTL"
 
@@ -267,18 +273,24 @@ msgid ""
 msgstr "Keine Kalender gefunden. Bitte legen Sie zuerst einen Kalender über die Kalenderverwaltung an."
 
 #. Template: AgentAppointmentResourceOverview
-msgid "No teams found. Please add a team first by using Manage Teams page."
-msgstr "Keine Teams gefunden. Bitte fügen Sie zuerst ein Team über die Teamverwaltung hinzu."
+msgid "No teams found."
+msgstr "Keine Teams gefunden."
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Please add a team first by using Manage Teams page."
+msgstr "Bitte erstellen Sie zuerst ein Team über die Teamverwaltungsseite."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Team"
 msgstr "Team"
 
 #. Template: AgentAppointmentResourceOverview
-msgid ""
-"No team agents found. Please assign agents to a team first by using Manage "
-"Team Agents page."
-msgstr "Keine Team-Agenten gefunden. Bitte weisen Sie einem Team über die Team-Agenten-Verwaltung zunächst Agenten zu."
+msgid "No team agents found."
+msgstr "Keine Teamagenten gefunden."
+
+#. Template: AgentAppointmentResourceOverview
+msgid "Please assign agents to a team first by using Manage Team Agents page."
+msgstr "Bitte ordnen Sie zuerst Agenten einem Team über die Teamverwaltungsseite zu."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Too many active calendars"
@@ -629,24 +641,8 @@ msgid "Open chat"
 msgstr "Chat öffnen"
 
 #. Template: AgentChat
-msgid "This user is currently active."
-msgstr "Dieser Benutzer ist momentan aktiv."
-
-#. Template: AgentChat
-msgid "This user is currently away."
-msgstr "Dieser Benutzer ist momentan abwesend."
-
-#. Template: AgentChat
-msgid "This user is currently unavailable."
-msgstr "Dieser Benutzer ist momentan nicht verfügbar."
-
-#. Template: AgentChat
-msgid "This user is currently offline."
-msgstr "Dieser Benutzer ist momentan offline."
-
-#. Template: AgentChat
-msgid "This user has already left the chat or has not yet joined it."
-msgstr "Dieser Benutzer hat den Chat bereits verlassen oder ist dem Chat noch nicht beigetreten."
+msgid "User has already left the chat or has not yet joined it."
+msgstr "Benutzer hat den Chat bereits verlassen oder ist diesem nicht beigetreten."
 
 #. Template: AgentChat
 msgid ""
@@ -767,8 +763,8 @@ msgid "Leave Chat"
 msgstr "Chat verlassen"
 
 #. Template: AgentChatPopup
-msgid "This user is currently in the chat."
-msgstr "Dieser Benutzer ist zur Zeit in diesem Chat."
+msgid "User is currently in the chat."
+msgstr "Benutzer ist zur Zeit im Chat."
 
 #. Template: AgentChatPreview
 msgid "Current chat channel"
@@ -1198,6 +1194,10 @@ msgid "Need TeamID!"
 msgstr "Benötige TeamID!"
 
 #. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
+msgid "Invalid GroupID!"
+msgstr "Ungültige GruppenID!"
+
+#. Perl Module: Kernel/Modules/AgentAppointmentTeam.pm
 msgid "Could not retrieve data for given TeamID"
 msgstr "Konnte keine Daten für diese TeamID ermitteln"
 
@@ -1218,6 +1218,10 @@ msgstr "Das Video-Anruf-Feature ist deaktiviert! Bitte prüfen Sie, ob %s für d
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "%s has joined this chat as an observer."
 msgstr "%s hat den Chat als Beobachter betreten."
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "If you accept, any active call you may have will be closed."
+msgstr "Wenn Sie akzeptieren werden alle aktiven Anrufe geschlossen."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "New request for joining a chat"
@@ -1290,6 +1294,12 @@ msgstr "Ausgewählte verwerfen"
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Object Type"
 msgstr "Objekt-Typ"
+
+#. Perl Module: Kernel/Output/HTML/Preferences/CustomChatChannel.pm
+msgid ""
+"You do not have access to any chat channels in the system. Please contact "
+"the administrator."
+msgstr "Sie haben keinen Zugriff auf Chat-Kanäle des Systems. Bitte kontaktieren Sie den Administrator."
 
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"
