@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRSBusiness\n"
-"POT-Creation-Date: 2017-01-23 18:05+0000\n"
+"POT-Creation-Date: 2017-02-09 13:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,10 +94,6 @@ msgstr ""
 msgid "Save configuration"
 msgstr ""
 
-#. Template: AdminCloudServiceSMS
-msgid "Data Protection Information"
-msgstr ""
-
 #. Template: AdminContactWithData
 msgid "Contact with data management"
 msgstr ""
@@ -112,6 +108,10 @@ msgstr ""
 
 #. Template: AdminContactWithData
 msgid "Edit contact with data"
+msgstr ""
+
+#. Template: AdminDynamicFieldContactWithData
+msgid "Field"
 msgstr ""
 
 #. Template: AdminDynamicFieldContactWithData
@@ -347,6 +347,10 @@ msgid "Basic information"
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
+msgid "Location"
+msgstr ""
+
+#. Template: AgentAppointmentResourceOverview
 msgid "Resource"
 msgstr ""
 
@@ -472,6 +476,10 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "Open ticket"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Company"
 msgstr ""
 
 #. Template: AgentChat
@@ -602,110 +610,6 @@ msgstr ""
 msgid "Destination channel"
 msgstr ""
 
-#. Template: AgentChat
-msgid "Open chat"
-msgstr ""
-
-#. Template: AgentChat
-msgid "User has already left the chat or has not yet joined it."
-msgstr ""
-
-#. Template: AgentChat
-msgid "You are no longer in this chat. Click this message to remove the chat box."
-msgstr ""
-
-#. Template: AgentChat
-msgid "There are currently no chat requests."
-msgstr ""
-
-#. Template: AgentChat
-msgid "This will permanently delete the chat contents. Do you want to continue?"
-msgstr ""
-
-#. Template: AgentChat
-msgid "This chat request was already accepted by another person."
-msgstr ""
-
-#. Template: AgentChat
-msgid "You have no permission to accept this chat request."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Please select a user."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Please select a permission level."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Invite Agent."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Please, select destination chat channel."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Please select a channel."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Chat preview"
-msgstr ""
-
-#. Template: AgentChat
-msgid "Please select a valid channel."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Agent to customer chat."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Customer to agent chat."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Agent to agent chat."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Public to agent chat."
-msgstr ""
-
-#. Template: AgentChat
-msgid "You can't leave Customer alone in the chat."
-msgstr ""
-
-#. Template: AgentChat
-msgid "You"
-msgstr ""
-
-#. Template: AgentChat
-msgid "Your chat could not be started because of an internal error."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Your chat request was created."
-msgstr ""
-
-#. Template: AgentChat
-msgid "There are currently %s open chat requests."
-msgstr ""
-
-#. Template: AgentChat
-msgid "User was already invited to your chat!"
-msgstr ""
-
-#. Template: AgentChat
-msgid "Insufficient permissions."
-msgstr ""
-
-#. Template: AgentChat
-msgid "System was unable to save your sequence of chats."
-msgstr ""
-
 #. Template: AgentChatAppend
 msgid "Append Chat to Ticket"
 msgstr ""
@@ -726,10 +630,6 @@ msgstr ""
 msgid "Leave Chat"
 msgstr ""
 
-#. Template: AgentChatPopup
-msgid "User is currently in the chat."
-msgstr ""
-
 #. Template: AgentChatPreview
 msgid "Current chat channel"
 msgstr ""
@@ -744,6 +644,14 @@ msgstr ""
 
 #. Template: AgentChatPreview
 msgid "Update Channel"
+msgstr ""
+
+#. Template: AgentChatPreview
+msgid "Accept"
+msgstr ""
+
+#. Template: AgentChatPreview
+msgid "Decline"
 msgstr ""
 
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
@@ -780,18 +688,6 @@ msgstr ""
 
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss this notification"
-msgstr ""
-
-#. Template: AgentNotificationViewSmall
-msgid "Dismiss Selected Notifications"
-msgstr ""
-
-#. Template: AgentNotificationViewSmall
-msgid "Do you really want to dismiss the selected notifications?"
-msgstr ""
-
-#. Template: AgentNotificationViewSmall
-msgid "OTRS Notification"
 msgstr ""
 
 #. Template: AgentStatisticsReportsAdd
@@ -918,10 +814,6 @@ msgstr ""
 msgid "Delete statistics report \"%s\""
 msgstr ""
 
-#. Template: AgentStatisticsReportsOverview
-msgid "Do you really want to delete this report?"
-msgstr ""
-
 #. Template: AgentStatisticsReportsView
 msgid "Reports » View — %s"
 msgstr ""
@@ -980,50 +872,6 @@ msgstr ""
 
 #. Template: AgentVideoChat
 msgid "Toggle video"
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "User has declined your invitation."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "User has left the call."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Attempt to connect was unsuccessful. Please try again."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Permission to media stream has been denied."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Please allow this page to use your video and audio stream."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Requesting media stream..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Waiting for other party to respond..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Accepting the invitation..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Initializing..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Connecting, please wait..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Connection established!"
 msgstr ""
 
 #. Template: CustomerChat
@@ -1088,10 +936,6 @@ msgstr ""
 
 #. Template: CustomerVideoChat
 msgid "Fullscreen"
-msgstr ""
-
-#. Template: OutputFilterPostSLASelectionDialog
-msgid "Please confirm your selection"
 msgstr ""
 
 #. Template: PublicChat
@@ -1202,6 +1046,10 @@ msgstr ""
 msgid "Need"
 msgstr ""
 
+#. Perl Module: Kernel/Modules/AgentChatDownload.pm
+msgid "System"
+msgstr ""
+
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
 msgstr ""
@@ -1250,6 +1098,18 @@ msgstr ""
 msgid "You do not have access to any chat channels in the system. Please contact the administrator."
 msgstr ""
 
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatAvailability.pm
+msgid "Unavailable for chat"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatAvailability.pm
+msgid "Available for internal chats only"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatAvailability.pm
+msgid "Available for chats"
+msgstr ""
+
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"
 msgstr ""
@@ -1268,6 +1128,210 @@ msgstr ""
 
 #. Perl Module: Kernel/System/ChatChannel.pm
 msgid "Default chat channel"
+msgstr ""
+
+#. JS File: Core.Agent.Admin.CloudServiceSMS
+msgid "Data Protection Information"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "An internal error occurred."
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New personal chat request"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Please visit the chat manager"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New customer chat request"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New public chat request"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New activity"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New activity on one of your monitored chats."
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Selected user is not available for chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Selected user is not available for video and audio call."
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Target user's browser does not support video and audio calling."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Invite Agent."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a user."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Please, select destination chat channel."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a channel."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "You are no longer in this chat. Click this message to remove the chat box."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "You can't leave Customer alone in the chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "You"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Your browser does not support video and audio calling."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "This chat request was already accepted by another person."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "There are currently no chat requests."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "You have no permission to accept this chat request."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Agent to customer chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Customer to agent chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Public to agent chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Agent to agent chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "This will permanently delete the chat contents. Do you want to continue?"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Chat preview"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Open chat"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a valid channel."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Your chat could not be started because of an internal error."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Your chat request was created."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "There are currently %s open chat requests."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "User was already invited to your chat!"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Insufficient permissions."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "System was unable to save your sequence of chats."
+msgstr ""
+
+#. JS File: Core.Agent.NotificationView
+msgid "Dismiss Selected Notifications"
+msgstr ""
+
+#. JS File: Core.Agent.NotificationView
+msgid "Do you really want to dismiss the selected notifications?"
+msgstr ""
+
+#. JS File: Core.Agent.NotificationView
+msgid "OTRS Notification"
+msgstr ""
+
+#. JS File: Core.Agent.StatisticsReports
+msgid "Do you really want to delete this report?"
+msgstr ""
+
+#. JS File: Core.Customer.Chat.Toolbar
+msgid "You have unanswered chat requests"
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Requesting media stream..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Accepting the invitation..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Waiting for other party to respond..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Permission to media stream has been denied."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Please allow this page to use your video and audio stream."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Connection established!"
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Attempt to connect was unsuccessful. Please try again."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "User has declined your invitation."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Connecting, please wait..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "User has left the call."
 msgstr ""
 
 #. SysConfig
