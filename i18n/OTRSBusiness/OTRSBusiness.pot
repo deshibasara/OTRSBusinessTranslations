@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRSBusiness\n"
-"POT-Creation-Date: 2017-02-23 08:49+0000\n"
+"POT-Creation-Date: 2017-02-27 12:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,43 @@ msgid "If selected, only users assigned to these roles will be able to receive m
 msgstr ""
 
 #. Template: AdminCloudServiceSMS
+msgid "In order to be able to use the SMS transmission feature of the OTRS AG, I hereby declare that I have read and understood the %sData Protection Information%s."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
 msgid "Save configuration"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Dear user of the %sOTRS Business Solution%s™,"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Before you can start using the SMS transmission feature, we are bound by law to inform you that we have outsourced this service to an external cloud service provider to ensure its overall stability and availability. In order to be able to offer this service and to be able to provide you with all information needed in case of clarification, the OTRS AG processes and stores the following data within a database in line with data protection regulations:"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Date/Time"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Customer company (non-personal data)"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "SMS target phone number"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Message text"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Amount of SMS units which have been used in order to send this particular message"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Hereby we ensure, that this data is solely transferred to the cloud service company responsible for providing this service and to no other third-party supplier. This cloud service company is operating datacenters certified to ISO/IEC 27001 and both contractual partners have signed TOMs (technical and organisational measures) according to the German National Law (§ 9 / 11 BDSG)."
 msgstr ""
 
 #. Template: AdminCloudServiceSMS
@@ -348,10 +384,6 @@ msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Date/Time"
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
@@ -680,6 +712,10 @@ msgstr ""
 
 #. Template: AgentChat
 msgid "You"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Default channel"
 msgstr ""
 
 #. Template: AgentChat
@@ -1375,6 +1411,14 @@ msgid "Append Chat to Ticket."
 msgstr ""
 
 #. SysConfig
+msgid "Appointment Notifications"
+msgstr ""
+
+#. SysConfig
+msgid "Calendar Notifications"
+msgstr ""
+
+#. SysConfig
 msgid "Chat Availability"
 msgstr ""
 
@@ -1488,10 +1532,6 @@ msgstr ""
 
 #. SysConfig
 msgid "Default agent name for customer and public interface. If enabled, the real name of the agent will not be visible to customers/public users while using the chat."
-msgstr ""
-
-#. SysConfig
-msgid "Default channel"
 msgstr ""
 
 #. SysConfig
