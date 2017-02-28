@@ -1,12 +1,12 @@
 # 
 # Translators:
-# Dusan Vuckovic, 2016
+# Dusan Vuckovic, 2016-2017
 # Милорад Јовановић <j.milorad@gmail.com>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-01-09 14:51+0000\n"
-"PO-Revision-Date: 2017-01-20 11:45+0000\n"
+"POT-Creation-Date: 2017-02-28 15:15+0000\n"
+"PO-Revision-Date: 2017-02-28 14:17+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Serbian (http://www.transifex.com/otrs/OTRS/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -103,8 +103,62 @@ msgid ""
 msgstr "Уколико је омогућено, само припадници ових улога ће примити СМС поруке (опционо)."
 
 #. Template: AdminCloudServiceSMS
+msgid ""
+"In order to be able to use the SMS transmission feature of the OTRS AG, I "
+"hereby declare that I have read and understood the %sData Protection "
+"Information%s."
+msgstr "Овим изјављујем да сам прочитао(ла) и разумео(ла) %sинформације о заштити података%s приликом коришћења функције слања СМС порука од стране OTRS AG."
+
+#. Template: AdminCloudServiceSMS
 msgid "Save configuration"
 msgstr "Сачувај конфигурацију"
+
+#. Template: AdminCloudServiceSMS
+msgid "Dear user of the %sOTRS Business Solution%s™,"
+msgstr "Драги корисниче %sOTRS Business Solution%s™,"
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"Before you can start using the SMS transmission feature, we are bound by law"
+" to inform you that we have outsourced this service to an external cloud "
+"service provider to ensure its overall stability and availability. In order "
+"to be able to offer this service and to be able to provide you with all "
+"information needed in case of clarification, the OTRS AG processes and "
+"stores the following data within a database in line with data protection "
+"regulations:"
+msgstr "Пре него што можете почети да користите функцију слања СМС порука, у обавези смо да вас информишемо да је овај сервис омогућен од стране екстерног провајдера ради гаранције свеукупне стабилности и доступности. Да бисмо били у могућности да понудимо овај сервис и обавестимо вас о свим информацијама, OTRS AG обрађује и прикупља следеће податке у својој бази података која је прилагођена правилима заштите података:"
+
+#. Template: AdminCloudServiceSMS
+msgid "Date/Time"
+msgstr "Датум/време"
+
+#. Template: AdminCloudServiceSMS
+msgid "Customer company (non-personal data)"
+msgstr "Фирма клијента (без личних података)"
+
+#. Template: AdminCloudServiceSMS
+msgid "SMS target phone number"
+msgstr "СМС број примаоца"
+
+#. Template: AdminCloudServiceSMS
+msgid "Message text"
+msgstr "Текстуална порука"
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"Amount of SMS units which have been used in order to send this particular "
+"message"
+msgstr "Количина СМС јединица које су искоришћене за слање одговарајуће поруке"
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"Hereby we ensure, that this data is solely transferred to the cloud service "
+"company responsible for providing this service and to no other third-party "
+"supplier. This cloud service company is operating datacenters certified to "
+"ISO/IEC 27001 and both contractual partners have signed TOMs (technical and "
+"organisational measures) according to the German National Law (§ 9 / 11 "
+"BDSG)."
+msgstr "Овим гарантујемо да су подаци упућени искључиво провајдеру сервиса задуженом за ову услугу без трећих страна. Са друге стране провајдер је обавезан да оперативни део својих активности конформише према ISO/IEC 27001 стандарду, и с тим у вези потписан је технички и организациони уговор базиран на немачком праву (§ 9 / 11 BDSG)."
 
 #. Template: AdminCloudServiceSMS
 msgid "Data Protection Information"
@@ -215,6 +269,12 @@ msgstr "Зависи од великих и малих слова"
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr "Бројеви СМС примаоца"
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid ""
+"You can use OTRS-tags like <OTRS_TICKET_DynamicField_...> to insert values "
+"from the current ticket."
+msgstr "Можете користити OTRS тагове као <OTRS_TICKET_DynamicField_...> за уметање вредности из тренутног тикета."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource Overview"
@@ -370,10 +430,6 @@ msgstr "Основне информације"
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource"
 msgstr "Ресурс"
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Date/Time"
-msgstr "Датум/време"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "End date"
@@ -711,6 +767,10 @@ msgstr "Не можете оставити клијента самог у ћас
 #. Template: AgentChat
 msgid "You"
 msgstr "Ви"
+
+#. Template: AgentChat
+msgid "Default channel"
+msgstr "Подразумевани канал"
 
 #. Template: AgentChat
 msgid "Your chat could not be started because of an internal error."
@@ -1312,12 +1372,72 @@ msgid "Table of Contents"
 msgstr "Садржај"
 
 #. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_owner"
+msgstr "chat_owner"
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_participant"
+msgstr "chat_participant"
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_observer"
+msgstr "chat_observer"
+
+#. Perl Module: Kernel/System/ChatChannel.pm
 msgid "Default chat channel"
 msgstr "Подразумевани канал за ћаскања"
 
 #. SysConfig
 msgid "Activates chat support."
 msgstr "Активира ћаскање."
+
+#. SysConfig
+msgid "Admin Contact With Data"
+msgstr "Администрација контакта са подацима"
+
+#. SysConfig
+msgid "Admin contact with data."
+msgstr "Администрација контакта са подацима."
+
+#. SysConfig
+msgid "Agent Contact With Data Search"
+msgstr "Претрага контакта са подацима у интерфејсу оператера"
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Detailed Search"
+msgstr "Детаљна претрага динамичког поља базе података у интерфејсу оператера"
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Details"
+msgstr "Детаљна претрага динамичког поља базе података у интерфејсу оператера"
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Search"
+msgstr "Претрага динамичког поља базе података у интерфејсу оператера"
+
+#. SysConfig
+msgid "Agent Information"
+msgstr "Информације о оператеру"
+
+#. SysConfig
+msgid "Agent chat screen."
+msgstr "Екран ћаскања у интерфејсу оператера."
+
+#. SysConfig
+msgid "Agent contact with data search."
+msgstr "Претрага контакта са подацима у интерфејсу оператера."
+
+#. SysConfig
+msgid "Agent dynamic field database detailed search."
+msgstr "Детаљна претрага динамичког поља базе података у интерфејсу оператера."
+
+#. SysConfig
+msgid "Agent dynamic field database details."
+msgstr "Детаљи динамичког поља базе података у интерфејсу оператера."
+
+#. SysConfig
+msgid "Agent dynamic field database search."
+msgstr "Претрага динамичког поља базе података у интерфејсу оператера."
 
 #. SysConfig
 msgid ""
@@ -1359,12 +1479,44 @@ msgid "Allows having a small format notification web view."
 msgstr "Дозвољава приступ умањеном формату веб приказа обавештења."
 
 #. SysConfig
+msgid "Append Chat to Ticket."
+msgstr "Додавање ћаскања у тикет."
+
+#. SysConfig
+msgid "Appointment Notifications"
+msgstr "Обавештења о термину"
+
+#. SysConfig
+msgid "Calendar Notifications"
+msgstr "Обавештења о календарима"
+
+#. SysConfig
+msgid "Chat Availability"
+msgstr "Доступност за ћаскања"
+
+#. SysConfig
 msgid "Chat Channel"
 msgstr "Канал за ћаскања"
 
 #. SysConfig
 msgid "Chat Channel:"
 msgstr "Канал за ћаскања:"
+
+#. SysConfig
+msgid "Chat Download"
+msgstr "Преузимање ћаскања"
+
+#. SysConfig
+msgid "Chat Popup"
+msgstr "Прозор ћаскања"
+
+#. SysConfig
+msgid "Chat Preview"
+msgstr "Преглед ћаскања"
+
+#. SysConfig
+msgid "Chat availability."
+msgstr "Доступност за ћаскања."
 
 #. SysConfig
 msgid ""
@@ -1377,8 +1529,20 @@ msgid "Chat channel to queue mapping."
 msgstr "Мапа канала за ћаскања и редова."
 
 #. SysConfig
-msgid "Chat overview"
-msgstr "Преглед ћаскања"
+msgid "Chat download."
+msgstr "Преузимање ћаскања."
+
+#. SysConfig
+msgid "Chat overview."
+msgstr "Преглед ћаскања."
+
+#. SysConfig
+msgid "Chat popup."
+msgstr "Прозор ћаскања."
+
+#. SysConfig
+msgid "Chat preview."
+msgstr "Преглед ћаскања."
 
 #. SysConfig
 msgid "Chats"
@@ -1412,6 +1576,34 @@ msgstr "Креирање и управљање каналима за ћаска�
 #. SysConfig
 msgid "Create new chat"
 msgstr "Направи ново ћаскање"
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Detailed Search"
+msgstr "Детаљна претрага динамичког поља базе података у интерфејсу корисника"
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Details"
+msgstr "Детаљи динамичког поља базе података у интерфејсу корисника"
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Search"
+msgstr "Претрага динамичког поља базе података у интерфејсу корисника"
+
+#. SysConfig
+msgid "Customer chat screens."
+msgstr "Екран ћаскања у интерфејсу корисника."
+
+#. SysConfig
+msgid "Customer dynamic field database detailed search."
+msgstr "Детаљна претрага динамичког поља базе података у интерфејсу корисника."
+
+#. SysConfig
+msgid "Customer dynamic field database details."
+msgstr "Детаљи динамичког поља базе података у интерфејсу корисника."
+
+#. SysConfig
+msgid "Customer dynamic field database search."
+msgstr "Претрага динамичког поља базе података у интерфејсу корисника."
 
 #. SysConfig
 msgid ""
@@ -1540,6 +1732,10 @@ msgid "Defines the target dynamic fields for storing historical data."
 msgstr "Дефинише циљно динамичко поље за чување информација."
 
 #. SysConfig
+msgid "Dialog message"
+msgstr "Порука у дијалогу"
+
+#. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
 msgstr "Позадински приказ динамичког поља са контактом"
 
@@ -1550,6 +1746,10 @@ msgstr "Позадински приказ динамичког поља базе
 #. SysConfig
 msgid "Edit contacts with data"
 msgstr "Уређивање контаката са подацима"
+
+#. SysConfig
+msgid "Edit contacts with data."
+msgstr "Уређивање контаката са подацима."
 
 #. SysConfig
 msgid ""
@@ -1629,6 +1829,10 @@ msgid ""
 msgstr "Уколико је ово подешено на Да, покретање ћаскања из детаљног приказа тикета ће бити могуће само уколико има доступних оператера у одговарајућем каналу."
 
 #. SysConfig
+msgid "Is being displayed if a customer chooses this SLA on ticket creation."
+msgstr "Текст који ће бити приказан приликом селекције SLA у CustomerTicketMessage."
+
+#. SysConfig
 msgid ""
 "Makes it possible to start a chat with a customer from the agent interface."
 msgstr "Омогућава покретање ћаскања са клијентом из интерфејса оператера."
@@ -1680,6 +1884,10 @@ msgstr "Веб приказ обавештења"
 #. SysConfig
 msgid "Notification web view \"Small\" Limit"
 msgstr "Ограничење умањеног веб приказа обавештења"
+
+#. SysConfig
+msgid "Notification web view."
+msgstr "Веб приказ обавештења."
 
 #. SysConfig
 msgid "Notifications Unseen:"
@@ -1738,6 +1946,10 @@ msgid "Prepend"
 msgstr "Додај"
 
 #. SysConfig
+msgid "Public chat module."
+msgstr "Јавни модул за ћаскање."
+
+#. SysConfig
 msgid "Remove closed chats older than ChatEngine::ChatTTL."
 msgstr "Уклања затворена ћаскања старија од ChatEngine::ChatTTL."
 
@@ -1772,16 +1984,24 @@ msgid "Sets if a chat request can be sent out from customer ticket zoom view."
 msgstr "Дефинише да ли захтев за ћаскање може бити послат из детаљног прегледа тикета у интерфејсу клијента."
 
 #. SysConfig
-msgid "Show all ticket attachments"
-msgstr "Прикажи све прилоге тикета"
+msgid "Show all ticket attachments."
+msgstr "Приказ свих прилога тикета."
 
 #. SysConfig
 msgid "Shows all attachments available in the ticket."
 msgstr "Приказује све расположиве прилоге за тикет."
 
 #. SysConfig
-msgid "Start new chat"
-msgstr "Почни ново ћаскање"
+msgid "Start new chat."
+msgstr "Покретање новог ћаскања."
+
+#. SysConfig
+msgid "Statistics reports."
+msgstr "Статистички извештаји."
+
+#. SysConfig
+msgid "Support Agent"
+msgstr "Оператер подршке"
 
 #. SysConfig
 msgid "Team agents management screen."
@@ -1847,6 +2067,14 @@ msgid ""
 "This chat is completed. You can start a new chat using the button on top of "
 "this page."
 msgstr "Ово ћаскање је завршено. Можете покренути ново коришћењем везе при врху ове стране."
+
+#. SysConfig
+msgid "This module is part of the admin area of OTRS Business Solution™."
+msgstr "Овај модул је део административног простора OTRS Business Solution™."
+
+#. SysConfig
+msgid "Ticket attachments."
+msgstr "Прилози тикета."
 
 #. SysConfig
 msgid "Tool-bar item for a notification web view."

@@ -4,9 +4,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-01-09 14:51+0000\n"
-"PO-Revision-Date: 2017-01-15 16:24+0000\n"
-"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"POT-Creation-Date: 2017-02-28 15:15+0000\n"
+"PO-Revision-Date: 2017-02-28 14:17+0000\n"
+"Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -102,8 +102,62 @@ msgid ""
 msgstr "Ha ki van választva, akkor csak az ezekhez a szerephez hozzárendelt felhasználók lesznek képesek SMS-ben üzeneteket fogadni (opcionális)."
 
 #. Template: AdminCloudServiceSMS
+msgid ""
+"In order to be able to use the SMS transmission feature of the OTRS AG, I "
+"hereby declare that I have read and understood the %sData Protection "
+"Information%s."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
 msgid "Save configuration"
 msgstr "Beállítások mentése"
+
+#. Template: AdminCloudServiceSMS
+msgid "Dear user of the %sOTRS Business Solution%s™,"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"Before you can start using the SMS transmission feature, we are bound by law"
+" to inform you that we have outsourced this service to an external cloud "
+"service provider to ensure its overall stability and availability. In order "
+"to be able to offer this service and to be able to provide you with all "
+"information needed in case of clarification, the OTRS AG processes and "
+"stores the following data within a database in line with data protection "
+"regulations:"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Date/Time"
+msgstr "Dátum/idő"
+
+#. Template: AdminCloudServiceSMS
+msgid "Customer company (non-personal data)"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "SMS target phone number"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Message text"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"Amount of SMS units which have been used in order to send this particular "
+"message"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"Hereby we ensure, that this data is solely transferred to the cloud service "
+"company responsible for providing this service and to no other third-party "
+"supplier. This cloud service company is operating datacenters certified to "
+"ISO/IEC 27001 and both contractual partners have signed TOMs (technical and "
+"organisational measures) according to the German National Law (§ 9 / 11 "
+"BDSG)."
+msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Data Protection Information"
@@ -214,6 +268,12 @@ msgstr "Kis- és nagybetűk megkülönböztetése"
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr "Címzett SMS számai"
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid ""
+"You can use OTRS-tags like <OTRS_TICKET_DynamicField_...> to insert values "
+"from the current ticket."
+msgstr "Használhatja az OTRS címkéket (mint például <OTRS_TICKET_DynamicField_...>) értékek beszúrásához a jelenlegi jegyből."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource Overview"
@@ -369,10 +429,6 @@ msgstr "Alap információk"
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource"
 msgstr "Erőforrás"
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Date/Time"
-msgstr "Dátum/idő"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "End date"
@@ -665,7 +721,7 @@ msgstr "Válasszon egy felhasználót."
 
 #. Template: AgentChat
 msgid "Please select a permission level."
-msgstr "Válasszon egy jogosultsági szintet."
+msgstr "Válasszon egy jogosultság szintet."
 
 #. Template: AgentChat
 msgid "Invite Agent."
@@ -710,6 +766,10 @@ msgstr "Nem hagyhatja egyedül az ügyfelet a csevegésben."
 #. Template: AgentChat
 msgid "You"
 msgstr "Ön"
+
+#. Template: AgentChat
+msgid "Default channel"
+msgstr "Alapértelmezett csatorna"
 
 #. Template: AgentChat
 msgid "Your chat could not be started because of an internal error."
@@ -1311,12 +1371,72 @@ msgid "Table of Contents"
 msgstr "Tartalomjegyzék"
 
 #. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_owner"
+msgstr "csevegéstulajdonos"
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_participant"
+msgstr "csevegésrésztvevő"
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_observer"
+msgstr "csevegésmegfigyelő"
+
+#. Perl Module: Kernel/System/ChatChannel.pm
 msgid "Default chat channel"
 msgstr "Alapértelmezett csevegőcsatorna"
 
 #. SysConfig
 msgid "Activates chat support."
 msgstr "Aktiválja a csevegés támogatást."
+
+#. SysConfig
+msgid "Admin Contact With Data"
+msgstr ""
+
+#. SysConfig
+msgid "Admin contact with data."
+msgstr ""
+
+#. SysConfig
+msgid "Agent Contact With Data Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Detailed Search"
+msgstr "Ügyintéző dinamikus mező adatbázis részletes keresés"
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Details"
+msgstr "Ügyintéző dinamikus mező adatbázis részletek"
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Search"
+msgstr "Ügyintéző dinamikus mező adatbázis keresés"
+
+#. SysConfig
+msgid "Agent Information"
+msgstr "Ügyintéző-információk"
+
+#. SysConfig
+msgid "Agent chat screen."
+msgstr "Ügyintézői csevegés képernyő."
+
+#. SysConfig
+msgid "Agent contact with data search."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database detailed search."
+msgstr "Ügyintéző dinamikus mező adatbázis részletes keresés."
+
+#. SysConfig
+msgid "Agent dynamic field database details."
+msgstr "Ügyintéző dinamikus mező adatbázis részletek."
+
+#. SysConfig
+msgid "Agent dynamic field database search."
+msgstr "Ügyintéző dinamikus mező adatbázis keresés."
 
 #. SysConfig
 msgid ""
@@ -1358,12 +1478,44 @@ msgid "Allows having a small format notification web view."
 msgstr "Lehetővé teszi egy kis formátumú értesítési webnézet meglétét."
 
 #. SysConfig
+msgid "Append Chat to Ticket."
+msgstr "Csevegés hozzáfűzése a jegyhez."
+
+#. SysConfig
+msgid "Appointment Notifications"
+msgstr "Értekezlet-értesítések"
+
+#. SysConfig
+msgid "Calendar Notifications"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Availability"
+msgstr "Csevegés elérhetőség"
+
+#. SysConfig
 msgid "Chat Channel"
 msgstr "Csevegőcsatorna"
 
 #. SysConfig
 msgid "Chat Channel:"
 msgstr "Csevegőcsatorna:"
+
+#. SysConfig
+msgid "Chat Download"
+msgstr "Csevegésletöltés"
+
+#. SysConfig
+msgid "Chat Popup"
+msgstr "Csevegés felugró"
+
+#. SysConfig
+msgid "Chat Preview"
+msgstr "Csevegés előnézet"
+
+#. SysConfig
+msgid "Chat availability."
+msgstr "Csevegés elérhetőség."
 
 #. SysConfig
 msgid ""
@@ -1376,8 +1528,20 @@ msgid "Chat channel to queue mapping."
 msgstr "Csevegőcsatorna a várólista leképezéséhez."
 
 #. SysConfig
-msgid "Chat overview"
-msgstr "Csevegés áttekintő"
+msgid "Chat download."
+msgstr "Csevegésletöltés."
+
+#. SysConfig
+msgid "Chat overview."
+msgstr "Csevegés áttekintés."
+
+#. SysConfig
+msgid "Chat popup."
+msgstr "Csevegés felugró."
+
+#. SysConfig
+msgid "Chat preview."
+msgstr "Csevegés előnézet."
 
 #. SysConfig
 msgid "Chats"
@@ -1411,6 +1575,34 @@ msgstr "Csevegőcsatornák létrehozása és kezelése."
 #. SysConfig
 msgid "Create new chat"
 msgstr "Új csevegés létrehozása"
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Detailed Search"
+msgstr "Ügyfél dinamikus mező adatbázis részletes keresés"
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Details"
+msgstr "Ügyfél dinamikus mező adatbázis részletek"
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Search"
+msgstr "Ügyfél dinamikus mező adatbázis keresés"
+
+#. SysConfig
+msgid "Customer chat screens."
+msgstr "Ügyfélcsevegés képernyők."
+
+#. SysConfig
+msgid "Customer dynamic field database detailed search."
+msgstr "Ügyfél dinamikus mező adatbázis részletes keresés."
+
+#. SysConfig
+msgid "Customer dynamic field database details."
+msgstr "Ügyfél dinamikus mező adatbázis részletek."
+
+#. SysConfig
+msgid "Customer dynamic field database search."
+msgstr "Ügyfél dinamikus mező adatbázis keresés."
 
 #. SysConfig
 msgid ""
@@ -1539,6 +1731,10 @@ msgid "Defines the target dynamic fields for storing historical data."
 msgstr "Meghatározza a cél dinamikus mezőket a történeti adatok tárolásához."
 
 #. SysConfig
+msgid "Dialog message"
+msgstr "Párbeszéd üzenet"
+
+#. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
 msgstr "Dinamikus mezők partner adatai háttérprogram grafikus felület"
 
@@ -1549,6 +1745,10 @@ msgstr "Dinamikus mezők adatbázis háttérprogram grafikus felület"
 #. SysConfig
 msgid "Edit contacts with data"
 msgstr "Adatokkal rendelkező partnerek szerkesztése"
+
+#. SysConfig
+msgid "Edit contacts with data."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1564,7 +1764,7 @@ msgstr "Csak a felsorolt csoportoknak engedélyezi az értesítési webnézet t�
 
 #. SysConfig
 msgid "Enables the timeline view in AgentTicketZoom."
-msgstr "Engedélyezi az idővonal nézetet az AgentTicketZoom képernyőn."
+msgstr "Engedélyezi az idővonal nézetet az ügyintézői jegynagyítás képernyőn."
 
 #. SysConfig
 msgid "Event module registration (store historical data in dynamic fields)."
@@ -1628,6 +1828,10 @@ msgid ""
 msgstr "Ha ez a jelző „Igen” értékre van állítva, akkor az ügyfél jegynagyítás nézetből indított csevegés csak akkor lesz lehetséges, ha vannak elérhető ügyintézők a hozzákapcsolt csevegőcsatornán."
 
 #. SysConfig
+msgid "Is being displayed if a customer chooses this SLA on ticket creation."
+msgstr ""
+
+#. SysConfig
 msgid ""
 "Makes it possible to start a chat with a customer from the agent interface."
 msgstr "Lehetővé teszi egy ügyféllel történő csevegés indítását az ügyintézői felületről."
@@ -1679,6 +1883,10 @@ msgstr "Értesítési webnézet"
 #. SysConfig
 msgid "Notification web view \"Small\" Limit"
 msgstr "„Kis” értesítési webnézet korlát"
+
+#. SysConfig
+msgid "Notification web view."
+msgstr "Értesítési webnézet."
 
 #. SysConfig
 msgid "Notifications Unseen:"
@@ -1737,6 +1945,10 @@ msgid "Prepend"
 msgstr "Eléfűzés"
 
 #. SysConfig
+msgid "Public chat module."
+msgstr "Nyilvános csevegés modul."
+
+#. SysConfig
 msgid "Remove closed chats older than ChatEngine::ChatTTL."
 msgstr "Bezárt csevegések eltávolítása, amelyek régebbiek mint a ChatEngine::ChatTTL."
 
@@ -1771,16 +1983,24 @@ msgid "Sets if a chat request can be sent out from customer ticket zoom view."
 msgstr "Beállítja, hogy egy csevegéskérés kiküldhető-e az ügyfél jegynagyítás nézetéből."
 
 #. SysConfig
-msgid "Show all ticket attachments"
-msgstr "Az összes jegymelléklet megjelenítése"
+msgid "Show all ticket attachments."
+msgstr "Összes jegymelléklet megjelenítése."
 
 #. SysConfig
 msgid "Shows all attachments available in the ticket."
 msgstr "Megjeleníti a jegyben elérhető összes mellékletet."
 
 #. SysConfig
-msgid "Start new chat"
-msgstr "Új csevegés indítása"
+msgid "Start new chat."
+msgstr "Új csevegés indítása."
+
+#. SysConfig
+msgid "Statistics reports."
+msgstr "Statisztikai jelentések."
+
+#. SysConfig
+msgid "Support Agent"
+msgstr ""
 
 #. SysConfig
 msgid "Team agents management screen."
@@ -1846,6 +2066,14 @@ msgid ""
 "This chat is completed. You can start a new chat using the button on top of "
 "this page."
 msgstr "Ez a csevegés befejeződött. Az oldal tetején lévő gomb használatával indíthat egy új csevegést."
+
+#. SysConfig
+msgid "This module is part of the admin area of OTRS Business Solution™."
+msgstr "Ez a modul az OTRS Business Solution™ adminisztrációs területének a része."
+
+#. SysConfig
+msgid "Ticket attachments."
+msgstr "Jegymellékletek."
 
 #. SysConfig
 msgid "Tool-bar item for a notification web view."

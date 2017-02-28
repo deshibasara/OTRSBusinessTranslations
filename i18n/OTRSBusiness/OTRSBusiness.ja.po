@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-01-09 14:51+0000\n"
-"PO-Revision-Date: 2017-01-09 14:01+0000\n"
+"POT-Creation-Date: 2017-02-28 15:15+0000\n"
+"PO-Revision-Date: 2017-02-28 14:17+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Japanese (http://www.transifex.com/otrs/OTRS/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -102,8 +102,62 @@ msgid ""
 msgstr ""
 
 #. Template: AdminCloudServiceSMS
+msgid ""
+"In order to be able to use the SMS transmission feature of the OTRS AG, I "
+"hereby declare that I have read and understood the %sData Protection "
+"Information%s."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
 msgid "Save configuration"
 msgstr "設定を保存する"
+
+#. Template: AdminCloudServiceSMS
+msgid "Dear user of the %sOTRS Business Solution%s™,"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"Before you can start using the SMS transmission feature, we are bound by law"
+" to inform you that we have outsourced this service to an external cloud "
+"service provider to ensure its overall stability and availability. In order "
+"to be able to offer this service and to be able to provide you with all "
+"information needed in case of clarification, the OTRS AG processes and "
+"stores the following data within a database in line with data protection "
+"regulations:"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Date/Time"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Customer company (non-personal data)"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "SMS target phone number"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Message text"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"Amount of SMS units which have been used in order to send this particular "
+"message"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"Hereby we ensure, that this data is solely transferred to the cloud service "
+"company responsible for providing this service and to no other third-party "
+"supplier. This cloud service company is operating datacenters certified to "
+"ISO/IEC 27001 and both contractual partners have signed TOMs (technical and "
+"organisational measures) according to the German National Law (§ 9 / 11 "
+"BDSG)."
+msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Data Protection Information"
@@ -214,6 +268,12 @@ msgstr ""
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr "受信者のSMSナンバー"
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid ""
+"You can use OTRS-tags like <OTRS_TICKET_DynamicField_...> to insert values "
+"from the current ticket."
+msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource Overview"
@@ -368,10 +428,6 @@ msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Date/Time"
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
@@ -709,6 +765,10 @@ msgstr "顧客が取り残されてしまいますので、あなたは離脱す
 
 #. Template: AgentChat
 msgid "You"
+msgstr ""
+
+#. Template: AgentChat
+msgid "Default channel"
 msgstr ""
 
 #. Template: AgentChat
@@ -1311,12 +1371,72 @@ msgid "Table of Contents"
 msgstr ""
 
 #. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_owner"
+msgstr "チャット所有者"
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_participant"
+msgstr ""
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_observer"
+msgstr ""
+
+#. Perl Module: Kernel/System/ChatChannel.pm
 msgid "Default chat channel"
 msgstr ""
 
 #. SysConfig
 msgid "Activates chat support."
 msgstr "チャットサポートを有効にする"
+
+#. SysConfig
+msgid "Admin Contact With Data"
+msgstr ""
+
+#. SysConfig
+msgid "Admin contact with data."
+msgstr ""
+
+#. SysConfig
+msgid "Agent Contact With Data Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Detailed Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Details"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Information"
+msgstr ""
+
+#. SysConfig
+msgid "Agent chat screen."
+msgstr ""
+
+#. SysConfig
+msgid "Agent contact with data search."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database detailed search."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database details."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database search."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1358,11 +1478,43 @@ msgid "Allows having a small format notification web view."
 msgstr ""
 
 #. SysConfig
+msgid "Append Chat to Ticket."
+msgstr ""
+
+#. SysConfig
+msgid "Appointment Notifications"
+msgstr ""
+
+#. SysConfig
+msgid "Calendar Notifications"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Availability"
+msgstr ""
+
+#. SysConfig
 msgid "Chat Channel"
 msgstr ""
 
 #. SysConfig
 msgid "Chat Channel:"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Download"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Popup"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Preview"
+msgstr ""
+
+#. SysConfig
+msgid "Chat availability."
 msgstr ""
 
 #. SysConfig
@@ -1376,8 +1528,20 @@ msgid "Chat channel to queue mapping."
 msgstr ""
 
 #. SysConfig
-msgid "Chat overview"
-msgstr "チャットの概要"
+msgid "Chat download."
+msgstr ""
+
+#. SysConfig
+msgid "Chat overview."
+msgstr ""
+
+#. SysConfig
+msgid "Chat popup."
+msgstr ""
+
+#. SysConfig
+msgid "Chat preview."
+msgstr ""
 
 #. SysConfig
 msgid "Chats"
@@ -1411,6 +1575,34 @@ msgstr ""
 #. SysConfig
 msgid "Create new chat"
 msgstr "新規のチャットを作成する"
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Detailed Search"
+msgstr ""
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Details"
+msgstr ""
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Search"
+msgstr ""
+
+#. SysConfig
+msgid "Customer chat screens."
+msgstr ""
+
+#. SysConfig
+msgid "Customer dynamic field database detailed search."
+msgstr ""
+
+#. SysConfig
+msgid "Customer dynamic field database details."
+msgstr ""
+
+#. SysConfig
+msgid "Customer dynamic field database search."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1539,6 +1731,10 @@ msgid "Defines the target dynamic fields for storing historical data."
 msgstr ""
 
 #. SysConfig
+msgid "Dialog message"
+msgstr ""
+
+#. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
 msgstr ""
 
@@ -1548,6 +1744,10 @@ msgstr ""
 
 #. SysConfig
 msgid "Edit contacts with data"
+msgstr ""
+
+#. SysConfig
+msgid "Edit contacts with data."
 msgstr ""
 
 #. SysConfig
@@ -1628,6 +1828,10 @@ msgid ""
 msgstr ""
 
 #. SysConfig
+msgid "Is being displayed if a customer chooses this SLA on ticket creation."
+msgstr ""
+
+#. SysConfig
 msgid ""
 "Makes it possible to start a chat with a customer from the agent interface."
 msgstr "エージェント画面から顧客とのチャットが開始出来るようにする"
@@ -1678,6 +1882,10 @@ msgstr ""
 
 #. SysConfig
 msgid "Notification web view \"Small\" Limit"
+msgstr ""
+
+#. SysConfig
+msgid "Notification web view."
 msgstr ""
 
 #. SysConfig
@@ -1737,6 +1945,10 @@ msgid "Prepend"
 msgstr ""
 
 #. SysConfig
+msgid "Public chat module."
+msgstr ""
+
+#. SysConfig
 msgid "Remove closed chats older than ChatEngine::ChatTTL."
 msgstr "ChatEngine::ChatTTL より古い、終了したチャットを削除する"
 
@@ -1771,16 +1983,24 @@ msgid "Sets if a chat request can be sent out from customer ticket zoom view."
 msgstr ""
 
 #. SysConfig
-msgid "Show all ticket attachments"
-msgstr "チケットのすべての添付を表示する"
+msgid "Show all ticket attachments."
+msgstr ""
 
 #. SysConfig
 msgid "Shows all attachments available in the ticket."
 msgstr "チケットで有効なすべての添付を表示する"
 
 #. SysConfig
-msgid "Start new chat"
-msgstr "新規チャットを開始する"
+msgid "Start new chat."
+msgstr ""
+
+#. SysConfig
+msgid "Statistics reports."
+msgstr ""
+
+#. SysConfig
+msgid "Support Agent"
+msgstr ""
 
 #. SysConfig
 msgid "Team agents management screen."
@@ -1846,6 +2066,14 @@ msgid ""
 "This chat is completed. You can start a new chat using the button on top of "
 "this page."
 msgstr "このチャットは終了しました。新しくチャットを開始するにはページ上部のボタンを押してください。"
+
+#. SysConfig
+msgid "This module is part of the admin area of OTRS Business Solution™."
+msgstr ""
+
+#. SysConfig
+msgid "Ticket attachments."
+msgstr ""
 
 #. SysConfig
 msgid "Tool-bar item for a notification web view."
