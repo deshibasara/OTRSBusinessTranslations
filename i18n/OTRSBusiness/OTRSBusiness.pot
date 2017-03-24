@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRSBusiness\n"
-"POT-Creation-Date: 2017-02-28 16:42+0000\n"
+"POT-Creation-Date: 2017-03-24 16:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,10 @@ msgid "Add Chat Channel"
 msgstr ""
 
 #. Template: AdminChatChannel
+msgid "Public"
+msgstr ""
+
+#. Template: AdminChatChannel
 msgid "Edit Chat Channel"
 msgstr ""
 
@@ -28,6 +32,14 @@ msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Need Group"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Customer interface"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Public interface"
 msgstr ""
 
 #. Template: AdminChatChannel
@@ -232,10 +244,6 @@ msgstr ""
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
-msgstr ""
-
-#. Template: AdminNotificationEventTransportSMSSettings
-msgid "You can use OTRS-tags like <OTRS_TICKET_DynamicField_...> to insert values from the current ticket."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview

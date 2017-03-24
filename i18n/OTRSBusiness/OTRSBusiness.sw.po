@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-02-28 15:15+0000\n"
-"PO-Revision-Date: 2017-02-28 14:17+0000\n"
+"POT-Creation-Date: 2017-03-24 16:19+0000\n"
+"PO-Revision-Date: 2017-03-24 16:19+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Swahili (http://www.transifex.com/otrs/OTRS/language/sw/)\n"
 "MIME-Version: 1.0\n"
@@ -22,6 +22,10 @@ msgid "Add Chat Channel"
 msgstr ""
 
 #. Template: AdminChatChannel
+msgid "Public"
+msgstr ""
+
+#. Template: AdminChatChannel
 msgid "Edit Chat Channel"
 msgstr ""
 
@@ -31,6 +35,14 @@ msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Need Group"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Customer interface"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Public interface"
 msgstr ""
 
 #. Template: AdminChatChannel
@@ -266,12 +278,6 @@ msgstr ""
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
-msgstr ""
-
-#. Template: AdminNotificationEventTransportSMSSettings
-msgid ""
-"You can use OTRS-tags like <OTRS_TICKET_DynamicField_...> to insert values "
-"from the current ticket."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview

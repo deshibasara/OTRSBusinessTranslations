@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-02-28 15:15+0000\n"
-"PO-Revision-Date: 2017-02-28 14:17+0000\n"
+"POT-Creation-Date: 2017-03-24 16:19+0000\n"
+"PO-Revision-Date: 2017-03-24 16:19+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,10 @@ msgid "Add Chat Channel"
 msgstr "Csevegőcsatorna hozzáadása"
 
 #. Template: AdminChatChannel
+msgid "Public"
+msgstr ""
+
+#. Template: AdminChatChannel
 msgid "Edit Chat Channel"
 msgstr "Csevegőcsatorna szerkesztése"
 
@@ -33,6 +37,14 @@ msgstr "A név érvénytelen"
 #. Template: AdminChatChannel
 msgid "Need Group"
 msgstr "Csoport szükséges"
+
+#. Template: AdminChatChannel
+msgid "Customer interface"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Public interface"
+msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Need Valid"
@@ -106,7 +118,7 @@ msgid ""
 "In order to be able to use the SMS transmission feature of the OTRS AG, I "
 "hereby declare that I have read and understood the %sData Protection "
 "Information%s."
-msgstr ""
+msgstr "Annak érdekében, hogy képes legyek használni az OTRS AG SMS-átviteli szolgáltatását, kijelentem, hogy elolvastam és megértettem az %sadatvédelmi információkat%s."
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
@@ -114,7 +126,7 @@ msgstr "Beállítások mentése"
 
 #. Template: AdminCloudServiceSMS
 msgid "Dear user of the %sOTRS Business Solution%s™,"
-msgstr ""
+msgstr "Kedves %sOTRS Business Solution%s™ felhasználó!"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
@@ -125,7 +137,7 @@ msgid ""
 "information needed in case of clarification, the OTRS AG processes and "
 "stores the following data within a database in line with data protection "
 "regulations:"
-msgstr ""
+msgstr "Mielőtt elkezdené használni az SMS-átviteli szolgáltatást, törvényi kötelezettségünk tájékoztatni Önt, hogy ezt a szolgáltatást kiszerveztük egy külső felhőszolgáltatás szolgáltatójához az általános stabilitás és rendelkezésre állás biztosításához. Annak érdekében, hogy képes legyen ezt a szolgáltatást nyújtani, valamint pontosítás esetén képes legyen az összes szükséges információt biztosítani, az OTRS AG a következő adatokat feldolgozza és egy adatbázison belül eltárolja az adatvédelmi előírásokkal összhangban:"
 
 #. Template: AdminCloudServiceSMS
 msgid "Date/Time"
@@ -133,21 +145,21 @@ msgstr "Dátum/idő"
 
 #. Template: AdminCloudServiceSMS
 msgid "Customer company (non-personal data)"
-msgstr ""
+msgstr "Ügyfél-vállalat (nem személyes adat)"
 
 #. Template: AdminCloudServiceSMS
 msgid "SMS target phone number"
-msgstr ""
+msgstr "Az SMS céltelefonszáma"
 
 #. Template: AdminCloudServiceSMS
 msgid "Message text"
-msgstr ""
+msgstr "Üzenet szövege"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Amount of SMS units which have been used in order to send this particular "
 "message"
-msgstr ""
+msgstr "Az SMS egységek mennyisége, amely felhasználásra került az adott üzenet elküldése érdekében"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
@@ -157,7 +169,7 @@ msgid ""
 "ISO/IEC 27001 and both contractual partners have signed TOMs (technical and "
 "organisational measures) according to the German National Law (§ 9 / 11 "
 "BDSG)."
-msgstr ""
+msgstr "Ezúton biztosítjuk, hogy ezek az adatok kizárólag a szolgáltatás nyújtásáért felelős felhőszolgáltató vállalatnak lesznek átküldve, és további harmadik fél szolgáltatónak nem. Ez a felhőszolgáltató vállalat az ISO/IEC 27001 szerint minősített adatközpontokat üzemeltet, és mindkét szerződött partner aláírta a Német Nemzeti Törvény (§ 9 / 11 BDSG) szerinti TOM-okat (műszaki és szervezési intézkedéseket)."
 
 #. Template: AdminCloudServiceSMS
 msgid "Data Protection Information"
@@ -165,19 +177,19 @@ msgstr "Adatvédelmi információk"
 
 #. Template: AdminContactWithData
 msgid "Contact with data management"
-msgstr "Adatokkal rendelkező partner kezelése"
+msgstr "Partneradatok kezelése"
 
 #. Template: AdminContactWithData
 msgid "Add contact with data"
-msgstr "Adatokkal rendelkező partner hozzáadása"
+msgstr "Partneradatok hozzáadása"
 
 #. Template: AdminContactWithData
 msgid "Please enter a search term to look for contacts with data."
-msgstr "Adjon meg egy keresési kifejezést az adatokkal rendelkező partnerek kereséséhez."
+msgstr "Adjon meg egy keresési kifejezést a partneradatok kereséséhez."
 
 #. Template: AdminContactWithData
 msgid "Edit contact with data"
-msgstr "Adatokkal rendelkező partner szerkesztése"
+msgstr "Partneradatok szerkesztése"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "These are the possible data attributes for contacts."
@@ -268,12 +280,6 @@ msgstr "Kis- és nagybetűk megkülönböztetése"
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr "Címzett SMS számai"
-
-#. Template: AdminNotificationEventTransportSMSSettings
-msgid ""
-"You can use OTRS-tags like <OTRS_TICKET_DynamicField_...> to insert values "
-"from the current ticket."
-msgstr "Használhatja az OTRS címkéket (mint például <OTRS_TICKET_DynamicField_...>) értékek beszúrásához a jelenlegi jegyből."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource Overview"
@@ -1392,15 +1398,15 @@ msgstr "Aktiválja a csevegés támogatást."
 
 #. SysConfig
 msgid "Admin Contact With Data"
-msgstr ""
+msgstr "Adminisztrátori partneradatok"
 
 #. SysConfig
 msgid "Admin contact with data."
-msgstr ""
+msgstr "Adminisztrátori partneradatok."
 
 #. SysConfig
 msgid "Agent Contact With Data Search"
-msgstr ""
+msgstr "Ügyintézői partneradatok keresése"
 
 #. SysConfig
 msgid "Agent Dynamic Field Database Detailed Search"
@@ -1424,7 +1430,7 @@ msgstr "Ügyintézői csevegés képernyő."
 
 #. SysConfig
 msgid "Agent contact with data search."
-msgstr ""
+msgstr "Ügyintézői partneradatok keresése."
 
 #. SysConfig
 msgid "Agent dynamic field database detailed search."
@@ -1487,7 +1493,7 @@ msgstr "Értekezlet-értesítések"
 
 #. SysConfig
 msgid "Calendar Notifications"
-msgstr ""
+msgstr "Naptárértesítések"
 
 #. SysConfig
 msgid "Chat Availability"
@@ -1566,7 +1572,7 @@ msgstr "Az ügyintézői felület értesítési webnézetében szűrhető oszlop
 
 #. SysConfig
 msgid "Contact with data"
-msgstr "Adatokkal rendelkező partner"
+msgstr "Partneradatok"
 
 #. SysConfig
 msgid "Create and manage chat channels."
@@ -1744,11 +1750,11 @@ msgstr "Dinamikus mezők adatbázis háttérprogram grafikus felület"
 
 #. SysConfig
 msgid "Edit contacts with data"
-msgstr "Adatokkal rendelkező partnerek szerkesztése"
+msgstr "Partneradatok szerkesztése"
 
 #. SysConfig
 msgid "Edit contacts with data."
-msgstr ""
+msgstr "Partneradatok szerkesztése."
 
 #. SysConfig
 msgid ""
@@ -1829,7 +1835,7 @@ msgstr "Ha ez a jelző „Igen” értékre van állítva, akkor az ügyfél jeg
 
 #. SysConfig
 msgid "Is being displayed if a customer chooses this SLA on ticket creation."
-msgstr ""
+msgstr "Akkor lesz megjelenítve, ha egy ügyfél ezt az SLA-t választja a jegy létrehozásakor."
 
 #. SysConfig
 msgid ""
@@ -1972,7 +1978,7 @@ msgstr "Erőforrások listája."
 msgid ""
 "Runs an initial wildcard search of the existing contacts with data when "
 "accessing the AdminContactWithData module."
-msgstr "A meglévő adatokkal rendelkező partnerek kezdeti helyettesítő karakter keresését futtatja az AdminContactWithData modulhoz való hozzáféréskor."
+msgstr "A meglévő partneradatok kezdeti helyettesítő karakter keresését futtatja az AdminContactWithData modulhoz való hozzáféréskor."
 
 #. SysConfig
 msgid "Sets if a chat request can be sent out from agent ticket zoom view."
@@ -2000,7 +2006,7 @@ msgstr "Statisztikai jelentések."
 
 #. SysConfig
 msgid "Support Agent"
-msgstr ""
+msgstr "Támogató ügyintéző"
 
 #. SysConfig
 msgid "Team agents management screen."

@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-02-28 15:15+0000\n"
-"PO-Revision-Date: 2017-02-28 14:17+0000\n"
+"POT-Creation-Date: 2017-03-24 16:19+0000\n"
+"PO-Revision-Date: 2017-03-24 16:20+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Serbian (http://www.transifex.com/otrs/OTRS/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -24,6 +24,10 @@ msgid "Add Chat Channel"
 msgstr "Додај канал за ћаскања"
 
 #. Template: AdminChatChannel
+msgid "Public"
+msgstr "Јавно"
+
+#. Template: AdminChatChannel
 msgid "Edit Chat Channel"
 msgstr "Уреди канал за ћаскања"
 
@@ -34,6 +38,14 @@ msgstr "Неисправан назив"
 #. Template: AdminChatChannel
 msgid "Need Group"
 msgstr "Обавезна група"
+
+#. Template: AdminChatChannel
+msgid "Customer interface"
+msgstr "Клијентски интерфејс"
+
+#. Template: AdminChatChannel
+msgid "Public interface"
+msgstr "Јавни интерфејс"
 
 #. Template: AdminChatChannel
 msgid "Need Valid"
@@ -269,12 +281,6 @@ msgstr "Зависи од великих и малих слова"
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr "Бројеви СМС примаоца"
-
-#. Template: AdminNotificationEventTransportSMSSettings
-msgid ""
-"You can use OTRS-tags like <OTRS_TICKET_DynamicField_...> to insert values "
-"from the current ticket."
-msgstr "Можете користити OTRS тагове као <OTRS_TICKET_DynamicField_...> за уметање вредности из тренутног тикета."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource Overview"

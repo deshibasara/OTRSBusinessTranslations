@@ -12,9 +12,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-02-28 15:15+0000\n"
-"PO-Revision-Date: 2017-02-28 15:34+0000\n"
-"Last-Translator: Marc A. Bonsels\n"
+"POT-Creation-Date: 2017-03-24 16:19+0000\n"
+"PO-Revision-Date: 2017-03-24 16:19+0000\n"
+"Last-Translator: Dusan Vuckovic\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,6 +31,10 @@ msgid "Add Chat Channel"
 msgstr "Chat-Kanal hinzufügen"
 
 #. Template: AdminChatChannel
+msgid "Public"
+msgstr ""
+
+#. Template: AdminChatChannel
 msgid "Edit Chat Channel"
 msgstr "Chat-Kanal bearbeiten"
 
@@ -41,6 +45,14 @@ msgstr "Name ungültig"
 #. Template: AdminChatChannel
 msgid "Need Group"
 msgstr "Gruppe wird benötigt"
+
+#. Template: AdminChatChannel
+msgid "Customer interface"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Public interface"
+msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Need Valid"
@@ -276,12 +288,6 @@ msgstr "Groß-/Kleinschreibung unterscheiden"
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr "Empfänger-SMS-Nummern"
-
-#. Template: AdminNotificationEventTransportSMSSettings
-msgid ""
-"You can use OTRS-tags like <OTRS_TICKET_DynamicField_...> to insert values "
-"from the current ticket."
-msgstr "Sie können OTRS-Tags wie <OTRS_TICKET_DynamicField_...> nutzen, um Werte des aktuellen Tickets einzufügen."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource Overview"
