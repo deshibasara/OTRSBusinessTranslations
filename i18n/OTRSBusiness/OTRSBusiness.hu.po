@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-03-24 16:19+0000\n"
-"PO-Revision-Date: 2017-03-24 16:19+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"PO-Revision-Date: 2017-03-29 21:53+0000\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr "Csevegőcsatorna hozzáadása"
 
 #. Template: AdminChatChannel
 msgid "Public"
-msgstr ""
+msgstr "Nyilvános"
 
 #. Template: AdminChatChannel
 msgid "Edit Chat Channel"
@@ -40,11 +40,11 @@ msgstr "Csoport szükséges"
 
 #. Template: AdminChatChannel
 msgid "Customer interface"
-msgstr ""
+msgstr "Ügyfélfelület"
 
 #. Template: AdminChatChannel
 msgid "Public interface"
-msgstr ""
+msgstr "Nyilvános felület"
 
 #. Template: AdminChatChannel
 msgid "Need Valid"

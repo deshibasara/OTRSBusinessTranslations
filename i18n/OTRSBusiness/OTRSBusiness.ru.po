@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-03-24 16:19+0000\n"
-"PO-Revision-Date: 2017-03-24 16:19+0000\n"
+"PO-Revision-Date: 2017-03-24 18:24+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Russian (http://www.transifex.com/otrs/OTRS/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "Добавить канал чата"
 
 #. Template: AdminChatChannel
 msgid "Public"
-msgstr ""
+msgstr "Общедоступное"
 
 #. Template: AdminChatChannel
 msgid "Edit Chat Channel"

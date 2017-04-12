@@ -1,12 +1,13 @@
 # 
 # Translators:
 # Hisatoshi Onishi <hisatoshi.onishi@gmail.com>, 2016
+# Kozo Sakurai <sakurai@io-architect.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-03-24 16:19+0000\n"
-"PO-Revision-Date: 2017-03-24 16:19+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"PO-Revision-Date: 2017-04-12 02:05+0000\n"
+"Last-Translator: Kozo Sakurai <sakurai@io-architect.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/otrs/OTRS/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr "チャットチャネルを追加"
 
 #. Template: AdminChatChannel
 msgid "Public"
-msgstr ""
+msgstr "公開"
 
 #. Template: AdminChatChannel
 msgid "Edit Chat Channel"
@@ -40,11 +41,11 @@ msgstr "グループの選択が必要です。"
 
 #. Template: AdminChatChannel
 msgid "Customer interface"
-msgstr ""
+msgstr "顧客Webインターフェース"
 
 #. Template: AdminChatChannel
 msgid "Public interface"
-msgstr ""
+msgstr "公開Webインターフェース"
 
 #. Template: AdminChatChannel
 msgid "Need Valid"
@@ -141,7 +142,7 @@ msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Date/Time"
-msgstr ""
+msgstr "日にち/時間"
 
 #. Template: AdminCloudServiceSMS
 msgid "Customer company (non-personal data)"
@@ -283,11 +284,11 @@ msgstr "受信者のSMSナンバー"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource Overview"
-msgstr ""
+msgstr "リソース表示"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Manage Calendars"
-msgstr ""
+msgstr "カレンダー管理"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Manage Teams"
@@ -299,27 +300,27 @@ msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Add new Appointment"
-msgstr ""
+msgstr "予約の登録"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Add Appointment"
-msgstr ""
+msgstr "予約の登録"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Calendars"
-msgstr ""
+msgstr "カレンダー"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Filter for calendars"
-msgstr ""
+msgstr "カレンダーでフィルター"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Copy public calendar URL"
-msgstr ""
+msgstr "公開カレンダーのURLをコピーする"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "This is a resource overview page."
@@ -341,7 +342,7 @@ msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Team"
-msgstr ""
+msgstr "チーム"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "No team agents found."
@@ -366,47 +367,47 @@ msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Week"
-msgstr ""
+msgstr "週"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Timeline Month"
-msgstr ""
+msgstr "月間タイムライン"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Timeline Week"
-msgstr ""
+msgstr "週間タイムライン"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Timeline Day"
-msgstr ""
+msgstr "日中タイムライン"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Jump"
-msgstr ""
+msgstr "カレンダー"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Appointment"
-msgstr ""
+msgstr "予約"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "This is a repeating appointment"
-msgstr ""
+msgstr "これは繰り返しの予定です。"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Would you like to edit just this occurrence or all occurrences?"
-msgstr ""
+msgstr "この発生またはすべて発生だけを編集しますか？"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "All occurrences"
-msgstr ""
+msgstr "全ての発生"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Just this occurrence"
-msgstr ""
+msgstr "この発生時点"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Dismiss"
-msgstr ""
+msgstr "非表示"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resources"
@@ -430,19 +431,19 @@ msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Basic information"
-msgstr ""
+msgstr "基本情報"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource"
-msgstr ""
+msgstr "リソース"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "End date"
-msgstr ""
+msgstr "終了日時"
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Repeat"
-msgstr ""
+msgstr "繰り返し"
 
 #. Template: AgentAppointmentTeam
 msgid "Add Team"
@@ -484,7 +485,7 @@ msgstr ""
 
 #. Template: AgentAppointmentTeam
 msgid "Permission group"
-msgstr ""
+msgstr "権限グループ"
 
 #. Template: AgentAppointmentTeamUser
 msgid "Filter for agents"
@@ -859,7 +860,7 @@ msgstr ""
 
 #. Template: AgentNotificationViewSmall
 msgid "No notification data found."
-msgstr ""
+msgstr "通知はありません。"
 
 #. Template: AgentNotificationViewSmall
 msgid "Related To"
@@ -875,15 +876,15 @@ msgstr ""
 
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss this notification"
-msgstr ""
+msgstr "この通知を非表示"
 
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss Selected Notifications"
-msgstr ""
+msgstr "選択した通知を非表示"
 
 #. Template: AgentNotificationViewSmall
 msgid "Do you really want to dismiss the selected notifications?"
-msgstr ""
+msgstr "選択した通知を本当に非表示したいですか？"
 
 #. Template: AgentNotificationViewSmall
 msgid "OTRS Notification"
@@ -1324,7 +1325,7 @@ msgstr "未確認の通知"
 
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "Notification Web View"
-msgstr ""
+msgstr "Web通知ビュー"
 
 #. Perl Module: Kernel/Modules/AgentStatisticsReports.pm
 msgid "This name is already in use, please choose a different one."
@@ -1348,7 +1349,7 @@ msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Dismiss Selected"
-msgstr ""
+msgstr "選択した通知を非表示"
 
 #. Perl Module: Kernel/Output/HTML/NotificationView/Small.pm
 msgid "Object Type"
@@ -1489,11 +1490,11 @@ msgstr ""
 
 #. SysConfig
 msgid "Appointment Notifications"
-msgstr ""
+msgstr "予約の通知"
 
 #. SysConfig
 msgid "Calendar Notifications"
-msgstr ""
+msgstr "カレンダー通知"
 
 #. SysConfig
 msgid "Chat Availability"
@@ -1501,11 +1502,11 @@ msgstr ""
 
 #. SysConfig
 msgid "Chat Channel"
-msgstr ""
+msgstr "チャット・チャネル"
 
 #. SysConfig
 msgid "Chat Channel:"
-msgstr ""
+msgstr "チャット・チャネル"
 
 #. SysConfig
 msgid "Chat Download"
@@ -1576,7 +1577,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Create and manage chat channels."
-msgstr ""
+msgstr "チャット・チャネルの作成と管理"
 
 #. SysConfig
 msgid "Create new chat"
@@ -1750,11 +1751,11 @@ msgstr ""
 
 #. SysConfig
 msgid "Edit contacts with data"
-msgstr ""
+msgstr "データ連携を修正"
 
 #. SysConfig
 msgid "Edit contacts with data."
-msgstr ""
+msgstr "データ連携を修正"
 
 #. SysConfig
 msgid ""
@@ -1884,15 +1885,15 @@ msgstr ""
 
 #. SysConfig
 msgid "Notification web view"
-msgstr ""
+msgstr "Web通知ビュー"
 
 #. SysConfig
 msgid "Notification web view \"Small\" Limit"
-msgstr ""
+msgstr "Web通知ビュー \"S\""
 
 #. SysConfig
 msgid "Notification web view."
-msgstr ""
+msgstr "Web通知ビュー"
 
 #. SysConfig
 msgid "Notifications Unseen:"

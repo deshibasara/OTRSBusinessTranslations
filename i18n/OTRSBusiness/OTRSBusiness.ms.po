@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-03-24 16:19+0000\n"
-"PO-Revision-Date: 2017-03-24 16:19+0000\n"
+"PO-Revision-Date: 2017-03-24 18:24+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Malay (http://www.transifex.com/otrs/OTRS/language/ms/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Tambah Saluran Chat"
 
 #. Template: AdminChatChannel
 msgid "Public"
-msgstr ""
+msgstr "Umum"
 
 #. Template: AdminChatChannel
 msgid "Edit Chat Channel"

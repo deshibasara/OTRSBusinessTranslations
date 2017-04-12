@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-03-24 16:19+0000\n"
-"PO-Revision-Date: 2017-03-24 16:19+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"PO-Revision-Date: 2017-03-28 00:37+0000\n"
+"Last-Translator: 汇民 王 <whuim@163.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +27,7 @@ msgstr "添加聊天频道"
 
 #. Template: AdminChatChannel
 msgid "Public"
-msgstr ""
+msgstr "公开"
 
 #. Template: AdminChatChannel
 msgid "Edit Chat Channel"
@@ -43,11 +43,11 @@ msgstr "需要群组"
 
 #. Template: AdminChatChannel
 msgid "Customer interface"
-msgstr ""
+msgstr "客户界面"
 
 #. Template: AdminChatChannel
 msgid "Public interface"
-msgstr ""
+msgstr "公共界面"
 
 #. Template: AdminChatChannel
 msgid "Need Valid"
@@ -121,7 +121,7 @@ msgid ""
 "In order to be able to use the SMS transmission feature of the OTRS AG, I "
 "hereby declare that I have read and understood the %sData Protection "
 "Information%s."
-msgstr ""
+msgstr "为了能够使用 OTRS AG 的短信传输功能，我谨声明我已阅读并理解 %s数据保护信息%s。"
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
@@ -129,7 +129,7 @@ msgstr "保存配置"
 
 #. Template: AdminCloudServiceSMS
 msgid "Dear user of the %sOTRS Business Solution%s™,"
-msgstr ""
+msgstr "尊敬的%sOTRS Business Solution%s™用户,"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
@@ -140,7 +140,7 @@ msgid ""
 "information needed in case of clarification, the OTRS AG processes and "
 "stores the following data within a database in line with data protection "
 "regulations:"
-msgstr ""
+msgstr "在你可以开始使用 短信传输功能之前，我们必定依法告知你我们将这个服务外包到外部的云服务提供商，以确保其整体的稳定性和可用性。为了能提供这项服务，能够为您提供的所有信息时澄清，OTRS AG 需要处理和存储符合数据保护法规数据库内的以下数据︰"
 
 #. Template: AdminCloudServiceSMS
 msgid "Date/Time"
@@ -148,21 +148,21 @@ msgstr "日期 / 时间"
 
 #. Template: AdminCloudServiceSMS
 msgid "Customer company (non-personal data)"
-msgstr ""
+msgstr "客户单位（非个人数据）"
 
 #. Template: AdminCloudServiceSMS
 msgid "SMS target phone number"
-msgstr ""
+msgstr "短信送达电话号码"
 
 #. Template: AdminCloudServiceSMS
 msgid "Message text"
-msgstr ""
+msgstr "短信内容"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Amount of SMS units which have been used in order to send this particular "
 "message"
-msgstr ""
+msgstr "发送一个特定消息所需的短信条数。"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
@@ -172,7 +172,7 @@ msgid ""
 "ISO/IEC 27001 and both contractual partners have signed TOMs (technical and "
 "organisational measures) according to the German National Law (§ 9 / 11 "
 "BDSG)."
-msgstr ""
+msgstr "我们特此保证，此数据完全转移到负责提供此服务的云计算服务公司且没有其他第三方供应商。这个云服务公司运营的数据中心已通过 ISO/IEC 27001 认证，而且我们已与其依照德国国家法律 (§ 9 / 11 BDSG)签署了技术和组织措施。"
 
 #. Template: AdminCloudServiceSMS
 msgid "Data Protection Information"
@@ -1496,7 +1496,7 @@ msgstr "预约通知"
 
 #. SysConfig
 msgid "Calendar Notifications"
-msgstr ""
+msgstr "日历通知"
 
 #. SysConfig
 msgid "Chat Availability"
