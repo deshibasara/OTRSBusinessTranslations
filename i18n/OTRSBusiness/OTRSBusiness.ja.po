@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-03-24 16:19+0000\n"
-"PO-Revision-Date: 2017-04-12 02:05+0000\n"
+"PO-Revision-Date: 2017-04-13 01:45+0000\n"
 "Last-Translator: Kozo Sakurai <sakurai@io-architect.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/otrs/OTRS/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -61,11 +61,11 @@ msgstr "クラウドサービスの状態"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service availability"
-msgstr ""
+msgstr "クラウドサービス有効性"
 
 #. Template: AdminCloudServiceSMS
 msgid "Remaining SMS units"
-msgstr ""
+msgstr "残りのSMSメッセージ数"
 
 #. Template: AdminCloudServiceSMS
 msgid "Is currently not possible to check the state for this cloud service."
@@ -73,23 +73,23 @@ msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone field for agent"
-msgstr ""
+msgstr "担当者の電話番号フィールド"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Agent data field from which the mobile phone number for sending messages via"
 " SMS should be taken."
-msgstr ""
+msgstr "SMSへメッセージを送信するための担当者の携帯電話番号"
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone field for customer"
-msgstr ""
+msgstr "顧客の電話番号フィールド"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Customer data field from which the mobile phone number for sending messages "
 "via SMS should be taken."
-msgstr ""
+msgstr "SMSへメッセージを送信するための顧客の携帯電話番号"
 
 #. Template: AdminCloudServiceSMS
 msgid "Sender string"
@@ -106,20 +106,20 @@ msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Allowed role members"
-msgstr ""
+msgstr "許可されたロール"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "If selected, only users assigned to these roles will be able to receive "
 "messages via SMS (optional)."
-msgstr ""
+msgstr "このロールに割り当てられたユーザーだけがSMSメッセージを受信できます。"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "In order to be able to use the SMS transmission feature of the OTRS AG, I "
 "hereby declare that I have read and understood the %sData Protection "
 "Information%s."
-msgstr ""
+msgstr "OTRS AGのSMS送信機能を使用するために、私は「%sData Protection Information%s」を読んで理解したことを宣言します。"
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
