@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-03-24 16:19+0000\n"
-"PO-Revision-Date: 2017-04-12 14:47+0000\n"
+"POT-Creation-Date: 2017-06-01 16:47+0000\n"
+"PO-Revision-Date: 2017-07-04 16:27+0000\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -1216,7 +1216,7 @@ msgstr "Statisztika eltávolítása"
 #. Template: StatsWidget
 msgid ""
 "If you don't specify a title here, the title of the statistic will be used."
-msgstr "Ha nem meg itt egy címet, akkor a statisztika címe lesz használva."
+msgstr "Ha nem ad meg itt egy címet, akkor a statisztika címe lesz használva."
 
 #. Template: StatsWidget
 msgid "Preface"

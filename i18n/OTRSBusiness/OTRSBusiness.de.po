@@ -2,7 +2,7 @@
 # Translators:
 # christopher.kuhn <christopher.kuhn@otrs.com>, 2016
 # Dusan Vuckovic, 2017
-# Ettore Atalan <atalanttore@googlemail.com>, 2016
+# Ettore Atalan <atalanttore@googlemail.com>, 2016-2017
 # Jonas Kohls <Jonas.kohls@outlook.de>, 2016
 # Marc A. Bonsels, 2016-2017
 # Martin Gruner <martin.gruner@otrs.com>, 2015-2016
@@ -12,9 +12,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-03-24 16:19+0000\n"
-"PO-Revision-Date: 2017-03-24 18:24+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"POT-Creation-Date: 2017-06-01 16:47+0000\n"
+"PO-Revision-Date: 2017-06-02 11:53+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,11 +48,11 @@ msgstr "Gruppe wird benötigt"
 
 #. Template: AdminChatChannel
 msgid "Customer interface"
-msgstr ""
+msgstr "Kundenoberfläche"
 
 #. Template: AdminChatChannel
 msgid "Public interface"
-msgstr ""
+msgstr "Öffentliche Oberfläche"
 
 #. Template: AdminChatChannel
 msgid "Need Valid"

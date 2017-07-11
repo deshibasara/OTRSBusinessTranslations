@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-03-24 16:19+0000\n"
-"PO-Revision-Date: 2017-04-13 01:45+0000\n"
-"Last-Translator: Kozo Sakurai <sakurai@io-architect.com>\n"
+"POT-Creation-Date: 2017-06-01 16:47+0000\n"
+"PO-Revision-Date: 2017-06-24 17:18+0000\n"
+"Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Japanese (http://www.transifex.com/otrs/OTRS/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -354,7 +354,7 @@ msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Too many active calendars"
-msgstr ""
+msgstr "有効化されたカレンダーが多すぎます"
 
 #. Template: AgentAppointmentResourceOverview
 msgid ""
