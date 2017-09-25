@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-01-09 14:51+0000\n"
-"PO-Revision-Date: 2017-01-09 14:01+0000\n"
+"POT-Creation-Date: 2017-09-25 08:01+0000\n"
+"PO-Revision-Date: 2017-09-25 08:02+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Swahili (http://www.transifex.com/otrs/OTRS/language/sw/)\n"
 "MIME-Version: 1.0\n"
@@ -26,11 +26,23 @@ msgid "Edit Chat Channel"
 msgstr ""
 
 #. Template: AdminChatChannel
-msgid "Name invalid"
+msgid "Public"
+msgstr "Umma"
+
+#. Template: AdminChatChannel
+msgid "A chat channel with this name already exists!"
 msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Need Group"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Customer interface"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Public interface"
 msgstr ""
 
 #. Template: AdminChatChannel
@@ -39,6 +51,14 @@ msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Comment invalid"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Add Cloud Service"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Edit Cloud Servicel"
 msgstr ""
 
 #. Template: AdminCloudServiceSMS
@@ -96,16 +116,42 @@ msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid ""
-"If selected, only users assigned to these roles will be able to receive "
-"messages via SMS (optional)."
+"If selected, only agents assigned to these roles will be able to receive "
+"notifications via SMS (optional)."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Perform URL shortening"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Perform URL shortening before sending the message."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Phone black list"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Add phone number"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"A blacklist of telephone numbers where it is forbidden to send SMS messages "
+"to. Phone numbers must be added in international format without spaces, e.g."
+" +491791234567, one number per field."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"In order to be able to use the SMS transmission feature of the OTRS AG, I "
+"hereby declare that I have read and understood the %sData Protection "
+"Information%s."
 msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
-msgstr ""
-
-#. Template: AdminCloudServiceSMS
-msgid "Data Protection Information"
 msgstr ""
 
 #. Template: AdminContactWithData
@@ -117,11 +163,11 @@ msgid "Add contact with data"
 msgstr ""
 
 #. Template: AdminContactWithData
-msgid "Please enter a search term to look for contacts with data."
+msgid "Edit contact with data"
 msgstr ""
 
 #. Template: AdminContactWithData
-msgid "Edit contact with data"
+msgid "Please enter a search term to look for contacts with data."
 msgstr ""
 
 #. Template: AdminDynamicFieldContactWithData
@@ -210,16 +256,196 @@ msgstr ""
 msgid "Case Sensitive"
 msgstr ""
 
+#. Template: AdminDynamicFieldWebService
+msgid "The web service to be executed for possible values."
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid "Invoker"
+msgstr "Mchochezi"
+
+#. Template: AdminDynamicFieldWebService
+msgid ""
+"The invoker to be used to perform requests (invoker needs to be of type "
+"'Generic::PassThrough')."
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid "Activate this option to allow multiselect on results."
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid "Cache TTL"
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid ""
+"Cache time to live (in minutes), to save the retrieved possible values."
+msgstr ""
+
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr ""
 
-#. Template: AgentAppointmentResourceOverview
-msgid "Resource Overview"
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid ""
+"An article will be created if the notification is sent to the customer or an"
+" additional recipient."
+msgstr ""
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid "Send as flash message"
+msgstr ""
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid "Send the message for this notification as Flash SMS."
+msgstr ""
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid ""
+"In case the SMS text message is too long it may be split up into multiple "
+"messages at the end."
+msgstr ""
+
+#. Template: AdminQueueSMSTemplates
+msgid "Manage SMS Template-Queue Relations"
+msgstr ""
+
+#. Template: AdminQueueSMSTemplates
+msgid "Filter for SMS Templates"
+msgstr ""
+
+#. Template: AdminQueueSMSTemplates
+msgid "SMS Templates"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Manage SMS Templates"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Add SMS Template"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Edit SMS Template"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Add SMS template"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "SMS Cloud Service inactive"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid ""
+"To be able to use SMS cloud service in OTRS, you have to activate it first."
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Activate SMS Cloud Service"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid ""
+"An SMS template is a default text which helps your agents to write faster "
+"tickets or answers."
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Do you really want to delete this SMS template?"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "An SMS template with this name already exists!"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Flash message"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid ""
+"Show message directly without user interaction and do not store it "
+"automatically (support may vary by device and provider)."
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Your mobile phone is"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Deployment History"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Filter for Deployments"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Recent Deployments"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Restore"
+msgstr "kurejesha"
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "View Details"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Restore this deployment."
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Export this deployment."
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistoryDetails
+msgid "Deployment Details"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistoryDetails
+msgid "No settings have been deployed in this run."
+msgstr ""
+
+#. Template: AdminSystemConfigurationSettingHistoryDetails
+msgid "Change History"
+msgstr ""
+
+#. Template: AdminSystemConfigurationSettingHistoryDetails
+msgid "Change History of %s"
+msgstr ""
+
+#. Template: AdminSystemConfigurationSettingHistoryDetails
+msgid "No modified values for this setting, the default value is used."
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "Review users setting value"
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "Users Value"
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "For"
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "Delete all user values."
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "No user value for this setting."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
-msgid "Manage Calendars"
+msgid "Resource Overview"
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
@@ -231,40 +457,6 @@ msgid "Manage Team Agents"
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
-msgid "Add new Appointment"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Add Appointment"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Calendars"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Filter for calendars"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "URL"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Copy public calendar URL"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "This is a resource overview page."
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid ""
-"No calendars found. Please add a calendar first by using Manage Calendars "
-"page."
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
 msgid "No teams found."
 msgstr ""
 
@@ -273,112 +465,11 @@ msgid "Please add a team first by using Manage Teams page."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
-msgid "Team"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
 msgid "No team agents found."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Please assign agents to a team first by using Manage Team Agents page."
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Too many active calendars"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid ""
-"Please either turn some off first or increase the limit in configuration."
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Restore default settings"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Week"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Timeline Month"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Timeline Week"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Timeline Day"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Jump"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Appointment"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "This is a repeating appointment"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Would you like to edit just this occurrence or all occurrences?"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "All occurrences"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Just this occurrence"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Dismiss"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Resources"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Shown resources"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Available Resources"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Filter available resources"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Visible Resources (order by drag & drop)"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Basic information"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Resource"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Date/Time"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "End date"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Repeat"
 msgstr ""
 
 #. Template: AgentAppointmentTeam
@@ -417,10 +508,6 @@ msgstr ""
 
 #. Template: AgentAppointmentTeam
 msgid "Team with same name already exists."
-msgstr ""
-
-#. Template: AgentAppointmentTeam
-msgid "Permission group"
 msgstr ""
 
 #. Template: AgentAppointmentTeamUser
@@ -499,6 +586,10 @@ msgstr ""
 #. Template: AgentChat
 msgid "Open ticket"
 msgstr ""
+
+#. Template: AgentChat
+msgid "Company"
+msgstr "Kampuni"
 
 #. Template: AgentChat
 msgid "Open company"
@@ -628,112 +719,6 @@ msgstr ""
 msgid "Destination channel"
 msgstr ""
 
-#. Template: AgentChat
-msgid "Open chat"
-msgstr ""
-
-#. Template: AgentChat
-msgid "User has already left the chat or has not yet joined it."
-msgstr ""
-
-#. Template: AgentChat
-msgid ""
-"You are no longer in this chat. Click this message to remove the chat box."
-msgstr ""
-
-#. Template: AgentChat
-msgid "There are currently no chat requests."
-msgstr ""
-
-#. Template: AgentChat
-msgid ""
-"This will permanently delete the chat contents. Do you want to continue?"
-msgstr ""
-
-#. Template: AgentChat
-msgid "This chat request was already accepted by another person."
-msgstr ""
-
-#. Template: AgentChat
-msgid "You have no permission to accept this chat request."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Please select a user."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Please select a permission level."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Invite Agent."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Please, select destination chat channel."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Please select a channel."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Chat preview"
-msgstr ""
-
-#. Template: AgentChat
-msgid "Please select a valid channel."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Agent to customer chat."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Customer to agent chat."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Agent to agent chat."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Public to agent chat."
-msgstr ""
-
-#. Template: AgentChat
-msgid "You can't leave Customer alone in the chat."
-msgstr ""
-
-#. Template: AgentChat
-msgid "You"
-msgstr ""
-
-#. Template: AgentChat
-msgid "Your chat could not be started because of an internal error."
-msgstr ""
-
-#. Template: AgentChat
-msgid "Your chat request was created."
-msgstr ""
-
-#. Template: AgentChat
-msgid "There are currently %s open chat requests."
-msgstr ""
-
-#. Template: AgentChat
-msgid "User was already invited to your chat!"
-msgstr ""
-
-#. Template: AgentChat
-msgid "Insufficient permissions."
-msgstr ""
-
-#. Template: AgentChat
-msgid "System was unable to save your sequence of chats."
-msgstr ""
-
 #. Template: AgentChatAppend
 msgid "Append Chat to Ticket"
 msgstr "Ambatanisha maongezi na tiketi"
@@ -754,10 +739,6 @@ msgstr ""
 msgid "Leave Chat"
 msgstr ""
 
-#. Template: AgentChatPopup
-msgid "User is currently in the chat."
-msgstr ""
-
 #. Template: AgentChatPreview
 msgid "Current chat channel"
 msgstr ""
@@ -772,6 +753,14 @@ msgstr ""
 
 #. Template: AgentChatPreview
 msgid "Update Channel"
+msgstr ""
+
+#. Template: AgentChatPreview
+msgid "Accept"
+msgstr ""
+
+#. Template: AgentChatPreview
+msgid "Decline"
 msgstr ""
 
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
@@ -808,18 +797,6 @@ msgstr ""
 
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss this notification"
-msgstr ""
-
-#. Template: AgentNotificationViewSmall
-msgid "Dismiss Selected Notifications"
-msgstr ""
-
-#. Template: AgentNotificationViewSmall
-msgid "Do you really want to dismiss the selected notifications?"
-msgstr ""
-
-#. Template: AgentNotificationViewSmall
-msgid "OTRS Notification"
 msgstr ""
 
 #. Template: AgentStatisticsReportsAdd
@@ -952,10 +929,6 @@ msgstr ""
 msgid "Delete statistics report \"%s\""
 msgstr ""
 
-#. Template: AgentStatisticsReportsOverview
-msgid "Do you really want to delete this report?"
-msgstr ""
-
 #. Template: AgentStatisticsReportsView
 msgid "Reports » View — %s"
 msgstr ""
@@ -1002,6 +975,72 @@ msgstr "Fungua makala katika dirisha kuu"
 msgid "Download selected files as archive"
 msgstr "Pakua mafaili yaliyochaguliwa kama nyaraka"
 
+#. Template: AgentTicketSMS
+msgid ""
+"An error was encountered while trying to contact SMS cloud service. Please "
+"try again later."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid ""
+"You don't have enough SMS units in your account. Please contact OTRS for "
+"further instructions."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Error while trying to send SMS! Please try again later."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Create New SMS Ticket"
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid ""
+"Search for a customer or enter phone number in international format, i.e. "
+"+49 (0) 123 4567-890."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "The list contains an invalid recipient."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "This phone number is invalid."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "This phone number is not allowed due to the system configuration."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "This number already exists in the recipient list."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Ticket Title"
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Ticket title will not be included in SMS and is for internal use only."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Setting a template will overwrite any text."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "%s characters left"
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Send SMS"
+msgstr ""
+
+#. Template: AgentTicketSMSOutbound
+msgid "Outbound SMS for %s%s%s"
+msgstr ""
+
 #. Template: AgentVideoChat
 msgid "Your browser does not support HTML5 video."
 msgstr ""
@@ -1016,50 +1055,6 @@ msgstr ""
 
 #. Template: AgentVideoChat
 msgid "Toggle video"
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "User has declined your invitation."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "User has left the call."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Attempt to connect was unsuccessful. Please try again."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Permission to media stream has been denied."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Please allow this page to use your video and audio stream."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Requesting media stream..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Waiting for other party to respond..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Accepting the invitation..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Initializing..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Connecting, please wait..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Connection established!"
 msgstr ""
 
 #. Template: CustomerChat
@@ -1126,10 +1121,6 @@ msgstr ""
 msgid "Fullscreen"
 msgstr ""
 
-#. Template: OutputFilterPostSLASelectionDialog
-msgid "Please confirm your selection"
-msgstr ""
-
 #. Template: PublicChat
 msgid "Your name"
 msgstr ""
@@ -1159,20 +1150,96 @@ msgstr "Utangulizi"
 msgid "Postface"
 msgstr ""
 
-#. Perl Module: Kernel/Modules/AdminChatChannel.pm
-msgid "Chat Channel %s added"
+#. Template: SettingHistoryListCompare
+msgid "On "
+msgstr ""
+
+#. Template: SettingHistoryListCompare
+msgid "Reset to this value"
+msgstr ""
+
+#. Template: UsersSettingListCompare
+msgid "Delete user's value."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
-msgid "Chat channel %s edited"
+msgid "Chat channel updated!"
 msgstr ""
 
-#. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
-msgid "Cloud service \"%s\" updated!"
+#. Perl Module: Kernel/Modules/AdminChatChannel.pm
+msgid "Chat channel added!"
 msgstr ""
 
-#. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
-msgid "Cloud Service config \"%s\" saved!"
+#. Perl Module: Kernel/Modules/AdminContactWithData.pm
+msgid "Contact updated!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminDynamicFieldContactWithData.pm
+msgid "Two keys 'Name' and 'ValidID' have to exist in possible values."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
+msgid "Change Queue Relations for SMS Template"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
+msgid "Change SMS Template Relations for Queue"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
+msgid "Invalid ID!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
+msgid "Template not found!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
+msgid "SMS template updated!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
+msgid "SMS template added!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationDeploymentHistory.pm
+msgid "This deployment does not contain changes in the setting values!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationDeploymentHistory.pm
+msgid "No DeploymentID received!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "No setting name received!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "Modified Version"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "Reset To Default"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "Default Version"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "No setting name or modified version id received!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "Was not possible to revert the historical value!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationUser.pm
+msgid "Missing setting name or modified id!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationUser.pm
+msgid "System was not able to delete the user setting values!"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentAppointmentResourceOverview.pm
@@ -1243,6 +1310,10 @@ msgstr ""
 msgid "Need"
 msgstr ""
 
+#. Perl Module: Kernel/Modules/AgentChatDownload.pm
+msgid "System"
+msgstr "Mfumo"
+
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
 msgstr ""
@@ -1267,8 +1338,32 @@ msgstr ""
 msgid "Please provide a valid cron entry."
 msgstr ""
 
+#. Perl Module: Kernel/Modules/AgentTicketSMSOutbound.pm
+msgid "Please contact the admin."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentTicketSMSOutbound.pm
+msgid "Error creating SMS article!"
+msgstr ""
+
 #. Perl Module: Kernel/Modules/AgentVideoChat.pm
 msgid "You are not participant in this chat!"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/Article/SMS.pm
+msgid "Transaction Numbers"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/Article/SMS.pm
+msgid "Flash"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/ArticleAction/AgentTicketSMSOutbound.pm
+msgid "Reply via SMS"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/ArticleAction/AgentTicketSMSOutbound.pm
+msgid "Reply to this article via SMS"
 msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
@@ -1293,6 +1388,18 @@ msgid ""
 "the administrator."
 msgstr ""
 
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatAvailability.pm
+msgid "Unavailable for chat"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatAvailability.pm
+msgid "Available for internal chats only"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatAvailability.pm
+msgid "Available for chats"
+msgstr ""
+
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"
 msgstr ""
@@ -1310,12 +1417,365 @@ msgid "Table of Contents"
 msgstr ""
 
 #. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_owner"
+msgstr ""
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_participant"
+msgstr ""
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_observer"
+msgstr ""
+
+#. Perl Module: Kernel/System/ChatChannel.pm
 msgid "Default chat channel"
+msgstr ""
+
+#. Perl Module: Kernel/System/SupportDataCollector/Plugin/CloudService/SMS.pm
+msgid ""
+"Your available SMS messages are getting low. Please contact sales@otrs.com "
+"to get more SMS messages."
+msgstr ""
+
+#. Perl Module: Kernel/System/SupportDataCollector/Plugin/CloudService/SMS.pm
+msgid "Available SMS"
+msgstr ""
+
+#. Perl Module:
+#. Kernel/System/SupportDataCollector/Plugin/OTRS/ConfigLastDeployments.pm
+msgid "Configuration Last Deployments"
+msgstr ""
+
+#. Perl Module:
+#. Kernel/System/SupportDataCollector/Plugin/OTRS/ConfigLastDeployments.pm
+msgid "Could not determine deployment information."
+msgstr ""
+
+#. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
+msgid "SMS phone number"
+msgstr ""
+
+#. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
+msgid "SMS transaction number"
+msgstr ""
+
+#. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
+msgid "SMS text"
+msgstr ""
+
+#. JS File: Core.Agent.Admin.CloudServiceSMS
+msgid "Data Protection Information"
+msgstr ""
+
+#. JS File: Core.Agent.Admin.SMSTemplate
+msgid "Delete this template"
+msgstr ""
+
+#. JS File: Core.Agent.Admin.SystemConfigurationUser
+msgid "Are you sure you want to remove all user values?"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "An internal error occurred."
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New personal chat request"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Please visit the chat manager"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New customer chat request"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New public chat request"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New activity"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New activity on one of your monitored chats."
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Selected user is not available for chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Selected user is not available for video and audio call."
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Target user's browser does not support video and audio calling."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Invite Agent."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a user."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Please, select destination chat channel."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Change"
+msgstr "Badilisha"
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a channel."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid ""
+"You are no longer in this chat. Click this message to remove the chat box."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "You can't leave Customer alone in the chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "You"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Your browser does not support video and audio calling."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "This chat request was already accepted by another person."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "There are currently no chat requests."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "You have no permission to accept this chat request."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Agent to customer chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Customer to agent chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Public to agent chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Agent to agent chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid ""
+"This will permanently delete the chat contents. Do you want to continue?"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Chat preview"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Open chat"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a valid channel."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Your chat could not be started because of an internal error."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Your chat request was created."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "There are currently %s open chat requests."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "User was already invited to your chat!"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Insufficient permissions."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "System was unable to save your sequence of chats."
+msgstr ""
+
+#. JS File: Core.Agent.CustomerSearchSMS
+msgid "Invalid phone number"
+msgstr ""
+
+#. JS File: Core.Agent.CustomerSearchSMS
+msgid "The entered phone number '%s' is invalid."
+msgstr ""
+
+#. JS File: Core.Agent.CustomerSearchSMS
+msgid ""
+"Please enter a number in international format, i.e. +49 (0) 123 4567-890."
+msgstr ""
+
+#. JS File: Core.Agent.DynamicFieldDatabaseSearch
+msgid "This dynamic field database value is already selected."
+msgstr ""
+
+#. JS File: Core.Agent.NotificationView
+msgid "Do you really want to dismiss the selected notifications?"
+msgstr ""
+
+#. JS File: Core.Agent.NotificationView
+msgid "Dismiss Selected Notifications"
+msgstr ""
+
+#. JS File: Core.Agent.NotificationView
+msgid "OTRS Notification"
+msgstr ""
+
+#. JS File: Core.Agent.StatisticsReports
+msgid "Do you really want to delete this report?"
+msgstr ""
+
+#. JS File: Core.Customer.Chat.Toolbar
+msgid "You have unanswered chat requests"
+msgstr "Unamaombi ya mazungumzo ambayo hayajajibiwa"
+
+#. JS File: Core.Customer.TicketMessage.SLASelectionDialog
+msgid "Please confirm your selection"
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Requesting media stream..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Accepting the invitation..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Waiting for other party to respond..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Permission to media stream has been denied."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Please allow this page to use your video and audio stream."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Connection established!"
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Attempt to connect was unsuccessful. Please try again."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "User has declined your invitation."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Connecting, please wait..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "User has left the call."
 msgstr ""
 
 #. SysConfig
 msgid "Activates chat support."
 msgstr "Inaamsha usaidizi katika maongezi."
+
+#. SysConfig
+msgid "Added SMS for \"%s\"."
+msgstr ""
+
+#. SysConfig
+msgid "Admin Contact With Data"
+msgstr ""
+
+#. SysConfig
+msgid "Admin contact with data."
+msgstr ""
+
+#. SysConfig
+msgid "Advanced"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Contact With Data Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Customer Search SMS"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Customer Search SMS."
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Detailed Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Details"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Information"
+msgstr ""
+
+#. SysConfig
+msgid "Agent chat screen."
+msgstr ""
+
+#. SysConfig
+msgid "Agent contact with data search."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database detailed search."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database details."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database search."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Agent frontend module registration (disable 'Edit contacts with data' link "
+"if if there is no source field configured)."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1357,11 +1817,45 @@ msgid "Allows having a small format notification web view."
 msgstr ""
 
 #. SysConfig
+msgid ""
+"Allows to save current work as draft in the SMS outbound screen of the agent"
+" interface."
+msgstr ""
+
+#. SysConfig
+msgid "Append Chat to Ticket."
+msgstr ""
+
+#. SysConfig
+msgid "Calendar Notifications"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Availability"
+msgstr ""
+
+#. SysConfig
 msgid "Chat Channel"
 msgstr ""
 
 #. SysConfig
 msgid "Chat Channel:"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Download"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Popup"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Preview"
+msgstr ""
+
+#. SysConfig
+msgid "Chat availability."
 msgstr ""
 
 #. SysConfig
@@ -1375,12 +1869,28 @@ msgid "Chat channel to queue mapping."
 msgstr ""
 
 #. SysConfig
-msgid "Chat overview"
-msgstr "Mapitio ya maongezi"
+msgid "Chat download."
+msgstr ""
+
+#. SysConfig
+msgid "Chat overview."
+msgstr ""
+
+#. SysConfig
+msgid "Chat popup."
+msgstr ""
+
+#. SysConfig
+msgid "Chat preview."
+msgstr ""
 
 #. SysConfig
 msgid "Chats"
 msgstr "Maongezi"
+
+#. SysConfig
+msgid "Choose which notifications you'd like to receive."
+msgstr ""
 
 #. SysConfig
 msgid "Cleans up old chat logs."
@@ -1395,12 +1905,11 @@ msgstr ""
 #. SysConfig
 msgid ""
 "Columns that can be filtered in the notification web view of the agent "
-"interface. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by "
-"default."
+"interface."
 msgstr ""
 
 #. SysConfig
-msgid "Contact with data"
+msgid "Create and manage SMS templates."
 msgstr ""
 
 #. SysConfig
@@ -1408,8 +1917,44 @@ msgid "Create and manage chat channels."
 msgstr ""
 
 #. SysConfig
+msgid "Create new SMS ticket and send it out (outbound)."
+msgstr ""
+
+#. SysConfig
+msgid "Create new SMS ticket."
+msgstr ""
+
+#. SysConfig
 msgid "Create new chat"
 msgstr "Tengeneza maongezi mpya"
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Detailed Search"
+msgstr ""
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Details"
+msgstr ""
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Search"
+msgstr ""
+
+#. SysConfig
+msgid "Customer chat screens."
+msgstr ""
+
+#. SysConfig
+msgid "Customer dynamic field database detailed search."
+msgstr ""
+
+#. SysConfig
+msgid "Customer dynamic field database details."
+msgstr ""
+
+#. SysConfig
+msgid "Customer dynamic field database search."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1425,11 +1970,19 @@ msgid ""
 msgstr "Chaguo-msingi la jina la wakala kwa ajili ya mteja na kiolesura cha umma. Kama imewezeshwa, jina la kweli la wakala halitaonekana kwa mteja/mtumiaji wa umma wakati wa maongezi."
 
 #. SysConfig
+msgid "Default channel"
+msgstr ""
+
+#. SysConfig
 msgid "Default text for the customer interface."
 msgstr "Chaguo-msingi la nakala kwa kiolesura cha mteja. "
 
 #. SysConfig
 msgid "Default text for the public interface."
+msgstr ""
+
+#. SysConfig
+msgid "Defines SMS communication channel."
 msgstr ""
 
 #. SysConfig
@@ -1443,6 +1996,17 @@ msgstr ""
 msgid ""
 "Defines a text for Agent Preferences in the Customer interface (works only "
 "if DefaultAgentName is disabled)."
+msgstr ""
+
+#. SysConfig
+msgid "Defines available article actions for SMS articles."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines if a ticket lock is required in the SMS outbound screen of the agent"
+" interface (if the ticket isn't locked yet, the ticket gets locked and the "
+"current agent will be set automatically as its owner)."
 msgstr ""
 
 #. SysConfig
@@ -1471,6 +2035,28 @@ msgstr ""
 
 #. SysConfig
 msgid ""
+"Defines if the message in the SMS outbound screen of the agent interface is "
+"visible for the customer by default."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines the default next state of a ticket after the message has been sent, "
+"in the SMS outbound screen of the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines the hard limit for number of characters that can be sent via SMS per"
+" message."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the list of types for SMS templates."
+msgstr ""
+
+#. SysConfig
+msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is available for external chats, but forgot to set preferred "
 "channel(s)."
@@ -1481,6 +2067,12 @@ msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is not available for chat with customers (only if "
 "Ticket::Agent::AvailableForChatsAfterLogin is set to No)."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines the next possible states after sending a message in the SMS outbound"
+" screen of the agent interface."
 msgstr ""
 
 #. SysConfig
@@ -1506,18 +2098,6 @@ msgid ""
 msgstr ""
 
 #. SysConfig
-msgid ""
-"Defines the period of time (in minutes) before agent is marked as \"away\" "
-"due to inactivity."
-msgstr ""
-
-#. SysConfig
-msgid ""
-"Defines the period of time (in minutes) before customer is marked as "
-"\"away\" due to inactivity."
-msgstr ""
-
-#. SysConfig
 msgid "Defines the settings for appointment notification."
 msgstr ""
 
@@ -1538,6 +2118,24 @@ msgid "Defines the target dynamic fields for storing historical data."
 msgstr ""
 
 #. SysConfig
+msgid "DeploymentHistory"
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Determines the next possible ticket states, after the creation of a new SMS "
+"ticket in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Dialog message"
+msgstr ""
+
+#. SysConfig
+msgid "Dutch"
+msgstr ""
+
+#. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
 msgstr ""
 
@@ -1546,7 +2144,24 @@ msgid "Dynamic Fields Database Backend GUI"
 msgstr ""
 
 #. SysConfig
+msgid "Dynamic Fields Web Service Backend GUI"
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Dynamic fields shown in the SMS outbound screen of the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Dynamic fields shown in the SMS ticket screen of the agent interface."
+msgstr ""
+
+#. SysConfig
 msgid "Edit contacts with data"
+msgstr ""
+
+#. SysConfig
+msgid "Edit contacts with data."
 msgstr ""
 
 #. SysConfig
@@ -1570,6 +2185,16 @@ msgid "Event module registration (store historical data in dynamic fields)."
 msgstr ""
 
 #. SysConfig
+msgid "For more experienced users."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Frontend module registration (disable SMS ticket screen if cloud service is "
+"not activated)."
+msgstr ""
+
+#. SysConfig
 msgid "Frontend module registration for the cusotmer interface."
 msgstr ""
 
@@ -1581,6 +2206,11 @@ msgstr "Moduli ya usajili ya frontend kwa ajili ya kiolesura cha umma."
 msgid ""
 "Generate HTML comment hooks for the specified blocks so that filters can use"
 " them."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"GenericInterface module registration for the PassThrough invoker layer."
 msgstr ""
 
 #. SysConfig
@@ -1627,6 +2257,14 @@ msgid ""
 msgstr ""
 
 #. SysConfig
+msgid "Is being displayed if a customer chooses this SLA on ticket creation."
+msgstr ""
+
+#. SysConfig
+msgid "Link SMS templates to queues."
+msgstr ""
+
+#. SysConfig
 msgid ""
 "Makes it possible to start a chat with a customer from the agent interface."
 msgstr "Inafanikisha kuanza maongezi na mteja kutoka kwenye kiolesura cha wakala."
@@ -1664,6 +2302,10 @@ msgid ""
 msgstr ""
 
 #. SysConfig
+msgid "New SMS ticket"
+msgstr ""
+
+#. SysConfig
 msgid "No agents available message."
 msgstr ""
 
@@ -1677,6 +2319,10 @@ msgstr ""
 
 #. SysConfig
 msgid "Notification web view \"Small\" Limit"
+msgstr ""
+
+#. SysConfig
+msgid "Notification web view."
 msgstr ""
 
 #. SysConfig
@@ -1736,11 +2382,20 @@ msgid "Prepend"
 msgstr ""
 
 #. SysConfig
+msgid "Public chat module."
+msgstr ""
+
+#. SysConfig
 msgid "Remove closed chats older than ChatEngine::ChatTTL."
 msgstr ""
 
 #. SysConfig
 msgid "Remove old chats."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Required permissions to use the SMS outbound screen in the agent interface."
 msgstr ""
 
 #. SysConfig
@@ -1762,6 +2417,26 @@ msgid ""
 msgstr ""
 
 #. SysConfig
+msgid "SMS Outbound"
+msgstr ""
+
+#. SysConfig
+msgid "SMS Templates ↔ Queues"
+msgstr ""
+
+#. SysConfig
+msgid "SMS communication channel."
+msgstr ""
+
+#. SysConfig
+msgid "SMSOutbound"
+msgstr ""
+
+#. SysConfig
+msgid "Send new outgoing SMS from this ticket"
+msgstr ""
+
+#. SysConfig
 msgid "Sets if a chat request can be sent out from agent ticket zoom view."
 msgstr ""
 
@@ -1770,16 +2445,68 @@ msgid "Sets if a chat request can be sent out from customer ticket zoom view."
 msgstr ""
 
 #. SysConfig
-msgid "Show all ticket attachments"
-msgstr "Onyesha viambatanisho vyote vya tiketi"
+msgid ""
+"Sets the default article customer visibility for new SMS tickets in the "
+"agent interface."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Sets the default next ticket state, after the creation of an SMS ticket in "
+"the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Sets the default priority for new SMS tickets in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Sets the default sender type for new SMS tickets in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Sets the default text for new SMS tickets in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Sets the default title for new SMS tickets in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Show all ticket attachments."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Shows a link in the menu to send an outbound SMS in the ticket zoom view of "
+"the agent interface. Additional access control to show or not show this link"
+" can be done by using Key \"Group\" and Content like "
+"\"rw:group1;move_into:group2\". To cluster menu items use for Key "
+"\"ClusterName\" and for the Content any name you want to see in the UI. Use "
+"\"ClusterPriority\" to configure the order of a certain cluster within the "
+"toolbar."
+msgstr ""
 
 #. SysConfig
 msgid "Shows all attachments available in the ticket."
 msgstr "Inaonyesha viambatanisho vyote vinavyopatikana katika tiketi."
 
 #. SysConfig
-msgid "Start new chat"
-msgstr "Anza maongezi mapya"
+msgid "Start new chat."
+msgstr ""
+
+#. SysConfig
+msgid "Statistics reports."
+msgstr ""
+
+#. SysConfig
+msgid "Support Agent"
+msgstr ""
+
+#. SysConfig
+msgid "System Configuration Setting History"
+msgstr ""
 
 #. SysConfig
 msgid "Team agents management screen."
@@ -1847,6 +2574,26 @@ msgid ""
 msgstr ""
 
 #. SysConfig
+msgid "This is a description for NotificationViewFilterSettings ob Business."
+msgstr ""
+
+#. SysConfig
+msgid "This is a description for NotificationViewSmallPageShown ob Business."
+msgstr ""
+
+#. SysConfig
+msgid "This module is part of the admin area of OTRS Business Solution™."
+msgstr ""
+
+#. SysConfig
+msgid "Ticket Outbound SMS."
+msgstr ""
+
+#. SysConfig
+msgid "Ticket attachments."
+msgstr ""
+
+#. SysConfig
 msgid "Tool-bar item for a notification web view."
 msgstr ""
 
@@ -1855,7 +2602,7 @@ msgid "Video and audio call screen."
 msgstr ""
 
 #. SysConfig
-msgid "View notifications"
+msgid "Web Service"
 msgstr ""
 
 #. SysConfig

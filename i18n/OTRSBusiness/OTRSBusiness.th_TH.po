@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-01-09 14:51+0000\n"
-"PO-Revision-Date: 2017-01-09 14:01+0000\n"
+"POT-Creation-Date: 2017-09-25 08:01+0000\n"
+"PO-Revision-Date: 2017-09-25 08:02+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Thai (Thailand) (http://www.transifex.com/otrs/OTRS/language/th_TH/)\n"
 "MIME-Version: 1.0\n"
@@ -28,12 +28,24 @@ msgid "Edit Chat Channel"
 msgstr "แก้ไขช่องทางแชท"
 
 #. Template: AdminChatChannel
-msgid "Name invalid"
-msgstr "ชื่อไม่ถูกต้อง"
+msgid "Public"
+msgstr "สาธารณะ"
+
+#. Template: AdminChatChannel
+msgid "A chat channel with this name already exists!"
+msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Need Group"
 msgstr "ต้องการกลุ่ม"
+
+#. Template: AdminChatChannel
+msgid "Customer interface"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Public interface"
+msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Need Valid"
@@ -42,6 +54,14 @@ msgstr "ต้องการที่ถูกต้อง"
 #. Template: AdminChatChannel
 msgid "Comment invalid"
 msgstr "คอมเมนต์ไม่ถูกต้อง"
+
+#. Template: AdminCloudServiceSMS
+msgid "Add Cloud Service"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Edit Cloud Servicel"
+msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service status"
@@ -98,17 +118,43 @@ msgstr "สมาชิกบทบาทที่ได้รับอนุญ
 
 #. Template: AdminCloudServiceSMS
 msgid ""
-"If selected, only users assigned to these roles will be able to receive "
-"messages via SMS (optional)."
-msgstr "ถ้าเลือกเฉพาะผู้ใช้ที่ได้รับมอบหมายให้บทบาทเหล่านี้จะสามารถได้รับข้อความผ่านทาง SMS (ตัวเลือก)"
+"If selected, only agents assigned to these roles will be able to receive "
+"notifications via SMS (optional)."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Perform URL shortening"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Perform URL shortening before sending the message."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Phone black list"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Add phone number"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"A blacklist of telephone numbers where it is forbidden to send SMS messages "
+"to. Phone numbers must be added in international format without spaces, e.g."
+" +491791234567, one number per field."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"In order to be able to use the SMS transmission feature of the OTRS AG, I "
+"hereby declare that I have read and understood the %sData Protection "
+"Information%s."
+msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
 msgstr "บันทึกการกำหนดค่า"
-
-#. Template: AdminCloudServiceSMS
-msgid "Data Protection Information"
-msgstr "ข้อมูลการป้องกันข้อมูล"
 
 #. Template: AdminContactWithData
 msgid "Contact with data management"
@@ -119,12 +165,12 @@ msgid "Add contact with data"
 msgstr "เพิ่มการติดต่อด้วยข้อมูล"
 
 #. Template: AdminContactWithData
-msgid "Please enter a search term to look for contacts with data."
-msgstr "กรุณากรอกคำค้นหาที่จะค้นหาเบอร์ติดต่อด้วยข้อมูล"
-
-#. Template: AdminContactWithData
 msgid "Edit contact with data"
 msgstr "แก้ไขการติดต่อด้วยข้อมูล"
+
+#. Template: AdminContactWithData
+msgid "Please enter a search term to look for contacts with data."
+msgstr "กรุณากรอกคำค้นหาที่จะค้นหาเบอร์ติดต่อด้วยข้อมูล"
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "These are the possible data attributes for contacts."
@@ -212,16 +258,196 @@ msgstr "ขีดจำกัดของผลลัพธ์"
 msgid "Case Sensitive"
 msgstr "case สำคัญ"
 
+#. Template: AdminDynamicFieldWebService
+msgid "The web service to be executed for possible values."
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid "Invoker"
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid ""
+"The invoker to be used to perform requests (invoker needs to be of type "
+"'Generic::PassThrough')."
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid "Activate this option to allow multiselect on results."
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid "Cache TTL"
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid ""
+"Cache time to live (in minutes), to save the retrieved possible values."
+msgstr ""
+
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr "หมายเลขผู้รับ SMS"
 
-#. Template: AgentAppointmentResourceOverview
-msgid "Resource Overview"
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid ""
+"An article will be created if the notification is sent to the customer or an"
+" additional recipient."
+msgstr ""
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid "Send as flash message"
+msgstr ""
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid "Send the message for this notification as Flash SMS."
+msgstr ""
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid ""
+"In case the SMS text message is too long it may be split up into multiple "
+"messages at the end."
+msgstr ""
+
+#. Template: AdminQueueSMSTemplates
+msgid "Manage SMS Template-Queue Relations"
+msgstr ""
+
+#. Template: AdminQueueSMSTemplates
+msgid "Filter for SMS Templates"
+msgstr ""
+
+#. Template: AdminQueueSMSTemplates
+msgid "SMS Templates"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Manage SMS Templates"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Add SMS Template"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Edit SMS Template"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Add SMS template"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "SMS Cloud Service inactive"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid ""
+"To be able to use SMS cloud service in OTRS, you have to activate it first."
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Activate SMS Cloud Service"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid ""
+"An SMS template is a default text which helps your agents to write faster "
+"tickets or answers."
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Do you really want to delete this SMS template?"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "An SMS template with this name already exists!"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Flash message"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid ""
+"Show message directly without user interaction and do not store it "
+"automatically (support may vary by device and provider)."
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Your mobile phone is"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Deployment History"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Filter for Deployments"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Recent Deployments"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Restore"
+msgstr "การเรียกคืน"
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "View Details"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Restore this deployment."
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Export this deployment."
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistoryDetails
+msgid "Deployment Details"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistoryDetails
+msgid "No settings have been deployed in this run."
+msgstr ""
+
+#. Template: AdminSystemConfigurationSettingHistoryDetails
+msgid "Change History"
+msgstr ""
+
+#. Template: AdminSystemConfigurationSettingHistoryDetails
+msgid "Change History of %s"
+msgstr ""
+
+#. Template: AdminSystemConfigurationSettingHistoryDetails
+msgid "No modified values for this setting, the default value is used."
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "Review users setting value"
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "Users Value"
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "For"
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "Delete all user values."
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "No user value for this setting."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
-msgid "Manage Calendars"
+msgid "Resource Overview"
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
@@ -233,40 +459,6 @@ msgid "Manage Team Agents"
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
-msgid "Add new Appointment"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Add Appointment"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Calendars"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Filter for calendars"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "URL"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Copy public calendar URL"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "This is a resource overview page."
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid ""
-"No calendars found. Please add a calendar first by using Manage Calendars "
-"page."
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
 msgid "No teams found."
 msgstr ""
 
@@ -275,112 +467,11 @@ msgid "Please add a team first by using Manage Teams page."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
-msgid "Team"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
 msgid "No team agents found."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Please assign agents to a team first by using Manage Team Agents page."
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Too many active calendars"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid ""
-"Please either turn some off first or increase the limit in configuration."
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Restore default settings"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Week"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Timeline Month"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Timeline Week"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Timeline Day"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Jump"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Appointment"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "This is a repeating appointment"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Would you like to edit just this occurrence or all occurrences?"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "All occurrences"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Just this occurrence"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Dismiss"
-msgstr "ยกเลิก"
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Resources"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Shown resources"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Available Resources"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Filter available resources"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Visible Resources (order by drag & drop)"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Basic information"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Resource"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Date/Time"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "End date"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Repeat"
 msgstr ""
 
 #. Template: AgentAppointmentTeam
@@ -419,10 +510,6 @@ msgstr ""
 
 #. Template: AgentAppointmentTeam
 msgid "Team with same name already exists."
-msgstr ""
-
-#. Template: AgentAppointmentTeam
-msgid "Permission group"
 msgstr ""
 
 #. Template: AgentAppointmentTeamUser
@@ -501,6 +588,10 @@ msgstr "แชทที่ใช้งานของฉัน"
 #. Template: AgentChat
 msgid "Open ticket"
 msgstr "เปิดตั๋ว"
+
+#. Template: AgentChat
+msgid "Company"
+msgstr "บริษัท"
 
 #. Template: AgentChat
 msgid "Open company"
@@ -630,112 +721,6 @@ msgstr "โหลดเอเย่นต์ออนไลน์"
 msgid "Destination channel"
 msgstr "ช่องปลายทาง"
 
-#. Template: AgentChat
-msgid "Open chat"
-msgstr "เปิดแชท"
-
-#. Template: AgentChat
-msgid "User has already left the chat or has not yet joined it."
-msgstr ""
-
-#. Template: AgentChat
-msgid ""
-"You are no longer in this chat. Click this message to remove the chat box."
-msgstr "คุณไม่ได้อยู่ในการสนทนานี้ คลิกที่ข้อความนี้เพื่อลบกล่องแชท"
-
-#. Template: AgentChat
-msgid "There are currently no chat requests."
-msgstr "ไม่มีการร้องขอแชทในขณะนี้"
-
-#. Template: AgentChat
-msgid ""
-"This will permanently delete the chat contents. Do you want to continue?"
-msgstr "จะลบเนื้อหาการสนทนานี้อย่างถาวร คุณต้องการที่จะดำเนินการต่อหรือไม่?"
-
-#. Template: AgentChat
-msgid "This chat request was already accepted by another person."
-msgstr "คำขอแชทนี้ได้รับการยอมรับโดยบุคคลอื่นแล้ว"
-
-#. Template: AgentChat
-msgid "You have no permission to accept this chat request."
-msgstr "คุณไม่มีสิทธิ์ที่จะยอมรับคำขอแชทนี้"
-
-#. Template: AgentChat
-msgid "Please select a user."
-msgstr "กรุณาเลือกผู้ใช้"
-
-#. Template: AgentChat
-msgid "Please select a permission level."
-msgstr "กรุณาเลือกระดับการอนุญาต"
-
-#. Template: AgentChat
-msgid "Invite Agent."
-msgstr "เชิญเอเย่นต์"
-
-#. Template: AgentChat
-msgid "Please, select destination chat channel."
-msgstr "กรุณาเลือกปลายทางช่องแชท"
-
-#. Template: AgentChat
-msgid "Please select a channel."
-msgstr "กรุณาเลือกช่อง"
-
-#. Template: AgentChat
-msgid "Chat preview"
-msgstr "ตัวอย่างการแชท"
-
-#. Template: AgentChat
-msgid "Please select a valid channel."
-msgstr "โปรดเลือกช่องทางที่ถูกต้อง"
-
-#. Template: AgentChat
-msgid "Agent to customer chat."
-msgstr "การสนทนาระหว่างเอเย่นต์กับลูกค้า"
-
-#. Template: AgentChat
-msgid "Customer to agent chat."
-msgstr "การสนทนาระหว่างลูกค้ากับเอเย่นต์"
-
-#. Template: AgentChat
-msgid "Agent to agent chat."
-msgstr "การสนทนาระหว่างเอเย่นต์กับเอเย่นต์"
-
-#. Template: AgentChat
-msgid "Public to agent chat."
-msgstr "การสนทนาระหว่างสาธารณะกับเอเย่นต์"
-
-#. Template: AgentChat
-msgid "You can't leave Customer alone in the chat."
-msgstr "คุณไม่สามารถปล่อยให้ลูกค้าอยู่ตามลำพังในการแชท"
-
-#. Template: AgentChat
-msgid "You"
-msgstr "คุณ"
-
-#. Template: AgentChat
-msgid "Your chat could not be started because of an internal error."
-msgstr "แชทของคุณไม่สามารถเริ่มต้นเนื่องจากข้อผิดพลาดภายใน"
-
-#. Template: AgentChat
-msgid "Your chat request was created."
-msgstr "คำขอแชทของคุณถูกสร้างขึ้นแล้ว"
-
-#. Template: AgentChat
-msgid "There are currently %s open chat requests."
-msgstr "ขณะนี้มีการเปิด%sการร้องขอการสนทนา"
-
-#. Template: AgentChat
-msgid "User was already invited to your chat!"
-msgstr "ผู้ใช้ถูกเชิญเข้าร่วมการแชทของคุณแล้ว!"
-
-#. Template: AgentChat
-msgid "Insufficient permissions."
-msgstr "สิทธิ์ไม่เพียงพอ"
-
-#. Template: AgentChat
-msgid "System was unable to save your sequence of chats."
-msgstr "ระบบไม่สามารถที่จะบันทึกลำดับการแชทของคุณ"
-
 #. Template: AgentChatAppend
 msgid "Append Chat to Ticket"
 msgstr "ผนวกแชทไปยังตั๋ว"
@@ -756,10 +741,6 @@ msgstr "สนทนากับ"
 msgid "Leave Chat"
 msgstr "ออกจากการแชท"
 
-#. Template: AgentChatPopup
-msgid "User is currently in the chat."
-msgstr ""
-
 #. Template: AgentChatPreview
 msgid "Current chat channel"
 msgstr "ช่องทางการสนทนาในปัจจุบัน"
@@ -775,6 +756,14 @@ msgstr "โหลดใหม่"
 #. Template: AgentChatPreview
 msgid "Update Channel"
 msgstr "อัปเดตช่องทางแชท"
+
+#. Template: AgentChatPreview
+msgid "Accept"
+msgstr "ยอมรับ"
+
+#. Template: AgentChatPreview
+msgid "Decline"
+msgstr "ปฏิเสธ"
 
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
 msgid "Detailed search"
@@ -811,18 +800,6 @@ msgstr "ซูมเข้า"
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss this notification"
 msgstr "ปิดการแจ้งเตือนนี้"
-
-#. Template: AgentNotificationViewSmall
-msgid "Dismiss Selected Notifications"
-msgstr "ปิดการแจ้งเตือนที่เลือกไว้"
-
-#. Template: AgentNotificationViewSmall
-msgid "Do you really want to dismiss the selected notifications?"
-msgstr "คุณต้องการที่จะปิดการแจ้งเตือนที่เลือกนี้หรือไม่?"
-
-#. Template: AgentNotificationViewSmall
-msgid "OTRS Notification"
-msgstr "การแจ้งเตือน OTRS"
 
 #. Template: AgentStatisticsReportsAdd
 msgid "Reports » Add"
@@ -954,10 +931,6 @@ msgstr "แก้ไขรายงานสถิติ \"%s\"."
 msgid "Delete statistics report \"%s\""
 msgstr "ลบรายงานสถิติ \"%s\"."
 
-#. Template: AgentStatisticsReportsOverview
-msgid "Do you really want to delete this report?"
-msgstr "คุณต้องการที่จะลบรายงานนี้หรือไม่?"
-
 #. Template: AgentStatisticsReportsView
 msgid "Reports » View — %s"
 msgstr "รายงาน»ดู — %s"
@@ -1004,6 +977,72 @@ msgstr "เปิดบทความในหน้าต่างหลัก
 msgid "Download selected files as archive"
 msgstr "ดาวน์โหลดไฟล์ที่เลือกเป็นข้อมูลถาวร"
 
+#. Template: AgentTicketSMS
+msgid ""
+"An error was encountered while trying to contact SMS cloud service. Please "
+"try again later."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid ""
+"You don't have enough SMS units in your account. Please contact OTRS for "
+"further instructions."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Error while trying to send SMS! Please try again later."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Create New SMS Ticket"
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid ""
+"Search for a customer or enter phone number in international format, i.e. "
+"+49 (0) 123 4567-890."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "The list contains an invalid recipient."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "This phone number is invalid."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "This phone number is not allowed due to the system configuration."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "This number already exists in the recipient list."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Ticket Title"
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Ticket title will not be included in SMS and is for internal use only."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Setting a template will overwrite any text."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "%s characters left"
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Send SMS"
+msgstr ""
+
+#. Template: AgentTicketSMSOutbound
+msgid "Outbound SMS for %s%s%s"
+msgstr ""
+
 #. Template: AgentVideoChat
 msgid "Your browser does not support HTML5 video."
 msgstr ""
@@ -1018,50 +1057,6 @@ msgstr ""
 
 #. Template: AgentVideoChat
 msgid "Toggle video"
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "User has declined your invitation."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "User has left the call."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Attempt to connect was unsuccessful. Please try again."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Permission to media stream has been denied."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Please allow this page to use your video and audio stream."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Requesting media stream..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Waiting for other party to respond..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Accepting the invitation..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Initializing..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Connecting, please wait..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Connection established!"
 msgstr ""
 
 #. Template: CustomerChat
@@ -1128,10 +1123,6 @@ msgstr "เสร็จสิ้นการแชท"
 msgid "Fullscreen"
 msgstr ""
 
-#. Template: OutputFilterPostSLASelectionDialog
-msgid "Please confirm your selection"
-msgstr "กรุณายืนยันการเลือกของคุณ"
-
 #. Template: PublicChat
 msgid "Your name"
 msgstr "ชื่อของคุณ"
@@ -1161,21 +1152,97 @@ msgstr "Preface"
 msgid "Postface"
 msgstr "Postface"
 
-#. Perl Module: Kernel/Modules/AdminChatChannel.pm
-msgid "Chat Channel %s added"
-msgstr "เพิ่ม %s ช่องการแชท"
+#. Template: SettingHistoryListCompare
+msgid "On "
+msgstr ""
+
+#. Template: SettingHistoryListCompare
+msgid "Reset to this value"
+msgstr ""
+
+#. Template: UsersSettingListCompare
+msgid "Delete user's value."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
-msgid "Chat channel %s edited"
-msgstr "แก้ไข %s ช่องการแชท"
+msgid "Chat channel updated!"
+msgstr ""
 
-#. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
-msgid "Cloud service \"%s\" updated!"
-msgstr "อัพเดต \"%s\" การบริการระบบคลาวด์"
+#. Perl Module: Kernel/Modules/AdminChatChannel.pm
+msgid "Chat channel added!"
+msgstr ""
 
-#. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
-msgid "Cloud Service config \"%s\" saved!"
-msgstr "การกำหนดค่าบริการระบบคลาวด์ \"%s\"  บันทึกไว้แล้ว!"
+#. Perl Module: Kernel/Modules/AdminContactWithData.pm
+msgid "Contact updated!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminDynamicFieldContactWithData.pm
+msgid "Two keys 'Name' and 'ValidID' have to exist in possible values."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
+msgid "Change Queue Relations for SMS Template"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
+msgid "Change SMS Template Relations for Queue"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
+msgid "Invalid ID!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
+msgid "Template not found!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
+msgid "SMS template updated!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
+msgid "SMS template added!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationDeploymentHistory.pm
+msgid "This deployment does not contain changes in the setting values!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationDeploymentHistory.pm
+msgid "No DeploymentID received!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "No setting name received!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "Modified Version"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "Reset To Default"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "Default Version"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "No setting name or modified version id received!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "Was not possible to revert the historical value!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationUser.pm
+msgid "Missing setting name or modified id!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationUser.pm
+msgid "System was not able to delete the user setting values!"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentAppointmentResourceOverview.pm
 msgid ""
@@ -1245,6 +1312,10 @@ msgstr "%s ได้ปฏิเสธคำขอของการแชท"
 msgid "Need"
 msgstr ""
 
+#. Perl Module: Kernel/Modules/AgentChatDownload.pm
+msgid "System"
+msgstr "ระบบ"
+
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
 msgstr "การแจ้งเตือนทั้งหมด"
@@ -1269,8 +1340,32 @@ msgstr "ชื่อนี้ถูกใช้งานแล้ว โปร�
 msgid "Please provide a valid cron entry."
 msgstr "โปรดระบุรายการ cron ที่ถูกต้อง"
 
+#. Perl Module: Kernel/Modules/AgentTicketSMSOutbound.pm
+msgid "Please contact the admin."
+msgstr "กรุณาติดต่อผู้ดูแลระบบ"
+
+#. Perl Module: Kernel/Modules/AgentTicketSMSOutbound.pm
+msgid "Error creating SMS article!"
+msgstr ""
+
 #. Perl Module: Kernel/Modules/AgentVideoChat.pm
 msgid "You are not participant in this chat!"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/Article/SMS.pm
+msgid "Transaction Numbers"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/Article/SMS.pm
+msgid "Flash"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/ArticleAction/AgentTicketSMSOutbound.pm
+msgid "Reply via SMS"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/ArticleAction/AgentTicketSMSOutbound.pm
+msgid "Reply to this article via SMS"
 msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
@@ -1295,6 +1390,18 @@ msgid ""
 "the administrator."
 msgstr ""
 
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatAvailability.pm
+msgid "Unavailable for chat"
+msgstr "ไม่พร้อมใช้งานสำหรับการสนทนา"
+
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatAvailability.pm
+msgid "Available for internal chats only"
+msgstr "พร้อมใช้งานสำหรับการสนทนาภายในเท่านั้น"
+
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatAvailability.pm
+msgid "Available for chats"
+msgstr "พร้อมใช้งานสำหรับการสนทนา"
+
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"
 msgstr "เปิดการร้องขอการแชท"
@@ -1312,12 +1419,365 @@ msgid "Table of Contents"
 msgstr "สารบัญ"
 
 #. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_owner"
+msgstr ""
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_participant"
+msgstr ""
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_observer"
+msgstr ""
+
+#. Perl Module: Kernel/System/ChatChannel.pm
 msgid "Default chat channel"
 msgstr "ช่องการแชทเริ่มต้น"
+
+#. Perl Module: Kernel/System/SupportDataCollector/Plugin/CloudService/SMS.pm
+msgid ""
+"Your available SMS messages are getting low. Please contact sales@otrs.com "
+"to get more SMS messages."
+msgstr ""
+
+#. Perl Module: Kernel/System/SupportDataCollector/Plugin/CloudService/SMS.pm
+msgid "Available SMS"
+msgstr ""
+
+#. Perl Module:
+#. Kernel/System/SupportDataCollector/Plugin/OTRS/ConfigLastDeployments.pm
+msgid "Configuration Last Deployments"
+msgstr ""
+
+#. Perl Module:
+#. Kernel/System/SupportDataCollector/Plugin/OTRS/ConfigLastDeployments.pm
+msgid "Could not determine deployment information."
+msgstr ""
+
+#. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
+msgid "SMS phone number"
+msgstr ""
+
+#. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
+msgid "SMS transaction number"
+msgstr ""
+
+#. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
+msgid "SMS text"
+msgstr ""
+
+#. JS File: Core.Agent.Admin.CloudServiceSMS
+msgid "Data Protection Information"
+msgstr "ข้อมูลการป้องกันข้อมูล"
+
+#. JS File: Core.Agent.Admin.SMSTemplate
+msgid "Delete this template"
+msgstr ""
+
+#. JS File: Core.Agent.Admin.SystemConfigurationUser
+msgid "Are you sure you want to remove all user values?"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "An internal error occurred."
+msgstr "มีข้อผิดพลาดภายในเกิดขึ้น"
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New personal chat request"
+msgstr "การร้องขอแชทส่วนตัวใหม่"
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Please visit the chat manager"
+msgstr "กรุณาเยี่ยมชมผู้จัดการแชท"
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New customer chat request"
+msgstr "การร้องขอแชทของลูกค้าใหม่"
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New public chat request"
+msgstr "การร้องขอแชทสาธารณะใหม่"
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New activity"
+msgstr "กิจกรรมใหม่"
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New activity on one of your monitored chats."
+msgstr "กิจกรรมใหม่ของหนึ่งในการสนทนาที่ถูกตรวจสอบของคุณ"
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Selected user is not available for chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Selected user is not available for video and audio call."
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Target user's browser does not support video and audio calling."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Invite Agent."
+msgstr "เชิญเอเย่นต์"
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a user."
+msgstr "กรุณาเลือกผู้ใช้"
+
+#. JS File: Core.Agent.Chat
+msgid "Please, select destination chat channel."
+msgstr "กรุณาเลือกปลายทางช่องแชท"
+
+#. JS File: Core.Agent.Chat
+msgid "Change"
+msgstr "เปลี่ยน"
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a channel."
+msgstr "กรุณาเลือกช่อง"
+
+#. JS File: Core.Agent.Chat
+msgid ""
+"You are no longer in this chat. Click this message to remove the chat box."
+msgstr "คุณไม่ได้อยู่ในการสนทนานี้ คลิกที่ข้อความนี้เพื่อลบกล่องแชท"
+
+#. JS File: Core.Agent.Chat
+msgid "You can't leave Customer alone in the chat."
+msgstr "คุณไม่สามารถปล่อยให้ลูกค้าอยู่ตามลำพังในการแชท"
+
+#. JS File: Core.Agent.Chat
+msgid "You"
+msgstr "คุณ"
+
+#. JS File: Core.Agent.Chat
+msgid "Your browser does not support video and audio calling."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "This chat request was already accepted by another person."
+msgstr "คำขอแชทนี้ได้รับการยอมรับโดยบุคคลอื่นแล้ว"
+
+#. JS File: Core.Agent.Chat
+msgid "There are currently no chat requests."
+msgstr "ไม่มีการร้องขอแชทในขณะนี้"
+
+#. JS File: Core.Agent.Chat
+msgid "You have no permission to accept this chat request."
+msgstr "คุณไม่มีสิทธิ์ที่จะยอมรับคำขอแชทนี้"
+
+#. JS File: Core.Agent.Chat
+msgid "Agent to customer chat."
+msgstr "การสนทนาระหว่างเอเย่นต์กับลูกค้า"
+
+#. JS File: Core.Agent.Chat
+msgid "Customer to agent chat."
+msgstr "การสนทนาระหว่างลูกค้ากับเอเย่นต์"
+
+#. JS File: Core.Agent.Chat
+msgid "Public to agent chat."
+msgstr "การสนทนาระหว่างสาธารณะกับเอเย่นต์"
+
+#. JS File: Core.Agent.Chat
+msgid "Agent to agent chat."
+msgstr "การสนทนาระหว่างเอเย่นต์กับเอเย่นต์"
+
+#. JS File: Core.Agent.Chat
+msgid ""
+"This will permanently delete the chat contents. Do you want to continue?"
+msgstr "จะลบเนื้อหาการสนทนานี้อย่างถาวร คุณต้องการที่จะดำเนินการต่อหรือไม่?"
+
+#. JS File: Core.Agent.Chat
+msgid "Chat preview"
+msgstr "ตัวอย่างการแชท"
+
+#. JS File: Core.Agent.Chat
+msgid "Open chat"
+msgstr "เปิดแชท"
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a valid channel."
+msgstr "โปรดเลือกช่องทางที่ถูกต้อง"
+
+#. JS File: Core.Agent.Chat
+msgid "Your chat could not be started because of an internal error."
+msgstr "แชทของคุณไม่สามารถเริ่มต้นเนื่องจากข้อผิดพลาดภายใน"
+
+#. JS File: Core.Agent.Chat
+msgid "Your chat request was created."
+msgstr "คำขอแชทของคุณถูกสร้างขึ้นแล้ว"
+
+#. JS File: Core.Agent.Chat
+msgid "There are currently %s open chat requests."
+msgstr "ขณะนี้มีการเปิด%sการร้องขอการสนทนา"
+
+#. JS File: Core.Agent.Chat
+msgid "User was already invited to your chat!"
+msgstr "ผู้ใช้ถูกเชิญเข้าร่วมการแชทของคุณแล้ว!"
+
+#. JS File: Core.Agent.Chat
+msgid "Insufficient permissions."
+msgstr "สิทธิ์ไม่เพียงพอ"
+
+#. JS File: Core.Agent.Chat
+msgid "System was unable to save your sequence of chats."
+msgstr "ระบบไม่สามารถที่จะบันทึกลำดับการแชทของคุณ"
+
+#. JS File: Core.Agent.CustomerSearchSMS
+msgid "Invalid phone number"
+msgstr ""
+
+#. JS File: Core.Agent.CustomerSearchSMS
+msgid "The entered phone number '%s' is invalid."
+msgstr ""
+
+#. JS File: Core.Agent.CustomerSearchSMS
+msgid ""
+"Please enter a number in international format, i.e. +49 (0) 123 4567-890."
+msgstr ""
+
+#. JS File: Core.Agent.DynamicFieldDatabaseSearch
+msgid "This dynamic field database value is already selected."
+msgstr ""
+
+#. JS File: Core.Agent.NotificationView
+msgid "Do you really want to dismiss the selected notifications?"
+msgstr "คุณต้องการที่จะปิดการแจ้งเตือนที่เลือกนี้หรือไม่?"
+
+#. JS File: Core.Agent.NotificationView
+msgid "Dismiss Selected Notifications"
+msgstr "ปิดการแจ้งเตือนที่เลือกไว้"
+
+#. JS File: Core.Agent.NotificationView
+msgid "OTRS Notification"
+msgstr "การแจ้งเตือน OTRS"
+
+#. JS File: Core.Agent.StatisticsReports
+msgid "Do you really want to delete this report?"
+msgstr "คุณต้องการที่จะลบรายงานนี้หรือไม่?"
+
+#. JS File: Core.Customer.Chat.Toolbar
+msgid "You have unanswered chat requests"
+msgstr "คุณมีคำขอร้องแชทที่ยังไม่ได้ตอบ"
+
+#. JS File: Core.Customer.TicketMessage.SLASelectionDialog
+msgid "Please confirm your selection"
+msgstr "กรุณายืนยันการเลือกของคุณ"
+
+#. JS File: Core.VideoChat
+msgid "Requesting media stream..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Accepting the invitation..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Waiting for other party to respond..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Permission to media stream has been denied."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Please allow this page to use your video and audio stream."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Connection established!"
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Attempt to connect was unsuccessful. Please try again."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "User has declined your invitation."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Connecting, please wait..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "User has left the call."
+msgstr ""
 
 #. SysConfig
 msgid "Activates chat support."
 msgstr "เปิดใช้งานการสนับสนุนการแชท"
+
+#. SysConfig
+msgid "Added SMS for \"%s\"."
+msgstr ""
+
+#. SysConfig
+msgid "Admin Contact With Data"
+msgstr ""
+
+#. SysConfig
+msgid "Admin contact with data."
+msgstr ""
+
+#. SysConfig
+msgid "Advanced"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Contact With Data Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Customer Search SMS"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Customer Search SMS."
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Detailed Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Details"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Information"
+msgstr ""
+
+#. SysConfig
+msgid "Agent chat screen."
+msgstr ""
+
+#. SysConfig
+msgid "Agent contact with data search."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database detailed search."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database details."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database search."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Agent frontend module registration (disable 'Edit contacts with data' link "
+"if if there is no source field configured)."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1359,12 +1819,46 @@ msgid "Allows having a small format notification web view."
 msgstr "อนุญาตให้มีการแจ้งเตือน WebView ในรูปแบบขนาดเล็ก"
 
 #. SysConfig
+msgid ""
+"Allows to save current work as draft in the SMS outbound screen of the agent"
+" interface."
+msgstr ""
+
+#. SysConfig
+msgid "Append Chat to Ticket."
+msgstr ""
+
+#. SysConfig
+msgid "Calendar Notifications"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Availability"
+msgstr ""
+
+#. SysConfig
 msgid "Chat Channel"
 msgstr "ช่องทางแชท"
 
 #. SysConfig
 msgid "Chat Channel:"
 msgstr "ช่องทางแชท:"
+
+#. SysConfig
+msgid "Chat Download"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Popup"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Preview"
+msgstr ""
+
+#. SysConfig
+msgid "Chat availability."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1377,12 +1871,28 @@ msgid "Chat channel to queue mapping."
 msgstr "ช่องทางแชทในการทำแผนที่คิว"
 
 #. SysConfig
-msgid "Chat overview"
-msgstr "ภาพรวมของการแชท"
+msgid "Chat download."
+msgstr ""
+
+#. SysConfig
+msgid "Chat overview."
+msgstr ""
+
+#. SysConfig
+msgid "Chat popup."
+msgstr ""
+
+#. SysConfig
+msgid "Chat preview."
+msgstr ""
 
 #. SysConfig
 msgid "Chats"
 msgstr "แชท"
+
+#. SysConfig
+msgid "Choose which notifications you'd like to receive."
+msgstr ""
 
 #. SysConfig
 msgid "Cleans up old chat logs."
@@ -1397,21 +1907,56 @@ msgstr "การแจ้งเตือนคอลัมน์ WebView จะ
 #. SysConfig
 msgid ""
 "Columns that can be filtered in the notification web view of the agent "
-"interface. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by "
-"default."
-msgstr "คอลัมน์ที่สามารถกรองข้อมูลได้ในการแจ้งเตือน WebView การตั้งค่าที่เป็นไปได้: 0 = ปิดใช้งาน 1 = พร้อมใช้ 2 = เปิดใช้งานตามค่าเริ่มต้น "
+"interface."
+msgstr ""
 
 #. SysConfig
-msgid "Contact with data"
-msgstr "ติดต่อกับข้อมูล"
+msgid "Create and manage SMS templates."
+msgstr ""
 
 #. SysConfig
 msgid "Create and manage chat channels."
 msgstr "สร้างและจัดการช่องแชท"
 
 #. SysConfig
+msgid "Create new SMS ticket and send it out (outbound)."
+msgstr ""
+
+#. SysConfig
+msgid "Create new SMS ticket."
+msgstr ""
+
+#. SysConfig
 msgid "Create new chat"
 msgstr "สร้างแชทใหม่"
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Detailed Search"
+msgstr ""
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Details"
+msgstr ""
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Search"
+msgstr ""
+
+#. SysConfig
+msgid "Customer chat screens."
+msgstr ""
+
+#. SysConfig
+msgid "Customer dynamic field database detailed search."
+msgstr ""
+
+#. SysConfig
+msgid "Customer dynamic field database details."
+msgstr ""
+
+#. SysConfig
+msgid "Customer dynamic field database search."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1427,12 +1972,20 @@ msgid ""
 msgstr "ใช้ชื่อเริ่มต้นของตัวแทนสำหรับลูกค้าและอินเตอร์เฟซสาธารณะ หากเปิดใช้ชื่อจริงของตัวแทนจะไม่ปรากฏขึ้นในให้กับลูกค้า / ผู้ใช้ทั่วไปในขณะที่ใช้การแชท"
 
 #. SysConfig
+msgid "Default channel"
+msgstr ""
+
+#. SysConfig
 msgid "Default text for the customer interface."
 msgstr "ข้อความเริ่มต้นสำหรับอินเตอร์เฟซของลูกค้า"
 
 #. SysConfig
 msgid "Default text for the public interface."
 msgstr "ข้อความเริ่มต้นสำหรับอินเตอร์เฟซสาธารณะ"
+
+#. SysConfig
+msgid "Defines SMS communication channel."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1446,6 +1999,17 @@ msgid ""
 "Defines a text for Agent Preferences in the Customer interface (works only "
 "if DefaultAgentName is disabled)."
 msgstr "กำหนดข้อความสำหรับการตั้งค่าเอเย่นต์ในอินเตอร์เฟสของลูกค้า (ทำงานเฉพาะถ้า DefaultAgentName ถูกปิดใช้งาน)"
+
+#. SysConfig
+msgid "Defines available article actions for SMS articles."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines if a ticket lock is required in the SMS outbound screen of the agent"
+" interface (if the ticket isn't locked yet, the ticket gets locked and the "
+"current agent will be set automatically as its owner)."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1473,6 +2037,28 @@ msgstr "กำหนดถ้าผู้ใช้สาธารณะสาม
 
 #. SysConfig
 msgid ""
+"Defines if the message in the SMS outbound screen of the agent interface is "
+"visible for the customer by default."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines the default next state of a ticket after the message has been sent, "
+"in the SMS outbound screen of the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines the hard limit for number of characters that can be sent via SMS per"
+" message."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the list of types for SMS templates."
+msgstr ""
+
+#. SysConfig
+msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is available for external chats, but forgot to set preferred "
 "channel(s)."
@@ -1484,6 +2070,12 @@ msgid ""
 "agent is not available for chat with customers (only if "
 "Ticket::Agent::AvailableForChatsAfterLogin is set to No)."
 msgstr "กำหนดโมดูลเพื่อแสดงการแจ้งเตือนในอินเตอร์เฟซของเอเย่น์ ถ้าเอเย่นต์ไม่สามารถสนทนากับลูกค้า (เฉพาะในกรณีที่ Ticket::Agent::AvailableForChatsAfterLogin ถูกตั้งค่าเป็น No)"
+
+#. SysConfig
+msgid ""
+"Defines the next possible states after sending a message in the SMS outbound"
+" screen of the agent interface."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1508,18 +2100,6 @@ msgid ""
 msgstr "กำหนดระยะเวลา (นาที) ก่อนที่จะไม่มีข้อความคำตอบแสดงให้กับลูกค้า"
 
 #. SysConfig
-msgid ""
-"Defines the period of time (in minutes) before agent is marked as \"away\" "
-"due to inactivity."
-msgstr ""
-
-#. SysConfig
-msgid ""
-"Defines the period of time (in minutes) before customer is marked as "
-"\"away\" due to inactivity."
-msgstr ""
-
-#. SysConfig
 msgid "Defines the settings for appointment notification."
 msgstr ""
 
@@ -1540,6 +2120,24 @@ msgid "Defines the target dynamic fields for storing historical data."
 msgstr "กำหนดฟิลด์เป้าหมายแบบไดนามิกสำหรับการจัดเก็บข้อมูลที่ผ่านมา"
 
 #. SysConfig
+msgid "DeploymentHistory"
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Determines the next possible ticket states, after the creation of a new SMS "
+"ticket in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Dialog message"
+msgstr ""
+
+#. SysConfig
+msgid "Dutch"
+msgstr ""
+
+#. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
 msgstr "ฟิลด์ไดนามิก Contact Data Backend GUI"
 
@@ -1548,8 +2146,25 @@ msgid "Dynamic Fields Database Backend GUI"
 msgstr "ฟิลด์แบบไดนามิก Database Backend GUI"
 
 #. SysConfig
+msgid "Dynamic Fields Web Service Backend GUI"
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Dynamic fields shown in the SMS outbound screen of the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Dynamic fields shown in the SMS ticket screen of the agent interface."
+msgstr ""
+
+#. SysConfig
 msgid "Edit contacts with data"
 msgstr "แก้ไขรายชื่อผู้ติดต่อด้วยข้อมูล"
+
+#. SysConfig
+msgid "Edit contacts with data."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1572,6 +2187,16 @@ msgid "Event module registration (store historical data in dynamic fields)."
 msgstr "การลงทะเบียนโมดูลอีเว้นท์ (เก็บข้อมูลที่ผ่านมาในฟิลด์แบบไดนามิก)"
 
 #. SysConfig
+msgid "For more experienced users."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Frontend module registration (disable SMS ticket screen if cloud service is "
+"not activated)."
+msgstr ""
+
+#. SysConfig
 msgid "Frontend module registration for the cusotmer interface."
 msgstr ""
 
@@ -1584,6 +2209,11 @@ msgid ""
 "Generate HTML comment hooks for the specified blocks so that filters can use"
 " them."
 msgstr "สร้าง HTML สำหรับการแสดงความคิดเห็นสำหรับบล็อกที่ระบุไว้เพื่อให้ฟิลเตอร์สามารถใช้งานได้"
+
+#. SysConfig
+msgid ""
+"GenericInterface module registration for the PassThrough invoker layer."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1629,6 +2259,14 @@ msgid ""
 msgstr "ถ้าตั้งค่าสถานะนี้เป็น ใช่ การเริ่มต้นแชทจากมุมมองการซูมตั๋วของลูกค้าเท่านั้นที่จะเป็นไปได้ในกรณีมีตัวแทนในช่องทางแชทที่ถูกเชื่อมโยง"
 
 #. SysConfig
+msgid "Is being displayed if a customer chooses this SLA on ticket creation."
+msgstr ""
+
+#. SysConfig
+msgid "Link SMS templates to queues."
+msgstr ""
+
+#. SysConfig
 msgid ""
 "Makes it possible to start a chat with a customer from the agent interface."
 msgstr "ทำให้มันเป็นไปได้เพื่อที่จะเริ่มต้นการสนทนากับลูกค้าจากอินเตอร์เฟซของเอเย่นต์"
@@ -1666,6 +2304,10 @@ msgid ""
 msgstr "ชื่อของช่องทางแชทเริ่มต้น หากช่องนี้ไม่มีอยู่ก็จะถูกสร้างขึ้นโดยอัตโนมัติ โปรดอย่าสร้างช่องแชทที่มีชื่อเดียวกับช่องทางแชทเริ่มต้น ช่องทางเริ่มต้นไม่สามารถแสดงได้ถ้าช่องแชทได้รับการเปิดใช้งานในอินเตอร์เฟซของลูกค้าและการอินเตอร์เฟซสาธารณะ แชทเอเย่นต์ถึงเอเย่นต์จะอยู่ในช่องทางเริ่มต้น"
 
 #. SysConfig
+msgid "New SMS ticket"
+msgstr ""
+
+#. SysConfig
 msgid "No agents available message."
 msgstr "ไม่มีข้อความจากเอเย่นต์ที่มีอยู่"
 
@@ -1680,6 +2322,10 @@ msgstr "การแจ้งเตือน WebView "
 #. SysConfig
 msgid "Notification web view \"Small\" Limit"
 msgstr "จำกัดการแจ้งเตือน WebView \"เล็ก\""
+
+#. SysConfig
+msgid "Notification web view."
+msgstr ""
 
 #. SysConfig
 msgid "Notifications Unseen:"
@@ -1738,12 +2384,21 @@ msgid "Prepend"
 msgstr "ย่อหน้า"
 
 #. SysConfig
+msgid "Public chat module."
+msgstr ""
+
+#. SysConfig
 msgid "Remove closed chats older than ChatEngine::ChatTTL."
 msgstr "ลบการสนทนาแบบปิดที่เก่ากว่า ChatEngine::ChatTTL ออก"
 
 #. SysConfig
 msgid "Remove old chats."
 msgstr "ลบการสนทนาเก่า"
+
+#. SysConfig
+msgid ""
+"Required permissions to use the SMS outbound screen in the agent interface."
+msgstr ""
 
 #. SysConfig
 msgid "Resource overview page."
@@ -1764,6 +2419,26 @@ msgid ""
 msgstr "เรียกใช้การค้นหาสัญลักษณ์เริ่มต้นของรายชื่อที่มีอยู่กับข้อมูลเมื่อเข้าถึงโมดูล AdminContactWithData"
 
 #. SysConfig
+msgid "SMS Outbound"
+msgstr ""
+
+#. SysConfig
+msgid "SMS Templates ↔ Queues"
+msgstr ""
+
+#. SysConfig
+msgid "SMS communication channel."
+msgstr ""
+
+#. SysConfig
+msgid "SMSOutbound"
+msgstr ""
+
+#. SysConfig
+msgid "Send new outgoing SMS from this ticket"
+msgstr ""
+
+#. SysConfig
 msgid "Sets if a chat request can be sent out from agent ticket zoom view."
 msgstr "ตั้งค่าถ้าการร้องขอการแชทสามารถส่งออกจากมุมมองการซุมตั๋วเอเย่นต์"
 
@@ -1772,16 +2447,68 @@ msgid "Sets if a chat request can be sent out from customer ticket zoom view."
 msgstr "ตั้งค่าถ้าการร้องขอการแชทสามารถส่งออกจากมุมมองการซุมตั๋วลูกค้า"
 
 #. SysConfig
-msgid "Show all ticket attachments"
-msgstr "แสดงตั๋วที่มีสิ่งที่แนบมาทั้งหมด"
+msgid ""
+"Sets the default article customer visibility for new SMS tickets in the "
+"agent interface."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Sets the default next ticket state, after the creation of an SMS ticket in "
+"the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Sets the default priority for new SMS tickets in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Sets the default sender type for new SMS tickets in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Sets the default text for new SMS tickets in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Sets the default title for new SMS tickets in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Show all ticket attachments."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Shows a link in the menu to send an outbound SMS in the ticket zoom view of "
+"the agent interface. Additional access control to show or not show this link"
+" can be done by using Key \"Group\" and Content like "
+"\"rw:group1;move_into:group2\". To cluster menu items use for Key "
+"\"ClusterName\" and for the Content any name you want to see in the UI. Use "
+"\"ClusterPriority\" to configure the order of a certain cluster within the "
+"toolbar."
+msgstr ""
 
 #. SysConfig
 msgid "Shows all attachments available in the ticket."
 msgstr "แสดงสิ่งที่แนบมาที่สามารถใช้ได้ทั้งหมด"
 
 #. SysConfig
-msgid "Start new chat"
-msgstr "เริ่มการแชทใหม่"
+msgid "Start new chat."
+msgstr ""
+
+#. SysConfig
+msgid "Statistics reports."
+msgstr ""
+
+#. SysConfig
+msgid "Support Agent"
+msgstr ""
+
+#. SysConfig
+msgid "System Configuration Setting History"
+msgstr ""
 
 #. SysConfig
 msgid "Team agents management screen."
@@ -1849,6 +2576,26 @@ msgid ""
 msgstr "แชทนี้เสร็จสมบูรณ์แล้ว คุณสามารถเริ่มการแชทใหม่โดยใช้ปุ่มที่ด้านบนของหน้านี้"
 
 #. SysConfig
+msgid "This is a description for NotificationViewFilterSettings ob Business."
+msgstr ""
+
+#. SysConfig
+msgid "This is a description for NotificationViewSmallPageShown ob Business."
+msgstr ""
+
+#. SysConfig
+msgid "This module is part of the admin area of OTRS Business Solution™."
+msgstr ""
+
+#. SysConfig
+msgid "Ticket Outbound SMS."
+msgstr ""
+
+#. SysConfig
+msgid "Ticket attachments."
+msgstr ""
+
+#. SysConfig
 msgid "Tool-bar item for a notification web view."
 msgstr "รายการแถบเครื่องมือสำหรับการแจ้งเตือน WebView"
 
@@ -1857,8 +2604,8 @@ msgid "Video and audio call screen."
 msgstr ""
 
 #. SysConfig
-msgid "View notifications"
-msgstr "ดูการแจ้งเตือน"
+msgid "Web Service"
+msgstr ""
 
 #. SysConfig
 msgid ""

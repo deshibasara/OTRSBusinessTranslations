@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-01-09 14:51+0000\n"
-"PO-Revision-Date: 2017-01-09 14:01+0000\n"
+"POT-Creation-Date: 2017-09-25 08:01+0000\n"
+"PO-Revision-Date: 2017-09-25 08:02+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Indonesian (http://www.transifex.com/otrs/OTRS/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -27,12 +27,24 @@ msgid "Edit Chat Channel"
 msgstr "Mengatur obrolan"
 
 #. Template: AdminChatChannel
-msgid "Name invalid"
-msgstr "Nama tidak sah"
+msgid "Public"
+msgstr "Umum"
+
+#. Template: AdminChatChannel
+msgid "A chat channel with this name already exists!"
+msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Need Group"
 msgstr "butuh Grup"
+
+#. Template: AdminChatChannel
+msgid "Customer interface"
+msgstr ""
+
+#. Template: AdminChatChannel
+msgid "Public interface"
+msgstr ""
 
 #. Template: AdminChatChannel
 msgid "Need Valid"
@@ -41,6 +53,14 @@ msgstr "Perlu sah"
 #. Template: AdminChatChannel
 msgid "Comment invalid"
 msgstr "Komentar tidak sah"
+
+#. Template: AdminCloudServiceSMS
+msgid "Add Cloud Service"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Edit Cloud Servicel"
+msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service status"
@@ -97,17 +117,43 @@ msgstr "Memberikan ijin untuk role member"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
-"If selected, only users assigned to these roles will be able to receive "
-"messages via SMS (optional)."
-msgstr "Jika terpilih, hanya pengguna yang ditugaskan untuk peran ini akan dapat menerima pesan melalui SMS (opsional)."
+"If selected, only agents assigned to these roles will be able to receive "
+"notifications via SMS (optional)."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Perform URL shortening"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Perform URL shortening before sending the message."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Phone black list"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid "Add phone number"
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"A blacklist of telephone numbers where it is forbidden to send SMS messages "
+"to. Phone numbers must be added in international format without spaces, e.g."
+" +491791234567, one number per field."
+msgstr ""
+
+#. Template: AdminCloudServiceSMS
+msgid ""
+"In order to be able to use the SMS transmission feature of the OTRS AG, I "
+"hereby declare that I have read and understood the %sData Protection "
+"Information%s."
+msgstr ""
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
 msgstr "Simpan konfigurasi"
-
-#. Template: AdminCloudServiceSMS
-msgid "Data Protection Information"
-msgstr "Informasi Perlindungan Data"
 
 #. Template: AdminContactWithData
 msgid "Contact with data management"
@@ -118,12 +164,12 @@ msgid "Add contact with data"
 msgstr "Tambah kontak dengan data"
 
 #. Template: AdminContactWithData
-msgid "Please enter a search term to look for contacts with data."
-msgstr "Masukkan istilah pencarian untuk mencari kontak dengan data."
-
-#. Template: AdminContactWithData
 msgid "Edit contact with data"
 msgstr "Edit kontak dengan data"
+
+#. Template: AdminContactWithData
+msgid "Please enter a search term to look for contacts with data."
+msgstr "Masukkan istilah pencarian untuk mencari kontak dengan data."
 
 #. Template: AdminDynamicFieldContactWithData
 msgid "These are the possible data attributes for contacts."
@@ -211,16 +257,196 @@ msgstr "Batas hasil"
 msgid "Case Sensitive"
 msgstr "Case sensitif"
 
+#. Template: AdminDynamicFieldWebService
+msgid "The web service to be executed for possible values."
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid "Invoker"
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid ""
+"The invoker to be used to perform requests (invoker needs to be of type "
+"'Generic::PassThrough')."
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid "Activate this option to allow multiselect on results."
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid "Cache TTL"
+msgstr ""
+
+#. Template: AdminDynamicFieldWebService
+msgid ""
+"Cache time to live (in minutes), to save the retrieved possible values."
+msgstr ""
+
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr "Penerima nomor SMS"
 
-#. Template: AgentAppointmentResourceOverview
-msgid "Resource Overview"
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid ""
+"An article will be created if the notification is sent to the customer or an"
+" additional recipient."
+msgstr ""
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid "Send as flash message"
+msgstr ""
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid "Send the message for this notification as Flash SMS."
+msgstr ""
+
+#. Template: AdminNotificationEventTransportSMSSettings
+msgid ""
+"In case the SMS text message is too long it may be split up into multiple "
+"messages at the end."
+msgstr ""
+
+#. Template: AdminQueueSMSTemplates
+msgid "Manage SMS Template-Queue Relations"
+msgstr ""
+
+#. Template: AdminQueueSMSTemplates
+msgid "Filter for SMS Templates"
+msgstr ""
+
+#. Template: AdminQueueSMSTemplates
+msgid "SMS Templates"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Manage SMS Templates"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Add SMS Template"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Edit SMS Template"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Add SMS template"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "SMS Cloud Service inactive"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid ""
+"To be able to use SMS cloud service in OTRS, you have to activate it first."
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Activate SMS Cloud Service"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid ""
+"An SMS template is a default text which helps your agents to write faster "
+"tickets or answers."
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Do you really want to delete this SMS template?"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "An SMS template with this name already exists!"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Flash message"
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid ""
+"Show message directly without user interaction and do not store it "
+"automatically (support may vary by device and provider)."
+msgstr ""
+
+#. Template: AdminSMSTemplate
+msgid "Your mobile phone is"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Deployment History"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Filter for Deployments"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Recent Deployments"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Restore"
+msgstr "Pemulihan"
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "View Details"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Restore this deployment."
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistory
+msgid "Export this deployment."
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistoryDetails
+msgid "Deployment Details"
+msgstr ""
+
+#. Template: AdminSystemConfigurationDeploymentHistoryDetails
+msgid "No settings have been deployed in this run."
+msgstr ""
+
+#. Template: AdminSystemConfigurationSettingHistoryDetails
+msgid "Change History"
+msgstr "Ubah sejarah"
+
+#. Template: AdminSystemConfigurationSettingHistoryDetails
+msgid "Change History of %s"
+msgstr ""
+
+#. Template: AdminSystemConfigurationSettingHistoryDetails
+msgid "No modified values for this setting, the default value is used."
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "Review users setting value"
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "Users Value"
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "For"
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "Delete all user values."
+msgstr ""
+
+#. Template: AdminSystemConfigurationUserModifiedDetails
+msgid "No user value for this setting."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
-msgid "Manage Calendars"
+msgid "Resource Overview"
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
@@ -232,40 +458,6 @@ msgid "Manage Team Agents"
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
-msgid "Add new Appointment"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Add Appointment"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Calendars"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Filter for calendars"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "URL"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Copy public calendar URL"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "This is a resource overview page."
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid ""
-"No calendars found. Please add a calendar first by using Manage Calendars "
-"page."
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
 msgid "No teams found."
 msgstr ""
 
@@ -274,112 +466,11 @@ msgid "Please add a team first by using Manage Teams page."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
-msgid "Team"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
 msgid "No team agents found."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Please assign agents to a team first by using Manage Team Agents page."
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Too many active calendars"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid ""
-"Please either turn some off first or increase the limit in configuration."
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Restore default settings"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Week"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Timeline Month"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Timeline Week"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Timeline Day"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Jump"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Appointment"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "This is a repeating appointment"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Would you like to edit just this occurrence or all occurrences?"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "All occurrences"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Just this occurrence"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Dismiss"
-msgstr "Memberhentikan"
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Resources"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Shown resources"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Available Resources"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Filter available resources"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Visible Resources (order by drag & drop)"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Basic information"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Resource"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Date/Time"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "End date"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "Repeat"
 msgstr ""
 
 #. Template: AgentAppointmentTeam
@@ -418,10 +509,6 @@ msgstr ""
 
 #. Template: AgentAppointmentTeam
 msgid "Team with same name already exists."
-msgstr ""
-
-#. Template: AgentAppointmentTeam
-msgid "Permission group"
 msgstr ""
 
 #. Template: AgentAppointmentTeamUser
@@ -500,6 +587,10 @@ msgstr "Obrolan aktif saya"
 #. Template: AgentChat
 msgid "Open ticket"
 msgstr "Tiket terbuka"
+
+#. Template: AgentChat
+msgid "Company"
+msgstr "Perusahaan"
 
 #. Template: AgentChat
 msgid "Open company"
@@ -629,112 +720,6 @@ msgstr "Reload agen secara online"
 msgid "Destination channel"
 msgstr "Tujuan channel"
 
-#. Template: AgentChat
-msgid "Open chat"
-msgstr "Buka obrolan"
-
-#. Template: AgentChat
-msgid "User has already left the chat or has not yet joined it."
-msgstr ""
-
-#. Template: AgentChat
-msgid ""
-"You are no longer in this chat. Click this message to remove the chat box."
-msgstr "Anda tidak lagi dalam obrolan ini. Klik pesan ini untuk menghapus kotak obrolan"
-
-#. Template: AgentChat
-msgid "There are currently no chat requests."
-msgstr "Saat ini tidak ada permintaan obrolan"
-
-#. Template: AgentChat
-msgid ""
-"This will permanently delete the chat contents. Do you want to continue?"
-msgstr "Ini akan menghapus isi obrolan secara permanen. Apakah Anda ingin melanjutkan?"
-
-#. Template: AgentChat
-msgid "This chat request was already accepted by another person."
-msgstr "Permintaan obrolan ini sudah diterima oleh orang lain."
-
-#. Template: AgentChat
-msgid "You have no permission to accept this chat request."
-msgstr "Anda tidak memiliki izin untuk menerima permintaan obrolan ini."
-
-#. Template: AgentChat
-msgid "Please select a user."
-msgstr "Silakan pilih pengguna."
-
-#. Template: AgentChat
-msgid "Please select a permission level."
-msgstr "Silakan pilih tingkat izin."
-
-#. Template: AgentChat
-msgid "Invite Agent."
-msgstr "Undang Agen."
-
-#. Template: AgentChat
-msgid "Please, select destination chat channel."
-msgstr "Silakan, pilih tujuan saluran obrolan"
-
-#. Template: AgentChat
-msgid "Please select a channel."
-msgstr "Pilih saluran obrolan"
-
-#. Template: AgentChat
-msgid "Chat preview"
-msgstr "Pratinjau obrolan"
-
-#. Template: AgentChat
-msgid "Please select a valid channel."
-msgstr "Silakan pilih saluran sah"
-
-#. Template: AgentChat
-msgid "Agent to customer chat."
-msgstr "Agen untuk pelanggan chat."
-
-#. Template: AgentChat
-msgid "Customer to agent chat."
-msgstr "Pelanggan untuk agen chat."
-
-#. Template: AgentChat
-msgid "Agent to agent chat."
-msgstr "Obrolan agen ke agen"
-
-#. Template: AgentChat
-msgid "Public to agent chat."
-msgstr "Publik untuk obrolan agen"
-
-#. Template: AgentChat
-msgid "You can't leave Customer alone in the chat."
-msgstr "Anda tidak bisa meninggalkan Pelanggan sendiri dalam obrolan."
-
-#. Template: AgentChat
-msgid "You"
-msgstr "Anda"
-
-#. Template: AgentChat
-msgid "Your chat could not be started because of an internal error."
-msgstr "Obrolan anda tidak dapat dimulai karena kesalahan internal."
-
-#. Template: AgentChat
-msgid "Your chat request was created."
-msgstr "Permintaan obrolan anda telah dibuat."
-
-#. Template: AgentChat
-msgid "There are currently %s open chat requests."
-msgstr "Terdapat %s sedang terbuka permintaan chat."
-
-#. Template: AgentChat
-msgid "User was already invited to your chat!"
-msgstr "Pengguna sudah diundang untuk obrolan Anda!"
-
-#. Template: AgentChat
-msgid "Insufficient permissions."
-msgstr "izin tidak memadai."
-
-#. Template: AgentChat
-msgid "System was unable to save your sequence of chats."
-msgstr "Sistem tidak dapat menyimpan urutan obrolan anda"
-
 #. Template: AgentChatAppend
 msgid "Append Chat to Ticket"
 msgstr "Menambahkan obrolan untuk Tiket"
@@ -755,10 +740,6 @@ msgstr "Obrolan dengan"
 msgid "Leave Chat"
 msgstr "Tinggalkan obrolan"
 
-#. Template: AgentChatPopup
-msgid "User is currently in the chat."
-msgstr ""
-
 #. Template: AgentChatPreview
 msgid "Current chat channel"
 msgstr "Saluran atur obrolan"
@@ -774,6 +755,14 @@ msgstr "Isi ulang"
 #. Template: AgentChatPreview
 msgid "Update Channel"
 msgstr "Memperbarui saluran"
+
+#. Template: AgentChatPreview
+msgid "Accept"
+msgstr "Menerima"
+
+#. Template: AgentChatPreview
+msgid "Decline"
+msgstr "Menolak"
 
 #. Template: AgentDynamicFieldDatabaseDetailedSearch
 msgid "Detailed search"
@@ -810,18 +799,6 @@ msgstr "memperbesar"
 #. Template: AgentNotificationViewSmall
 msgid "Dismiss this notification"
 msgstr "Mengabaikan pemberitahuan ini"
-
-#. Template: AgentNotificationViewSmall
-msgid "Dismiss Selected Notifications"
-msgstr "Singkirkan Pemberitahuan Terpilih"
-
-#. Template: AgentNotificationViewSmall
-msgid "Do you really want to dismiss the selected notifications?"
-msgstr "Apakah Anda benar-benar ingin memberhentikan pemberitahuan yang dipilih?"
-
-#. Template: AgentNotificationViewSmall
-msgid "OTRS Notification"
-msgstr "Pemberitahuan OTRS"
 
 #. Template: AgentStatisticsReportsAdd
 msgid "Reports » Add"
@@ -953,10 +930,6 @@ msgstr "Mengedit laporan statistik \"%s\"."
 msgid "Delete statistics report \"%s\""
 msgstr "Menghapus laporan statistik \"%s\""
 
-#. Template: AgentStatisticsReportsOverview
-msgid "Do you really want to delete this report?"
-msgstr "Apakah Anda benar-benar ingin menghapus laporan ini?"
-
 #. Template: AgentStatisticsReportsView
 msgid "Reports » View — %s"
 msgstr "Laporan » Lihat - %s"
@@ -1003,6 +976,72 @@ msgstr "Terbuka artikel di jendela utama"
 msgid "Download selected files as archive"
 msgstr "Download file terpilih sebagai arsip"
 
+#. Template: AgentTicketSMS
+msgid ""
+"An error was encountered while trying to contact SMS cloud service. Please "
+"try again later."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid ""
+"You don't have enough SMS units in your account. Please contact OTRS for "
+"further instructions."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Error while trying to send SMS! Please try again later."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Create New SMS Ticket"
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid ""
+"Search for a customer or enter phone number in international format, i.e. "
+"+49 (0) 123 4567-890."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "The list contains an invalid recipient."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "This phone number is invalid."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "This phone number is not allowed due to the system configuration."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "This number already exists in the recipient list."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Ticket Title"
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Ticket title will not be included in SMS and is for internal use only."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Setting a template will overwrite any text."
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "%s characters left"
+msgstr ""
+
+#. Template: AgentTicketSMS
+msgid "Send SMS"
+msgstr ""
+
+#. Template: AgentTicketSMSOutbound
+msgid "Outbound SMS for %s%s%s"
+msgstr ""
+
 #. Template: AgentVideoChat
 msgid "Your browser does not support HTML5 video."
 msgstr ""
@@ -1017,50 +1056,6 @@ msgstr ""
 
 #. Template: AgentVideoChat
 msgid "Toggle video"
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "User has declined your invitation."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "User has left the call."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Attempt to connect was unsuccessful. Please try again."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Permission to media stream has been denied."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Please allow this page to use your video and audio stream."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Requesting media stream..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Waiting for other party to respond..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Accepting the invitation..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Initializing..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Connecting, please wait..."
-msgstr ""
-
-#. Template: AgentVideoChat
-msgid "Connection established!"
 msgstr ""
 
 #. Template: CustomerChat
@@ -1127,10 +1122,6 @@ msgstr "Obrolan selesai"
 msgid "Fullscreen"
 msgstr ""
 
-#. Template: OutputFilterPostSLASelectionDialog
-msgid "Please confirm your selection"
-msgstr "Silahkan konfirmasi pilihan anda"
-
 #. Template: PublicChat
 msgid "Your name"
 msgstr "Nama anda"
@@ -1160,21 +1151,97 @@ msgstr "Kata pengantar"
 msgid "Postface"
 msgstr "Postface"
 
-#. Perl Module: Kernel/Modules/AdminChatChannel.pm
-msgid "Chat Channel %s added"
-msgstr "Saluran obrolan %s ditambahkan"
+#. Template: SettingHistoryListCompare
+msgid "On "
+msgstr ""
+
+#. Template: SettingHistoryListCompare
+msgid "Reset to this value"
+msgstr ""
+
+#. Template: UsersSettingListCompare
+msgid "Delete user's value."
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
-msgid "Chat channel %s edited"
-msgstr "Saluran obrolan %s diubah"
+msgid "Chat channel updated!"
+msgstr ""
 
-#. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
-msgid "Cloud service \"%s\" updated!"
-msgstr "Layanan cloud \"%s\" diperbarukan!"
+#. Perl Module: Kernel/Modules/AdminChatChannel.pm
+msgid "Chat channel added!"
+msgstr ""
 
-#. Perl Module: Kernel/Modules/AdminCloudServiceSMS.pm
-msgid "Cloud Service config \"%s\" saved!"
-msgstr "Layanan konfigurasi cloud \"%s\" disimpan!"
+#. Perl Module: Kernel/Modules/AdminContactWithData.pm
+msgid "Contact updated!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminDynamicFieldContactWithData.pm
+msgid "Two keys 'Name' and 'ValidID' have to exist in possible values."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
+msgid "Change Queue Relations for SMS Template"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
+msgid "Change SMS Template Relations for Queue"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
+msgid "Invalid ID!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
+msgid "Template not found!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
+msgid "SMS template updated!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
+msgid "SMS template added!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationDeploymentHistory.pm
+msgid "This deployment does not contain changes in the setting values!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationDeploymentHistory.pm
+msgid "No DeploymentID received!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "No setting name received!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "Modified Version"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "Reset To Default"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "Default Version"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "No setting name or modified version id received!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
+msgid "Was not possible to revert the historical value!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationUser.pm
+msgid "Missing setting name or modified id!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AdminSystemConfigurationUser.pm
+msgid "System was not able to delete the user setting values!"
+msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentAppointmentResourceOverview.pm
 msgid ""
@@ -1244,6 +1311,10 @@ msgstr "%s telah menolak permintaan obrolan."
 msgid "Need"
 msgstr ""
 
+#. Perl Module: Kernel/Modules/AgentChatDownload.pm
+msgid "System"
+msgstr "Sistem"
+
 #. Perl Module: Kernel/Modules/AgentNotificationView.pm
 msgid "All Notifications"
 msgstr "semua Pemberitahuan"
@@ -1268,8 +1339,32 @@ msgstr "Nama ini sudah digunakan, silahkan pilih satu yang berbeda."
 msgid "Please provide a valid cron entry."
 msgstr "Harap memberikan entri cron valid."
 
+#. Perl Module: Kernel/Modules/AgentTicketSMSOutbound.pm
+msgid "Please contact the admin."
+msgstr "Silahkan hubungi admin."
+
+#. Perl Module: Kernel/Modules/AgentTicketSMSOutbound.pm
+msgid "Error creating SMS article!"
+msgstr ""
+
 #. Perl Module: Kernel/Modules/AgentVideoChat.pm
 msgid "You are not participant in this chat!"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/Article/SMS.pm
+msgid "Transaction Numbers"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/Article/SMS.pm
+msgid "Flash"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/ArticleAction/AgentTicketSMSOutbound.pm
+msgid "Reply via SMS"
+msgstr ""
+
+#. Perl Module: Kernel/Output/HTML/ArticleAction/AgentTicketSMSOutbound.pm
+msgid "Reply to this article via SMS"
 msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
@@ -1294,6 +1389,18 @@ msgid ""
 "the administrator."
 msgstr ""
 
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatAvailability.pm
+msgid "Unavailable for chat"
+msgstr "Tidak tersedia untuk obrolan"
+
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatAvailability.pm
+msgid "Available for internal chats only"
+msgstr "Tersedia untuk obrolan internal saja"
+
+#. Perl Module: Kernel/Output/HTML/ToolBar/ChatAvailability.pm
+msgid "Available for chats"
+msgstr "Obrolan tersedia"
+
 #. Perl Module: Kernel/Output/HTML/ToolBar/ChatRequests.pm
 msgid "Open Chat Requests"
 msgstr "Terbuka Permintaan obrolan"
@@ -1311,12 +1418,365 @@ msgid "Table of Contents"
 msgstr "Daftar Isi"
 
 #. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_owner"
+msgstr ""
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_participant"
+msgstr ""
+
+#. Perl Module: Kernel/System/ChatChannel.pm
+msgid "chat_observer"
+msgstr ""
+
+#. Perl Module: Kernel/System/ChatChannel.pm
 msgid "Default chat channel"
 msgstr "saluran default obrolan"
+
+#. Perl Module: Kernel/System/SupportDataCollector/Plugin/CloudService/SMS.pm
+msgid ""
+"Your available SMS messages are getting low. Please contact sales@otrs.com "
+"to get more SMS messages."
+msgstr ""
+
+#. Perl Module: Kernel/System/SupportDataCollector/Plugin/CloudService/SMS.pm
+msgid "Available SMS"
+msgstr ""
+
+#. Perl Module:
+#. Kernel/System/SupportDataCollector/Plugin/OTRS/ConfigLastDeployments.pm
+msgid "Configuration Last Deployments"
+msgstr ""
+
+#. Perl Module:
+#. Kernel/System/SupportDataCollector/Plugin/OTRS/ConfigLastDeployments.pm
+msgid "Could not determine deployment information."
+msgstr ""
+
+#. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
+msgid "SMS phone number"
+msgstr ""
+
+#. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
+msgid "SMS transaction number"
+msgstr ""
+
+#. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
+msgid "SMS text"
+msgstr ""
+
+#. JS File: Core.Agent.Admin.CloudServiceSMS
+msgid "Data Protection Information"
+msgstr "Informasi Perlindungan Data"
+
+#. JS File: Core.Agent.Admin.SMSTemplate
+msgid "Delete this template"
+msgstr ""
+
+#. JS File: Core.Agent.Admin.SystemConfigurationUser
+msgid "Are you sure you want to remove all user values?"
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "An internal error occurred."
+msgstr "Terjadi kesalahan internal."
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New personal chat request"
+msgstr "Permintaan obrolan pribadi baru"
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Please visit the chat manager"
+msgstr "Silahkan kunjugi obrolan manajer"
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New customer chat request"
+msgstr "Permintaan obrolan pelanggan baru"
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New public chat request"
+msgstr "Permintaan obrolan umum baru"
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New activity"
+msgstr "Aktivitas baru"
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "New activity on one of your monitored chats."
+msgstr "Aktivitas baru di salah satu obrolan anda dipantau."
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Selected user is not available for chat."
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Selected user is not available for video and audio call."
+msgstr ""
+
+#. JS File: Core.Agent.Chat.Toolbar
+msgid "Target user's browser does not support video and audio calling."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Invite Agent."
+msgstr "Undang Agen."
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a user."
+msgstr "Silakan pilih pengguna."
+
+#. JS File: Core.Agent.Chat
+msgid "Please, select destination chat channel."
+msgstr "Silakan, pilih tujuan saluran obrolan"
+
+#. JS File: Core.Agent.Chat
+msgid "Change"
+msgstr "Ubah"
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a channel."
+msgstr "Pilih saluran obrolan"
+
+#. JS File: Core.Agent.Chat
+msgid ""
+"You are no longer in this chat. Click this message to remove the chat box."
+msgstr "Anda tidak lagi dalam obrolan ini. Klik pesan ini untuk menghapus kotak obrolan"
+
+#. JS File: Core.Agent.Chat
+msgid "You can't leave Customer alone in the chat."
+msgstr "Anda tidak bisa meninggalkan Pelanggan sendiri dalam obrolan."
+
+#. JS File: Core.Agent.Chat
+msgid "You"
+msgstr "Anda"
+
+#. JS File: Core.Agent.Chat
+msgid "Your browser does not support video and audio calling."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "This chat request was already accepted by another person."
+msgstr "Permintaan obrolan ini sudah diterima oleh orang lain."
+
+#. JS File: Core.Agent.Chat
+msgid "There are currently no chat requests."
+msgstr "Saat ini tidak ada permintaan obrolan"
+
+#. JS File: Core.Agent.Chat
+msgid "You have no permission to accept this chat request."
+msgstr "Anda tidak memiliki izin untuk menerima permintaan obrolan ini."
+
+#. JS File: Core.Agent.Chat
+msgid "Agent to customer chat."
+msgstr "Agen untuk pelanggan chat."
+
+#. JS File: Core.Agent.Chat
+msgid "Customer to agent chat."
+msgstr "Pelanggan untuk agen chat."
+
+#. JS File: Core.Agent.Chat
+msgid "Public to agent chat."
+msgstr "Publik untuk obrolan agen"
+
+#. JS File: Core.Agent.Chat
+msgid "Agent to agent chat."
+msgstr "Obrolan agen ke agen"
+
+#. JS File: Core.Agent.Chat
+msgid ""
+"This will permanently delete the chat contents. Do you want to continue?"
+msgstr "Ini akan menghapus isi obrolan secara permanen. Apakah Anda ingin melanjutkan?"
+
+#. JS File: Core.Agent.Chat
+msgid "Chat preview"
+msgstr "Pratinjau obrolan"
+
+#. JS File: Core.Agent.Chat
+msgid "Open chat"
+msgstr "Buka obrolan"
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a valid channel."
+msgstr "Silakan pilih saluran sah"
+
+#. JS File: Core.Agent.Chat
+msgid "Your chat could not be started because of an internal error."
+msgstr "Obrolan anda tidak dapat dimulai karena kesalahan internal."
+
+#. JS File: Core.Agent.Chat
+msgid "Your chat request was created."
+msgstr "Permintaan obrolan anda telah dibuat."
+
+#. JS File: Core.Agent.Chat
+msgid "There are currently %s open chat requests."
+msgstr "Terdapat %s sedang terbuka permintaan chat."
+
+#. JS File: Core.Agent.Chat
+msgid "User was already invited to your chat!"
+msgstr "Pengguna sudah diundang untuk obrolan Anda!"
+
+#. JS File: Core.Agent.Chat
+msgid "Insufficient permissions."
+msgstr "izin tidak memadai."
+
+#. JS File: Core.Agent.Chat
+msgid "System was unable to save your sequence of chats."
+msgstr "Sistem tidak dapat menyimpan urutan obrolan anda"
+
+#. JS File: Core.Agent.CustomerSearchSMS
+msgid "Invalid phone number"
+msgstr ""
+
+#. JS File: Core.Agent.CustomerSearchSMS
+msgid "The entered phone number '%s' is invalid."
+msgstr ""
+
+#. JS File: Core.Agent.CustomerSearchSMS
+msgid ""
+"Please enter a number in international format, i.e. +49 (0) 123 4567-890."
+msgstr ""
+
+#. JS File: Core.Agent.DynamicFieldDatabaseSearch
+msgid "This dynamic field database value is already selected."
+msgstr ""
+
+#. JS File: Core.Agent.NotificationView
+msgid "Do you really want to dismiss the selected notifications?"
+msgstr "Apakah Anda benar-benar ingin memberhentikan pemberitahuan yang dipilih?"
+
+#. JS File: Core.Agent.NotificationView
+msgid "Dismiss Selected Notifications"
+msgstr "Singkirkan Pemberitahuan Terpilih"
+
+#. JS File: Core.Agent.NotificationView
+msgid "OTRS Notification"
+msgstr "Pemberitahuan OTRS"
+
+#. JS File: Core.Agent.StatisticsReports
+msgid "Do you really want to delete this report?"
+msgstr "Apakah Anda benar-benar ingin menghapus laporan ini?"
+
+#. JS File: Core.Customer.Chat.Toolbar
+msgid "You have unanswered chat requests"
+msgstr "Anda tidak menjawab beberapa permintaan obrolan"
+
+#. JS File: Core.Customer.TicketMessage.SLASelectionDialog
+msgid "Please confirm your selection"
+msgstr "Silahkan konfirmasi pilihan anda"
+
+#. JS File: Core.VideoChat
+msgid "Requesting media stream..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Accepting the invitation..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Waiting for other party to respond..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Permission to media stream has been denied."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Please allow this page to use your video and audio stream."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Connection established!"
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Attempt to connect was unsuccessful. Please try again."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "User has declined your invitation."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "Connecting, please wait..."
+msgstr ""
+
+#. JS File: Core.VideoChat
+msgid "User has left the call."
+msgstr ""
 
 #. SysConfig
 msgid "Activates chat support."
 msgstr "Mengaktifkan dukungan obrolan"
+
+#. SysConfig
+msgid "Added SMS for \"%s\"."
+msgstr ""
+
+#. SysConfig
+msgid "Admin Contact With Data"
+msgstr ""
+
+#. SysConfig
+msgid "Admin contact with data."
+msgstr ""
+
+#. SysConfig
+msgid "Advanced"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Contact With Data Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Customer Search SMS"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Customer Search SMS."
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Detailed Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Details"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Dynamic Field Database Search"
+msgstr ""
+
+#. SysConfig
+msgid "Agent Information"
+msgstr ""
+
+#. SysConfig
+msgid "Agent chat screen."
+msgstr ""
+
+#. SysConfig
+msgid "Agent contact with data search."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database detailed search."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database details."
+msgstr ""
+
+#. SysConfig
+msgid "Agent dynamic field database search."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Agent frontend module registration (disable 'Edit contacts with data' link "
+"if if there is no source field configured)."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1358,12 +1818,46 @@ msgid "Allows having a small format notification web view."
 msgstr "Memungkinkan memiliki tampilan pemberitahuan web Format kecil."
 
 #. SysConfig
+msgid ""
+"Allows to save current work as draft in the SMS outbound screen of the agent"
+" interface."
+msgstr ""
+
+#. SysConfig
+msgid "Append Chat to Ticket."
+msgstr ""
+
+#. SysConfig
+msgid "Calendar Notifications"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Availability"
+msgstr ""
+
+#. SysConfig
 msgid "Chat Channel"
 msgstr "Saluran obrolan"
 
 #. SysConfig
 msgid "Chat Channel:"
 msgstr "Saluran obrolan:"
+
+#. SysConfig
+msgid "Chat Download"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Popup"
+msgstr ""
+
+#. SysConfig
+msgid "Chat Preview"
+msgstr ""
+
+#. SysConfig
+msgid "Chat availability."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1376,12 +1870,28 @@ msgid "Chat channel to queue mapping."
 msgstr "Obrolan saluran untuk antrian pemetaan."
 
 #. SysConfig
-msgid "Chat overview"
-msgstr "Obrolan secara keseluruhan"
+msgid "Chat download."
+msgstr ""
+
+#. SysConfig
+msgid "Chat overview."
+msgstr ""
+
+#. SysConfig
+msgid "Chat popup."
+msgstr ""
+
+#. SysConfig
+msgid "Chat preview."
+msgstr ""
 
 #. SysConfig
 msgid "Chats"
 msgstr "Obrolan"
+
+#. SysConfig
+msgid "Choose which notifications you'd like to receive."
+msgstr ""
 
 #. SysConfig
 msgid "Cleans up old chat logs."
@@ -1396,21 +1906,56 @@ msgstr "pemberitahuan kolom tampilan web filter untuk Pemberitahuan Jenis tampil
 #. SysConfig
 msgid ""
 "Columns that can be filtered in the notification web view of the agent "
-"interface. Possible settings: 0 = Disabled, 1 = Available, 2 = Enabled by "
-"default."
-msgstr "Kolom yang dapat disaring dalam pemberitahuan tampilan web dari antarmuka agen. pengaturan mungkin: 0 = Tidak tersedia, 1 = Tersedia, 2 = Diaktifkan secara default."
+"interface."
+msgstr ""
 
 #. SysConfig
-msgid "Contact with data"
-msgstr "Kontak dengan data"
+msgid "Create and manage SMS templates."
+msgstr ""
 
 #. SysConfig
 msgid "Create and manage chat channels."
 msgstr "Membuat dan mengelola saluran obrolan"
 
 #. SysConfig
+msgid "Create new SMS ticket and send it out (outbound)."
+msgstr ""
+
+#. SysConfig
+msgid "Create new SMS ticket."
+msgstr ""
+
+#. SysConfig
 msgid "Create new chat"
 msgstr "Buat obrolan baru"
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Detailed Search"
+msgstr ""
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Details"
+msgstr ""
+
+#. SysConfig
+msgid "Customer Dynamic Field Database Search"
+msgstr ""
+
+#. SysConfig
+msgid "Customer chat screens."
+msgstr ""
+
+#. SysConfig
+msgid "Customer dynamic field database detailed search."
+msgstr ""
+
+#. SysConfig
+msgid "Customer dynamic field database details."
+msgstr ""
+
+#. SysConfig
+msgid "Customer dynamic field database search."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1426,12 +1971,20 @@ msgid ""
 msgstr "Nama agen default untuk pelanggan dan antarmuka publik. Jika diaktifkan, nama asli dari agen tidak akan terlihat oleh pelanggan / pengguna umum saat menggunakan chat."
 
 #. SysConfig
+msgid "Default channel"
+msgstr ""
+
+#. SysConfig
 msgid "Default text for the customer interface."
 msgstr "Teks default untuk antarmuka pelanggan."
 
 #. SysConfig
 msgid "Default text for the public interface."
 msgstr "Teks default untuk antarmuka publik."
+
+#. SysConfig
+msgid "Defines SMS communication channel."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1445,6 +1998,17 @@ msgid ""
 "Defines a text for Agent Preferences in the Customer interface (works only "
 "if DefaultAgentName is disabled)."
 msgstr "Mendefinisikan teks untuk Preferences Agen di antarmuka Pelanggan (hanya bekerja jika DefaultAgentName dinonaktifkan)."
+
+#. SysConfig
+msgid "Defines available article actions for SMS articles."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines if a ticket lock is required in the SMS outbound screen of the agent"
+" interface (if the ticket isn't locked yet, the ticket gets locked and the "
+"current agent will be set automatically as its owner)."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1472,6 +2036,28 @@ msgstr "Mendefinisikan pengguna publik dapat memilih saluran obrolan. Jika tidak
 
 #. SysConfig
 msgid ""
+"Defines if the message in the SMS outbound screen of the agent interface is "
+"visible for the customer by default."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines the default next state of a ticket after the message has been sent, "
+"in the SMS outbound screen of the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Defines the hard limit for number of characters that can be sent via SMS per"
+" message."
+msgstr ""
+
+#. SysConfig
+msgid "Defines the list of types for SMS templates."
+msgstr ""
+
+#. SysConfig
+msgid ""
 "Defines the module to display a notification in the agent interface, if the "
 "agent is available for external chats, but forgot to set preferred "
 "channel(s)."
@@ -1483,6 +2069,12 @@ msgid ""
 "agent is not available for chat with customers (only if "
 "Ticket::Agent::AvailableForChatsAfterLogin is set to No)."
 msgstr "Mendefinisikan modul untuk menampilkan pemberitahuan di antarmuka agen, jika agen tidak tersedia untuk ngobrol dengan pelanggan (hanya jika Ticket::Agent::AvailableForChatsAfterLogin diatur menjadi Tidak)."
+
+#. SysConfig
+msgid ""
+"Defines the next possible states after sending a message in the SMS outbound"
+" screen of the agent interface."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1507,18 +2099,6 @@ msgid ""
 msgstr "Mendefinisikan periode waktu (dalam menit) sebelum ada Jawaban pesan ditampilkan kepada pelanggan."
 
 #. SysConfig
-msgid ""
-"Defines the period of time (in minutes) before agent is marked as \"away\" "
-"due to inactivity."
-msgstr ""
-
-#. SysConfig
-msgid ""
-"Defines the period of time (in minutes) before customer is marked as "
-"\"away\" due to inactivity."
-msgstr ""
-
-#. SysConfig
 msgid "Defines the settings for appointment notification."
 msgstr ""
 
@@ -1539,6 +2119,24 @@ msgid "Defines the target dynamic fields for storing historical data."
 msgstr "Mendefinisikan target bidang dinamis untuk menyimpan data historis."
 
 #. SysConfig
+msgid "DeploymentHistory"
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Determines the next possible ticket states, after the creation of a new SMS "
+"ticket in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Dialog message"
+msgstr ""
+
+#. SysConfig
+msgid "Dutch"
+msgstr ""
+
+#. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
 msgstr "GUI dinamis Fields Hubungi data Backend"
 
@@ -1547,8 +2145,25 @@ msgid "Dynamic Fields Database Backend GUI"
 msgstr "Dinamis Fields database Backend GUI"
 
 #. SysConfig
+msgid "Dynamic Fields Web Service Backend GUI"
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Dynamic fields shown in the SMS outbound screen of the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Dynamic fields shown in the SMS ticket screen of the agent interface."
+msgstr ""
+
+#. SysConfig
 msgid "Edit contacts with data"
 msgstr "Mengedit kontak dengan data"
+
+#. SysConfig
+msgid "Edit contacts with data."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1571,6 +2186,16 @@ msgid "Event module registration (store historical data in dynamic fields)."
 msgstr "pendaftaran modul acara (menyimpan data historis dalam bidang yang dinamis)."
 
 #. SysConfig
+msgid "For more experienced users."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Frontend module registration (disable SMS ticket screen if cloud service is "
+"not activated)."
+msgstr ""
+
+#. SysConfig
 msgid "Frontend module registration for the cusotmer interface."
 msgstr ""
 
@@ -1583,6 +2208,11 @@ msgid ""
 "Generate HTML comment hooks for the specified blocks so that filters can use"
 " them."
 msgstr "Hasilkan HTML komentar kait untuk blok tertentu sehingga filter dapat menggunakannya."
+
+#. SysConfig
+msgid ""
+"GenericInterface module registration for the PassThrough invoker layer."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -1628,6 +2258,14 @@ msgid ""
 msgstr "Jika bendera ini diatur ke Ya, mulai chatting dari pandangan zoom tiket pelanggan hanya akan mungkin, jika ada agen yang tersedia di chat saluran terkait."
 
 #. SysConfig
+msgid "Is being displayed if a customer chooses this SLA on ticket creation."
+msgstr ""
+
+#. SysConfig
+msgid "Link SMS templates to queues."
+msgstr ""
+
+#. SysConfig
 msgid ""
 "Makes it possible to start a chat with a customer from the agent interface."
 msgstr "Memungkinkan untuk memulai obrolan dengan seorang pelanggan dari antarmuka agen."
@@ -1665,6 +2303,10 @@ msgid ""
 msgstr "Nama saluran default chat. Jika saluran ini tidak ada, maka akan dibuat secara otomatis. Jangan membuat saluran chatting dengan nama yang sama dengan saluran default chat. Saluran default tidak akan ditampilkan, jika saluran chatting diaktifkan di antarmuka pelanggan dan antarmuka Umum. Semua agen untuk chatting agen akan di saluran default."
 
 #. SysConfig
+msgid "New SMS ticket"
+msgstr ""
+
+#. SysConfig
 msgid "No agents available message."
 msgstr "Tidak ada agen pesan yang tersedia."
 
@@ -1679,6 +2321,10 @@ msgstr "Pemberitahuan tampilan web"
 #. SysConfig
 msgid "Notification web view \"Small\" Limit"
 msgstr "Bata pemberitahuan tampilan web \"Kecil\" "
+
+#. SysConfig
+msgid "Notification web view."
+msgstr ""
 
 #. SysConfig
 msgid "Notifications Unseen:"
@@ -1737,12 +2383,21 @@ msgid "Prepend"
 msgstr "Prepend"
 
 #. SysConfig
+msgid "Public chat module."
+msgstr ""
+
+#. SysConfig
 msgid "Remove closed chats older than ChatEngine::ChatTTL."
 msgstr "Hapus chattingan yang lebih lama dari ChatEngine::ChatTTL."
 
 #. SysConfig
 msgid "Remove old chats."
 msgstr "Hapus chattingan lama"
+
+#. SysConfig
+msgid ""
+"Required permissions to use the SMS outbound screen in the agent interface."
+msgstr ""
 
 #. SysConfig
 msgid "Resource overview page."
@@ -1763,6 +2418,26 @@ msgid ""
 msgstr "Menjalankan pencarian wildcard awal kontak yang ada dengan data saat mengakses AdminContactWithData modul "
 
 #. SysConfig
+msgid "SMS Outbound"
+msgstr ""
+
+#. SysConfig
+msgid "SMS Templates ↔ Queues"
+msgstr ""
+
+#. SysConfig
+msgid "SMS communication channel."
+msgstr ""
+
+#. SysConfig
+msgid "SMSOutbound"
+msgstr ""
+
+#. SysConfig
+msgid "Send new outgoing SMS from this ticket"
+msgstr ""
+
+#. SysConfig
 msgid "Sets if a chat request can be sent out from agent ticket zoom view."
 msgstr "Menetapkan jika permintaan chatting dapat dikirim keluar dari pandangan zoom tiket agen."
 
@@ -1771,16 +2446,68 @@ msgid "Sets if a chat request can be sent out from customer ticket zoom view."
 msgstr "Menetapkan jika permintaan chatting dapat dikirim keluar dari pandangan zoom tiket pelanggan."
 
 #. SysConfig
-msgid "Show all ticket attachments"
-msgstr "Tampilkan semua lampiran tiket"
+msgid ""
+"Sets the default article customer visibility for new SMS tickets in the "
+"agent interface."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Sets the default next ticket state, after the creation of an SMS ticket in "
+"the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Sets the default priority for new SMS tickets in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Sets the default sender type for new SMS tickets in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Sets the default text for new SMS tickets in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Sets the default title for new SMS tickets in the agent interface."
+msgstr ""
+
+#. SysConfig
+msgid "Show all ticket attachments."
+msgstr ""
+
+#. SysConfig
+msgid ""
+"Shows a link in the menu to send an outbound SMS in the ticket zoom view of "
+"the agent interface. Additional access control to show or not show this link"
+" can be done by using Key \"Group\" and Content like "
+"\"rw:group1;move_into:group2\". To cluster menu items use for Key "
+"\"ClusterName\" and for the Content any name you want to see in the UI. Use "
+"\"ClusterPriority\" to configure the order of a certain cluster within the "
+"toolbar."
+msgstr ""
 
 #. SysConfig
 msgid "Shows all attachments available in the ticket."
 msgstr "Menunjukkan semua lampiran yang tersedia di tiket."
 
 #. SysConfig
-msgid "Start new chat"
-msgstr "Mulai obrolan baru"
+msgid "Start new chat."
+msgstr ""
+
+#. SysConfig
+msgid "Statistics reports."
+msgstr ""
+
+#. SysConfig
+msgid "Support Agent"
+msgstr ""
+
+#. SysConfig
+msgid "System Configuration Setting History"
+msgstr ""
 
 #. SysConfig
 msgid "Team agents management screen."
@@ -1848,6 +2575,26 @@ msgid ""
 msgstr "obrolan ini selesai. Anda dapat memulai obrolan baru menggunakan tombol di atas halaman ini."
 
 #. SysConfig
+msgid "This is a description for NotificationViewFilterSettings ob Business."
+msgstr ""
+
+#. SysConfig
+msgid "This is a description for NotificationViewSmallPageShown ob Business."
+msgstr ""
+
+#. SysConfig
+msgid "This module is part of the admin area of OTRS Business Solution™."
+msgstr ""
+
+#. SysConfig
+msgid "Ticket Outbound SMS."
+msgstr ""
+
+#. SysConfig
+msgid "Ticket attachments."
+msgstr ""
+
+#. SysConfig
 msgid "Tool-bar item for a notification web view."
 msgstr "Item Toolbar untuk tampilan web pemberitahuan."
 
@@ -1856,8 +2603,8 @@ msgid "Video and audio call screen."
 msgstr ""
 
 #. SysConfig
-msgid "View notifications"
-msgstr "Lihat pemberitahuan"
+msgid "Web Service"
+msgstr ""
 
 #. SysConfig
 msgid ""
