@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRSBusiness\n"
-"POT-Creation-Date: 2017-07-11 14:32+0000\n"
+"POT-Creation-Date: 2017-09-25 08:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -284,10 +284,6 @@ msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Copy public calendar URL"
-msgstr ""
-
-#. Template: AgentAppointmentResourceOverview
-msgid "This is a resource overview page."
 msgstr ""
 
 #. Template: AgentAppointmentResourceOverview
@@ -1495,7 +1491,7 @@ msgid "Cleans up old chat logs."
 msgstr ""
 
 #. SysConfig
-msgid "Column notification web view filters for Notification web view type \"Small\"."
+msgid "Column notification web view filters for Notification web view type \"Small\""
 msgstr ""
 
 #. SysConfig
@@ -1715,6 +1711,10 @@ msgid "Is being displayed if a customer chooses this SLA on ticket creation."
 msgstr ""
 
 #. SysConfig
+msgid "List of enabled filters."
+msgstr ""
+
+#. SysConfig
 msgid "Makes it possible to start a chat with a customer from the agent interface."
 msgstr ""
 
@@ -1836,6 +1836,10 @@ msgstr ""
 
 #. SysConfig
 msgid "Runs an initial wildcard search of the existing contacts with data when accessing the AdminContactWithData module."
+msgstr ""
+
+#. SysConfig
+msgid "Select how many notifications should be shown in Notification view \"Small\" by default."
 msgstr ""
 
 #. SysConfig
