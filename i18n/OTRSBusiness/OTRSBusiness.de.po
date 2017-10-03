@@ -4,6 +4,7 @@
 # Dusan Vuckovic, 2017
 # Ettore Atalan <atalanttore@googlemail.com>, 2016-2017
 # Jonas Kohls <Jonas.kohls@outlook.de>, 2016
+# zottto <mail@marcnilius.de>, 2017
 # Marc A. Bonsels, 2016-2017
 # Martin Gruner <martin.gruner@otrs.com>, 2015-2016
 # Rik sof <khan.jonas@riksof.com>, 2017
@@ -12,8 +13,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-09-25 08:01+0000\n"
-"PO-Revision-Date: 2017-09-25 08:02+0000\n"
+"POT-Creation-Date: 2017-10-03 08:02+0000\n"
+"PO-Revision-Date: 2017-10-03 08:08+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +41,7 @@ msgstr "Öffentlich"
 
 #. Template: AdminChatChannel
 msgid "A chat channel with this name already exists!"
-msgstr ""
+msgstr "Ein Chatkanal mit diesem Namen existiert bereits!"
 
 #. Template: AdminChatChannel
 msgid "Need Group"
@@ -64,11 +65,11 @@ msgstr "Kommentar ungültig"
 
 #. Template: AdminCloudServiceSMS
 msgid "Add Cloud Service"
-msgstr ""
+msgstr "Cloud-Dienst hinzufügen"
 
 #. Template: AdminCloudServiceSMS
 msgid "Edit Cloud Servicel"
-msgstr ""
+msgstr "Cloud-Dienst bearbeiten"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service status"
@@ -127,30 +128,30 @@ msgstr "Erlaubte Rollen"
 msgid ""
 "If selected, only agents assigned to these roles will be able to receive "
 "notifications via SMS (optional)."
-msgstr ""
+msgstr "Wenn ausgewählt, können nur Agenten Benachrichtigungen per SMS erhalten, die Mitglied in einer der angegebenen Rollen sind (optional)."
 
 #. Template: AdminCloudServiceSMS
 msgid "Perform URL shortening"
-msgstr ""
+msgstr "URL-Kürzung ausführen"
 
 #. Template: AdminCloudServiceSMS
 msgid "Perform URL shortening before sending the message."
-msgstr ""
+msgstr "URL-Kürzung vor dem Versand der Nachricht ausführen"
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone black list"
-msgstr ""
+msgstr "Telefon-Blacklist"
 
 #. Template: AdminCloudServiceSMS
 msgid "Add phone number"
-msgstr ""
+msgstr "Telefonnummer hinzufügen"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "A blacklist of telephone numbers where it is forbidden to send SMS messages "
 "to. Phone numbers must be added in international format without spaces, e.g."
 " +491791234567, one number per field."
-msgstr ""
+msgstr "Eine Blacklist von Telefonnummern, denen keine SMS-Nachrichten gesendet werden dürfen. Telefonnummern müssen im internationalen Format ohne Leerzeichen angegeben werden, z. B. +491791234567, eine Nummer pro Feld."
 
 #. Template: AdminCloudServiceSMS
 msgid ""
@@ -267,7 +268,7 @@ msgstr "Groß-/Kleinschreibung unterscheiden"
 
 #. Template: AdminDynamicFieldWebService
 msgid "The web service to be executed for possible values."
-msgstr ""
+msgstr "Der Webservice, der für mögliche Werte ausgeführt werden soll."
 
 #. Template: AdminDynamicFieldWebService
 msgid "Invoker"
@@ -277,20 +278,20 @@ msgstr "Invoker"
 msgid ""
 "The invoker to be used to perform requests (invoker needs to be of type "
 "'Generic::PassThrough')."
-msgstr ""
+msgstr "Der Invoker, der genutzt wird, um Anfragen auszuführen (Invoker muss vom Typ 'Generic::PassThrough' sein)."
 
 #. Template: AdminDynamicFieldWebService
 msgid "Activate this option to allow multiselect on results."
-msgstr ""
+msgstr "Aktivieren Sie diese Option, um Mehrfachauswahl auf den Ergebnissen zu erlauben."
 
 #. Template: AdminDynamicFieldWebService
 msgid "Cache TTL"
-msgstr ""
+msgstr "Cache TTL"
 
 #. Template: AdminDynamicFieldWebService
 msgid ""
 "Cache time to live (in minutes), to save the retrieved possible values."
-msgstr ""
+msgstr "Cache TTL (in Minuten), um die gelieferten Werte zu speichern."
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
@@ -300,102 +301,102 @@ msgstr "Empfänger-SMS-Nummern"
 msgid ""
 "An article will be created if the notification is sent to the customer or an"
 " additional recipient."
-msgstr ""
+msgstr "Ein Artikel wird erstellt, wenn die Benachrichtigung an den Kunden oder an einen zusätzlichen Empfänger versendet wird."
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Send as flash message"
-msgstr ""
+msgstr "Als Flash-Nachricht senden"
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Send the message for this notification as Flash SMS."
-msgstr ""
+msgstr "Diese Benachrichtigung als Flash SMS senden."
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid ""
 "In case the SMS text message is too long it may be split up into multiple "
 "messages at the end."
-msgstr ""
+msgstr "Ist der SMS-Nachrichtentext zu lang, wird er in mehrere Nachrichten aufgeteilt."
 
 #. Template: AdminQueueSMSTemplates
 msgid "Manage SMS Template-Queue Relations"
-msgstr ""
+msgstr "Zuordnung von SMS-Vorlagen zu Queues verwalten."
 
 #. Template: AdminQueueSMSTemplates
 msgid "Filter for SMS Templates"
-msgstr ""
+msgstr "Filter für SMS-Vorlagen"
 
 #. Template: AdminQueueSMSTemplates
 msgid "SMS Templates"
-msgstr ""
+msgstr "SMS-Vorlagen"
 
 #. Template: AdminSMSTemplate
 msgid "Manage SMS Templates"
-msgstr ""
+msgstr "SMS-Vorlagen verwalten"
 
 #. Template: AdminSMSTemplate
 msgid "Add SMS Template"
-msgstr ""
+msgstr "SMS-Vorlage hinzufügen"
 
 #. Template: AdminSMSTemplate
 msgid "Edit SMS Template"
-msgstr ""
+msgstr "SMS-Vorlage bearbeiten"
 
 #. Template: AdminSMSTemplate
 msgid "Add SMS template"
-msgstr ""
+msgstr "SMS-Vorlage hinzufügen"
 
 #. Template: AdminSMSTemplate
 msgid "SMS Cloud Service inactive"
-msgstr ""
+msgstr "SMS-Cloud-Dienst nicht aktiv"
 
 #. Template: AdminSMSTemplate
 msgid ""
 "To be able to use SMS cloud service in OTRS, you have to activate it first."
-msgstr ""
+msgstr "Um den SMS-Cloud-Dienst in OTRS verwenden zu können, müssen Sie ihn zuerst aktivieren."
 
 #. Template: AdminSMSTemplate
 msgid "Activate SMS Cloud Service"
-msgstr ""
+msgstr "SMS-Cloud-Dienst aktivieren"
 
 #. Template: AdminSMSTemplate
 msgid ""
 "An SMS template is a default text which helps your agents to write faster "
 "tickets or answers."
-msgstr ""
+msgstr "Eine SMS-Vorlage ist ein Standardtext, der Ihren Agenten helfen kann, Tickets schneller zu erstellen oder zu beantworten."
 
 #. Template: AdminSMSTemplate
 msgid "Do you really want to delete this SMS template?"
-msgstr ""
+msgstr "Möchten Sie diese SMS-Vorlage wirklich löschen?"
 
 #. Template: AdminSMSTemplate
 msgid "An SMS template with this name already exists!"
-msgstr ""
+msgstr "Eine SMS-Vorlage mit diesem Namen existiert bereits!"
 
 #. Template: AdminSMSTemplate
 msgid "Flash message"
-msgstr ""
+msgstr "Flash-Nachricht"
 
 #. Template: AdminSMSTemplate
 msgid ""
 "Show message directly without user interaction and do not store it "
 "automatically (support may vary by device and provider)."
-msgstr ""
+msgstr "Nachricht direkt und ohne Benutzerinteraktion anzeigen sowie nicht automatisch speichern (Unterstützung hängt von Gerät und Provider ab)."
 
 #. Template: AdminSMSTemplate
 msgid "Your mobile phone is"
-msgstr ""
+msgstr "Ihr Mobiltelefon ist"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Deployment History"
-msgstr ""
+msgstr "Inbetriebnahme-Historie"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Filter for Deployments"
-msgstr ""
+msgstr "Filter für Inbetriebnahmen"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Recent Deployments"
-msgstr ""
+msgstr "Kürzliche Inbetriebnahmen"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Restore"
@@ -403,23 +404,23 @@ msgstr "Wiederherstellen"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "View Details"
-msgstr ""
+msgstr "Details ansehen"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Restore this deployment."
-msgstr ""
+msgstr "Inbetriebnahme wiederherstellen."
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Export this deployment."
-msgstr ""
+msgstr "Inbetriebnahme exportieren"
 
 #. Template: AdminSystemConfigurationDeploymentHistoryDetails
 msgid "Deployment Details"
-msgstr ""
+msgstr "Inbetriebnahme-Details"
 
 #. Template: AdminSystemConfigurationDeploymentHistoryDetails
 msgid "No settings have been deployed in this run."
-msgstr ""
+msgstr "In diesem Lauf wurden keine Einstellungen in Betrieb genommen."
 
 #. Template: AdminSystemConfigurationSettingHistoryDetails
 msgid "Change History"
@@ -427,31 +428,31 @@ msgstr "Änderungschronik"
 
 #. Template: AdminSystemConfigurationSettingHistoryDetails
 msgid "Change History of %s"
-msgstr ""
+msgstr "Änderungschronik von %s"
 
 #. Template: AdminSystemConfigurationSettingHistoryDetails
 msgid "No modified values for this setting, the default value is used."
-msgstr ""
+msgstr "Keine geänderten Werte für diese Einstellung vorhanden, der Standardwert wird genutzt."
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "Review users setting value"
-msgstr ""
+msgstr "Benutzereinstellungen prüfen"
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "Users Value"
-msgstr ""
+msgstr "Benutzerwert"
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "For"
-msgstr ""
+msgstr "Für"
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "Delete all user values."
-msgstr ""
+msgstr "Alle Benutzerwerte löschen."
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "No user value for this setting."
-msgstr ""
+msgstr "Für diese Einstellung existiert kein Benutzerwert."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource Overview"
@@ -988,67 +989,67 @@ msgstr "Ausgewählte Dateien als Archiv herunterladen"
 msgid ""
 "An error was encountered while trying to contact SMS cloud service. Please "
 "try again later."
-msgstr ""
+msgstr "Ein Fehler wurde festgestellt beim Versuch den SMS-Cloud-Dienst zu kontaktieren. Bitte versuchen Sie es später noch einmal."
 
 #. Template: AgentTicketSMS
 msgid ""
 "You don't have enough SMS units in your account. Please contact OTRS for "
 "further instructions."
-msgstr ""
+msgstr "Sie haben nicht genügend SMS-Einheiten in Ihrem Konto. Bitte kontaktieren Sie OTRS für weitere Instruktionen."
 
 #. Template: AgentTicketSMS
 msgid "Error while trying to send SMS! Please try again later."
-msgstr ""
+msgstr "Fehler beim Versenden der SMS. Bitte versuchen Sie es später noch einmal."
 
 #. Template: AgentTicketSMS
 msgid "Create New SMS Ticket"
-msgstr ""
+msgstr "Neues SMS-Ticket erstellen"
 
 #. Template: AgentTicketSMS
 msgid ""
 "Search for a customer or enter phone number in international format, i.e. "
 "+49 (0) 123 4567-890."
-msgstr ""
+msgstr "Nach einem Kunden suchen oder Telefonnummer in internationalem Format eingeben, z. B. +49 (0) 123 4567-890."
 
 #. Template: AgentTicketSMS
 msgid "The list contains an invalid recipient."
-msgstr ""
+msgstr "Die Liste enthält einen ungültigen Empfänger."
 
 #. Template: AgentTicketSMS
 msgid "This phone number is invalid."
-msgstr ""
+msgstr "Diese Telefonnummer ist ungültig."
 
 #. Template: AgentTicketSMS
 msgid "This phone number is not allowed due to the system configuration."
-msgstr ""
+msgstr "Diese Telefonnummer wird von der aktuellen Systemkonfiguration nicht zugelassen."
 
 #. Template: AgentTicketSMS
 msgid "This number already exists in the recipient list."
-msgstr ""
+msgstr "Dieser Nummer existiert bereits in der Empfängerliste."
 
 #. Template: AgentTicketSMS
 msgid "Ticket Title"
-msgstr ""
+msgstr "Ticket-Titel"
 
 #. Template: AgentTicketSMS
 msgid "Ticket title will not be included in SMS and is for internal use only."
-msgstr ""
+msgstr "Der Ticket-Titel wird nicht in der SMS verwendet und ist nur für den internen Gebrauch."
 
 #. Template: AgentTicketSMS
 msgid "Setting a template will overwrite any text."
-msgstr ""
+msgstr "Die Auswahl einer Vorlage wird bereits bestehenden Text löschen."
 
 #. Template: AgentTicketSMS
 msgid "%s characters left"
-msgstr ""
+msgstr "%s Zeichen übrig"
 
 #. Template: AgentTicketSMS
 msgid "Send SMS"
-msgstr ""
+msgstr "SMS senden"
 
 #. Template: AgentTicketSMSOutbound
 msgid "Outbound SMS for %s%s%s"
-msgstr ""
+msgstr "Ausgehende SMS für %s%s%s"
 
 #. Template: AgentVideoChat
 msgid "Your browser does not support HTML5 video."
@@ -1161,43 +1162,67 @@ msgstr "Nachwort"
 
 #. Template: SettingHistoryListCompare
 msgid "On "
-msgstr ""
+msgstr "Ein"
 
 #. Template: SettingHistoryListCompare
 msgid "Reset to this value"
-msgstr ""
+msgstr "Auf diesen Wert zurücksetzen"
 
 #. Template: UsersSettingListCompare
 msgid "Delete user's value."
+msgstr "Benutzerwert löschen."
+
+#. JS Template: SMSBlackList
+msgid "The entered phone number is invalid."
 msgstr ""
+
+#. JS Template: ResourceSettingsDialog
+msgid "Shown resources"
+msgstr "Angezeigte Ressourcen"
+
+#. JS Template: ResourceSettingsDialog
+msgid "Available Resources"
+msgstr "Verfügbare Ressourcen"
+
+#. JS Template: ResourceSettingsDialog
+msgid "Filter available resources"
+msgstr "Verfügbare Ressourcen filtern"
+
+#. JS Template: ResourceSettingsDialog
+msgid "Visible Resources (order by drag & drop)"
+msgstr "Sichtbare Ressourcen (mit Drag & Drop sortieren)"
+
+#. JS Template: ChatStartForm
+msgid "First message"
+msgstr "Erste Nachricht"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat channel updated!"
-msgstr ""
+msgstr "Chat-Kanal aktualisiert!"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat channel added!"
-msgstr ""
+msgstr "Chat-Kanal hinzugefügt!"
 
 #. Perl Module: Kernel/Modules/AdminContactWithData.pm
 msgid "Contact updated!"
-msgstr ""
+msgstr "Kontakt aktualisiert!"
 
 #. Perl Module: Kernel/Modules/AdminDynamicFieldContactWithData.pm
-msgid "Two keys 'Name' and 'ValidID' have to exist in possible values."
+msgid "Two keys \"Name\" and \"ValidID\" have to exist in possible values."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
 msgid "Change Queue Relations for SMS Template"
-msgstr ""
+msgstr "Zuordnung von SMS-Vorlage zu Queue ändern"
 
 #. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
 msgid "Change SMS Template Relations for Queue"
-msgstr ""
+msgstr "Zuordnung von Queue zu SMS-Vorlage ändern"
 
 #. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
 msgid "Invalid ID!"
-msgstr ""
+msgstr "Ungültige ID!"
 
 #. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
 msgid "Template not found!"
@@ -1205,51 +1230,51 @@ msgstr "Vorlage nicht verfügbar!"
 
 #. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
 msgid "SMS template updated!"
-msgstr ""
+msgstr "SMS-Vorlage aktualisiert!"
 
 #. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
 msgid "SMS template added!"
-msgstr ""
+msgstr "SMS-Vorlage hinzugefügt!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationDeploymentHistory.pm
 msgid "This deployment does not contain changes in the setting values!"
-msgstr ""
+msgstr "Diese Inbetriebnahme enthält keine Änderungen."
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationDeploymentHistory.pm
 msgid "No DeploymentID received!"
-msgstr ""
+msgstr "Keine DeploymentID erhalten!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "No setting name received!"
-msgstr ""
+msgstr "Keinen Einstellungsnamen erhalten!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "Modified Version"
-msgstr ""
+msgstr "Veränderte Version"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "Reset To Default"
-msgstr ""
+msgstr "Auf Standard zurücksetzen"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "Default Version"
-msgstr ""
+msgstr "Standard-Version"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "No setting name or modified version id received!"
-msgstr ""
+msgstr "Keinen SettingName oder ModifiedVersionID erhalten!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "Was not possible to revert the historical value!"
-msgstr ""
+msgstr "Es war nicht möglich, den historischen Wert wiederherzustellen."
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationUser.pm
 msgid "Missing setting name or modified id!"
-msgstr ""
+msgstr "Keinen SettingName oder ModifiedID erhalten!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationUser.pm
 msgid "System was not able to delete the user setting values!"
-msgstr ""
+msgstr "Die Einstellungen des Benutzers konnten nicht entfernt werden!"
 
 #. Perl Module: Kernel/Modules/AgentAppointmentResourceOverview.pm
 msgid ""
@@ -1353,7 +1378,7 @@ msgstr "Bitte kontaktieren Sie einen Administrator."
 
 #. Perl Module: Kernel/Modules/AgentTicketSMSOutbound.pm
 msgid "Error creating SMS article!"
-msgstr ""
+msgstr "Fehler beim Erzeugen des SMS-Artikels!"
 
 #. Perl Module: Kernel/Modules/AgentVideoChat.pm
 msgid "You are not participant in this chat!"
@@ -1361,19 +1386,19 @@ msgstr "Sie sind kein Teilnehmer dieses Chats!"
 
 #. Perl Module: Kernel/Output/HTML/Article/SMS.pm
 msgid "Transaction Numbers"
-msgstr ""
+msgstr "Transaktionsnummern"
 
 #. Perl Module: Kernel/Output/HTML/Article/SMS.pm
 msgid "Flash"
-msgstr ""
+msgstr "Flash"
 
 #. Perl Module: Kernel/Output/HTML/ArticleAction/AgentTicketSMSOutbound.pm
 msgid "Reply via SMS"
-msgstr ""
+msgstr "Per SMS antworten"
 
 #. Perl Module: Kernel/Output/HTML/ArticleAction/AgentTicketSMSOutbound.pm
 msgid "Reply to this article via SMS"
-msgstr ""
+msgstr "Diesen Artikel per SMS beantworten"
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
 msgid "You are unavailable for external chats. Would you like to go online?"
@@ -1445,33 +1470,33 @@ msgstr "Standard-Chat-Kanal"
 msgid ""
 "Your available SMS messages are getting low. Please contact sales@otrs.com "
 "to get more SMS messages."
-msgstr ""
+msgstr "Die Anzahl der verfügbaren SMS-Nachrichten ist gering. Bitte kontaktieren Sie sales@otrs.com, um mehr SMS-Nachrichten zu erhalten."
 
 #. Perl Module: Kernel/System/SupportDataCollector/Plugin/CloudService/SMS.pm
 msgid "Available SMS"
-msgstr ""
+msgstr "Verfügbare SMS"
 
 #. Perl Module:
 #. Kernel/System/SupportDataCollector/Plugin/OTRS/ConfigLastDeployments.pm
 msgid "Configuration Last Deployments"
-msgstr ""
+msgstr "Letzte Inbetriebnahmen"
 
 #. Perl Module:
 #. Kernel/System/SupportDataCollector/Plugin/OTRS/ConfigLastDeployments.pm
 msgid "Could not determine deployment information."
-msgstr ""
+msgstr "Konnte Inbetriebnahme-Informationen nicht ermitteln."
 
 #. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
 msgid "SMS phone number"
-msgstr ""
+msgstr "SMS-Telefonnummer"
 
 #. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
 msgid "SMS transaction number"
-msgstr ""
+msgstr "SMS-Transaktionsnummer"
 
 #. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
 msgid "SMS text"
-msgstr ""
+msgstr "SMS-Text"
 
 #. JS File: Core.Agent.Admin.CloudServiceSMS
 msgid "Data Protection Information"
@@ -1479,11 +1504,11 @@ msgstr "Hinweise zum Datenschutz"
 
 #. JS File: Core.Agent.Admin.SMSTemplate
 msgid "Delete this template"
-msgstr ""
+msgstr "Diese Vorlage löschen"
 
 #. JS File: Core.Agent.Admin.SystemConfigurationUser
 msgid "Are you sure you want to remove all user values?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie alle Benutzerwerte löschen wollen?"
 
 #. JS File: Core.Agent.Chat.Toolbar
 msgid "An internal error occurred."
@@ -1633,20 +1658,20 @@ msgstr "Das System konnte Ihre Chatreihenfolge nicht speichern."
 
 #. JS File: Core.Agent.CustomerSearchSMS
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Ungültige Telefonnummer"
 
 #. JS File: Core.Agent.CustomerSearchSMS
 msgid "The entered phone number '%s' is invalid."
-msgstr ""
+msgstr "Die eingegebene Telefonnummer '%s' ist ungültig."
 
 #. JS File: Core.Agent.CustomerSearchSMS
 msgid ""
 "Please enter a number in international format, i.e. +49 (0) 123 4567-890."
-msgstr ""
+msgstr "Bitte geben Sie eine Nummer im internationalen Format an, z. B. +49 (0) 123 4567-890."
 
 #. JS File: Core.Agent.DynamicFieldDatabaseSearch
 msgid "This dynamic field database value is already selected."
-msgstr ""
+msgstr "Dieser Wert wurde bereits ausgewählt."
 
 #. JS File: Core.Agent.NotificationView
 msgid "Do you really want to dismiss the selected notifications?"
@@ -1718,7 +1743,7 @@ msgstr "Aktiviert Chat-Unterstützung."
 
 #. SysConfig
 msgid "Added SMS for \"%s\"."
-msgstr ""
+msgstr "SMS hinzugefügt für \"%s\""
 
 #. SysConfig
 msgid "Admin Contact With Data"
@@ -1730,7 +1755,7 @@ msgstr "Administration Kontaktdaten."
 
 #. SysConfig
 msgid "Advanced"
-msgstr ""
+msgstr "Fortgeschritten"
 
 #. SysConfig
 msgid "Agent Contact With Data Search"
@@ -1738,11 +1763,11 @@ msgstr "Agentensuche Kontaktdaten"
 
 #. SysConfig
 msgid "Agent Customer Search SMS"
-msgstr ""
+msgstr "Kundensuche Agentenbereich"
 
 #. SysConfig
 msgid "Agent Customer Search SMS."
-msgstr ""
+msgstr "Kundensuche Agentenbereich"
 
 #. SysConfig
 msgid "Agent Dynamic Field Database Detailed Search"
@@ -1784,7 +1809,7 @@ msgstr "Dynamic Field Database Suche"
 msgid ""
 "Agent frontend module registration (disable 'Edit contacts with data' link "
 "if if there is no source field configured)."
-msgstr ""
+msgstr "Frontend-Modulregistrierung im Agenten-Interface (Link wird ausgeblendet, wenn kein entsprechendes Quellfeld vorhanden ist)."
 
 #. SysConfig
 msgid ""
@@ -1829,7 +1854,7 @@ msgstr "Aktiviert eine Web-basierte Übersicht über die Benachrichtigungen."
 msgid ""
 "Allows to save current work as draft in the SMS outbound screen of the agent"
 " interface."
-msgstr ""
+msgstr "Erlaubt das Speichern des aktuellen Stands als Entwurf im Ausgehende-SMS-Bildschirm des Agentenbereichs."
 
 #. SysConfig
 msgid "Append Chat to Ticket."
@@ -1899,7 +1924,7 @@ msgstr "Chats"
 
 #. SysConfig
 msgid "Choose which notifications you'd like to receive."
-msgstr ""
+msgstr "Legen Sie fest, welche Benachrichtigungen Sie erhalten möchten."
 
 #. SysConfig
 msgid "Cleans up old chat logs."
@@ -1915,11 +1940,11 @@ msgstr "Spalten-Filter für Web-Oberfläche für Benachrichtigungen vom Typ \"Kl
 msgid ""
 "Columns that can be filtered in the notification web view of the agent "
 "interface."
-msgstr ""
+msgstr "Spalten die in der Web-Ansicht für Benachrichtigungen gefiltert werden können."
 
 #. SysConfig
 msgid "Create and manage SMS templates."
-msgstr ""
+msgstr "SMS-Vorlagen erzeugen und verwalten."
 
 #. SysConfig
 msgid "Create and manage chat channels."
@@ -1927,11 +1952,11 @@ msgstr "Chat-Kanäle erzeugen und verwalten."
 
 #. SysConfig
 msgid "Create new SMS ticket and send it out (outbound)."
-msgstr ""
+msgstr "Neues SMS-Ticket erstellen und versenden (ausgehend)."
 
 #. SysConfig
 msgid "Create new SMS ticket."
-msgstr ""
+msgstr "Erstellt ein neues SMS-Ticket."
 
 #. SysConfig
 msgid "Create new chat"
@@ -1992,7 +2017,7 @@ msgstr "Standardtext für das Public-Interface"
 
 #. SysConfig
 msgid "Defines SMS communication channel."
-msgstr ""
+msgstr "Legt den SMS-Kommunikationskanal fest."
 
 #. SysConfig
 msgid ""
@@ -2009,14 +2034,14 @@ msgstr "Definiert einen Text für die Benutzereinstellungen im der Kunden-Oberfl
 
 #. SysConfig
 msgid "Defines available article actions for SMS articles."
-msgstr ""
+msgstr "Legt verfügbare Artikel-Aktionen für SMS-Artikel fest."
 
 #. SysConfig
 msgid ""
 "Defines if a ticket lock is required in the SMS outbound screen of the agent"
 " interface (if the ticket isn't locked yet, the ticket gets locked and the "
 "current agent will be set automatically as its owner)."
-msgstr ""
+msgstr "Bestimmt, ob der ausgehende SMS-Bildschirm im Agenten-Interface das Sperren des Tickets voraussetzt. Das Ticket wird (falls nötig) gesperrt und der aktuelle Agent wird als Besitzer gesetzt."
 
 #. SysConfig
 msgid ""
@@ -2046,23 +2071,23 @@ msgstr "Definiert ob öffentliche Benutzer den Chat-Kanal auswählen können. We
 msgid ""
 "Defines if the message in the SMS outbound screen of the agent interface is "
 "visible for the customer by default."
-msgstr ""
+msgstr "Gibt an, ob die Nachricht im Bildschirm für neu zu sendende SMS des Agentenbereichs standardmäßig für den Kunden sichtbar sein soll."
 
 #. SysConfig
 msgid ""
 "Defines the default next state of a ticket after the message has been sent, "
 "in the SMS outbound screen of the agent interface."
-msgstr ""
+msgstr "Bestimmt den vorgegebenen Folgestatus für Tickets im ausgehende SMS-Bildschirm des Agentenbereichs."
 
 #. SysConfig
 msgid ""
 "Defines the hard limit for number of characters that can be sent via SMS per"
 " message."
-msgstr ""
+msgstr "Legt die maximale Zeichenzahl für zu sendende SMS pro Nachricht fest."
 
 #. SysConfig
 msgid "Defines the list of types for SMS templates."
-msgstr ""
+msgstr "Definiert die Typenliste für SMS-Vorlagen."
 
 #. SysConfig
 msgid ""
@@ -2082,7 +2107,7 @@ msgstr "Definiert das Modul um eine Benachrichtigung im Agent-Interface anzuzeig
 msgid ""
 "Defines the next possible states after sending a message in the SMS outbound"
 " screen of the agent interface."
-msgstr ""
+msgstr "Definiert die nächsten wählbaren Status im Agentenbereich, nachdem eine ausgehende SMS versendet wurde."
 
 #. SysConfig
 msgid ""
@@ -2128,20 +2153,22 @@ msgstr "Definiert das Ziel-DynamicField für die Speicherung historischer Daten.
 
 #. SysConfig
 msgid "DeploymentHistory"
-msgstr ""
+msgstr "Inbetriebnahme-Historie"
 
 #. SysConfig
 msgid ""
 "Determines the next possible ticket states, after the creation of a new SMS "
 "ticket in the agent interface."
-msgstr ""
+msgstr "Definiert die nächstmöglichen Ticketstatus, nachdem ein neues SMS-Ticket im Agentenbereich erstellt wurde."
 
 #. SysConfig
 msgid "Dialog message"
 msgstr "Dialog-Nachricht"
 
 #. SysConfig
-msgid "Dutch"
+msgid ""
+"Disables automatic opening of the last customer article in the timeline view"
+" in AgentTicketZoom."
 msgstr ""
 
 #. SysConfig
@@ -2154,16 +2181,16 @@ msgstr "Backend-GUI für Dynamic Field Database"
 
 #. SysConfig
 msgid "Dynamic Fields Web Service Backend GUI"
-msgstr ""
+msgstr "Dynamic Fields-Oberfläche für Web-Service-Felder"
 
 #. SysConfig
 msgid ""
 "Dynamic fields shown in the SMS outbound screen of the agent interface."
-msgstr ""
+msgstr "Dynamische Felder zur Eingabe im SMS versenden-Bildschirm des Agentenbereichs."
 
 #. SysConfig
 msgid "Dynamic fields shown in the SMS ticket screen of the agent interface."
-msgstr ""
+msgstr "Dynamische Felder zur Eingabe im SMS-Ticket erstellen-Bildschirm des Agentenbereichs."
 
 #. SysConfig
 msgid "Edit contacts with data"
@@ -2195,13 +2222,13 @@ msgstr "Ereignismodulregistrierung (Speicherung historischer Daten in dynamische
 
 #. SysConfig
 msgid "For more experienced users."
-msgstr ""
+msgstr "Für fortgeschrittene Nutzer."
 
 #. SysConfig
 msgid ""
 "Frontend module registration (disable SMS ticket screen if cloud service is "
 "not activated)."
-msgstr ""
+msgstr "Frontend-Modulregistrierung (verberge SMS-Ticket-Bildschirm, wenn Cloud-Services nicht aktiviert sind)."
 
 #. SysConfig
 msgid "Frontend module registration for the cusotmer interface."
@@ -2220,7 +2247,7 @@ msgstr "Generiert HTML-Kommentar Hooks für die einzelnen Blöcke so dass diese 
 #. SysConfig
 msgid ""
 "GenericInterface module registration for the PassThrough invoker layer."
-msgstr ""
+msgstr "Modulregistrierung für PassThrough-Invoker-Layer des GenericInterface."
 
 #. SysConfig
 msgid ""
@@ -2271,7 +2298,7 @@ msgstr "Wird angezeigt, wenn ein Kunde diesen SLA bei der Ticketerstellung wähl
 
 #. SysConfig
 msgid "Link SMS templates to queues."
-msgstr ""
+msgstr "SMS-Vorlagen zu Queues zuordnen."
 
 #. SysConfig
 msgid ""
@@ -2312,7 +2339,7 @@ msgstr "Name des Standard-Chat-Kanals. Existiert der Kanal nicht, wird er automa
 
 #. SysConfig
 msgid "New SMS ticket"
-msgstr ""
+msgstr "Neues SMS-Ticket"
 
 #. SysConfig
 msgid "No agents available message."
@@ -2405,7 +2432,7 @@ msgstr "Alte Chats löschen"
 #. SysConfig
 msgid ""
 "Required permissions to use the SMS outbound screen in the agent interface."
-msgstr ""
+msgstr "Benötigte Rechte, um den Bildschirm für ausgehende SMS im Agentenbereich nutzen zu können."
 
 #. SysConfig
 msgid "Resource overview page."
@@ -2427,23 +2454,23 @@ msgstr "Führt eine initiale Wildcard-Suche für existierende Kontakte aus, wenn
 
 #. SysConfig
 msgid "SMS Outbound"
-msgstr ""
+msgstr "Ausgehende SMS"
 
 #. SysConfig
 msgid "SMS Templates ↔ Queues"
-msgstr ""
+msgstr "SMS-Vorlagen ↔ Queues"
 
 #. SysConfig
 msgid "SMS communication channel."
-msgstr ""
+msgstr "Kommunikationskanal SMS."
 
 #. SysConfig
 msgid "SMSOutbound"
-msgstr ""
+msgstr "Ausgehende SMS"
 
 #. SysConfig
 msgid "Send new outgoing SMS from this ticket"
-msgstr ""
+msgstr "Neue ausgehende SMS aus diesem Ticket heraus senden"
 
 #. SysConfig
 msgid "Sets if a chat request can be sent out from agent ticket zoom view."
@@ -2457,30 +2484,30 @@ msgstr "Definiert ob eine Chat-Anfrage aus der Kunden Ticket Zoom Ansicht gesend
 msgid ""
 "Sets the default article customer visibility for new SMS tickets in the "
 "agent interface."
-msgstr ""
+msgstr "Bestimmt die voreingestellte Sichtbarkeit von Artikeln für Kunden für neue SMS-Tickets im Agentenbereich."
 
 #. SysConfig
 msgid ""
 "Sets the default next ticket state, after the creation of an SMS ticket in "
 "the agent interface."
-msgstr ""
+msgstr "Definiert den vorgegebenen Ticket-Folgestatus, nachdem ein neues SMS-Ticket im Agentenbereich erstellt wurde."
 
 #. SysConfig
 msgid "Sets the default priority for new SMS tickets in the agent interface."
-msgstr ""
+msgstr "Definiert die vorgegebene Ticket-Folgepriorität, nachdem ein neues SMS-Ticket im Agentenbereich erstellt wurde."
 
 #. SysConfig
 msgid ""
 "Sets the default sender type for new SMS tickets in the agent interface."
-msgstr ""
+msgstr "Definiert den vorgegebenen Absendertyp für neue SMS-Tickets im Agentenbereich."
 
 #. SysConfig
 msgid "Sets the default text for new SMS tickets in the agent interface."
-msgstr ""
+msgstr "Definiert den vorgegebenen Text für neue SMS-Tickets im Agentenbereich."
 
 #. SysConfig
 msgid "Sets the default title for new SMS tickets in the agent interface."
-msgstr ""
+msgstr "Definiert den vorgegebenen Titel für neue SMS-Tickets im Agentenbereich."
 
 #. SysConfig
 msgid "Show all ticket attachments."
@@ -2495,7 +2522,7 @@ msgid ""
 "\"ClusterName\" and for the Content any name you want to see in the UI. Use "
 "\"ClusterPriority\" to configure the order of a certain cluster within the "
 "toolbar."
-msgstr ""
+msgstr "Zeigt einen Link zum Senden einer ausgehenden SMS im Ticket-Zoom des Agentenbereichs an. Zusätzliche Zugriffskontrolle auf diesen Link kann durch Angabe von \"Group\" als Schlüssel und Inhalten wie \"rw:group1;move_into:group2\" als Wert konfiguriert werden. Um Elemente des Ticketmenüs zu gruppieren, kann \"ClusterName\" als Schlüssel und ein beliebiger Name als Wert verwendet werden, unter dem diese Gruppe im Benutzer interface angezeigt werden soll. Verwenden Sie \"ClusterPriority\", um die Anzeigereihenfolge der verschiedenen Gruppen innerhalb des Ticketmenüs zu steuern."
 
 #. SysConfig
 msgid "Shows all attachments available in the ticket."
@@ -2515,7 +2542,7 @@ msgstr "Support-Agent"
 
 #. SysConfig
 msgid "System Configuration Setting History"
-msgstr ""
+msgstr "Einstellungs-Historie"
 
 #. SysConfig
 msgid "Team agents management screen."
@@ -2584,11 +2611,11 @@ msgstr "Dieser Chat ist abgeschlossen. Sie können jederzeit einen neuen Chat st
 
 #. SysConfig
 msgid "This is a description for NotificationViewFilterSettings ob Business."
-msgstr ""
+msgstr "Dies ist eine Beschreibung."
 
 #. SysConfig
 msgid "This is a description for NotificationViewSmallPageShown ob Business."
-msgstr ""
+msgstr "Dies ist eine Beschreibung."
 
 #. SysConfig
 msgid "This module is part of the admin area of OTRS Business Solution™."
@@ -2596,7 +2623,7 @@ msgstr "Dieses Modul ist Teil der Administrationsoberfläche der OTRS Business S
 
 #. SysConfig
 msgid "Ticket Outbound SMS."
-msgstr ""
+msgstr "Ausgehende Ticket-SMS."
 
 #. SysConfig
 msgid "Ticket attachments."
@@ -2612,7 +2639,7 @@ msgstr "Bildschirm für Video- und Audio-Anrufe."
 
 #. SysConfig
 msgid "Web Service"
-msgstr ""
+msgstr "Web-Service"
 
 #. SysConfig
 msgid ""

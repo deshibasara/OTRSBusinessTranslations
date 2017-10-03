@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-09-25 08:01+0000\n"
-"PO-Revision-Date: 2017-09-25 08:02+0000\n"
+"POT-Creation-Date: 2017-10-03 08:02+0000\n"
+"PO-Revision-Date: 2017-10-03 08:08+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Serbian (http://www.transifex.com/otrs/OTRS/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "Јавно"
 
 #. Template: AdminChatChannel
 msgid "A chat channel with this name already exists!"
-msgstr ""
+msgstr "Канал ћаскања са овим називом већ постоји!"
 
 #. Template: AdminChatChannel
 msgid "Need Group"
@@ -57,11 +57,11 @@ msgstr "Неисправан коментар"
 
 #. Template: AdminCloudServiceSMS
 msgid "Add Cloud Service"
-msgstr ""
+msgstr "Додај сервис у облаку"
 
 #. Template: AdminCloudServiceSMS
 msgid "Edit Cloud Servicel"
-msgstr ""
+msgstr "Уреди сервис у облаку"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service status"
@@ -73,7 +73,7 @@ msgstr "Доступност сервиса у облаку"
 
 #. Template: AdminCloudServiceSMS
 msgid "Remaining SMS units"
-msgstr "Преостали број СМС"
+msgstr "Преостали број SMS јединица"
 
 #. Template: AdminCloudServiceSMS
 msgid "Is currently not possible to check the state for this cloud service."
@@ -87,7 +87,7 @@ msgstr "Број телефона оператера"
 msgid ""
 "Agent data field from which the mobile phone number for sending messages via"
 " SMS should be taken."
-msgstr "Поље оператера са мобилним телефонским бројем за слање СМС порука. "
+msgstr "Поље оператера са мобилним телефонским бројем за слање SMS порука. "
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone field for customer"
@@ -97,7 +97,7 @@ msgstr "Број телефона клијента"
 msgid ""
 "Customer data field from which the mobile phone number for sending messages "
 "via SMS should be taken."
-msgstr "Поље клијента са мобилним телефонским бројем за слање СМС порука."
+msgstr "Поље клијента са мобилним телефонским бројем за слање SMS порука."
 
 #. Template: AdminCloudServiceSMS
 msgid "Sender string"
@@ -106,7 +106,7 @@ msgstr "Пошиљаоц"
 #. Template: AdminCloudServiceSMS
 msgid ""
 "Will be shown as sender name of the SMS (Not longer than 11 characters)."
-msgstr "Биће приказано као назив пошиљаоца СМС поруке (не дуже од 11 карактера)."
+msgstr "Биће приказано као назив пошиљаоца SMS поруке (не дуже од 11 карактера)."
 
 #. Template: AdminCloudServiceSMS
 msgid "This field is required and must be not longer than 11 characters."
@@ -120,37 +120,37 @@ msgstr "Припадници улоге"
 msgid ""
 "If selected, only agents assigned to these roles will be able to receive "
 "notifications via SMS (optional)."
-msgstr ""
+msgstr "Уколико је подешено, само оператери са овим улогама ће моћи да примају обавештења путем SMS (опционо)."
 
 #. Template: AdminCloudServiceSMS
 msgid "Perform URL shortening"
-msgstr ""
+msgstr "Скрати URL адресе"
 
 #. Template: AdminCloudServiceSMS
 msgid "Perform URL shortening before sending the message."
-msgstr ""
+msgstr "Све URL адресе ће бити скраћене пре слања поруке."
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone black list"
-msgstr ""
+msgstr "Црна листа бројева телефона"
 
 #. Template: AdminCloudServiceSMS
 msgid "Add phone number"
-msgstr ""
+msgstr "Додај број телефона"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "A blacklist of telephone numbers where it is forbidden to send SMS messages "
 "to. Phone numbers must be added in international format without spaces, e.g."
 " +491791234567, one number per field."
-msgstr ""
+msgstr "Црна листа бројева за које ће бити забрањено слање SMS порука. Бројеви морају бити додати у интернационалном формату без прореда, нпр. +381601234567, један број по пољу."
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "In order to be able to use the SMS transmission feature of the OTRS AG, I "
 "hereby declare that I have read and understood the %sData Protection "
 "Information%s."
-msgstr "Овим изјављујем да сам прочитао(ла) и разумео(ла) %sинформације о заштити података%s приликом коришћења функције слања СМС порука од стране OTRS AG."
+msgstr "Овим изјављујем да сам прочитао(ла) и разумео(ла) %sинформације о заштити података%s приликом коришћења функције слања SMS порука од стране OTRS AG."
 
 #. Template: AdminCloudServiceSMS
 msgid "Save configuration"
@@ -260,135 +260,135 @@ msgstr "Зависи од великих и малих слова"
 
 #. Template: AdminDynamicFieldWebService
 msgid "The web service to be executed for possible values."
-msgstr ""
+msgstr "Веб сервис за прибављање могућих вредности."
 
 #. Template: AdminDynamicFieldWebService
 msgid "Invoker"
-msgstr "Позиваоц"
+msgstr "Позивалац"
 
 #. Template: AdminDynamicFieldWebService
 msgid ""
 "The invoker to be used to perform requests (invoker needs to be of type "
 "'Generic::PassThrough')."
-msgstr ""
+msgstr "Позивалац за извршавање захтева (позивалац мора бити типа 'Generic::PassThrough')."
 
 #. Template: AdminDynamicFieldWebService
 msgid "Activate this option to allow multiselect on results."
-msgstr ""
+msgstr "Активирајте ову опцију за дозволу вишеструког избора на резултатима."
 
 #. Template: AdminDynamicFieldWebService
 msgid "Cache TTL"
-msgstr ""
+msgstr "Време кеширања"
 
 #. Template: AdminDynamicFieldWebService
 msgid ""
 "Cache time to live (in minutes), to save the retrieved possible values."
-msgstr ""
+msgstr "Време кеширања (у минутима) за чување прибављених могућих вредности."
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
-msgstr "Бројеви СМС примаоца"
+msgstr "Бројеви примаоца SMS"
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid ""
 "An article will be created if the notification is sent to the customer or an"
 " additional recipient."
-msgstr ""
+msgstr "Чланак ће бити креиран уколико је обавештење послато клијенту или на додатном примаоцу."
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Send as flash message"
-msgstr ""
+msgstr "Пошаљи као блиц поруку"
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Send the message for this notification as Flash SMS."
-msgstr ""
+msgstr "Шаље поруку за ово обавештење као блиц SMS."
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid ""
 "In case the SMS text message is too long it may be split up into multiple "
 "messages at the end."
-msgstr ""
+msgstr "У случају да је SMS порука исувише дугачка, могуће је да ће бити издељена у више њих на страни примаоца."
 
 #. Template: AdminQueueSMSTemplates
 msgid "Manage SMS Template-Queue Relations"
-msgstr ""
+msgstr "Управљање релацијама SMS шаблони-редови"
 
 #. Template: AdminQueueSMSTemplates
 msgid "Filter for SMS Templates"
-msgstr ""
+msgstr "Филтер за SMS шаблоне"
 
 #. Template: AdminQueueSMSTemplates
 msgid "SMS Templates"
-msgstr ""
+msgstr "SMS шаблони"
 
 #. Template: AdminSMSTemplate
 msgid "Manage SMS Templates"
-msgstr ""
+msgstr "Управљање SMS шаблонима"
 
 #. Template: AdminSMSTemplate
 msgid "Add SMS Template"
-msgstr ""
+msgstr "Додај SMS шаблон"
 
 #. Template: AdminSMSTemplate
 msgid "Edit SMS Template"
-msgstr ""
+msgstr "Уреди SMS шаблон"
 
 #. Template: AdminSMSTemplate
 msgid "Add SMS template"
-msgstr ""
+msgstr "Додај SMS шаблон"
 
 #. Template: AdminSMSTemplate
 msgid "SMS Cloud Service inactive"
-msgstr ""
+msgstr "SMS сервис у облаку неактиван"
 
 #. Template: AdminSMSTemplate
 msgid ""
 "To be able to use SMS cloud service in OTRS, you have to activate it first."
-msgstr ""
+msgstr "Да би могли да користите SMS сервис у облаку у OTRS, морате га прво активирати."
 
 #. Template: AdminSMSTemplate
 msgid "Activate SMS Cloud Service"
-msgstr ""
+msgstr "Активирај SMS сервис у облаку"
 
 #. Template: AdminSMSTemplate
 msgid ""
 "An SMS template is a default text which helps your agents to write faster "
 "tickets or answers."
-msgstr ""
+msgstr "SMS шаблон је подразумевани текст који помаже вашим оператерима да брше испишу тикете или одговоре."
 
 #. Template: AdminSMSTemplate
 msgid "Do you really want to delete this SMS template?"
-msgstr ""
+msgstr "Да ли стварно желите да обришете овај SMS шаблон?"
 
 #. Template: AdminSMSTemplate
 msgid "An SMS template with this name already exists!"
-msgstr ""
+msgstr "SMS шаблон са овим називом већ постоји!"
 
 #. Template: AdminSMSTemplate
 msgid "Flash message"
-msgstr ""
+msgstr "Блиц порука"
 
 #. Template: AdminSMSTemplate
 msgid ""
 "Show message directly without user interaction and do not store it "
 "automatically (support may vary by device and provider)."
-msgstr ""
+msgstr "Прикажи поруку директно без интеракције са корисником и немој је чувати аутоматски (подршка варира у зависности од уређаја и провајдера)."
 
 #. Template: AdminSMSTemplate
 msgid "Your mobile phone is"
-msgstr ""
+msgstr "Ваш мобилни телефон је"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Deployment History"
-msgstr ""
+msgstr "Историјат распоређивања"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Filter for Deployments"
-msgstr ""
+msgstr "Филтер распоређивања"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Recent Deployments"
-msgstr ""
+msgstr "Последња распоређувања"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Restore"
@@ -396,23 +396,23 @@ msgstr "Обнови"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "View Details"
-msgstr ""
+msgstr "Види детаље"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Restore this deployment."
-msgstr ""
+msgstr "Обнови ово распоређивање."
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Export this deployment."
-msgstr ""
+msgstr "Извези ово распоређивање."
 
 #. Template: AdminSystemConfigurationDeploymentHistoryDetails
 msgid "Deployment Details"
-msgstr ""
+msgstr "Детаљи распоређивања"
 
 #. Template: AdminSystemConfigurationDeploymentHistoryDetails
 msgid "No settings have been deployed in this run."
-msgstr ""
+msgstr "Без распоређених подешавања у овом извршавању."
 
 #. Template: AdminSystemConfigurationSettingHistoryDetails
 msgid "Change History"
@@ -420,31 +420,31 @@ msgstr "Историјат промене"
 
 #. Template: AdminSystemConfigurationSettingHistoryDetails
 msgid "Change History of %s"
-msgstr ""
+msgstr "Историјат променa за %s"
 
 #. Template: AdminSystemConfigurationSettingHistoryDetails
 msgid "No modified values for this setting, the default value is used."
-msgstr ""
+msgstr "Без измењених вредности за ово подешавање, биће коришћена подразумевана вредност."
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "Review users setting value"
-msgstr ""
+msgstr "Рецензија корисничких вредности подешавања"
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "Users Value"
-msgstr ""
+msgstr "Корисничка вредност"
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "For"
-msgstr ""
+msgstr "За"
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "Delete all user values."
-msgstr ""
+msgstr "Обриши све корисничке вредности."
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "No user value for this setting."
-msgstr ""
+msgstr "Без корисничких вредности за ово подешавање."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource Overview"
@@ -981,67 +981,67 @@ msgstr "Преузимање изабраних датотека као архи
 msgid ""
 "An error was encountered while trying to contact SMS cloud service. Please "
 "try again later."
-msgstr ""
+msgstr "Грешка приликом контакта са SMS сервисом у облаку. Молимо покушајте поново касније."
 
 #. Template: AgentTicketSMS
 msgid ""
 "You don't have enough SMS units in your account. Please contact OTRS for "
 "further instructions."
-msgstr ""
+msgstr "Немате довољно SMS јединица у вашем налогу. Молимо контактирајте OTRS за даље кораке."
 
 #. Template: AgentTicketSMS
 msgid "Error while trying to send SMS! Please try again later."
-msgstr ""
+msgstr "Грешка приликом слања SMS! Молимо покушајте поново касније."
 
 #. Template: AgentTicketSMS
 msgid "Create New SMS Ticket"
-msgstr ""
+msgstr "Отвори нови SMS тикет"
 
 #. Template: AgentTicketSMS
 msgid ""
 "Search for a customer or enter phone number in international format, i.e. "
 "+49 (0) 123 4567-890."
-msgstr ""
+msgstr "Претражи по клијентима или унеси број телефона у интернационалном формату, нпр. +381 (0) 60 1234-567."
 
 #. Template: AgentTicketSMS
 msgid "The list contains an invalid recipient."
-msgstr ""
+msgstr "Листа садржи неважећег примаоца."
 
 #. Template: AgentTicketSMS
 msgid "This phone number is invalid."
-msgstr ""
+msgstr "Овај број телефона је неисправан."
 
 #. Template: AgentTicketSMS
 msgid "This phone number is not allowed due to the system configuration."
-msgstr ""
+msgstr "Овај број телефона није дозвољен због системске конфигурације."
 
 #. Template: AgentTicketSMS
 msgid "This number already exists in the recipient list."
-msgstr ""
+msgstr "Овај број већ постоји у листи примаоца."
 
 #. Template: AgentTicketSMS
 msgid "Ticket Title"
-msgstr ""
+msgstr "Наслов тикета"
 
 #. Template: AgentTicketSMS
 msgid "Ticket title will not be included in SMS and is for internal use only."
-msgstr ""
+msgstr "Наслов тикета неће бити део SMS поруке и служи за интерну употребу."
 
 #. Template: AgentTicketSMS
 msgid "Setting a template will overwrite any text."
-msgstr ""
+msgstr "Подешавање шаблона ће преписати сваки текст."
 
 #. Template: AgentTicketSMS
 msgid "%s characters left"
-msgstr ""
+msgstr "остало још %s карактера"
 
 #. Template: AgentTicketSMS
 msgid "Send SMS"
-msgstr ""
+msgstr "Пошаљи SMS"
 
 #. Template: AgentTicketSMSOutbound
 msgid "Outbound SMS for %s%s%s"
-msgstr ""
+msgstr "Одлазни SMS за %s%s%s"
 
 #. Template: AgentVideoChat
 msgid "Your browser does not support HTML5 video."
@@ -1154,43 +1154,67 @@ msgstr "Закључак"
 
 #. Template: SettingHistoryListCompare
 msgid "On "
-msgstr ""
+msgstr "Укључено"
 
 #. Template: SettingHistoryListCompare
 msgid "Reset to this value"
-msgstr ""
+msgstr "Поништи на ову вредност"
 
 #. Template: UsersSettingListCompare
 msgid "Delete user's value."
-msgstr ""
+msgstr "Обриши корисничку вредност."
+
+#. JS Template: SMSBlackList
+msgid "The entered phone number is invalid."
+msgstr "Унети број телефона је неисправан."
+
+#. JS Template: ResourceSettingsDialog
+msgid "Shown resources"
+msgstr "Приказани ресурси"
+
+#. JS Template: ResourceSettingsDialog
+msgid "Available Resources"
+msgstr "Доступни ресурси"
+
+#. JS Template: ResourceSettingsDialog
+msgid "Filter available resources"
+msgstr "Филтер доступних ресурса"
+
+#. JS Template: ResourceSettingsDialog
+msgid "Visible Resources (order by drag & drop)"
+msgstr "Видљиви ресурси (редослед према превуци и пусти)"
+
+#. JS Template: ChatStartForm
+msgid "First message"
+msgstr "Прва порука"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat channel updated!"
-msgstr ""
+msgstr "Ажуриран канал ѕа ћаскања!"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat channel added!"
-msgstr ""
+msgstr "Додат канал за ћаскања!"
 
 #. Perl Module: Kernel/Modules/AdminContactWithData.pm
 msgid "Contact updated!"
-msgstr ""
+msgstr "Ажуриран контакт!"
 
 #. Perl Module: Kernel/Modules/AdminDynamicFieldContactWithData.pm
-msgid "Two keys 'Name' and 'ValidID' have to exist in possible values."
-msgstr ""
+msgid "Two keys \"Name\" and \"ValidID\" have to exist in possible values."
+msgstr "Два кључа \"Name\" и \"ValidID\" морају постојати у могућим вредностима."
 
 #. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
 msgid "Change Queue Relations for SMS Template"
-msgstr ""
+msgstr "Промени релације са редовима за SMS шаблон"
 
 #. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
 msgid "Change SMS Template Relations for Queue"
-msgstr ""
+msgstr "Промени релације са СМС шаблонима за ред"
 
 #. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
 msgid "Invalid ID!"
-msgstr ""
+msgstr "Неважећи ID!"
 
 #. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
 msgid "Template not found!"
@@ -1198,51 +1222,51 @@ msgstr "Шаблон није пронађен!"
 
 #. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
 msgid "SMS template updated!"
-msgstr ""
+msgstr "Ажуриран SMS шаблон!"
 
 #. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
 msgid "SMS template added!"
-msgstr ""
+msgstr "Додат SMS шаблон!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationDeploymentHistory.pm
 msgid "This deployment does not contain changes in the setting values!"
-msgstr ""
+msgstr "Овај распоред не садржи промене у вредностима подешавања!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationDeploymentHistory.pm
 msgid "No DeploymentID received!"
-msgstr ""
+msgstr "Недостаје DeploymentID!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "No setting name received!"
-msgstr ""
+msgstr "Недостаје назив подешавања!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "Modified Version"
-msgstr ""
+msgstr "Промењена верзија"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "Reset To Default"
-msgstr ""
+msgstr "Поништи на подразумевано"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "Default Version"
-msgstr ""
+msgstr "Подразумевана верзија"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "No setting name or modified version id received!"
-msgstr ""
+msgstr "Недостаје назив подешавања или ID промењене верзије!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "Was not possible to revert the historical value!"
-msgstr ""
+msgstr "Није било могуће обновити на прошлу вредност!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationUser.pm
 msgid "Missing setting name or modified id!"
-msgstr ""
+msgstr "Недостаје назив подешавања или ID промене!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationUser.pm
 msgid "System was not able to delete the user setting values!"
-msgstr ""
+msgstr "Систем није успео да обрише корисничке вредности подешавања!"
 
 #. Perl Module: Kernel/Modules/AgentAppointmentResourceOverview.pm
 msgid ""
@@ -1346,7 +1370,7 @@ msgstr "Молимо контактирајте администратора!"
 
 #. Perl Module: Kernel/Modules/AgentTicketSMSOutbound.pm
 msgid "Error creating SMS article!"
-msgstr ""
+msgstr "Грешка приликом додавања SMS чланка!"
 
 #. Perl Module: Kernel/Modules/AgentVideoChat.pm
 msgid "You are not participant in this chat!"
@@ -1354,19 +1378,19 @@ msgstr "Ви нисте учесник у овом ћаскању!"
 
 #. Perl Module: Kernel/Output/HTML/Article/SMS.pm
 msgid "Transaction Numbers"
-msgstr ""
+msgstr "Бројеви трансакције"
 
 #. Perl Module: Kernel/Output/HTML/Article/SMS.pm
 msgid "Flash"
-msgstr ""
+msgstr "Блиц"
 
 #. Perl Module: Kernel/Output/HTML/ArticleAction/AgentTicketSMSOutbound.pm
 msgid "Reply via SMS"
-msgstr ""
+msgstr "Одговори путем SMS"
 
 #. Perl Module: Kernel/Output/HTML/ArticleAction/AgentTicketSMSOutbound.pm
 msgid "Reply to this article via SMS"
-msgstr ""
+msgstr "Одговори на овај чланак путем SMS"
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
 msgid "You are unavailable for external chats. Would you like to go online?"
@@ -1438,33 +1462,33 @@ msgstr "Подразумевани канал за ћаскања"
 msgid ""
 "Your available SMS messages are getting low. Please contact sales@otrs.com "
 "to get more SMS messages."
-msgstr ""
+msgstr "Ваш број преосталих SMS јединица је мали. Молимо контактирајте sales@otrs.com за куповину додатних SMS јединица."
 
 #. Perl Module: Kernel/System/SupportDataCollector/Plugin/CloudService/SMS.pm
 msgid "Available SMS"
-msgstr ""
+msgstr "Преостале SMS јединице"
 
 #. Perl Module:
 #. Kernel/System/SupportDataCollector/Plugin/OTRS/ConfigLastDeployments.pm
 msgid "Configuration Last Deployments"
-msgstr ""
+msgstr "Последњи распореди конфигурације"
 
 #. Perl Module:
 #. Kernel/System/SupportDataCollector/Plugin/OTRS/ConfigLastDeployments.pm
 msgid "Could not determine deployment information."
-msgstr ""
+msgstr "Није могуће утврдити информације о распореду."
 
 #. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
 msgid "SMS phone number"
-msgstr ""
+msgstr "SMS број телефона"
 
 #. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
 msgid "SMS transaction number"
-msgstr ""
+msgstr "SMS број трансакције"
 
 #. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
 msgid "SMS text"
-msgstr ""
+msgstr "SMS текст поруке"
 
 #. JS File: Core.Agent.Admin.CloudServiceSMS
 msgid "Data Protection Information"
@@ -1472,11 +1496,11 @@ msgstr "Информације о заштити података"
 
 #. JS File: Core.Agent.Admin.SMSTemplate
 msgid "Delete this template"
-msgstr ""
+msgstr "Обриши овај шаблон"
 
 #. JS File: Core.Agent.Admin.SystemConfigurationUser
 msgid "Are you sure you want to remove all user values?"
-msgstr ""
+msgstr "Да ли сте сигурни да желите да уклоните све корисничке вредности!"
 
 #. JS File: Core.Agent.Chat.Toolbar
 msgid "An internal error occurred."
@@ -1626,20 +1650,20 @@ msgstr "Систем није успео да сними ваш редослед
 
 #. JS File: Core.Agent.CustomerSearchSMS
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Неисправан број телефона"
 
 #. JS File: Core.Agent.CustomerSearchSMS
 msgid "The entered phone number '%s' is invalid."
-msgstr ""
+msgstr "Унети број телефона '%s' је неисправан."
 
 #. JS File: Core.Agent.CustomerSearchSMS
 msgid ""
 "Please enter a number in international format, i.e. +49 (0) 123 4567-890."
-msgstr ""
+msgstr "Молимо унести број у интернационалном формату, нпр. +381 (0) 60 1234-567."
 
 #. JS File: Core.Agent.DynamicFieldDatabaseSearch
 msgid "This dynamic field database value is already selected."
-msgstr ""
+msgstr "Ова вредност динамичког поља базе података је већ одабрана."
 
 #. JS File: Core.Agent.NotificationView
 msgid "Do you really want to dismiss the selected notifications?"
@@ -1711,7 +1735,7 @@ msgstr "Активира ћаскање."
 
 #. SysConfig
 msgid "Added SMS for \"%s\"."
-msgstr ""
+msgstr "Додат SMS за \"%s\"."
 
 #. SysConfig
 msgid "Admin Contact With Data"
@@ -1723,7 +1747,7 @@ msgstr "Администрација контакта са подацима."
 
 #. SysConfig
 msgid "Advanced"
-msgstr ""
+msgstr "Напредно"
 
 #. SysConfig
 msgid "Agent Contact With Data Search"
@@ -1731,11 +1755,11 @@ msgstr "Претрага контакта са подацима у интерф�
 
 #. SysConfig
 msgid "Agent Customer Search SMS"
-msgstr ""
+msgstr "Претрага SMS клијената за оператере"
 
 #. SysConfig
 msgid "Agent Customer Search SMS."
-msgstr ""
+msgstr "Претрага SMS клијената за оператере."
 
 #. SysConfig
 msgid "Agent Dynamic Field Database Detailed Search"
@@ -1777,7 +1801,7 @@ msgstr "Претрага динамичког поља базе података
 msgid ""
 "Agent frontend module registration (disable 'Edit contacts with data' link "
 "if if there is no source field configured)."
-msgstr ""
+msgstr "Регистрација модула приступа у интерфејсу оператера (онемогућава везу 'Уреди контакте са подацима' уколико нема конфигурисаних поља)."
 
 #. SysConfig
 msgid ""
@@ -1822,7 +1846,7 @@ msgstr "Дозвољава приступ умањеном формату веб
 msgid ""
 "Allows to save current work as draft in the SMS outbound screen of the agent"
 " interface."
-msgstr ""
+msgstr "Дозвољава чуваће тренутне форме као нацрта у екрану одлазне SMS поруке у интерфејсу оператера."
 
 #. SysConfig
 msgid "Append Chat to Ticket."
@@ -1892,7 +1916,7 @@ msgstr "Ћаскања"
 
 #. SysConfig
 msgid "Choose which notifications you'd like to receive."
-msgstr ""
+msgstr "Изаберите која обавештења желите да примате."
 
 #. SysConfig
 msgid "Cleans up old chat logs."
@@ -1908,11 +1932,11 @@ msgstr "Филтери колона за умањени веб приказ об
 msgid ""
 "Columns that can be filtered in the notification web view of the agent "
 "interface."
-msgstr ""
+msgstr "Колоне које могу бити филтриране у веб приказу обавештења у интерфејсу оператера."
 
 #. SysConfig
 msgid "Create and manage SMS templates."
-msgstr ""
+msgstr "Креирање и управљање SMS шаблонима."
 
 #. SysConfig
 msgid "Create and manage chat channels."
@@ -1920,11 +1944,11 @@ msgstr "Креирање и управљање каналима за ћаска�
 
 #. SysConfig
 msgid "Create new SMS ticket and send it out (outbound)."
-msgstr ""
+msgstr "Отвори нови SMS тикет и пошаљи (одлазну) поруку."
 
 #. SysConfig
 msgid "Create new SMS ticket."
-msgstr ""
+msgstr "Отварање новог SMS тикета."
 
 #. SysConfig
 msgid "Create new chat"
@@ -1985,7 +2009,7 @@ msgstr "Подразумевани текст за јавни корисничк
 
 #. SysConfig
 msgid "Defines SMS communication channel."
-msgstr ""
+msgstr "Дефинише SMS комуникациони канал."
 
 #. SysConfig
 msgid ""
@@ -2002,14 +2026,14 @@ msgstr "Дефинише текст за подешавања оператера
 
 #. SysConfig
 msgid "Defines available article actions for SMS articles."
-msgstr ""
+msgstr "Дефинише омогућене акције за SMS чланке."
 
 #. SysConfig
 msgid ""
 "Defines if a ticket lock is required in the SMS outbound screen of the agent"
 " interface (if the ticket isn't locked yet, the ticket gets locked and the "
 "current agent will be set automatically as its owner)."
-msgstr ""
+msgstr "Дефинише да ли је потребно закључати тикет у екрану одлазних SMS порука тикета у интерфејсу оператера (ако тикет још увек није закључан, тикет ће бити закључан и тренутни оператер ће бити аутоматски постављен као власник)."
 
 #. SysConfig
 msgid ""
@@ -2039,23 +2063,23 @@ msgstr "Дефинише да ли јавни корисници могу да �
 msgid ""
 "Defines if the message in the SMS outbound screen of the agent interface is "
 "visible for the customer by default."
-msgstr ""
+msgstr "Дефинише да ли је порука у екрану одлазне SMS поруке тикета у интефејсу оператера подразумевано видљива за клијента."
 
 #. SysConfig
 msgid ""
 "Defines the default next state of a ticket after the message has been sent, "
 "in the SMS outbound screen of the agent interface."
-msgstr ""
+msgstr "Дефинише подразумевани следећи статус тикета после слања поруке, на екрану одлазних SMS порука тикета у интерфејсу оператера."
 
 #. SysConfig
 msgid ""
 "Defines the hard limit for number of characters that can be sent via SMS per"
 " message."
-msgstr ""
+msgstr "Дефинише ограничење броја карактера по поруци који могу бити послати путем SMS."
 
 #. SysConfig
 msgid "Defines the list of types for SMS templates."
-msgstr ""
+msgstr "Дефинише листу типова SMS шаблона."
 
 #. SysConfig
 msgid ""
@@ -2075,7 +2099,7 @@ msgstr "Дефинише модул за приказ обавештења у и
 msgid ""
 "Defines the next possible states after sending a message in the SMS outbound"
 " screen of the agent interface."
-msgstr ""
+msgstr "Дефинише следећа могућа стања након слања поруке у екрану одлазних SMS порука тикета у интерфејсу оператера."
 
 #. SysConfig
 msgid ""
@@ -2121,21 +2145,23 @@ msgstr "Дефинише циљно динамичко поље за чувањ�
 
 #. SysConfig
 msgid "DeploymentHistory"
-msgstr ""
+msgstr "Историјат распоређивања"
 
 #. SysConfig
 msgid ""
 "Determines the next possible ticket states, after the creation of a new SMS "
 "ticket in the agent interface."
-msgstr ""
+msgstr "Одређује следећа могућа стања тикета, након креирања новог SMS тикета у интерфејсу оператера."
 
 #. SysConfig
 msgid "Dialog message"
 msgstr "Порука у дијалогу"
 
 #. SysConfig
-msgid "Dutch"
-msgstr ""
+msgid ""
+"Disables automatic opening of the last customer article in the timeline view"
+" in AgentTicketZoom."
+msgstr "Онемогућава аутоматско отварање последњег чланка клијента у приказу временске линије у AgentTicketZoom."
 
 #. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
@@ -2147,16 +2173,16 @@ msgstr "Позадински приказ динамичког поља базе
 
 #. SysConfig
 msgid "Dynamic Fields Web Service Backend GUI"
-msgstr ""
+msgstr "Графички интерфејс динамичког поља веб сервиса"
 
 #. SysConfig
 msgid ""
 "Dynamic fields shown in the SMS outbound screen of the agent interface."
-msgstr ""
+msgstr "Динамичка поља приказана у екрану одлазних SMS порука у интерфејсу оператера."
 
 #. SysConfig
 msgid "Dynamic fields shown in the SMS ticket screen of the agent interface."
-msgstr ""
+msgstr "Динамичка поља приказана у екрану SMS тикета у интерфејсу оператера."
 
 #. SysConfig
 msgid "Edit contacts with data"
@@ -2188,13 +2214,13 @@ msgstr "Регистрација модула догађаја (чување и�
 
 #. SysConfig
 msgid "For more experienced users."
-msgstr ""
+msgstr "За кориснике са већим искуством."
 
 #. SysConfig
 msgid ""
 "Frontend module registration (disable SMS ticket screen if cloud service is "
 "not activated)."
-msgstr ""
+msgstr "Регистрација модула приступа (онемогућава везу за SMS тикет уколико сервис у облаку није активиран)."
 
 #. SysConfig
 msgid "Frontend module registration for the cusotmer interface."
@@ -2213,7 +2239,7 @@ msgstr "Генерише HTML коментаре за одговарајуће �
 #. SysConfig
 msgid ""
 "GenericInterface module registration for the PassThrough invoker layer."
-msgstr ""
+msgstr "Регистрација модула генеричког интерфејса за позиваоца типа PassThrough."
 
 #. SysConfig
 msgid ""
@@ -2264,7 +2290,7 @@ msgstr "Текст који ће бити приказан приликом се
 
 #. SysConfig
 msgid "Link SMS templates to queues."
-msgstr ""
+msgstr "Повежи SMS шаблоне са редовима."
 
 #. SysConfig
 msgid ""
@@ -2305,7 +2331,7 @@ msgstr "Назив подразумеваног канала за ћаскања
 
 #. SysConfig
 msgid "New SMS ticket"
-msgstr ""
+msgstr "Нови SMS тикет"
 
 #. SysConfig
 msgid "No agents available message."
@@ -2398,7 +2424,7 @@ msgstr "Уклања стара ћаскања."
 #. SysConfig
 msgid ""
 "Required permissions to use the SMS outbound screen in the agent interface."
-msgstr ""
+msgstr "Неопходне дозволе за употребу екрана одлазних SMS порука у интерфејсу оператера."
 
 #. SysConfig
 msgid "Resource overview page."
@@ -2420,23 +2446,23 @@ msgstr "Покреће иницијалну претрагу за постоје
 
 #. SysConfig
 msgid "SMS Outbound"
-msgstr ""
+msgstr "Одлазна SMS порука"
 
 #. SysConfig
 msgid "SMS Templates ↔ Queues"
-msgstr ""
+msgstr "SMS шаблони ↔ редови"
 
 #. SysConfig
 msgid "SMS communication channel."
-msgstr ""
+msgstr "SMS комуникациони канал."
 
 #. SysConfig
 msgid "SMSOutbound"
-msgstr ""
+msgstr "Одлазни SMS"
 
 #. SysConfig
 msgid "Send new outgoing SMS from this ticket"
-msgstr ""
+msgstr "Пошаљи нову одлазну SMS поруку из овог тикета"
 
 #. SysConfig
 msgid "Sets if a chat request can be sent out from agent ticket zoom view."
@@ -2450,30 +2476,30 @@ msgstr "Дефинише да ли захтев за ћаскање може б�
 msgid ""
 "Sets the default article customer visibility for new SMS tickets in the "
 "agent interface."
-msgstr ""
+msgstr "Дефинише подразумевану видљивост чланка клијенту за нове SMS тикета у интерфејсу оператера."
 
 #. SysConfig
 msgid ""
 "Sets the default next ticket state, after the creation of an SMS ticket in "
 "the agent interface."
-msgstr ""
+msgstr "Одређује подразумевано следеће стање, након креирања SMS тикета у интерфејсу оператера."
 
 #. SysConfig
 msgid "Sets the default priority for new SMS tickets in the agent interface."
-msgstr ""
+msgstr "Одређује подразумевани приоритет новог SMS тикета у интерфејсу оператера."
 
 #. SysConfig
 msgid ""
 "Sets the default sender type for new SMS tickets in the agent interface."
-msgstr ""
+msgstr "Поставља подразумевани тип пошиљаоца за нове SMS тикете у интерфејсу оператера."
 
 #. SysConfig
 msgid "Sets the default text for new SMS tickets in the agent interface."
-msgstr ""
+msgstr "Одређује подразумевани текст новог SMS тикета у интерфејсу оператера."
 
 #. SysConfig
 msgid "Sets the default title for new SMS tickets in the agent interface."
-msgstr ""
+msgstr "Одређује подразумевани наслов новог SMS тикета у интерфејсу оператера."
 
 #. SysConfig
 msgid "Show all ticket attachments."
@@ -2488,7 +2514,7 @@ msgid ""
 "\"ClusterName\" and for the Content any name you want to see in the UI. Use "
 "\"ClusterPriority\" to configure the order of a certain cluster within the "
 "toolbar."
-msgstr ""
+msgstr "Приказује везу у менију за слање одлазне SMS поруке у детаљном прегледу тикета у интерфејсу оператера. Додатна контрола приказа ове везе може се постићи коришћењем кључа \"Group\" са садржајем \"rw:group1;move_into:group2\". За здруживање веза у менију подесите кључ \"ClusterName\" са садржајем који ће бити назив који желите да видите у интерфејсу. Користите кључ \"ClusterPriority\" за измену редоследа група у менију."
 
 #. SysConfig
 msgid "Shows all attachments available in the ticket."
@@ -2508,7 +2534,7 @@ msgstr "Оператер подршке"
 
 #. SysConfig
 msgid "System Configuration Setting History"
-msgstr ""
+msgstr "Историјат подешавања системске конфигурације"
 
 #. SysConfig
 msgid "Team agents management screen."
@@ -2577,11 +2603,11 @@ msgstr "Ово ћаскање је завршено. Можете покрену
 
 #. SysConfig
 msgid "This is a description for NotificationViewFilterSettings ob Business."
-msgstr ""
+msgstr "Ово је опис за NotificationViewFilterSettings из Business пакета."
 
 #. SysConfig
 msgid "This is a description for NotificationViewSmallPageShown ob Business."
-msgstr ""
+msgstr "Ово је опис за NotificationViewSmallPageShown из Business пакета."
 
 #. SysConfig
 msgid "This module is part of the admin area of OTRS Business Solution™."
@@ -2589,7 +2615,7 @@ msgstr "Овај модул је део административног про�
 
 #. SysConfig
 msgid "Ticket Outbound SMS."
-msgstr ""
+msgstr "Одлазне SMS поруке у тикету."
 
 #. SysConfig
 msgid "Ticket attachments."
@@ -2605,7 +2631,7 @@ msgstr "Екран видео и аудио позива."
 
 #. SysConfig
 msgid "Web Service"
-msgstr ""
+msgstr "Веб сервис"
 
 #. SysConfig
 msgid ""

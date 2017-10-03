@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-09-25 08:01+0000\n"
-"PO-Revision-Date: 2017-09-25 08:02+0000\n"
+"POT-Creation-Date: 2017-10-03 08:02+0000\n"
+"PO-Revision-Date: 2017-10-03 08:08+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -1163,6 +1163,30 @@ msgstr ""
 msgid "Delete user's value."
 msgstr ""
 
+#. JS Template: SMSBlackList
+msgid "The entered phone number is invalid."
+msgstr ""
+
+#. JS Template: ResourceSettingsDialog
+msgid "Shown resources"
+msgstr "Megjelenített erőforrások"
+
+#. JS Template: ResourceSettingsDialog
+msgid "Available Resources"
+msgstr "Elérhető erőforrások"
+
+#. JS Template: ResourceSettingsDialog
+msgid "Filter available resources"
+msgstr "Elérhető erőforrások szűrése"
+
+#. JS Template: ResourceSettingsDialog
+msgid "Visible Resources (order by drag & drop)"
+msgstr "Látható erőforrások (rendezés fogd és vidd módon)"
+
+#. JS Template: ChatStartForm
+msgid "First message"
+msgstr "Első üzenet"
+
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat channel updated!"
 msgstr ""
@@ -1176,7 +1200,7 @@ msgid "Contact updated!"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AdminDynamicFieldContactWithData.pm
-msgid "Two keys 'Name' and 'ValidID' have to exist in possible values."
+msgid "Two keys \"Name\" and \"ValidID\" have to exist in possible values."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
@@ -2133,7 +2157,9 @@ msgid "Dialog message"
 msgstr "Párbeszéd üzenet"
 
 #. SysConfig
-msgid "Dutch"
+msgid ""
+"Disables automatic opening of the last customer article in the timeline view"
+" in AgentTicketZoom."
 msgstr ""
 
 #. SysConfig

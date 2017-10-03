@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRSBusiness\n"
-"POT-Creation-Date: 2017-09-29 14:37+0000\n"
+"POT-Creation-Date: 2017-10-03 08:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1106,6 +1106,30 @@ msgstr ""
 msgid "Delete user's value."
 msgstr ""
 
+#. JS Template: SMSBlackList
+msgid "The entered phone number is invalid."
+msgstr ""
+
+#. JS Template: ResourceSettingsDialog
+msgid "Shown resources"
+msgstr ""
+
+#. JS Template: ResourceSettingsDialog
+msgid "Available Resources"
+msgstr ""
+
+#. JS Template: ResourceSettingsDialog
+msgid "Filter available resources"
+msgstr ""
+
+#. JS Template: ResourceSettingsDialog
+msgid "Visible Resources (order by drag & drop)"
+msgstr ""
+
+#. JS Template: ChatStartForm
+msgid "First message"
+msgstr ""
+
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat channel updated!"
 msgstr ""
@@ -1119,7 +1143,7 @@ msgid "Contact updated!"
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AdminDynamicFieldContactWithData.pm
-msgid "Two keys 'Name' and 'ValidID' have to exist in possible values."
+msgid "Two keys \"Name\" and \"ValidID\" have to exist in possible values."
 msgstr ""
 
 #. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
