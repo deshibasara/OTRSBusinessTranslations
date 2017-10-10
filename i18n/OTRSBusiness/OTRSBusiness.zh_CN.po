@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-10-03 08:02+0000\n"
-"PO-Revision-Date: 2017-10-03 08:08+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"PO-Revision-Date: 2017-10-05 16:39+0000\n"
+"Last-Translator: 汇民 王 <whuim@qq.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1168,7 +1168,7 @@ msgstr "删除用户值"
 
 #. JS Template: SMSBlackList
 msgid "The entered phone number is invalid."
-msgstr ""
+msgstr "输入的电话号码是无效的。"
 
 #. JS Template: ResourceSettingsDialog
 msgid "Shown resources"
@@ -1204,7 +1204,7 @@ msgstr "联系人已更新！"
 
 #. Perl Module: Kernel/Modules/AdminDynamicFieldContactWithData.pm
 msgid "Two keys \"Name\" and \"ValidID\" have to exist in possible values."
-msgstr ""
+msgstr "可能的值中必须要有\"Name\"和\"ValidID\"这两个键。"
 
 #. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
 msgid "Change Queue Relations for SMS Template"
