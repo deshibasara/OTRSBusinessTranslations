@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-10-03 08:02+0000\n"
-"PO-Revision-Date: 2017-10-03 08:08+0000\n"
+"POT-Creation-Date: 2017-11-08 09:35+0000\n"
+"PO-Revision-Date: 2017-11-08 09:36+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Thai (Thailand) (http://www.transifex.com/otrs/OTRS/language/th_TH/)\n"
 "MIME-Version: 1.0\n"
@@ -1830,6 +1830,12 @@ msgid "Agent interface notification module to check for open chat requests."
 msgstr "โมดูลการแจ้งเตือนของเอเย่นต์อินเตอร์เฟซเพื่อตรวจสอบสำหรับการร้องขอเปิดการแชท"
 
 #. SysConfig
+msgid ""
+"AgentTicketZoom widget that displays Contact with data dynamic field in the "
+"side bar."
+msgstr ""
+
+#. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
 msgstr "อนุญาตให้ลูกค้าเลือกช่องทางแชทที่มีตัวแทนที่มีอยู่เท่านั้น (s)"
 
@@ -2232,12 +2238,6 @@ msgstr "การลงทะเบียนโมดูล Frontend สำห�
 
 #. SysConfig
 msgid ""
-"Generate HTML comment hooks for the specified blocks so that filters can use"
-" them."
-msgstr "สร้าง HTML สำหรับการแสดงความคิดเห็นสำหรับบล็อกที่ระบุไว้เพื่อให้ฟิลเตอร์สามารถใช้งานได้"
-
-#. SysConfig
-msgid ""
 "GenericInterface module registration for the PassThrough invoker layer."
 msgstr ""
 
@@ -2364,10 +2364,6 @@ msgstr "จำนวนวันหลังจากที่แชทจะถ
 #. SysConfig
 msgid "Number of hours after closed chat will be deleted."
 msgstr "จำนวนชั่วโมงหลังจากการแชทแบบปิดจะถูกลบ"
-
-#. SysConfig
-msgid "Output filter for standard tt files."
-msgstr "กรองเอาท์พุทสำหรับไฟล์มาตรฐาน TT "
 
 #. SysConfig
 msgid ""

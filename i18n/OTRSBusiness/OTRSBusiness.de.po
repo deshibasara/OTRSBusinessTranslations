@@ -7,15 +7,16 @@
 # zottto <mail@marcnilius.de>, 2017
 # Marc A. Bonsels, 2016-2017
 # Martin Gruner <martin.gruner@otrs.com>, 2015-2016
+# Matthias Freitag, 2017
 # Rik sof <khan.jonas@riksof.com>, 2017
 # ru_otrs <robert.ullrich@otrs.com>, 2016
 # Rudy R <rudy.rohde@googlemail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-10-03 08:02+0000\n"
-"PO-Revision-Date: 2017-10-06 18:37+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"POT-Creation-Date: 2017-11-08 09:35+0000\n"
+"PO-Revision-Date: 2017-11-08 09:36+0000\n"
+"Last-Translator: Dusan Vuckovic\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1210,7 +1211,7 @@ msgstr "Kontakt aktualisiert!"
 
 #. Perl Module: Kernel/Modules/AdminDynamicFieldContactWithData.pm
 msgid "Two keys \"Name\" and \"ValidID\" have to exist in possible values."
-msgstr ""
+msgstr "Die zwei Schlüssel \"Name\" und \"ValidID\" müssen in den möglichen Werten vorhanden sein."
 
 #. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
 msgid "Change Queue Relations for SMS Template"
@@ -1838,6 +1839,12 @@ msgid "Agent interface notification module to check for open chat requests."
 msgstr "Benachrichtigungsmodul im Agenten-Interface, das auf offene Chat-Anfragen hinweist."
 
 #. SysConfig
+msgid ""
+"AgentTicketZoom widget that displays Contact with data dynamic field in the "
+"side bar."
+msgstr ""
+
+#. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
 msgstr "Dem Kunden nur die Auswahl von Chat-Kanälen mit verfügbaren Agenten erlauben."
 
@@ -2169,7 +2176,7 @@ msgstr "Dialog-Nachricht"
 msgid ""
 "Disables automatic opening of the last customer article in the timeline view"
 " in AgentTicketZoom."
-msgstr ""
+msgstr "Deaktiviert das automatische Öffnen des letzten Kunden-Artikels in der Timeline-Ansicht in AgentTicketZoom."
 
 #. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
@@ -2237,12 +2244,6 @@ msgstr "Frontend-Modul-Registrierung für den Kunden-Bereich."
 #. SysConfig
 msgid "Frontend module registration for the public interface."
 msgstr "Frontendmodul-Registrierung für das Public-Interface."
-
-#. SysConfig
-msgid ""
-"Generate HTML comment hooks for the specified blocks so that filters can use"
-" them."
-msgstr "Generiert HTML-Kommentar Hooks für die einzelnen Blöcke so dass diese von Filtern genutzt werden können."
 
 #. SysConfig
 msgid ""
@@ -2372,10 +2373,6 @@ msgstr "Anzahl Tage, nach welchen der Chat gelöscht wird."
 #. SysConfig
 msgid "Number of hours after closed chat will be deleted."
 msgstr "Anzahl Stunden, nach denen der geschlossene Chat gelöscht wird."
-
-#. SysConfig
-msgid "Output filter for standard tt files."
-msgstr "Der Ausgabefilter für Standard tt Dateien"
 
 #. SysConfig
 msgid ""

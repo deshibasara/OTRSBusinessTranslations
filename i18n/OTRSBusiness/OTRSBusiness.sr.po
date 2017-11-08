@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-10-03 08:02+0000\n"
-"PO-Revision-Date: 2017-10-03 08:08+0000\n"
+"POT-Creation-Date: 2017-11-08 09:35+0000\n"
+"PO-Revision-Date: 2017-11-08 09:37+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Serbian (http://www.transifex.com/otrs/OTRS/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -1830,6 +1830,12 @@ msgid "Agent interface notification module to check for open chat requests."
 msgstr "Модул интерфејса оператера за проверу отворених захтева за ћаскање."
 
 #. SysConfig
+msgid ""
+"AgentTicketZoom widget that displays Contact with data dynamic field in the "
+"side bar."
+msgstr "Додатак за AgentTicketZoom екран који приказује динамичко поље контакта са подацима са десне стране. "
+
+#. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
 msgstr "Дозволи клијенту да изабере само канале који имау доступне оператере."
 
@@ -2232,12 +2238,6 @@ msgstr "Регистрација приступног модула за јавн
 
 #. SysConfig
 msgid ""
-"Generate HTML comment hooks for the specified blocks so that filters can use"
-" them."
-msgstr "Генерише HTML коментаре за одговарајуће блокове да би филтери могли да их користе."
-
-#. SysConfig
-msgid ""
 "GenericInterface module registration for the PassThrough invoker layer."
 msgstr "Регистрација модула генеричког интерфејса за позиваоца типа PassThrough."
 
@@ -2364,10 +2364,6 @@ msgstr "Број дана после кога ће ћаскање бити об�
 #. SysConfig
 msgid "Number of hours after closed chat will be deleted."
 msgstr "Број сати после ког ће затворена ћаскања бити обрисана."
-
-#. SysConfig
-msgid "Output filter for standard tt files."
-msgstr "Излазни филтер за стандарне TT датотеке."
 
 #. SysConfig
 msgid ""

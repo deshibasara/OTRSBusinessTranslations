@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-10-03 08:02+0000\n"
-"PO-Revision-Date: 2017-10-03 08:08+0000\n"
+"POT-Creation-Date: 2017-11-08 09:35+0000\n"
+"PO-Revision-Date: 2017-11-08 09:36+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Spanish (http://www.transifex.com/otrs/OTRS/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -1831,6 +1831,12 @@ msgid "Agent interface notification module to check for open chat requests."
 msgstr "Módulo de notificación de interfaz de agente para comprobar si hay peticiones de chat abiertas."
 
 #. SysConfig
+msgid ""
+"AgentTicketZoom widget that displays Contact with data dynamic field in the "
+"side bar."
+msgstr ""
+
+#. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
 msgstr "Permitir que el cliente seleccione sólo los canales que tienen disponible uno (o mas) agente/s."
 
@@ -2233,12 +2239,6 @@ msgstr "Registro de módulo \"Frontend\" en la interfaz pública."
 
 #. SysConfig
 msgid ""
-"Generate HTML comment hooks for the specified blocks so that filters can use"
-" them."
-msgstr ""
-
-#. SysConfig
-msgid ""
 "GenericInterface module registration for the PassThrough invoker layer."
 msgstr ""
 
@@ -2365,10 +2365,6 @@ msgstr "Número de días tras los cuales se eliminará el chat."
 #. SysConfig
 msgid "Number of hours after closed chat will be deleted."
 msgstr "Número de horas tras las cuales se eliminarán los chat cerrados."
-
-#. SysConfig
-msgid "Output filter for standard tt files."
-msgstr ""
 
 #. SysConfig
 msgid ""

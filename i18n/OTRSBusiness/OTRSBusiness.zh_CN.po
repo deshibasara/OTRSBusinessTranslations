@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-10-03 08:02+0000\n"
-"PO-Revision-Date: 2017-10-05 16:39+0000\n"
-"Last-Translator: 汇民 王 <whuim@qq.com>\n"
+"POT-Creation-Date: 2017-11-08 09:35+0000\n"
+"PO-Revision-Date: 2017-11-08 09:36+0000\n"
+"Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1832,6 +1832,12 @@ msgid "Agent interface notification module to check for open chat requests."
 msgstr "服务人员界面检查聊天请求的通知模块。"
 
 #. SysConfig
+msgid ""
+"AgentTicketZoom widget that displays Contact with data dynamic field in the "
+"side bar."
+msgstr ""
+
+#. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
 msgstr "允许客户只选择有可用服务人员的频道。"
 
@@ -2234,12 +2240,6 @@ msgstr "公共界面的前端模块注册。"
 
 #. SysConfig
 msgid ""
-"Generate HTML comment hooks for the specified blocks so that filters can use"
-" them."
-msgstr "为指定的块生成HTML注释钩子，以供过滤器使用。"
-
-#. SysConfig
-msgid ""
 "GenericInterface module registration for the PassThrough invoker layer."
 msgstr "用于PassThrough调用程序层的通用接口模块注册。"
 
@@ -2366,10 +2366,6 @@ msgstr "聊天删除前保留的天数。"
 #. SysConfig
 msgid "Number of hours after closed chat will be deleted."
 msgstr "已关闭的聊天删除前保留的小时数。"
-
-#. SysConfig
-msgid "Output filter for standard tt files."
-msgstr "标准tt文件的输出过滤器。"
 
 #. SysConfig
 msgid ""

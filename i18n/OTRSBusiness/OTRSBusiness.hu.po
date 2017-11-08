@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-10-03 08:02+0000\n"
-"PO-Revision-Date: 2017-10-03 08:08+0000\n"
+"POT-Creation-Date: 2017-11-08 09:35+0000\n"
+"PO-Revision-Date: 2017-11-08 09:36+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "Nyilvános"
 
 #. Template: AdminChatChannel
 msgid "A chat channel with this name already exists!"
-msgstr ""
+msgstr "Már létezik ilyen nevű csevegőcsatorna!"
 
 #. Template: AdminChatChannel
 msgid "Need Group"
@@ -56,11 +56,11 @@ msgstr "A megjegyzés érvénytelen"
 
 #. Template: AdminCloudServiceSMS
 msgid "Add Cloud Service"
-msgstr ""
+msgstr "Felhőszolgáltatás hozzáadása"
 
 #. Template: AdminCloudServiceSMS
 msgid "Edit Cloud Servicel"
-msgstr ""
+msgstr "Felhőszolgáltatás szerkesztése"
 
 #. Template: AdminCloudServiceSMS
 msgid "Cloud service status"
@@ -119,30 +119,30 @@ msgstr "Engedélyezett szereptagok"
 msgid ""
 "If selected, only agents assigned to these roles will be able to receive "
 "notifications via SMS (optional)."
-msgstr ""
+msgstr "Ha ki van választva, akkor csak az ezekhez a szerephez hozzárendelt ügyintézők lesznek képesek SMS-ben értesítéseket fogadni (opcionális)."
 
 #. Template: AdminCloudServiceSMS
 msgid "Perform URL shortening"
-msgstr ""
+msgstr "URL-rövidítés végrehajtása"
 
 #. Template: AdminCloudServiceSMS
 msgid "Perform URL shortening before sending the message."
-msgstr ""
+msgstr "URL-rövidítés végrehajtása az üzenet elküldése előtt."
 
 #. Template: AdminCloudServiceSMS
 msgid "Phone black list"
-msgstr ""
+msgstr "Telefon feketelista"
 
 #. Template: AdminCloudServiceSMS
 msgid "Add phone number"
-msgstr ""
+msgstr "Telefonszám hozzáadása"
 
 #. Template: AdminCloudServiceSMS
 msgid ""
 "A blacklist of telephone numbers where it is forbidden to send SMS messages "
 "to. Phone numbers must be added in international format without spaces, e.g."
 " +491791234567, one number per field."
-msgstr ""
+msgstr "Telefonszámok feketelistája, amelyekre az SMS üzenetek küldése tiltott. A telefonszámokat nemzetközi formátumban kell hozzáadni szóközök nélkül (például +36201234567), mezőnként egy számot."
 
 #. Template: AdminCloudServiceSMS
 msgid ""
@@ -259,7 +259,7 @@ msgstr "Kis- és nagybetűk megkülönböztetése"
 
 #. Template: AdminDynamicFieldWebService
 msgid "The web service to be executed for possible values."
-msgstr ""
+msgstr "A lehetséges értékeknél végrehajtandó webszolgáltatás."
 
 #. Template: AdminDynamicFieldWebService
 msgid "Invoker"
@@ -269,20 +269,20 @@ msgstr "Meghívó"
 msgid ""
 "The invoker to be used to perform requests (invoker needs to be of type "
 "'Generic::PassThrough')."
-msgstr ""
+msgstr "A használandó meghívó a kérések végrehajtásához (a meghívónak „Generic::PassThrough” típusúnak kell lennie)."
 
 #. Template: AdminDynamicFieldWebService
 msgid "Activate this option to allow multiselect on results."
-msgstr ""
+msgstr "Aktiválja ezt a lehetőséget a több választás engedélyezéséhez az eredményeknél."
 
 #. Template: AdminDynamicFieldWebService
 msgid "Cache TTL"
-msgstr ""
+msgstr "Gyorsítótár élettartam"
 
 #. Template: AdminDynamicFieldWebService
 msgid ""
 "Cache time to live (in minutes), to save the retrieved possible values."
-msgstr ""
+msgstr "Gyorsítótár élettartam (percben) a fogadott lehetséges értékek mentéséhez."
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
@@ -292,102 +292,102 @@ msgstr "Címzett SMS számai"
 msgid ""
 "An article will be created if the notification is sent to the customer or an"
 " additional recipient."
-msgstr ""
+msgstr "Egy bejegyzés lesz létrehozva, ha az értesítés elküldésre került az ügyfélnek vagy egy további címzettnek."
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Send as flash message"
-msgstr ""
+msgstr "Küldés felugró üzenetként"
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Send the message for this notification as Flash SMS."
-msgstr ""
+msgstr "Az értesítés üzenetének küldése felugró SMS-ként."
 
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid ""
 "In case the SMS text message is too long it may be split up into multiple "
 "messages at the end."
-msgstr ""
+msgstr "Abban az esetben, ha az SMS szövegüzenet túl hosszú, akkor a végénél felosztásra kerülhet több üzenetbe."
 
 #. Template: AdminQueueSMSTemplates
 msgid "Manage SMS Template-Queue Relations"
-msgstr ""
+msgstr "SMS sablon–Várólista kapcsolatok kezelése"
 
 #. Template: AdminQueueSMSTemplates
 msgid "Filter for SMS Templates"
-msgstr ""
+msgstr "Szűrő az SMS sablonokhoz"
 
 #. Template: AdminQueueSMSTemplates
 msgid "SMS Templates"
-msgstr ""
+msgstr "SMS sablonok"
 
 #. Template: AdminSMSTemplate
 msgid "Manage SMS Templates"
-msgstr ""
+msgstr "SMS sablonok kezelése"
 
 #. Template: AdminSMSTemplate
 msgid "Add SMS Template"
-msgstr ""
+msgstr "SMS sablon hozzáadása"
 
 #. Template: AdminSMSTemplate
 msgid "Edit SMS Template"
-msgstr ""
+msgstr "SMS sablon szerkesztése"
 
 #. Template: AdminSMSTemplate
 msgid "Add SMS template"
-msgstr ""
+msgstr "SMS sablon hozzáadása"
 
 #. Template: AdminSMSTemplate
 msgid "SMS Cloud Service inactive"
-msgstr ""
+msgstr "Az SMS felhőszolgáltatás inaktív"
 
 #. Template: AdminSMSTemplate
 msgid ""
 "To be able to use SMS cloud service in OTRS, you have to activate it first."
-msgstr ""
+msgstr "Ahhoz, hogy képes legyen SMS felhőszolgáltatást használni az OTRS-ben, először aktiválnia kell azt."
 
 #. Template: AdminSMSTemplate
 msgid "Activate SMS Cloud Service"
-msgstr ""
+msgstr "SMS felhőszolgáltatás aktiválás"
 
 #. Template: AdminSMSTemplate
 msgid ""
 "An SMS template is a default text which helps your agents to write faster "
 "tickets or answers."
-msgstr ""
+msgstr "Az SMS sablon egy olyan alapértelmezett szöveg, amely segít az ügyintézőknek a jegyek vagy válaszok gyorsabb írásában."
 
 #. Template: AdminSMSTemplate
 msgid "Do you really want to delete this SMS template?"
-msgstr ""
+msgstr "Valóban törölni szeretné ezt az SMS sablont?"
 
 #. Template: AdminSMSTemplate
 msgid "An SMS template with this name already exists!"
-msgstr ""
+msgstr "Már létezik ilyen nevű SMS sablon!"
 
 #. Template: AdminSMSTemplate
 msgid "Flash message"
-msgstr ""
+msgstr "Felugró üzenet"
 
 #. Template: AdminSMSTemplate
 msgid ""
 "Show message directly without user interaction and do not store it "
 "automatically (support may vary by device and provider)."
-msgstr ""
+msgstr "Üzenet közvetlen megjelenítése felhasználói beavatkozás nélkül, és nem kerül automatikusan eltárolásra (a támogatás eszközönként és szolgáltatókként változhat)."
 
 #. Template: AdminSMSTemplate
 msgid "Your mobile phone is"
-msgstr ""
+msgstr "A mobiltelefonja"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Deployment History"
-msgstr ""
+msgstr "Üzembe állítási előzmények"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Filter for Deployments"
-msgstr ""
+msgstr "Szűrő az üzembe állításokhoz"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Recent Deployments"
-msgstr ""
+msgstr "Legutóbbi üzembe állítások"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Restore"
@@ -395,23 +395,23 @@ msgstr "Visszaállítás"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "View Details"
-msgstr ""
+msgstr "Részletek megtekintése"
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Restore this deployment."
-msgstr ""
+msgstr "Üzembe állítás visszaállítása."
 
 #. Template: AdminSystemConfigurationDeploymentHistory
 msgid "Export this deployment."
-msgstr ""
+msgstr "Üzembe állítás exportálása."
 
 #. Template: AdminSystemConfigurationDeploymentHistoryDetails
 msgid "Deployment Details"
-msgstr ""
+msgstr "Üzembe állítás részletei"
 
 #. Template: AdminSystemConfigurationDeploymentHistoryDetails
 msgid "No settings have been deployed in this run."
-msgstr ""
+msgstr "Nem lettek beállítások üzembe állítva ebben a futásban."
 
 #. Template: AdminSystemConfigurationSettingHistoryDetails
 msgid "Change History"
@@ -419,31 +419,31 @@ msgstr "Változástörténet"
 
 #. Template: AdminSystemConfigurationSettingHistoryDetails
 msgid "Change History of %s"
-msgstr ""
+msgstr "%s változástörténete"
 
 #. Template: AdminSystemConfigurationSettingHistoryDetails
 msgid "No modified values for this setting, the default value is used."
-msgstr ""
+msgstr "Nincsenek módosított értékek ehhez a beállításhoz, az alapértelmezett érték lesz használva."
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "Review users setting value"
-msgstr ""
+msgstr "Felhasználók beállítási értékének vizsgálata"
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "Users Value"
-msgstr ""
+msgstr "Felhasználók értékei"
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "For"
-msgstr ""
+msgstr "Ennél"
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "Delete all user values."
-msgstr ""
+msgstr "Az összes felhasználói érték törlése."
 
 #. Template: AdminSystemConfigurationUserModifiedDetails
 msgid "No user value for this setting."
-msgstr ""
+msgstr "Nincs felhasználói érték ennél a beállításnál."
 
 #. Template: AgentAppointmentResourceOverview
 msgid "Resource Overview"
@@ -521,7 +521,7 @@ msgstr "Csapatok"
 
 #. Template: AgentAppointmentTeamUser
 msgid "Manage Team-Agent Relations"
-msgstr "Csapat-ügyintéző kapcsolatok kezelése"
+msgstr "Csapat–Ügyintéző kapcsolatok kezelése"
 
 #. Template: AgentAppointmentTeamUser
 msgid "Change Agent Relations for Team"
@@ -980,67 +980,67 @@ msgstr "A kijelölt fájlok letöltése archívumként"
 msgid ""
 "An error was encountered while trying to contact SMS cloud service. Please "
 "try again later."
-msgstr ""
+msgstr "Hiba történt az SMS felhőszolgáltatóhoz való kapcsolódási kísérletkor. Próbálja meg később újra."
 
 #. Template: AgentTicketSMS
 msgid ""
 "You don't have enough SMS units in your account. Please contact OTRS for "
 "further instructions."
-msgstr ""
+msgstr "Nincs elegendő SMS egysége a fiókjában. Vegye fel a kapcsolatot az OTRS-sel a további részletekért."
 
 #. Template: AgentTicketSMS
 msgid "Error while trying to send SMS! Please try again later."
-msgstr ""
+msgstr "Hiba az SMS küldésének kísérletekor! Próbálja meg később újra."
 
 #. Template: AgentTicketSMS
 msgid "Create New SMS Ticket"
-msgstr ""
+msgstr "Új SMS jegy létrehozása"
 
 #. Template: AgentTicketSMS
 msgid ""
 "Search for a customer or enter phone number in international format, i.e. "
 "+49 (0) 123 4567-890."
-msgstr ""
+msgstr "Keressen rá egy ügyfélre, vagy adjon meg egy telefonszámot nemzetközi formátumban, azaz +36 (1) 123 4567."
 
 #. Template: AgentTicketSMS
 msgid "The list contains an invalid recipient."
-msgstr ""
+msgstr "Ez a lista egy érvénytelen címzettet tartalmaz."
 
 #. Template: AgentTicketSMS
 msgid "This phone number is invalid."
-msgstr ""
+msgstr "A telefonszám érvénytelen."
 
 #. Template: AgentTicketSMS
 msgid "This phone number is not allowed due to the system configuration."
-msgstr ""
+msgstr "A telefonszám nem megengedett a rendszerbeállítások miatt."
 
 #. Template: AgentTicketSMS
 msgid "This number already exists in the recipient list."
-msgstr ""
+msgstr "A szám már létezik a címzettek listájában."
 
 #. Template: AgentTicketSMS
 msgid "Ticket Title"
-msgstr ""
+msgstr "Jegycím"
 
 #. Template: AgentTicketSMS
 msgid "Ticket title will not be included in SMS and is for internal use only."
-msgstr ""
+msgstr "A jegycím nem lesz felvéve az SMS-be, és csak belső használatra van."
 
 #. Template: AgentTicketSMS
 msgid "Setting a template will overwrite any text."
-msgstr ""
+msgstr "Egy sablon beállítása felül fog írni minden szöveget."
 
 #. Template: AgentTicketSMS
 msgid "%s characters left"
-msgstr ""
+msgstr "%s karakter van hátra"
 
 #. Template: AgentTicketSMS
 msgid "Send SMS"
-msgstr ""
+msgstr "SMS küldése"
 
 #. Template: AgentTicketSMSOutbound
 msgid "Outbound SMS for %s%s%s"
-msgstr ""
+msgstr "Kimenő SMS ehhez: %s%s%s"
 
 #. Template: AgentVideoChat
 msgid "Your browser does not support HTML5 video."
@@ -1153,19 +1153,19 @@ msgstr "Utószó"
 
 #. Template: SettingHistoryListCompare
 msgid "On "
-msgstr ""
+msgstr "Ekkor: "
 
 #. Template: SettingHistoryListCompare
 msgid "Reset to this value"
-msgstr ""
+msgstr "Visszaállítás erre az értékre"
 
 #. Template: UsersSettingListCompare
 msgid "Delete user's value."
-msgstr ""
+msgstr "Felhasználó értékének törlése."
 
 #. JS Template: SMSBlackList
 msgid "The entered phone number is invalid."
-msgstr ""
+msgstr "A megadott telefonszám érvénytelen."
 
 #. JS Template: ResourceSettingsDialog
 msgid "Shown resources"
@@ -1189,31 +1189,31 @@ msgstr "Első üzenet"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat channel updated!"
-msgstr ""
+msgstr "Csevegőcsatorna frissítve!"
 
 #. Perl Module: Kernel/Modules/AdminChatChannel.pm
 msgid "Chat channel added!"
-msgstr ""
+msgstr "Csevegőcsatorna hozzáadva!"
 
 #. Perl Module: Kernel/Modules/AdminContactWithData.pm
 msgid "Contact updated!"
-msgstr ""
+msgstr "Partner frissítve!"
 
 #. Perl Module: Kernel/Modules/AdminDynamicFieldContactWithData.pm
 msgid "Two keys \"Name\" and \"ValidID\" have to exist in possible values."
-msgstr ""
+msgstr "A „Name” és a „ValidID” kulcsoknak létezniük kell a lehetséges értékekben."
 
 #. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
 msgid "Change Queue Relations for SMS Template"
-msgstr ""
+msgstr "Várólista-kapcsolatok megváltoztatása egy SMS sablonnál"
 
 #. Perl Module: Kernel/Modules/AdminQueueSMSTemplates.pm
 msgid "Change SMS Template Relations for Queue"
-msgstr ""
+msgstr "SMS sablon kapcsolatok megváltoztatása egy várólistánál"
 
 #. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
 msgid "Invalid ID!"
-msgstr ""
+msgstr "Érvénytelen azonosító!"
 
 #. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
 msgid "Template not found!"
@@ -1221,51 +1221,51 @@ msgstr "Sablon nem található!"
 
 #. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
 msgid "SMS template updated!"
-msgstr ""
+msgstr "SMS sablon frissítve!"
 
 #. Perl Module: Kernel/Modules/AdminSMSTemplate.pm
 msgid "SMS template added!"
-msgstr ""
+msgstr "SMS sablon hozzáadva!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationDeploymentHistory.pm
 msgid "This deployment does not contain changes in the setting values!"
-msgstr ""
+msgstr "Ez az üzembe állítás nem tartalmaz változtatásokat a beállítási értékekben!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationDeploymentHistory.pm
 msgid "No DeploymentID received!"
-msgstr ""
+msgstr "Nem érkezett üzembe állítási azonosító!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "No setting name received!"
-msgstr ""
+msgstr "Nem érkezett beállításnév!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "Modified Version"
-msgstr ""
+msgstr "Módosított verzió"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "Reset To Default"
-msgstr ""
+msgstr "Visszaállítás az alapértelmezettre"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "Default Version"
-msgstr ""
+msgstr "Alapértelmezett verzió"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "No setting name or modified version id received!"
-msgstr ""
+msgstr "Nem érkezett beállításnév vagy módosított verzióazonosító!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationSettingHistory.pm
 msgid "Was not possible to revert the historical value!"
-msgstr ""
+msgstr "Nem volt lehetséges visszaállítani a történelmi értéket!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationUser.pm
 msgid "Missing setting name or modified id!"
-msgstr ""
+msgstr "Hiányzó beállításnév vagy módosított azonosító!"
 
 #. Perl Module: Kernel/Modules/AdminSystemConfigurationUser.pm
 msgid "System was not able to delete the user setting values!"
-msgstr ""
+msgstr "A rendszer nem volt képes törölni a felhasználói beállítás értékeit!"
 
 #. Perl Module: Kernel/Modules/AgentAppointmentResourceOverview.pm
 msgid ""
@@ -1369,7 +1369,7 @@ msgstr "Vegye fel a kapcsolatot a rendszergazdával."
 
 #. Perl Module: Kernel/Modules/AgentTicketSMSOutbound.pm
 msgid "Error creating SMS article!"
-msgstr ""
+msgstr "Hiba az SMS bejegyzés létrehozásakor!"
 
 #. Perl Module: Kernel/Modules/AgentVideoChat.pm
 msgid "You are not participant in this chat!"
@@ -1377,19 +1377,19 @@ msgstr "Ön nem résztvevő ebben a csevegésben!"
 
 #. Perl Module: Kernel/Output/HTML/Article/SMS.pm
 msgid "Transaction Numbers"
-msgstr ""
+msgstr "Tranzakciószámok"
 
 #. Perl Module: Kernel/Output/HTML/Article/SMS.pm
 msgid "Flash"
-msgstr ""
+msgstr "Felugró"
 
 #. Perl Module: Kernel/Output/HTML/ArticleAction/AgentTicketSMSOutbound.pm
 msgid "Reply via SMS"
-msgstr ""
+msgstr "Válasz SMS-ben"
 
 #. Perl Module: Kernel/Output/HTML/ArticleAction/AgentTicketSMSOutbound.pm
 msgid "Reply to this article via SMS"
-msgstr ""
+msgstr "Válasz erre a bejegyzésre SMS-ben"
 
 #. Perl Module: Kernel/Output/HTML/Notification/ChatAvailabilityCheck.pm
 msgid "You are unavailable for external chats. Would you like to go online?"
@@ -1461,33 +1461,33 @@ msgstr "Alapértelmezett csevegőcsatorna"
 msgid ""
 "Your available SMS messages are getting low. Please contact sales@otrs.com "
 "to get more SMS messages."
-msgstr ""
+msgstr "Az elérhető SMS üzenetek hamarosan elfogynak. Vegye fel a kapcsolatot a sales@otrs.com címen, hogy több SMS üzenetet kapjon."
 
 #. Perl Module: Kernel/System/SupportDataCollector/Plugin/CloudService/SMS.pm
 msgid "Available SMS"
-msgstr ""
+msgstr "Elérhető SMS"
 
 #. Perl Module:
 #. Kernel/System/SupportDataCollector/Plugin/OTRS/ConfigLastDeployments.pm
 msgid "Configuration Last Deployments"
-msgstr ""
+msgstr "Beállítások utolsó üzembe állításai"
 
 #. Perl Module:
 #. Kernel/System/SupportDataCollector/Plugin/OTRS/ConfigLastDeployments.pm
 msgid "Could not determine deployment information."
-msgstr ""
+msgstr "Nem sikerült meghatározni az üzembe állítási információkat."
 
 #. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
 msgid "SMS phone number"
-msgstr ""
+msgstr "SMS telefonszám"
 
 #. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
 msgid "SMS transaction number"
-msgstr ""
+msgstr "SMS tranzakciószám"
 
 #. Perl Module: Kernel/System/Ticket/Article/Backend/SMS.pm
 msgid "SMS text"
-msgstr ""
+msgstr "SMS szöveg"
 
 #. JS File: Core.Agent.Admin.CloudServiceSMS
 msgid "Data Protection Information"
@@ -1495,11 +1495,11 @@ msgstr "Adatvédelmi információk"
 
 #. JS File: Core.Agent.Admin.SMSTemplate
 msgid "Delete this template"
-msgstr ""
+msgstr "Sablon törlése"
 
 #. JS File: Core.Agent.Admin.SystemConfigurationUser
 msgid "Are you sure you want to remove all user values?"
-msgstr ""
+msgstr "Biztosan el szeretné távolítani az összes felhasználói értéket?"
 
 #. JS File: Core.Agent.Chat.Toolbar
 msgid "An internal error occurred."
@@ -1649,20 +1649,20 @@ msgstr "A rendszer nem tudta elmenteni a csevegések sorrendjét."
 
 #. JS File: Core.Agent.CustomerSearchSMS
 msgid "Invalid phone number"
-msgstr ""
+msgstr "Érvénytelen telefonszám"
 
 #. JS File: Core.Agent.CustomerSearchSMS
 msgid "The entered phone number '%s' is invalid."
-msgstr ""
+msgstr "A megadott „%s” telefonszám érvénytelen."
 
 #. JS File: Core.Agent.CustomerSearchSMS
 msgid ""
 "Please enter a number in international format, i.e. +49 (0) 123 4567-890."
-msgstr ""
+msgstr "Adjon meg egy telefonszámot nemzetközi formátumban, azaz +36 (1) 123 4567."
 
 #. JS File: Core.Agent.DynamicFieldDatabaseSearch
 msgid "This dynamic field database value is already selected."
-msgstr ""
+msgstr "Ez a dinamikus mező adatbázisérték már ki van választva."
 
 #. JS File: Core.Agent.NotificationView
 msgid "Do you really want to dismiss the selected notifications?"
@@ -1734,7 +1734,7 @@ msgstr "Aktiválja a csevegés támogatást."
 
 #. SysConfig
 msgid "Added SMS for \"%s\"."
-msgstr ""
+msgstr "SMS hozzáadva ehhez: „%s”."
 
 #. SysConfig
 msgid "Admin Contact With Data"
@@ -1746,7 +1746,7 @@ msgstr "Adminisztrátori partneradatok."
 
 #. SysConfig
 msgid "Advanced"
-msgstr ""
+msgstr "Speciális"
 
 #. SysConfig
 msgid "Agent Contact With Data Search"
@@ -1754,11 +1754,11 @@ msgstr "Ügyintézői partneradatok keresése"
 
 #. SysConfig
 msgid "Agent Customer Search SMS"
-msgstr ""
+msgstr "Ügyintézői ügyfélkeresés SMS"
 
 #. SysConfig
 msgid "Agent Customer Search SMS."
-msgstr ""
+msgstr "Ügyintézői ügyfélkeresés SMS."
 
 #. SysConfig
 msgid "Agent Dynamic Field Database Detailed Search"
@@ -1800,7 +1800,7 @@ msgstr "Ügyintéző dinamikus mező adatbázis keresés."
 msgid ""
 "Agent frontend module registration (disable 'Edit contacts with data' link "
 "if if there is no source field configured)."
-msgstr ""
+msgstr "Ügyintézői előtétprogram-modul regisztráció (a „Partneradatok szerkesztése” hivatkozás letiltása, ha nincs forrásmező beállítva)."
 
 #. SysConfig
 msgid ""
@@ -1829,6 +1829,12 @@ msgid "Agent interface notification module to check for open chat requests."
 msgstr "Ügyintézői felület értesítési modul a nyitott csevegéskérések ellenőrzéséhez."
 
 #. SysConfig
+msgid ""
+"AgentTicketZoom widget that displays Contact with data dynamic field in the "
+"side bar."
+msgstr ""
+
+#. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
 msgstr "Annak lehetővé tétele az ügyfeleknek, hogy csak olyan csatornákat válasszanak, amelyek rendelkeznek elérhető ügyintézőkkel."
 
@@ -1845,7 +1851,7 @@ msgstr "Lehetővé teszi egy kis formátumú értesítési webnézet meglétét.
 msgid ""
 "Allows to save current work as draft in the SMS outbound screen of the agent"
 " interface."
-msgstr ""
+msgstr "Lehetővé teszi az aktuális munka elmentését piszkozatként az ügyintézői felület SMS kimenő képernyőjén."
 
 #. SysConfig
 msgid "Append Chat to Ticket."
@@ -1915,7 +1921,7 @@ msgstr "Csevegések"
 
 #. SysConfig
 msgid "Choose which notifications you'd like to receive."
-msgstr ""
+msgstr "Annak kiválasztása, hogy milyen értesítéseket szeretne kapni."
 
 #. SysConfig
 msgid "Cleans up old chat logs."
@@ -1931,11 +1937,11 @@ msgstr "Oszlop értesítési webnézet szűrők a „Kis” típusú értesíté
 msgid ""
 "Columns that can be filtered in the notification web view of the agent "
 "interface."
-msgstr ""
+msgstr "Az ügyintézői felület értesítési webnézetében szűrhető oszlopok."
 
 #. SysConfig
 msgid "Create and manage SMS templates."
-msgstr ""
+msgstr "SMS sablonok létrehozása és kezelése."
 
 #. SysConfig
 msgid "Create and manage chat channels."
@@ -1943,11 +1949,11 @@ msgstr "Csevegőcsatornák létrehozása és kezelése."
 
 #. SysConfig
 msgid "Create new SMS ticket and send it out (outbound)."
-msgstr ""
+msgstr "Új SMS jegy létrehozása és kiküldése (kimenő)."
 
 #. SysConfig
 msgid "Create new SMS ticket."
-msgstr ""
+msgstr "Új SMS jegy létrehozása."
 
 #. SysConfig
 msgid "Create new chat"
@@ -2008,7 +2014,7 @@ msgstr "Alapértelmezett szöveg a nyilvános felülethez."
 
 #. SysConfig
 msgid "Defines SMS communication channel."
-msgstr ""
+msgstr "SMS kommunikációs csatornát határoz meg."
 
 #. SysConfig
 msgid ""
@@ -2025,14 +2031,14 @@ msgstr "Meghatároz egy szöveget az ügyintézői beállításokhoz az ügyfél
 
 #. SysConfig
 msgid "Defines available article actions for SMS articles."
-msgstr ""
+msgstr "Meghatározza az elérhető bejegyzésműveleteket az SMS bejegyzéseknél."
 
 #. SysConfig
 msgid ""
 "Defines if a ticket lock is required in the SMS outbound screen of the agent"
 " interface (if the ticket isn't locked yet, the ticket gets locked and the "
 "current agent will be set automatically as its owner)."
-msgstr ""
+msgstr "Meghatározza, hogy jegyzárolás szükséges az ügyintézői felület SMS kimenő képernyőjén (ha a jegy még nincs zárolva, a jegy zárolva lesz, és az aktuális ügyintéző automatikusan beállításra kerül annak tulajdonosaként)."
 
 #. SysConfig
 msgid ""
@@ -2062,23 +2068,23 @@ msgstr "Meghatározza, hogy a nyilvános felhasználók képesek-e csevegőcsato
 msgid ""
 "Defines if the message in the SMS outbound screen of the agent interface is "
 "visible for the customer by default."
-msgstr ""
+msgstr "Meghatározza, hogy az ügyintézői felület SMS kimenő képernyőjén lévő üzenet alapértelmezetten látható-e az ügyfélnek."
 
 #. SysConfig
 msgid ""
 "Defines the default next state of a ticket after the message has been sent, "
 "in the SMS outbound screen of the agent interface."
-msgstr ""
+msgstr "Meghatározza egy jegy alapértelmezett következő állapotát az üzenet elküldése után az ügyintézői felület SMS kimenő képernyőjén."
 
 #. SysConfig
 msgid ""
 "Defines the hard limit for number of characters that can be sent via SMS per"
 " message."
-msgstr ""
+msgstr "Meghatározza a karakterek számának kemény korlátját, amely SMS-ben elküldhető üzenetenként."
 
 #. SysConfig
 msgid "Defines the list of types for SMS templates."
-msgstr ""
+msgstr "Meghatározza a típusok listáját az SMS sablonokhoz."
 
 #. SysConfig
 msgid ""
@@ -2098,7 +2104,7 @@ msgstr "Meghatározza azt a modult, amely egy értesítést jelenít meg az ügy
 msgid ""
 "Defines the next possible states after sending a message in the SMS outbound"
 " screen of the agent interface."
-msgstr ""
+msgstr "Meghatározza egy üzenet küldése utáni következő lehetséges állapotokat az ügyintézői felület SMS kimenő képernyőjén."
 
 #. SysConfig
 msgid ""
@@ -2144,13 +2150,13 @@ msgstr "Meghatározza a cél dinamikus mezőket a történeti adatok tárolásá
 
 #. SysConfig
 msgid "DeploymentHistory"
-msgstr ""
+msgstr "Üzembe állítási előzmények"
 
 #. SysConfig
 msgid ""
 "Determines the next possible ticket states, after the creation of a new SMS "
 "ticket in the agent interface."
-msgstr ""
+msgstr "Meghatározza a következő lehetséges jegyállapotokat egy új SMS jegy létrehozása után az ügyintézői felületen."
 
 #. SysConfig
 msgid "Dialog message"
@@ -2160,7 +2166,7 @@ msgstr "Párbeszéd üzenet"
 msgid ""
 "Disables automatic opening of the last customer article in the timeline view"
 " in AgentTicketZoom."
-msgstr ""
+msgstr "Letiltja az utolsó ügyfélbejegyzés automatikus megnyitását az idővonal nézetben az ügyintézői jegynagyításban."
 
 #. SysConfig
 msgid "Dynamic Fields Contact Data Backend GUI"
@@ -2172,16 +2178,16 @@ msgstr "Dinamikus mezők adatbázis háttérprogram grafikus felület"
 
 #. SysConfig
 msgid "Dynamic Fields Web Service Backend GUI"
-msgstr ""
+msgstr "Dinamikus mezők webszolgáltatás háttérprogram grafikus felület"
 
 #. SysConfig
 msgid ""
 "Dynamic fields shown in the SMS outbound screen of the agent interface."
-msgstr ""
+msgstr "Az ügyintézői felület SMS kimenő képernyőjén megjelenített dinamikus mezők."
 
 #. SysConfig
 msgid "Dynamic fields shown in the SMS ticket screen of the agent interface."
-msgstr ""
+msgstr "Az ügyintézői felület SMS jegy képernyőjén megjelenített dinamikus mezők."
 
 #. SysConfig
 msgid "Edit contacts with data"
@@ -2213,13 +2219,13 @@ msgstr "Eseménymodul regisztráció (történeti adatok tárolása dinamikus me
 
 #. SysConfig
 msgid "For more experienced users."
-msgstr ""
+msgstr "Tapasztaltabb felhasználók számára."
 
 #. SysConfig
 msgid ""
 "Frontend module registration (disable SMS ticket screen if cloud service is "
 "not activated)."
-msgstr ""
+msgstr "Előtétprogram-modul regisztráció (SMS jegy képernyő letiltása, ha a felhőszolgáltatás nincs aktiválva)."
 
 #. SysConfig
 msgid "Frontend module registration for the cusotmer interface."
@@ -2231,14 +2237,8 @@ msgstr "Előtétprogram-modul regisztráció a nyilvános felülethez."
 
 #. SysConfig
 msgid ""
-"Generate HTML comment hooks for the specified blocks so that filters can use"
-" them."
-msgstr "HTML tartalomhorgok előállítása a megadott blokkoknál azért, hogy a szűrők használhassák azokat."
-
-#. SysConfig
-msgid ""
 "GenericInterface module registration for the PassThrough invoker layer."
-msgstr ""
+msgstr "Általános felület modul regisztráció az átmenő meghívó réteghez."
 
 #. SysConfig
 msgid ""
@@ -2289,7 +2289,7 @@ msgstr "Akkor lesz megjelenítve, ha egy ügyfél ezt az SLA-t választja a jegy
 
 #. SysConfig
 msgid "Link SMS templates to queues."
-msgstr ""
+msgstr "SMS sablonok összekapcsolása várólistákkal."
 
 #. SysConfig
 msgid ""
@@ -2330,7 +2330,7 @@ msgstr "Az alapértelmezett csevegőcsatorna neve. Ha ez a csatorna nem létezik
 
 #. SysConfig
 msgid "New SMS ticket"
-msgstr ""
+msgstr "Új SMS jegy"
 
 #. SysConfig
 msgid "No agents available message."
@@ -2363,10 +2363,6 @@ msgstr "A napok száma, miután a csevegés törlésre kerül."
 #. SysConfig
 msgid "Number of hours after closed chat will be deleted."
 msgstr "Az órák száma, miután a bezárt csevegés törlésre kerül."
-
-#. SysConfig
-msgid "Output filter for standard tt files."
-msgstr "Kimenetszűrő a szabványos tt fájlokhoz."
 
 #. SysConfig
 msgid ""
@@ -2423,7 +2419,7 @@ msgstr "Régi csevegések eltávolítása."
 #. SysConfig
 msgid ""
 "Required permissions to use the SMS outbound screen in the agent interface."
-msgstr ""
+msgstr "Az SMS kimenő képernyő használatához szükséges jogosultságok az ügyintézői felületen."
 
 #. SysConfig
 msgid "Resource overview page."
@@ -2445,23 +2441,23 @@ msgstr "A meglévő partneradatok kezdeti helyettesítő karakter keresését fu
 
 #. SysConfig
 msgid "SMS Outbound"
-msgstr ""
+msgstr "Kimenő SMS"
 
 #. SysConfig
 msgid "SMS Templates ↔ Queues"
-msgstr ""
+msgstr "SMS sablonok ↔ Várólisták"
 
 #. SysConfig
 msgid "SMS communication channel."
-msgstr ""
+msgstr "SMS kommunikációs csatorna."
 
 #. SysConfig
 msgid "SMSOutbound"
-msgstr ""
+msgstr "Kimenő SMS"
 
 #. SysConfig
 msgid "Send new outgoing SMS from this ticket"
-msgstr ""
+msgstr "Új kimenő SMS küldése ebből a jegyből"
 
 #. SysConfig
 msgid "Sets if a chat request can be sent out from agent ticket zoom view."
@@ -2475,30 +2471,30 @@ msgstr "Beállítja, hogy egy csevegéskérés kiküldhető-e az ügyfél jegyna
 msgid ""
 "Sets the default article customer visibility for new SMS tickets in the "
 "agent interface."
-msgstr ""
+msgstr "Beállítja az alapértelmezett bejegyzés ügyfél láthatóságát az új SMS jegyekhez az ügyintézői felületen."
 
 #. SysConfig
 msgid ""
 "Sets the default next ticket state, after the creation of an SMS ticket in "
 "the agent interface."
-msgstr ""
+msgstr "Beállítja az alapértelmezett következő jegyállapotot egy SMS jegy létrehozása után az ügyintézői felületen."
 
 #. SysConfig
 msgid "Sets the default priority for new SMS tickets in the agent interface."
-msgstr ""
+msgstr "Beállítja az alapértelmezett prioritást az új SMS jegyeknél az ügyintézői felületen."
 
 #. SysConfig
 msgid ""
 "Sets the default sender type for new SMS tickets in the agent interface."
-msgstr ""
+msgstr "Beállítja az alapértelmezett küldőtípust az új SMS jegyeknél az ügyintézői felületen."
 
 #. SysConfig
 msgid "Sets the default text for new SMS tickets in the agent interface."
-msgstr ""
+msgstr "Beállítja az alapértelmezett szöveget az új SMS jegyeknél az ügyintézői felületen."
 
 #. SysConfig
 msgid "Sets the default title for new SMS tickets in the agent interface."
-msgstr ""
+msgstr "Beállítja az alapértelmezett címet az új SMS jegyeknél az ügyintézői felületen."
 
 #. SysConfig
 msgid "Show all ticket attachments."
@@ -2513,7 +2509,7 @@ msgid ""
 "\"ClusterName\" and for the Content any name you want to see in the UI. Use "
 "\"ClusterPriority\" to configure the order of a certain cluster within the "
 "toolbar."
-msgstr ""
+msgstr "Egy hivatkozást jelenít meg a menüben egy kimenő SMS küldéséhez az ügyintézői felület jegynagyítás nézetében. Ezen hivatkozás megjelenítéséhez vagy meg nem jelenítéséhez további hozzáférési vezérlőt lehet készíteni a „Group” kulcs és az „rw:csoport1;move_into:csoport2” tartalomhoz hasonló használatával. A menüpontok csoportokba rendezéséhez használja a „ClusterName” kulcsot bármilyen olyan tartalommal, amelyet a felhasználói felületen látni szeretne. Használja a „ClusterPriority” kulcsot egy bizonyos fürt sorrendjének beállításához az eszköztáron belül."
 
 #. SysConfig
 msgid "Shows all attachments available in the ticket."
@@ -2533,7 +2529,7 @@ msgstr "Támogató ügyintéző"
 
 #. SysConfig
 msgid "System Configuration Setting History"
-msgstr ""
+msgstr "Rendszerbeállítások beállítási előzményei"
 
 #. SysConfig
 msgid "Team agents management screen."
@@ -2602,11 +2598,11 @@ msgstr "Ez a csevegés befejeződött. Az oldal tetején lévő gomb használat�
 
 #. SysConfig
 msgid "This is a description for NotificationViewFilterSettings ob Business."
-msgstr ""
+msgstr "Ez egy leírás az értesítési nézet szűrőbeállításaihoz."
 
 #. SysConfig
 msgid "This is a description for NotificationViewSmallPageShown ob Business."
-msgstr ""
+msgstr "Ez egy leírás az értesítési nézet kis oldalmegjelenítéséhez."
 
 #. SysConfig
 msgid "This module is part of the admin area of OTRS Business Solution™."
@@ -2614,7 +2610,7 @@ msgstr "Ez a modul az OTRS Business Solution™ adminisztrációs területének 
 
 #. SysConfig
 msgid "Ticket Outbound SMS."
-msgstr ""
+msgstr "Jegy kimenő SMS."
 
 #. SysConfig
 msgid "Ticket attachments."
@@ -2630,7 +2626,7 @@ msgstr "Video- és hanghívás képernyő."
 
 #. SysConfig
 msgid "Web Service"
-msgstr ""
+msgstr "Webszolgáltatás"
 
 #. SysConfig
 msgid ""
