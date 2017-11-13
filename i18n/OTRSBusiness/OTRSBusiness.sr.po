@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-08 09:35+0000\n"
-"PO-Revision-Date: 2017-11-08 09:37+0000\n"
+"POT-Creation-Date: 2017-11-13 17:29+0000\n"
+"PO-Revision-Date: 2017-11-13 17:46+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Serbian (http://www.transifex.com/otrs/OTRS/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -548,6 +548,23 @@ msgid ""
 "reload this tab any time. This means that it is recommended to leave the "
 "chat manager opened in this particular tab."
 msgstr "Напомињемо: овај прозор ће се користити за било који захтев у вези ћаскања. Уколико напуштате менаџер ћаскања (нпр. коришћењем навигације при врху стране), покретање новог ћаскања или било које друге функције у вези истог може довести до освежавања овог прозора. Препоручљиво је да држите менаџер ћаскања отворен у овом конкретном прозору."
+
+#. Template: AgentChat
+msgid "Chat Integration"
+msgstr "Интеграција ћаскања"
+
+#. Template: AgentChat
+msgid ""
+"You can easily integrate the chat into a web page. Just set up a few "
+"parameters and copy the integration code to your clip board."
+msgstr "Ћаскање можете врло једноставно интегрисати у веб страницу. Подесите само пар параметара и преузмите генерисан интеграциони код."
+
+#. Template: AgentChat
+msgid ""
+"Did you know? You can easily integrate the chat into a web page. Just set up"
+" a few parameters and copy the integration code to your clip board. The "
+"integration wizard is only availabel for administrators."
+msgstr "Да ли сте знали? Ћаскање можете врло једноставно интегрисати у веб страницу. Подесите само пар параметара и преузмите генерисан интеграциони код. Чаробњак за интеграциони код је омогућен само за администраторе."
 
 #. Template: AgentChat
 msgid "General Chat Requests From Customers"
@@ -1184,6 +1201,47 @@ msgstr "Филтер доступних ресурса"
 msgid "Visible Resources (order by drag & drop)"
 msgstr "Видљиви ресурси (редослед према превуци и пусти)"
 
+#. JS Template: ChatIntegrationDialog
+msgid ""
+"In order to integrate the chat into your website, you need to enable to "
+"public chat in the %s"
+msgstr "За интегрисање ћаскања у вашу веб презентацију, морате укључити јавно ћаскање у %s"
+
+#. JS Template: ChatIntegrationDialog
+msgid ""
+"You can easily integrate the public chat into a website. Just copy the code "
+"snippets from here. If you would like to make any adaptions, please switch "
+"to the configuration tab. All changes are applied immediately to the "
+"snippet, so you can make your changes and copy the snippet to your clip "
+"board afterwards. Please note that changes made on this page are not "
+"remembered."
+msgstr "Јавно ћаскање можете врло једноставно интегрисати у веб страницу. Само ископирајте код одавде. Уколико желите да адаптирате изглед, молимо пређите на картицу за конфигурацију. Све промене ће  аутоматски бити примењене на код, тако да можете направити измене и потом ископирати код. Напомињемо да измене на овој страни неће бити сачуване."
+
+#. JS Template: ChatIntegrationDialog
+msgid "Integration Code"
+msgstr "Интеграциони код"
+
+#. JS Template: ChatIntegrationDialog
+msgid "Preview"
+msgstr "Приказ"
+
+#. JS Template: ChatIntegrationDialog
+msgid "Integrate this into the <head> section of your page:"
+msgstr "Убаците овај код у <head> секцију ваше странице:"
+
+#. JS Template: ChatIntegrationDialog
+msgid ""
+"Integrate this into the bottom of your page (after jQuery has been loaded):"
+msgstr "Убаците овај код при дну ваше странице (након учитавања jQuery):"
+
+#. JS Template: ChatIntegrationDialog
+msgid ""
+"Please note that this preview uses the real chat module. If the chat widget "
+"doesn't show up after the configured amount of time, there is probably no "
+"agent available for chatting and you have configured the chat shouldn't show"
+" up in this case."
+msgstr "Напомињемо да овај приказ користи прави модул ћаскања. Уколико се додатак за ћаскање не појави после подешеног интервала времена, вероватно немате активних оператера за ћаскање и подесили сте да ћаскање у том случају не буде приказано."
+
 #. JS Template: ChatStartForm
 msgid "First message"
 msgstr "Прва порука"
@@ -1625,6 +1683,132 @@ msgid "Please select a valid channel."
 msgstr "Молимо да одаберете важећи канал."
 
 #. JS File: Core.Agent.Chat
+msgid "Display Chat if no agent is available"
+msgstr "Прикажи ћаскање ако нема доступних оператера"
+
+#. JS File: Core.Agent.Chat
+msgid "Fall-back URL (only applies if above is set to \"Yes\")"
+msgstr "Резервна адреса (само уколико је подешавање изнад укључено)"
+
+#. JS File: Core.Agent.Chat
+msgid "Pre-selected channel"
+msgstr "Предефинисани канал"
+
+#. JS File: Core.Agent.Chat
+msgid "Layout & Colors"
+msgstr "Излед и боје"
+
+#. JS File: Core.Agent.Chat
+msgid "Position of the chat widget"
+msgstr "Позиција додатка за ћаскање"
+
+#. JS File: Core.Agent.Chat
+msgid "Bottom left"
+msgstr "Доле лево"
+
+#. JS File: Core.Agent.Chat
+msgid "Bottom right"
+msgstr "Доле десно"
+
+#. JS File: Core.Agent.Chat
+msgid "Delay (in miliseconds) until the chat shows up"
+msgstr "Интервал (у милисекундама) после ког ће бити приказано ћаскање"
+
+#. JS File: Core.Agent.Chat
+msgid "Height in pixels to which the chat should expand"
+msgstr "Висина у пикселима до које ће се проширити ћаскање"
+
+#. JS File: Core.Agent.Chat
+msgid "Should the chat already be maximized when it shows up?"
+msgstr "Да ли ћаскање треба да буде приказано у проширеном облику?"
+
+#. JS File: Core.Agent.Chat
+msgid "Background color of the inner chat window"
+msgstr "Боја позадине унутрашњег прозора за ћаскање"
+
+#. JS File: Core.Agent.Chat
+msgid "Background color of the headline on top of the chat"
+msgstr "Боја позадине наслова на врху ћаскања"
+
+#. JS File: Core.Agent.Chat
+msgid "Text color of the headline on top of the chat"
+msgstr "Боја текста наслова на врху ћаскања"
+
+#. JS File: Core.Agent.Chat
+msgid "Background color of the send button"
+msgstr "Боја позадине дугмета за слање"
+
+#. JS File: Core.Agent.Chat
+msgid "Text color of the send button"
+msgstr "Боја текста дугмета за слање"
+
+#. JS File: Core.Agent.Chat
+msgid "Text color of the chatter Name in the chat"
+msgstr "Боја текста имена учесника ћаскања"
+
+#. JS File: Core.Agent.Chat
+msgid "Texts"
+msgstr "Текст"
+
+#. JS File: Core.Agent.Chat
+msgid "How can we help you?"
+msgstr "Како вам можемо помоћи?"
+
+#. JS File: Core.Agent.Chat
+msgid "Placeholder for the channel selection"
+msgstr "Предефинисана селекција канала"
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a topic for your request..."
+msgstr "Изаберите тему вашег захтева..."
+
+#. JS File: Core.Agent.Chat
+msgid "Placeholder for the name input"
+msgstr "Предефинисана вредност поља за име"
+
+#. JS File: Core.Agent.Chat
+msgid "Your name..."
+msgstr "Ваше име..."
+
+#. JS File: Core.Agent.Chat
+msgid "Placeholder for the message input"
+msgstr "Предефинисана вредност поља поруке"
+
+#. JS File: Core.Agent.Chat
+msgid "Your message..."
+msgstr "Ваша порука..."
+
+#. JS File: Core.Agent.Chat
+msgid "Confirmation message if the user decides to close the chat"
+msgstr "Порука приликом потврде затварања ћаскања"
+
+#. JS File: Core.Agent.Chat
+msgid "Are you sure you would like to end the chat?"
+msgstr "Да ли сте сигурни да желите да напустите ћаскање?"
+
+#. JS File: Core.Agent.Chat
+msgid "Message which is displayed after the chat was ended by an agent"
+msgstr "Порука за приказ у случају затварања ћаскања од стране оператера"
+
+#. JS File: Core.Agent.Chat
+msgid "Thank you! The chat was ended."
+msgstr "Хвала вам! Ћаскање је завршено."
+
+#. JS File: Core.Agent.Chat
+msgid "configuration"
+msgstr "подешавање"
+
+#. JS File: Core.Agent.Chat
+msgid "Click the reload icon to preview your current chat configuration."
+msgstr "Кликните на иконицу за поновно учитавање за приказ вашег тренутног подешавања ћаскања."
+
+#. JS File: Core.Agent.Chat
+msgid ""
+"Click the reload icon to preview your current chat configuration. Please "
+"note that the public chat is currently disabled and will not show up."
+msgstr "Кликните на иконицу за поновно учитавање за приказ вашег тренутног подешавања ћаскања. Напомињемо да је јавно ћаскање тренутно искључено и неће бити приказано."
+
+#. JS File: Core.Agent.Chat
 msgid "Your chat could not be started because of an internal error."
 msgstr "Ваше ћаскање није могло бити покренуто због интерне грешке."
 
@@ -1919,10 +2103,6 @@ msgstr "Преглед ћаскања."
 #. SysConfig
 msgid "Chats"
 msgstr "Ћаскања"
-
-#. SysConfig
-msgid "Choose which notifications you'd like to receive."
-msgstr "Изаберите која обавештења желите да примате."
 
 #. SysConfig
 msgid "Cleans up old chat logs."
@@ -2231,10 +2411,6 @@ msgstr "Регистрација модула приступа (онемогућ
 #. SysConfig
 msgid "Frontend module registration for the cusotmer interface."
 msgstr "Регистрација модула за интерфејс клијента."
-
-#. SysConfig
-msgid "Frontend module registration for the public interface."
-msgstr "Регистрација приступног модула за јавни интерфејс."
 
 #. SysConfig
 msgid ""

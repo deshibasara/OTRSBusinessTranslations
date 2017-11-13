@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-08 09:35+0000\n"
-"PO-Revision-Date: 2017-11-08 09:36+0000\n"
+"POT-Creation-Date: 2017-11-13 17:29+0000\n"
+"PO-Revision-Date: 2017-11-13 17:32+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Thai (Thailand) (http://www.transifex.com/otrs/OTRS/language/th_TH/)\n"
 "MIME-Version: 1.0\n"
@@ -548,6 +548,23 @@ msgid ""
 "reload this tab any time. This means that it is recommended to leave the "
 "chat manager opened in this particular tab."
 msgstr "โปรดทราบ: แท็บนี้จะถูกใช้โดยการร้องขอใด ๆ ที่เกี่ยวข้องกับการแชท ถ้าคุณปล่อยการจัดการการแชท (เช่นโดยการใช้แถบนำทางที่ด้านบนของหน้า) เริ่มต้นแชทใหม่หรือแชทอื่น ๆ ที่เกี่ยวข้องอาจจะถูกแสดงผลซ้ำในแท็บนี้ตลอดเวลา ซึ่งหมายความว่ามันจะแนะนำให้ออกจากผู้จัดการแชทที่เปิดอยู่ในแท็บนี้โดยเฉพาะอย่างยิ่ง"
+
+#. Template: AgentChat
+msgid "Chat Integration"
+msgstr ""
+
+#. Template: AgentChat
+msgid ""
+"You can easily integrate the chat into a web page. Just set up a few "
+"parameters and copy the integration code to your clip board."
+msgstr ""
+
+#. Template: AgentChat
+msgid ""
+"Did you know? You can easily integrate the chat into a web page. Just set up"
+" a few parameters and copy the integration code to your clip board. The "
+"integration wizard is only availabel for administrators."
+msgstr ""
 
 #. Template: AgentChat
 msgid "General Chat Requests From Customers"
@@ -1184,6 +1201,47 @@ msgstr ""
 msgid "Visible Resources (order by drag & drop)"
 msgstr ""
 
+#. JS Template: ChatIntegrationDialog
+msgid ""
+"In order to integrate the chat into your website, you need to enable to "
+"public chat in the %s"
+msgstr ""
+
+#. JS Template: ChatIntegrationDialog
+msgid ""
+"You can easily integrate the public chat into a website. Just copy the code "
+"snippets from here. If you would like to make any adaptions, please switch "
+"to the configuration tab. All changes are applied immediately to the "
+"snippet, so you can make your changes and copy the snippet to your clip "
+"board afterwards. Please note that changes made on this page are not "
+"remembered."
+msgstr ""
+
+#. JS Template: ChatIntegrationDialog
+msgid "Integration Code"
+msgstr ""
+
+#. JS Template: ChatIntegrationDialog
+msgid "Preview"
+msgstr "ดูตัวอย่าง"
+
+#. JS Template: ChatIntegrationDialog
+msgid "Integrate this into the <head> section of your page:"
+msgstr ""
+
+#. JS Template: ChatIntegrationDialog
+msgid ""
+"Integrate this into the bottom of your page (after jQuery has been loaded):"
+msgstr ""
+
+#. JS Template: ChatIntegrationDialog
+msgid ""
+"Please note that this preview uses the real chat module. If the chat widget "
+"doesn't show up after the configured amount of time, there is probably no "
+"agent available for chatting and you have configured the chat shouldn't show"
+" up in this case."
+msgstr ""
+
 #. JS Template: ChatStartForm
 msgid "First message"
 msgstr "ข้อความแรก"
@@ -1625,6 +1683,132 @@ msgid "Please select a valid channel."
 msgstr "โปรดเลือกช่องทางที่ถูกต้อง"
 
 #. JS File: Core.Agent.Chat
+msgid "Display Chat if no agent is available"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Fall-back URL (only applies if above is set to \"Yes\")"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Pre-selected channel"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Layout & Colors"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Position of the chat widget"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Bottom left"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Bottom right"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Delay (in miliseconds) until the chat shows up"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Height in pixels to which the chat should expand"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Should the chat already be maximized when it shows up?"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Background color of the inner chat window"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Background color of the headline on top of the chat"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Text color of the headline on top of the chat"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Background color of the send button"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Text color of the send button"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Text color of the chatter Name in the chat"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Texts"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "How can we help you?"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Placeholder for the channel selection"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Please select a topic for your request..."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Placeholder for the name input"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Your name..."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Placeholder for the message input"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Your message..."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Confirmation message if the user decides to close the chat"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Are you sure you would like to end the chat?"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Message which is displayed after the chat was ended by an agent"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Thank you! The chat was ended."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "configuration"
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid "Click the reload icon to preview your current chat configuration."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
+msgid ""
+"Click the reload icon to preview your current chat configuration. Please "
+"note that the public chat is currently disabled and will not show up."
+msgstr ""
+
+#. JS File: Core.Agent.Chat
 msgid "Your chat could not be started because of an internal error."
 msgstr "แชทของคุณไม่สามารถเริ่มต้นเนื่องจากข้อผิดพลาดภายใน"
 
@@ -1919,10 +2103,6 @@ msgstr ""
 #. SysConfig
 msgid "Chats"
 msgstr "แชท"
-
-#. SysConfig
-msgid "Choose which notifications you'd like to receive."
-msgstr ""
 
 #. SysConfig
 msgid "Cleans up old chat logs."
@@ -2231,10 +2411,6 @@ msgstr ""
 #. SysConfig
 msgid "Frontend module registration for the cusotmer interface."
 msgstr ""
-
-#. SysConfig
-msgid "Frontend module registration for the public interface."
-msgstr "การลงทะเบียนโมดูล Frontend สำหรับอินเตอร์เฟซสาธารณะ"
 
 #. SysConfig
 msgid ""
