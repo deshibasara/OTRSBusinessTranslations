@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-13 17:29+0000\n"
-"PO-Revision-Date: 2017-11-13 17:32+0000\n"
+"POT-Creation-Date: 2017-11-14 16:01+0000\n"
+"PO-Revision-Date: 2017-11-14 16:02+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -562,7 +562,7 @@ msgstr ""
 msgid ""
 "Did you know? You can easily integrate the chat into a web page. Just set up"
 " a few parameters and copy the integration code to your clip board. The "
-"integration wizard is only availabel for administrators."
+"integration wizard is only available for administrators."
 msgstr ""
 
 #. Template: AgentChat
@@ -1202,7 +1202,7 @@ msgstr "Látható erőforrások (rendezés fogd és vidd módon)"
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
-"In order to integrate the chat into your website, you need to enable to "
+"In order to integrate the chat into your website, you need to enable the "
 "public chat in the %s"
 msgstr ""
 

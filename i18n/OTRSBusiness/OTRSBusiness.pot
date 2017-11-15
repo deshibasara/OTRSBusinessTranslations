@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRSBusiness\n"
-"POT-Creation-Date: 2017-11-13 17:47+0000\n"
+"POT-Creation-Date: 2017-11-15 09:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -515,7 +515,7 @@ msgid "You can easily integrate the chat into a web page. Just set up a few para
 msgstr ""
 
 #. Template: AgentChat
-msgid "Did you know? You can easily integrate the chat into a web page. Just set up a few parameters and copy the integration code to your clip board. The integration wizard is only availabel for administrators."
+msgid "Did you know? You can easily integrate the chat into a web page. Just set up a few parameters and copy the integration code to your clip board. The integration wizard is only available for administrators."
 msgstr ""
 
 #. Template: AgentChat
@@ -1139,7 +1139,7 @@ msgid "Visible Resources (order by drag & drop)"
 msgstr ""
 
 #. JS Template: ChatIntegrationDialog
-msgid "In order to integrate the chat into your website, you need to enable to public chat in the %s"
+msgid "In order to integrate the chat into your website, you need to enable the public chat in the %s"
 msgstr ""
 
 #. JS Template: ChatIntegrationDialog

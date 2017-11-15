@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-13 17:29+0000\n"
-"PO-Revision-Date: 2017-11-13 17:46+0000\n"
+"POT-Creation-Date: 2017-11-14 16:01+0000\n"
+"PO-Revision-Date: 2017-11-14 16:13+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Serbian (http://www.transifex.com/otrs/OTRS/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -563,7 +563,7 @@ msgstr "Ћаскање можете врло једноставно интегр
 msgid ""
 "Did you know? You can easily integrate the chat into a web page. Just set up"
 " a few parameters and copy the integration code to your clip board. The "
-"integration wizard is only availabel for administrators."
+"integration wizard is only available for administrators."
 msgstr "Да ли сте знали? Ћаскање можете врло једноставно интегрисати у веб страницу. Подесите само пар параметара и преузмите генерисан интеграциони код. Чаробњак за интеграциони код је омогућен само за администраторе."
 
 #. Template: AgentChat
@@ -1203,7 +1203,7 @@ msgstr "Видљиви ресурси (редослед према превуц�
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
-"In order to integrate the chat into your website, you need to enable to "
+"In order to integrate the chat into your website, you need to enable the "
 "public chat in the %s"
 msgstr "За интегрисање ћаскања у вашу веб презентацију, морате укључити јавно ћаскање у %s"
 

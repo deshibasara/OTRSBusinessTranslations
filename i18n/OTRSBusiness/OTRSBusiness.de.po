@@ -11,12 +11,13 @@
 # Rik sof <khan.jonas@riksof.com>, 2017
 # ru_otrs <robert.ullrich@otrs.com>, 2016
 # Rudy R <rudy.rohde@googlemail.com>, 2015
+# sb_otrs <stefan.bedorf@otrs.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-13 17:29+0000\n"
-"PO-Revision-Date: 2017-11-13 17:32+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"POT-Creation-Date: 2017-11-14 16:01+0000\n"
+"PO-Revision-Date: 2017-11-14 17:52+0000\n"
+"Last-Translator: sb_otrs <stefan.bedorf@otrs.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -560,20 +561,20 @@ msgstr "Bitte beachten Sie, dass der Tab, in dem der Chat-Manager geöffnet wird
 
 #. Template: AgentChat
 msgid "Chat Integration"
-msgstr ""
+msgstr "Chat-Integration"
 
 #. Template: AgentChat
 msgid ""
 "You can easily integrate the chat into a web page. Just set up a few "
 "parameters and copy the integration code to your clip board."
-msgstr ""
+msgstr "Sie können den Chat leicht in eine Webseite integrieren. Einfach ein paar Parameter setzen und den Integrations-Code in Ihre Zwischenablage kopieren."
 
 #. Template: AgentChat
 msgid ""
 "Did you know? You can easily integrate the chat into a web page. Just set up"
 " a few parameters and copy the integration code to your clip board. The "
-"integration wizard is only availabel for administrators."
-msgstr ""
+"integration wizard is only available for administrators."
+msgstr "Wussten Sie schon? Sie können den Chat leicht in eine Webseite integrieren. Einfach ein paar Parameter setzen und den Integrations-Code in Ihre Zwischenablage kopieren. Der Integrations-Assistent ist nur für Administratoren verfügbar."
 
 #. Template: AgentChat
 msgid "General Chat Requests From Customers"
@@ -1212,9 +1213,9 @@ msgstr "Sichtbare Ressourcen (mit Drag & Drop sortieren)"
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
-"In order to integrate the chat into your website, you need to enable to "
+"In order to integrate the chat into your website, you need to enable the "
 "public chat in the %s"
-msgstr ""
+msgstr "Um den Chat in Ihre Webseite integrieren zu können, müssen Sie den öffentlichen Chat in der %s aktivieren."
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
@@ -1224,11 +1225,11 @@ msgid ""
 "snippet, so you can make your changes and copy the snippet to your clip "
 "board afterwards. Please note that changes made on this page are not "
 "remembered."
-msgstr ""
+msgstr "Sie können den öffentlichen Chat leicht in eine Webseite integrieren. Kopieren Sie einfach die Code-Schnipsel von hier. Falls Sie Änderungen vornehmen möchten, wechseln Sie bitte zum Konfigurations-Tab. Alle Änderungen werden sofort auf den Code angewendet, so dass Sie nach Abschluss der Änderungen den Code direkt in Ihre Zwischenablage kopieren können. Bitte beachten Sie, dass Änderungen auf dieser Seite nicht dauerhaft gespeichert werden."
 
 #. JS Template: ChatIntegrationDialog
 msgid "Integration Code"
-msgstr ""
+msgstr "Integrations-Code"
 
 #. JS Template: ChatIntegrationDialog
 msgid "Preview"
@@ -1236,12 +1237,12 @@ msgstr "Vorschau"
 
 #. JS Template: ChatIntegrationDialog
 msgid "Integrate this into the <head> section of your page:"
-msgstr ""
+msgstr "Integrieren Sie diesen in den <head>-Abschnitt Ihrer Seite."
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
 "Integrate this into the bottom of your page (after jQuery has been loaded):"
-msgstr ""
+msgstr "Integrieren Sie diesen am unteren Ende Ihrer Seite (nachdem jQuery geladen wurde):"
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
@@ -1249,7 +1250,7 @@ msgid ""
 "doesn't show up after the configured amount of time, there is probably no "
 "agent available for chatting and you have configured the chat shouldn't show"
 " up in this case."
-msgstr ""
+msgstr "Bitte beachten Sie, dass diese Vorschau die echten Chat-Module benutzt. Falls das Chat-Widget nicht nach der konfigurierten Zeitspanne auftaucht, ist vermutlich kein Agent zum Chatten verfügbar und Sie haben konfiguriert dass der Chat in diesem Fall nicht auftauchen soll."
 
 #. JS Template: ChatStartForm
 msgid "First message"
@@ -1693,129 +1694,129 @@ msgstr "Bitte wählen Sie einen gültigen Kanal."
 
 #. JS File: Core.Agent.Chat
 msgid "Display Chat if no agent is available"
-msgstr ""
+msgstr "Zeige Chat an wenn kein Agent verfügbar ist"
 
 #. JS File: Core.Agent.Chat
 msgid "Fall-back URL (only applies if above is set to \"Yes\")"
-msgstr ""
+msgstr "Fallback-URL (wird nur angewendet falls obiger Eintrag auf \"Ja\" gesetzt ist)"
 
 #. JS File: Core.Agent.Chat
 msgid "Pre-selected channel"
-msgstr ""
+msgstr "Vorausgewählter Kanal"
 
 #. JS File: Core.Agent.Chat
 msgid "Layout & Colors"
-msgstr ""
+msgstr "Layout & Farben"
 
 #. JS File: Core.Agent.Chat
 msgid "Position of the chat widget"
-msgstr ""
+msgstr "Position des Chat-Widget"
 
 #. JS File: Core.Agent.Chat
 msgid "Bottom left"
-msgstr ""
+msgstr "Unten links"
 
 #. JS File: Core.Agent.Chat
 msgid "Bottom right"
-msgstr ""
+msgstr "Unten rechts"
 
 #. JS File: Core.Agent.Chat
 msgid "Delay (in miliseconds) until the chat shows up"
-msgstr ""
+msgstr "Verzögerung (in Millisekunden) bis der Chat angezeigt wird"
 
 #. JS File: Core.Agent.Chat
 msgid "Height in pixels to which the chat should expand"
-msgstr ""
+msgstr "Höhe in Pixeln bis zu welcher der Chat sich ausdehnen soll"
 
 #. JS File: Core.Agent.Chat
 msgid "Should the chat already be maximized when it shows up?"
-msgstr ""
+msgstr "Soll der Chat direkt beim Anzeigen maximiert werden?"
 
 #. JS File: Core.Agent.Chat
 msgid "Background color of the inner chat window"
-msgstr ""
+msgstr "Hintergrundfarbe des inneren Chat-Fensters"
 
 #. JS File: Core.Agent.Chat
 msgid "Background color of the headline on top of the chat"
-msgstr ""
+msgstr "Hintergrundfarbe der Überschrift über dem Chat"
 
 #. JS File: Core.Agent.Chat
 msgid "Text color of the headline on top of the chat"
-msgstr ""
+msgstr "Textfarbe der Überschrift über dem Chat"
 
 #. JS File: Core.Agent.Chat
 msgid "Background color of the send button"
-msgstr ""
+msgstr "Hintergrundfarbe des Senden-Knopf"
 
 #. JS File: Core.Agent.Chat
 msgid "Text color of the send button"
-msgstr ""
+msgstr "Textfarbe des Senden-Knopf"
 
 #. JS File: Core.Agent.Chat
 msgid "Text color of the chatter Name in the chat"
-msgstr ""
+msgstr "Textfarbe des Namens der chattenden Person im Chat"
 
 #. JS File: Core.Agent.Chat
 msgid "Texts"
-msgstr ""
+msgstr "Texte"
 
 #. JS File: Core.Agent.Chat
 msgid "How can we help you?"
-msgstr ""
+msgstr "Wie können wir Ihnen helfen?"
 
 #. JS File: Core.Agent.Chat
 msgid "Placeholder for the channel selection"
-msgstr ""
+msgstr "Platzhalter für die Kanal-Auswahl"
 
 #. JS File: Core.Agent.Chat
 msgid "Please select a topic for your request..."
-msgstr ""
+msgstr "Bitte wählen Sie ein Thema für Ihre Anfrage aus..."
 
 #. JS File: Core.Agent.Chat
 msgid "Placeholder for the name input"
-msgstr ""
+msgstr "Platzhalter für die Namens-Eingabe"
 
 #. JS File: Core.Agent.Chat
 msgid "Your name..."
-msgstr ""
+msgstr "Ihr Name..."
 
 #. JS File: Core.Agent.Chat
 msgid "Placeholder for the message input"
-msgstr ""
+msgstr "Platzhalter für die Nachrichten-Eingabe"
 
 #. JS File: Core.Agent.Chat
 msgid "Your message..."
-msgstr ""
+msgstr "Ihre Nachricht..."
 
 #. JS File: Core.Agent.Chat
 msgid "Confirmation message if the user decides to close the chat"
-msgstr ""
+msgstr "Bestätigungsmeldung wenn der Nutzer den Chat schließen möchte"
 
 #. JS File: Core.Agent.Chat
 msgid "Are you sure you would like to end the chat?"
-msgstr ""
+msgstr "Sind Sie sicher dass Sie den Chat beenden möchten?"
 
 #. JS File: Core.Agent.Chat
 msgid "Message which is displayed after the chat was ended by an agent"
-msgstr ""
+msgstr "Angezeigte Nachricht nach Beendigung des Chat durch einen Agenten"
 
 #. JS File: Core.Agent.Chat
 msgid "Thank you! The chat was ended."
-msgstr ""
+msgstr "Vielen Dank! Der Chat wurde beendet."
 
 #. JS File: Core.Agent.Chat
 msgid "configuration"
-msgstr ""
+msgstr "Konfiguration"
 
 #. JS File: Core.Agent.Chat
 msgid "Click the reload icon to preview your current chat configuration."
-msgstr ""
+msgstr "Klicken Sie das \"Neu laden\" Symbol für eine Vorschau Ihrer aktuellen Chat-Konfiguration."
 
 #. JS File: Core.Agent.Chat
 msgid ""
 "Click the reload icon to preview your current chat configuration. Please "
 "note that the public chat is currently disabled and will not show up."
-msgstr ""
+msgstr "Klicken Sie das \"Neu laden\" Symbol für eine Vorschau Ihrer aktuellen Chat-Konfiguration. Bitte beachten Sie, dass der öffentliche Chat aktuell deaktiviert ist und nicht angezeigt wird."
 
 #. JS File: Core.Agent.Chat
 msgid "Your chat could not be started because of an internal error."
@@ -2026,7 +2027,7 @@ msgstr "Benachrichtigungsmodul im Agenten-Interface, das auf offene Chat-Anfrage
 msgid ""
 "AgentTicketZoom widget that displays Contact with data dynamic field in the "
 "side bar."
-msgstr ""
+msgstr "Widget für AgentTicketZoom, welches den Inhalt der dynamischen Felds für Kontaktdaten anzeigt."
 
 #. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
