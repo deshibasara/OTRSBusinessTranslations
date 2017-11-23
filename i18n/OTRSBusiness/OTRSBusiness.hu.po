@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2017-11-14 16:01+0000\n"
-"PO-Revision-Date: 2017-11-14 16:02+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"PO-Revision-Date: 2017-11-17 23:12+0000\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -550,20 +550,20 @@ msgstr "Ne feledje: ezt a lapot fogja használni minden olyan kérés, amely a c
 
 #. Template: AgentChat
 msgid "Chat Integration"
-msgstr ""
+msgstr "Csevegés beágyazása"
 
 #. Template: AgentChat
 msgid ""
 "You can easily integrate the chat into a web page. Just set up a few "
 "parameters and copy the integration code to your clip board."
-msgstr ""
+msgstr "Egyszerűen beágyazhatja a csevegést egy weboldalba. Állítson be néhány paramétert, és másolja az beágyazási kódot a vágólapra."
 
 #. Template: AgentChat
 msgid ""
 "Did you know? You can easily integrate the chat into a web page. Just set up"
 " a few parameters and copy the integration code to your clip board. The "
 "integration wizard is only available for administrators."
-msgstr ""
+msgstr "Tudta? Egyszerűen beágyazhatja a csevegést egy weboldalba. Állítson be néhány paramétert, és másolja az beágyazási kódot a vágólapra. A beágyazási varázsló csak az adminisztrátorok számára érhető el."
 
 #. Template: AgentChat
 msgid "General Chat Requests From Customers"
@@ -1204,7 +1204,7 @@ msgstr "Látható erőforrások (rendezés fogd és vidd módon)"
 msgid ""
 "In order to integrate the chat into your website, you need to enable the "
 "public chat in the %s"
-msgstr ""
+msgstr "Annak érdekében, hogy beágyazza a csevegést a weboldalába, engedélyeznie kell a nyilvános csevegést ebben: %s"
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
@@ -1214,11 +1214,11 @@ msgid ""
 "snippet, so you can make your changes and copy the snippet to your clip "
 "board afterwards. Please note that changes made on this page are not "
 "remembered."
-msgstr ""
+msgstr "Egyszerűen beágyazhatja a nyilvános csevegést egy weboldalba. Másolja ki a kódrészletet innen. Ha szeretne valamilyen átdolgozást elvégezni, akkor váltson át a beállítások lapra. Az összes változtatás azonnal alkalmazva lesz a kódrészleten, így elvégezheti a változtatásokat, és azután kimásolhatja a kódrészletet a vágólapra. Ne feledje, hogy ezen az oldalon elvégzett változtatások nem lesznek megjegyezve."
 
 #. JS Template: ChatIntegrationDialog
 msgid "Integration Code"
-msgstr ""
+msgstr "Beágyazási kód"
 
 #. JS Template: ChatIntegrationDialog
 msgid "Preview"
@@ -1226,12 +1226,12 @@ msgstr "Előnézet"
 
 #. JS Template: ChatIntegrationDialog
 msgid "Integrate this into the <head> section of your page:"
-msgstr ""
+msgstr "Ágyazza be ezt az oldal <head> szakaszába:"
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
 "Integrate this into the bottom of your page (after jQuery has been loaded):"
-msgstr ""
+msgstr "Ágyazza be ezt az oldal aljára (miután a jQuery betöltődött):"
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
@@ -1239,7 +1239,7 @@ msgid ""
 "doesn't show up after the configured amount of time, there is probably no "
 "agent available for chatting and you have configured the chat shouldn't show"
 " up in this case."
-msgstr ""
+msgstr "Ne feledje, hogy ez az előnézet a valódi csevegésmodult használja. Ha a csevegés felületi elem nem jelenik meg a beállított idő után, akkor valószínűleg nincs elérhető ügyintéző a csevegéshez, és úgy állította be a csevegést, hogy nem szabad megjelennie ebben az esetben."
 
 #. JS Template: ChatStartForm
 msgid "First message"
@@ -1683,129 +1683,129 @@ msgstr "Válasszon egy érvényes csatornát."
 
 #. JS File: Core.Agent.Chat
 msgid "Display Chat if no agent is available"
-msgstr ""
+msgstr "Csevegés megjelenítése, ha nincs elérhető ügyintéző"
 
 #. JS File: Core.Agent.Chat
 msgid "Fall-back URL (only applies if above is set to \"Yes\")"
-msgstr ""
+msgstr "Tartalék URL (csak akkor alkalmazza, ha fent „Igen” értékre van állítva)"
 
 #. JS File: Core.Agent.Chat
 msgid "Pre-selected channel"
-msgstr ""
+msgstr "Előre kiválasztott csatorna"
 
 #. JS File: Core.Agent.Chat
 msgid "Layout & Colors"
-msgstr ""
+msgstr "Elrendezés és színek"
 
 #. JS File: Core.Agent.Chat
 msgid "Position of the chat widget"
-msgstr ""
+msgstr "A csevegés felületi elem elhelyezkedése"
 
 #. JS File: Core.Agent.Chat
 msgid "Bottom left"
-msgstr ""
+msgstr "Balra lent"
 
 #. JS File: Core.Agent.Chat
 msgid "Bottom right"
-msgstr ""
+msgstr "Jobbra lent"
 
 #. JS File: Core.Agent.Chat
 msgid "Delay (in miliseconds) until the chat shows up"
-msgstr ""
+msgstr "Késleltetés (ezredmásodpercben), amíg a csevegés megjelenik"
 
 #. JS File: Core.Agent.Chat
 msgid "Height in pixels to which the chat should expand"
-msgstr ""
+msgstr "Magasság képpontban, amelyre a csevegést ki kell nyújtani"
 
 #. JS File: Core.Agent.Chat
 msgid "Should the chat already be maximized when it shows up?"
-msgstr ""
+msgstr "Már teljes méretre kell állítani a csevegést, amikor megjelenik?"
 
 #. JS File: Core.Agent.Chat
 msgid "Background color of the inner chat window"
-msgstr ""
+msgstr "A belső csevegésablak háttérszíne"
 
 #. JS File: Core.Agent.Chat
 msgid "Background color of the headline on top of the chat"
-msgstr ""
+msgstr "A főcím háttérszíne a csevegés tetején"
 
 #. JS File: Core.Agent.Chat
 msgid "Text color of the headline on top of the chat"
-msgstr ""
+msgstr "A főcím szövegszíne a csevegés tetején"
 
 #. JS File: Core.Agent.Chat
 msgid "Background color of the send button"
-msgstr ""
+msgstr "A küldés gomb háttérszíne"
 
 #. JS File: Core.Agent.Chat
 msgid "Text color of the send button"
-msgstr ""
+msgstr "A küldés gomb szövegszíne"
 
 #. JS File: Core.Agent.Chat
 msgid "Text color of the chatter Name in the chat"
-msgstr ""
+msgstr "A csevegő nevének szövegszíne a csevegésben"
 
 #. JS File: Core.Agent.Chat
 msgid "Texts"
-msgstr ""
+msgstr "Szövegek"
 
 #. JS File: Core.Agent.Chat
 msgid "How can we help you?"
-msgstr ""
+msgstr "Miben segíthetünk Önnek?"
 
 #. JS File: Core.Agent.Chat
 msgid "Placeholder for the channel selection"
-msgstr ""
+msgstr "Helykitöltő a csatornaválasztásnál"
 
 #. JS File: Core.Agent.Chat
 msgid "Please select a topic for your request..."
-msgstr ""
+msgstr "Válasszon egy témát a kéréséhez…"
 
 #. JS File: Core.Agent.Chat
 msgid "Placeholder for the name input"
-msgstr ""
+msgstr "Helykitöltő a név bevitelénél"
 
 #. JS File: Core.Agent.Chat
 msgid "Your name..."
-msgstr ""
+msgstr "Az Ön neve…"
 
 #. JS File: Core.Agent.Chat
 msgid "Placeholder for the message input"
-msgstr ""
+msgstr "Helykitöltő az üzenet bevitelénél"
 
 #. JS File: Core.Agent.Chat
 msgid "Your message..."
-msgstr ""
+msgstr "Az Ön üzenete…"
 
 #. JS File: Core.Agent.Chat
 msgid "Confirmation message if the user decides to close the chat"
-msgstr ""
+msgstr "Megerősítő szöveg, ha a felhasználó úgy dönt, hogy bezárja a csevegést"
 
 #. JS File: Core.Agent.Chat
 msgid "Are you sure you would like to end the chat?"
-msgstr ""
+msgstr "Biztosan be szeretné fejezni a csevegést?"
 
 #. JS File: Core.Agent.Chat
 msgid "Message which is displayed after the chat was ended by an agent"
-msgstr ""
+msgstr "Üzenet, amely azután jelenik meg, hogy egy ügyintéző befejezte a csevegést"
 
 #. JS File: Core.Agent.Chat
 msgid "Thank you! The chat was ended."
-msgstr ""
+msgstr "Köszönjük! A csevegés véget ért."
 
 #. JS File: Core.Agent.Chat
 msgid "configuration"
-msgstr ""
+msgstr "beállítás"
 
 #. JS File: Core.Agent.Chat
 msgid "Click the reload icon to preview your current chat configuration."
-msgstr ""
+msgstr "Kattintson az újratöltés ikonra a jelenlegi csevegésbeállítás előnézetéhez."
 
 #. JS File: Core.Agent.Chat
 msgid ""
 "Click the reload icon to preview your current chat configuration. Please "
 "note that the public chat is currently disabled and will not show up."
-msgstr ""
+msgstr "Kattintson az újratöltés ikonra a jelenlegi csevegésbeállítás előnézetéhez. Ne feledje, hogy a nyilvános csevegés jelenleg le van tiltva, és nem fog megjelenni."
 
 #. JS File: Core.Agent.Chat
 msgid "Your chat could not be started because of an internal error."
@@ -2016,7 +2016,7 @@ msgstr "Ügyintézői felület értesítési modul a nyitott csevegéskérések 
 msgid ""
 "AgentTicketZoom widget that displays Contact with data dynamic field in the "
 "side bar."
-msgstr ""
+msgstr "Ügyintézői jegynagyítás felületi elem, amely megjeleníti a partneradatok dinamikus mezőt az oldalsávon."
 
 #. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
