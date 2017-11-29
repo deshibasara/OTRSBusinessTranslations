@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-14 16:01+0000\n"
-"PO-Revision-Date: 2017-11-14 16:02+0000\n"
+"POT-Creation-Date: 2017-11-23 14:45+0000\n"
+"PO-Revision-Date: 2017-11-23 14:53+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Indonesian (http://www.transifex.com/otrs/OTRS/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -1362,6 +1362,22 @@ msgid "%s has joined this chat as an observer."
 msgstr "%s telah bergabung obrolan ini sebagai pengamat."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Customer <b>%s</b> invited you to an audio call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Customer <b>%s</b> invited you to a video call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "User <b>%s</b> invited you to an audio call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "User <b>%s</b> invited you to a video call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "If you accept, any active call you may have will be closed."
 msgstr ""
 
@@ -1431,6 +1447,22 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AgentVideoChat.pm
 msgid "You are not participant in this chat!"
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "You have been invited to an audio call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "You have been invited to a video call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "<b>%s</b> invited you to an audio call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "<b>%s</b> invited you to a video call."
 msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/Article/SMS.pm

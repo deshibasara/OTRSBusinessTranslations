@@ -15,9 +15,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-14 16:01+0000\n"
-"PO-Revision-Date: 2017-11-14 17:52+0000\n"
-"Last-Translator: sb_otrs <stefan.bedorf@otrs.com>\n"
+"POT-Creation-Date: 2017-11-23 14:45+0000\n"
+"PO-Revision-Date: 2017-11-23 14:53+0000\n"
+"Last-Translator: Dusan Vuckovic\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1373,6 +1373,22 @@ msgid "%s has joined this chat as an observer."
 msgstr "%s hat den Chat als Beobachter betreten."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Customer <b>%s</b> invited you to an audio call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Customer <b>%s</b> invited you to a video call."
+msgstr "Der Kunde <b>%s</b> hat Sie zu einem Video-Anruf eingeladen."
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "User <b>%s</b> invited you to an audio call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "User <b>%s</b> invited you to a video call."
+msgstr "Der Nutzer <b>%s</b> hat Sie zu einem Video-Anruf eingeladen."
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "If you accept, any active call you may have will be closed."
 msgstr "Wenn Sie akzeptieren werden alle aktiven Anrufe geschlossen."
 
@@ -1443,6 +1459,22 @@ msgstr "Fehler beim Erzeugen des SMS-Artikels!"
 #. Perl Module: Kernel/Modules/AgentVideoChat.pm
 msgid "You are not participant in this chat!"
 msgstr "Sie sind kein Teilnehmer dieses Chats!"
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "You have been invited to an audio call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "You have been invited to a video call."
+msgstr "Sie wurden zu einem Video-Anruf eingeladen."
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "<b>%s</b> invited you to an audio call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "<b>%s</b> invited you to a video call."
+msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/Article/SMS.pm
 msgid "Transaction Numbers"

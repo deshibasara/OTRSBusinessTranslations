@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-14 16:01+0000\n"
-"PO-Revision-Date: 2017-11-14 16:02+0000\n"
+"POT-Creation-Date: 2017-11-23 14:45+0000\n"
+"PO-Revision-Date: 2017-11-23 14:53+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -1365,6 +1365,22 @@ msgid "%s has joined this chat as an observer."
 msgstr "%s已作为观察者加入该聊天。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Customer <b>%s</b> invited you to an audio call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "Customer <b>%s</b> invited you to a video call."
+msgstr "客户<b>%s</b>邀请你进行视频通话。"
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "User <b>%s</b> invited you to an audio call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
+msgid "User <b>%s</b> invited you to a video call."
+msgstr "用户<b>%s</b>邀请你进行视频通话。"
+
+#. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "If you accept, any active call you may have will be closed."
 msgstr "如果你接受邀请，你已有的活动会话都将被关闭。"
 
@@ -1435,6 +1451,22 @@ msgstr "创建短信工单时出错！"
 #. Perl Module: Kernel/Modules/AgentVideoChat.pm
 msgid "You are not participant in this chat!"
 msgstr "你没有参与这个聊天！"
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "You have been invited to an audio call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "You have been invited to a video call."
+msgstr "你已被邀请到一个视频通话。"
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "<b>%s</b> invited you to an audio call."
+msgstr ""
+
+#. Perl Module: Kernel/Modules/CustomerChat.pm
+msgid "<b>%s</b> invited you to a video call."
+msgstr ""
 
 #. Perl Module: Kernel/Output/HTML/Article/SMS.pm
 msgid "Transaction Numbers"
