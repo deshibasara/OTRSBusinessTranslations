@@ -1,12 +1,12 @@
 # 
 # Translators:
-# Dusan Vuckovic, 2016-2017
+# Dusan Vuckovic, 2016-2018
 # Милорад Јовановић <j.milorad@gmail.com>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-23 14:45+0000\n"
-"PO-Revision-Date: 2017-11-23 14:57+0000\n"
+"POT-Creation-Date: 2018-01-09 10:40+0000\n"
+"PO-Revision-Date: 2018-01-09 10:44+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Serbian (http://www.transifex.com/otrs/OTRS/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -1990,6 +1990,14 @@ msgid "Agent Dynamic Field Database Search"
 msgstr "Претрага динамичког поља базе података у интерфејсу оператера"
 
 #. SysConfig
+msgid "Agent FAQ Related Articles"
+msgstr "Сродни FAQ чланци у интерфејсу оператера"
+
+#. SysConfig
+msgid "Agent FAQ Related Articles."
+msgstr "Сродни FAQ чланци у интерфејсу оператера."
+
+#. SysConfig
 msgid "Agent Information"
 msgstr "Информације о оператеру"
 
@@ -2073,6 +2081,14 @@ msgstr "Дозвољава чуваће тренутне форме као на�
 #. SysConfig
 msgid "Append Chat to Ticket."
 msgstr "Додавање ћаскања у тикет."
+
+#. SysConfig
+msgid "Below body"
+msgstr "Испод текста"
+
+#. SysConfig
+msgid "Below subject"
+msgstr "Испод наслова"
 
 #. SysConfig
 msgid "Calendar Notifications"
@@ -2342,6 +2358,10 @@ msgid ""
 msgstr "Дефинише период времена (у минутима) после ког ће порука да нема одговора бити приказана клијенту."
 
 #. SysConfig
+msgid "Defines the position where the related FAQ articles widget is located."
+msgstr "Дефинише позицију где ће бити приказан додатак са сродним FAQ чланцима."
+
+#. SysConfig
 msgid "Defines the settings for appointment notification."
 msgstr "Дефинише подешавања за обавештења о терминима."
 
@@ -2411,6 +2431,10 @@ msgid "Edit contacts with data."
 msgstr "Уређивање контаката са подацима."
 
 #. SysConfig
+msgid "Enable the related article feature for the agent frontend."
+msgstr "Активира функцију сродних чланака за интерфејс оператера."
+
+#. SysConfig
 msgid ""
 "Enables notification web view bulk action feature for the agent frontend to "
 "work on more than one notification at a time."
@@ -2443,6 +2467,16 @@ msgstr "Регистрација модула приступа (онемогућ
 #. SysConfig
 msgid "Frontend module registration for the cusotmer interface."
 msgstr "Регистрација модула за интерфејс клијента."
+
+#. SysConfig
+msgid "Frontend module registration for the public interface."
+msgstr "Регистрација приступног модула за јавни интерфејс."
+
+#. SysConfig
+msgid ""
+"Generate HTML comment hooks for the specified blocks so that filters can use"
+" them."
+msgstr "Генерише HTML коментаре за одговарајуће блокове да би филтери могли да их користе."
 
 #. SysConfig
 msgid ""
@@ -2499,6 +2533,10 @@ msgstr "Текст који ће бити приказан приликом се
 #. SysConfig
 msgid "Link SMS templates to queues."
 msgstr "Повежи SMS шаблоне са редовима."
+
+#. SysConfig
+msgid "List of queue names for which the related article feature is enabled."
+msgstr "Листа имена редова за које је фунција сродних чланака активирана."
 
 #. SysConfig
 msgid ""
@@ -2574,6 +2612,10 @@ msgid "Number of hours after closed chat will be deleted."
 msgstr "Број сати после ког ће затворена ћаскања бити обрисана."
 
 #. SysConfig
+msgid "Output filter to add Java-script to CustomerTicketMessage screen."
+msgstr "Излазни филтер за убацивање JavaScript у CustomerTicketMessage екран."
+
+#. SysConfig
 msgid ""
 "Output filter to inject the necessary Dynamic field names in hidden input."
 msgstr "Излазни филтер за убацивање неопходних скривених динамичких поља."
@@ -2581,6 +2623,10 @@ msgstr "Излазни филтер за убацивање неопходних
 #. SysConfig
 msgid "Output filter to inject the necessary JavaScript into the views."
 msgstr "Излазни филтер за убацивање неопходног JavaScript у прегледе."
+
+#. SysConfig
+msgid "Output limit for the related FAQ articles."
+msgstr "Ограничење броја приказаних сродних FAQ чланака."
 
 #. SysConfig
 msgid "Parameters for notification web view filters."
@@ -2761,6 +2807,10 @@ msgid ""
 "Text which is being displayed on selection of this SLA on "
 "CustomerTicketMessage."
 msgstr "Текст који ће бити приказан приликом селекције SLA у CustomerTicketMessage."
+
+#. SysConfig
+msgid "The default languages for the related FAQ articles."
+msgstr "Подразумевани језици за сродне FAQ чланке."
 
 #. SysConfig
 msgid ""

@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-23 14:45+0000\n"
-"PO-Revision-Date: 2017-11-23 14:53+0000\n"
+"POT-Creation-Date: 2017-11-29 08:12+0000\n"
+"PO-Revision-Date: 2017-11-29 08:14+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Thai (Thailand) (http://www.transifex.com/otrs/OTRS/language/th_TH/)\n"
 "MIME-Version: 1.0\n"
@@ -1643,10 +1643,6 @@ msgstr "กรุณาเลือกผู้ใช้"
 #. JS File: Core.Agent.Chat
 msgid "Please, select destination chat channel."
 msgstr "กรุณาเลือกปลายทางช่องแชท"
-
-#. JS File: Core.Agent.Chat
-msgid "Change"
-msgstr "เปลี่ยน"
 
 #. JS File: Core.Agent.Chat
 msgid "Please select a channel."

@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-23 14:45+0000\n"
-"PO-Revision-Date: 2017-11-23 14:53+0000\n"
+"POT-Creation-Date: 2018-01-09 10:40+0000\n"
+"PO-Revision-Date: 2018-01-09 10:42+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -2000,6 +2000,14 @@ msgid "Agent Dynamic Field Database Search"
 msgstr "Dynamic Field Database Suche"
 
 #. SysConfig
+msgid "Agent FAQ Related Articles"
+msgstr ""
+
+#. SysConfig
+msgid "Agent FAQ Related Articles."
+msgstr ""
+
+#. SysConfig
 msgid "Agent Information"
 msgstr "Agenten-Information"
 
@@ -2083,6 +2091,14 @@ msgstr "Erlaubt das Speichern des aktuellen Stands als Entwurf im Ausgehende-SMS
 #. SysConfig
 msgid "Append Chat to Ticket."
 msgstr "Chat an Ticket anhängen"
+
+#. SysConfig
+msgid "Below body"
+msgstr ""
+
+#. SysConfig
+msgid "Below subject"
+msgstr ""
 
 #. SysConfig
 msgid "Calendar Notifications"
@@ -2352,6 +2368,10 @@ msgid ""
 msgstr "Definiert die Zeitspanne (in Minuten) bis ein Kunde die \"Keine Antwort\" Meldung angezeigt bekommt"
 
 #. SysConfig
+msgid "Defines the position where the related FAQ articles widget is located."
+msgstr ""
+
+#. SysConfig
 msgid "Defines the settings for appointment notification."
 msgstr "Legt die Einstellungen für Veranstaltungsbenachrichtigungen fest."
 
@@ -2421,6 +2441,10 @@ msgid "Edit contacts with data."
 msgstr "Kontaktdaten bearbeiten."
 
 #. SysConfig
+msgid "Enable the related article feature for the agent frontend."
+msgstr ""
+
+#. SysConfig
 msgid ""
 "Enables notification web view bulk action feature for the agent frontend to "
 "work on more than one notification at a time."
@@ -2453,6 +2477,16 @@ msgstr "Frontend-Modulregistrierung (verberge SMS-Ticket-Bildschirm, wenn Cloud-
 #. SysConfig
 msgid "Frontend module registration for the cusotmer interface."
 msgstr "Frontend-Modul-Registrierung für den Kunden-Bereich."
+
+#. SysConfig
+msgid "Frontend module registration for the public interface."
+msgstr "Frontendmodul-Registrierung für das Public-Interface."
+
+#. SysConfig
+msgid ""
+"Generate HTML comment hooks for the specified blocks so that filters can use"
+" them."
+msgstr "Generiert HTML-Kommentar Hooks für die einzelnen Blöcke so dass diese von Filtern genutzt werden können."
 
 #. SysConfig
 msgid ""
@@ -2509,6 +2543,10 @@ msgstr "Wird angezeigt, wenn ein Kunde diesen SLA bei der Ticketerstellung wähl
 #. SysConfig
 msgid "Link SMS templates to queues."
 msgstr "SMS-Vorlagen zu Queues zuordnen."
+
+#. SysConfig
+msgid "List of queue names for which the related article feature is enabled."
+msgstr ""
 
 #. SysConfig
 msgid ""
@@ -2584,6 +2622,10 @@ msgid "Number of hours after closed chat will be deleted."
 msgstr "Anzahl Stunden, nach denen der geschlossene Chat gelöscht wird."
 
 #. SysConfig
+msgid "Output filter to add Java-script to CustomerTicketMessage screen."
+msgstr ""
+
+#. SysConfig
 msgid ""
 "Output filter to inject the necessary Dynamic field names in hidden input."
 msgstr "Ausgabefilter zum Einfügen der erforderlichen DynamicField-Namen in versteckte Felder."
@@ -2591,6 +2633,10 @@ msgstr "Ausgabefilter zum Einfügen der erforderlichen DynamicField-Namen in ver
 #. SysConfig
 msgid "Output filter to inject the necessary JavaScript into the views."
 msgstr "Ausgabefilter zum Einfügen von notwendigem JavaScript in die Ansichten."
+
+#. SysConfig
+msgid "Output limit for the related FAQ articles."
+msgstr ""
 
 #. SysConfig
 msgid "Parameters for notification web view filters."
@@ -2771,6 +2817,10 @@ msgid ""
 "Text which is being displayed on selection of this SLA on "
 "CustomerTicketMessage."
 msgstr "Text, der bei der Auswahl dieses SLA in CustomerTicketMessage angezeigt wird."
+
+#. SysConfig
+msgid "The default languages for the related FAQ articles."
+msgstr ""
 
 #. SysConfig
 msgid ""

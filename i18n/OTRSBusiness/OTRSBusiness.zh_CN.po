@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2017-11-23 14:45+0000\n"
-"PO-Revision-Date: 2017-11-23 14:53+0000\n"
+"POT-Creation-Date: 2018-01-09 10:40+0000\n"
+"PO-Revision-Date: 2018-01-09 10:42+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -1992,6 +1992,14 @@ msgid "Agent Dynamic Field Database Search"
 msgstr "搜索服务人员动态字段数据库"
 
 #. SysConfig
+msgid "Agent FAQ Related Articles"
+msgstr ""
+
+#. SysConfig
+msgid "Agent FAQ Related Articles."
+msgstr ""
+
+#. SysConfig
 msgid "Agent Information"
 msgstr "服务人员信息"
 
@@ -2075,6 +2083,14 @@ msgstr "允许将服务人员界面的外发短信窗口中的当前工作保存
 #. SysConfig
 msgid "Append Chat to Ticket."
 msgstr "追加聊天到工单。"
+
+#. SysConfig
+msgid "Below body"
+msgstr ""
+
+#. SysConfig
+msgid "Below subject"
+msgstr ""
 
 #. SysConfig
 msgid "Calendar Notifications"
@@ -2344,6 +2360,10 @@ msgid ""
 msgstr "定义显示“无应答”消息给客户的时间段（分钟）。"
 
 #. SysConfig
+msgid "Defines the position where the related FAQ articles widget is located."
+msgstr ""
+
+#. SysConfig
 msgid "Defines the settings for appointment notification."
 msgstr "定义预约通知的设置。"
 
@@ -2413,6 +2433,10 @@ msgid "Edit contacts with data."
 msgstr "编辑联系信息。"
 
 #. SysConfig
+msgid "Enable the related article feature for the agent frontend."
+msgstr ""
+
+#. SysConfig
 msgid ""
 "Enables notification web view bulk action feature for the agent frontend to "
 "work on more than one notification at a time."
@@ -2445,6 +2469,16 @@ msgstr "前端模块注册（如果没有激活云服务，禁用短信工单窗
 #. SysConfig
 msgid "Frontend module registration for the cusotmer interface."
 msgstr "客户界面的前端模块注册。"
+
+#. SysConfig
+msgid "Frontend module registration for the public interface."
+msgstr "公共界面的前端模块注册。"
+
+#. SysConfig
+msgid ""
+"Generate HTML comment hooks for the specified blocks so that filters can use"
+" them."
+msgstr "为指定的块生成HTML注释钩子，以供过滤器使用。"
 
 #. SysConfig
 msgid ""
@@ -2501,6 +2535,10 @@ msgstr "如果一个客户在创建工单时选择了该SLA就会显示。"
 #. SysConfig
 msgid "Link SMS templates to queues."
 msgstr "链接短信模板到队列"
+
+#. SysConfig
+msgid "List of queue names for which the related article feature is enabled."
+msgstr "启用相关文章功能的队列名称列表。"
 
 #. SysConfig
 msgid ""
@@ -2576,6 +2614,10 @@ msgid "Number of hours after closed chat will be deleted."
 msgstr "已关闭的聊天删除前保留的小时数。"
 
 #. SysConfig
+msgid "Output filter to add Java-script to CustomerTicketMessage screen."
+msgstr "添加Javascript到客户工单消息窗口的输出过滤器。"
+
+#. SysConfig
 msgid ""
 "Output filter to inject the necessary Dynamic field names in hidden input."
 msgstr "在隐藏输入框中注入需要的动态字段名称的输出过滤器。"
@@ -2583,6 +2625,10 @@ msgstr "在隐藏输入框中注入需要的动态字段名称的输出过滤器
 #. SysConfig
 msgid "Output filter to inject the necessary JavaScript into the views."
 msgstr "注入需要的JavaScript到视图中的输出过滤器。"
+
+#. SysConfig
+msgid "Output limit for the related FAQ articles."
+msgstr "相关FAQ文章的输出限制。"
 
 #. SysConfig
 msgid "Parameters for notification web view filters."
@@ -2763,6 +2809,10 @@ msgid ""
 "Text which is being displayed on selection of this SLA on "
 "CustomerTicketMessage."
 msgstr "在该SLA选定的客户工单消息上显示的文本。"
+
+#. SysConfig
+msgid "The default languages for the related FAQ articles."
+msgstr "相关FAQ文章的默认语言。"
 
 #. SysConfig
 msgid ""
