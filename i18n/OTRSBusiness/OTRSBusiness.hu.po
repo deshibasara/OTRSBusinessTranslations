@@ -1,12 +1,12 @@
 # 
 # Translators:
-# Balázs Úr <urbalazs@gmail.com>, 2014-2017
+# Balázs Úr <urbalazs@gmail.com>, 2014-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2018-01-09 10:40+0000\n"
-"PO-Revision-Date: 2018-01-09 10:42+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"PO-Revision-Date: 2018-01-09 15:37+0000\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1990,11 +1990,11 @@ msgstr "Ügyintéző dinamikus mező adatbázis keresés"
 
 #. SysConfig
 msgid "Agent FAQ Related Articles"
-msgstr ""
+msgstr "Ügyintéző GyIK kapcsolódó bejegyzések"
 
 #. SysConfig
 msgid "Agent FAQ Related Articles."
-msgstr ""
+msgstr "Ügyintéző GyIK kapcsolódó bejegyzések."
 
 #. SysConfig
 msgid "Agent Information"
@@ -2083,11 +2083,11 @@ msgstr "Csevegés hozzáfűzése a jegyhez."
 
 #. SysConfig
 msgid "Below body"
-msgstr ""
+msgstr "Törzs alatt"
 
 #. SysConfig
 msgid "Below subject"
-msgstr ""
+msgstr "Tárgy alatt"
 
 #. SysConfig
 msgid "Calendar Notifications"
@@ -2358,7 +2358,7 @@ msgstr "Meghatározza azt az időtartamot (percben), mielőtt „Nincs válasz�
 
 #. SysConfig
 msgid "Defines the position where the related FAQ articles widget is located."
-msgstr ""
+msgstr "Meghatározza azt az elhelyezkedést, ahol a kapcsolódó GyIK bejegyzések felületi elem található."
 
 #. SysConfig
 msgid "Defines the settings for appointment notification."
@@ -2431,7 +2431,7 @@ msgstr "Partneradatok szerkesztése."
 
 #. SysConfig
 msgid "Enable the related article feature for the agent frontend."
-msgstr ""
+msgstr "A kapcsolódó bejegyzések funkció engedélyezése az ügyintézői előtétprogramhoz."
 
 #. SysConfig
 msgid ""

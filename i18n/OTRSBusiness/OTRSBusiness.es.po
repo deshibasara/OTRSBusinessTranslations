@@ -1,14 +1,14 @@
 # 
 # Translators:
-# David B <link.bigpoint@outlook.com>, 2017
+# David B <link.bigpoint@outlook.com>, 2017-2018
 # David Muñoz <davidkingnt@gmail.com>, 2016
 # Roel Torres <roel.torres@grupoinsert.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2018-01-09 10:40+0000\n"
-"PO-Revision-Date: 2018-01-09 10:42+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"PO-Revision-Date: 2018-01-15 16:43+0000\n"
+"Last-Translator: David B <link.bigpoint@outlook.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/otrs/OTRS/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +42,7 @@ msgstr "Grupo nuevo"
 
 #. Template: AdminChatChannel
 msgid "Customer interface"
-msgstr ""
+msgstr "Interfaz del cliente"
 
 #. Template: AdminChatChannel
 msgid "Public interface"
@@ -1257,7 +1257,7 @@ msgstr ""
 
 #. Perl Module: Kernel/Modules/AdminContactWithData.pm
 msgid "Contact updated!"
-msgstr ""
+msgstr "¡Contacto actualizado!"
 
 #. Perl Module: Kernel/Modules/AdminDynamicFieldContactWithData.pm
 msgid "Two keys \"Name\" and \"ValidID\" have to exist in possible values."
