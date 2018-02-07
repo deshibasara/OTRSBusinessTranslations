@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-01-09 10:40+0000\n"
-"PO-Revision-Date: 2018-01-09 10:42+0000\n"
+"POT-Creation-Date: 2018-02-07 08:14+0000\n"
+"PO-Revision-Date: 2018-02-07 08:15+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -2357,6 +2357,12 @@ msgstr "Definiert die Anordnung der Chat-Fenster."
 
 #. SysConfig
 msgid ""
+"Defines the path to the Google Chrome or Chromium binary. If set, this "
+"binary will be used instead of PhantomJS::Bin."
+msgstr ""
+
+#. SysConfig
+msgid ""
 "Defines the path to the PhantomJS binary. You can use a static build from "
 "http://phantomjs.org/download.html for an easy installation process."
 msgstr "Definiert den Pfad zur PhantomJS Binärdatei. Zur vereinfachten Installation können sie eine statische Version von http://phantomjs.org/download.html herunterladen."
@@ -2473,14 +2479,6 @@ msgid ""
 "Frontend module registration (disable SMS ticket screen if cloud service is "
 "not activated)."
 msgstr "Frontend-Modulregistrierung (verberge SMS-Ticket-Bildschirm, wenn Cloud-Services nicht aktiviert sind)."
-
-#. SysConfig
-msgid "Frontend module registration for the cusotmer interface."
-msgstr "Frontend-Modul-Registrierung für den Kunden-Bereich."
-
-#. SysConfig
-msgid "Frontend module registration for the public interface."
-msgstr "Frontendmodul-Registrierung für das Public-Interface."
 
 #. SysConfig
 msgid ""

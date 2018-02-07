@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRSBusiness\n"
-"POT-Creation-Date: 2018-01-16 09:38+0000\n"
+"POT-Creation-Date: 2018-02-07 08:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2203,6 +2203,10 @@ msgid "Defines the order of chat windows."
 msgstr ""
 
 #. SysConfig
+msgid "Defines the path to the Google Chrome or Chromium binary. If set, this binary will be used instead of PhantomJS::Bin."
+msgstr ""
+
+#. SysConfig
 msgid "Defines the path to the PhantomJS binary. You can use a static build from http://phantomjs.org/download.html for an easy installation process."
 msgstr ""
 
@@ -2304,14 +2308,6 @@ msgstr ""
 
 #. SysConfig
 msgid "Frontend module registration (disable SMS ticket screen if cloud service is not activated)."
-msgstr ""
-
-#. SysConfig
-msgid "Frontend module registration for the cusotmer interface."
-msgstr ""
-
-#. SysConfig
-msgid "Frontend module registration for the public interface."
 msgstr ""
 
 #. SysConfig

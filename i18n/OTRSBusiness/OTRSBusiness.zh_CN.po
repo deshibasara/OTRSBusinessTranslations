@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-01-09 10:40+0000\n"
-"PO-Revision-Date: 2018-01-09 10:42+0000\n"
+"POT-Creation-Date: 2018-02-07 08:14+0000\n"
+"PO-Revision-Date: 2018-02-07 08:15+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -2349,6 +2349,12 @@ msgstr "定义聊天窗口的顺序。"
 
 #. SysConfig
 msgid ""
+"Defines the path to the Google Chrome or Chromium binary. If set, this "
+"binary will be used instead of PhantomJS::Bin."
+msgstr ""
+
+#. SysConfig
+msgid ""
 "Defines the path to the PhantomJS binary. You can use a static build from "
 "http://phantomjs.org/download.html for an easy installation process."
 msgstr "定义到PhantomJS程序的路径。可以使用http://phantomjs.org/download.html已编译的文件以简化安装过程。"
@@ -2465,14 +2471,6 @@ msgid ""
 "Frontend module registration (disable SMS ticket screen if cloud service is "
 "not activated)."
 msgstr "前端模块注册（如果没有激活云服务，禁用短信工单窗口）。"
-
-#. SysConfig
-msgid "Frontend module registration for the cusotmer interface."
-msgstr "客户界面的前端模块注册。"
-
-#. SysConfig
-msgid "Frontend module registration for the public interface."
-msgstr "公共界面的前端模块注册。"
 
 #. SysConfig
 msgid ""
