@@ -2,14 +2,14 @@
 # Translators:
 # 文浩坚 <never.min@gmail.com>, 2016
 # 汇民 王 <whuim@163.com>, 2016-2017
-# 汇民 王 <whuim@qq.com>, 2016-2017
+# 汇民 王 <whuim@qq.com>, 2016-2018
 # 陈德文 <sggggy@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "POT-Creation-Date: 2018-02-07 08:14+0000\n"
-"PO-Revision-Date: 2018-02-07 08:15+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"PO-Revision-Date: 2018-03-05 14:29+0000\n"
+"Last-Translator: 汇民 王 <whuim@qq.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -553,20 +553,20 @@ msgstr "请注意：这个标签可用于与聊天相关的任何请求。如果
 
 #. Template: AgentChat
 msgid "Chat Integration"
-msgstr ""
+msgstr "聊天集成"
 
 #. Template: AgentChat
 msgid ""
 "You can easily integrate the chat into a web page. Just set up a few "
 "parameters and copy the integration code to your clip board."
-msgstr ""
+msgstr "你可以轻松将聊天集成到网页中。 只需设置一些参数并将集成代码复制到剪贴板即可。"
 
 #. Template: AgentChat
 msgid ""
 "Did you know? You can easily integrate the chat into a web page. Just set up"
 " a few parameters and copy the integration code to your clip board. The "
 "integration wizard is only available for administrators."
-msgstr ""
+msgstr "你知道吗？ 你可以轻松将聊天集成到网页中。 只需设置一些参数并将集成代码复制到剪贴板即可。 集成向导仅适用于管理员。"
 
 #. Template: AgentChat
 msgid "General Chat Requests From Customers"
@@ -1207,7 +1207,7 @@ msgstr "可见资源（可拖放排序）"
 msgid ""
 "In order to integrate the chat into your website, you need to enable the "
 "public chat in the %s"
-msgstr ""
+msgstr "为了将聊天整合到你的网站中，你需要在%s中启用公共聊天功能"
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
@@ -1217,11 +1217,11 @@ msgid ""
 "snippet, so you can make your changes and copy the snippet to your clip "
 "board afterwards. Please note that changes made on this page are not "
 "remembered."
-msgstr ""
+msgstr "你可以轻松将公共聊天整合到网站中。 只需从这里复制代码片段即可。 如果你想进行任何改动，请切换到配置选项卡。 所有更改都会立即应用于代码段，因此你可以进行更改并将代码段复制到剪贴板。 请注意，此页面所做的更改不会保存。"
 
 #. JS Template: ChatIntegrationDialog
 msgid "Integration Code"
-msgstr ""
+msgstr "集成代码"
 
 #. JS Template: ChatIntegrationDialog
 msgid "Preview"
@@ -1229,12 +1229,12 @@ msgstr "预览"
 
 #. JS Template: ChatIntegrationDialog
 msgid "Integrate this into the <head> section of your page:"
-msgstr ""
+msgstr "将本处内容集成到你网页的<head>部分："
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
 "Integrate this into the bottom of your page (after jQuery has been loaded):"
-msgstr ""
+msgstr "将本处内容集成到你网页的底部（在jQuery载入之后）："
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
@@ -1242,7 +1242,7 @@ msgid ""
 "doesn't show up after the configured amount of time, there is probably no "
 "agent available for chatting and you have configured the chat shouldn't show"
 " up in this case."
-msgstr ""
+msgstr "请注意，此预览使用真正的聊天模块。 如果聊天小部件在配置的时间后没有显示出来，则可能没有可用于聊天的服务人员，并且你已配置了不在此情况下显示聊天。"
 
 #. JS Template: ChatStartForm
 msgid "First message"
@@ -1366,7 +1366,7 @@ msgstr "%s已作为观察者加入该聊天。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Customer <b>%s</b> invited you to an audio call."
-msgstr ""
+msgstr "客户<b>%s</b>邀请你进行语音通话。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Customer <b>%s</b> invited you to a video call."
@@ -1374,7 +1374,7 @@ msgstr "客户<b>%s</b>邀请你进行视频通话。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "User <b>%s</b> invited you to an audio call."
-msgstr ""
+msgstr "用户<b>%s</b>邀请你进行语音通话。"
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "User <b>%s</b> invited you to a video call."
@@ -1454,7 +1454,7 @@ msgstr "你没有参与这个聊天！"
 
 #. Perl Module: Kernel/Modules/CustomerChat.pm
 msgid "You have been invited to an audio call."
-msgstr ""
+msgstr "你已被邀请到一个语音通话。"
 
 #. Perl Module: Kernel/Modules/CustomerChat.pm
 msgid "You have been invited to a video call."
@@ -1462,11 +1462,11 @@ msgstr "你已被邀请到一个视频通话。"
 
 #. Perl Module: Kernel/Modules/CustomerChat.pm
 msgid "<b>%s</b> invited you to an audio call."
-msgstr ""
+msgstr "<b>%s</b>已邀请你进行语音通话。"
 
 #. Perl Module: Kernel/Modules/CustomerChat.pm
 msgid "<b>%s</b> invited you to a video call."
-msgstr ""
+msgstr "<b>%s</b>已邀请你进行视频通话。"
 
 #. Perl Module: Kernel/Output/HTML/Article/SMS.pm
 msgid "Transaction Numbers"
@@ -1718,129 +1718,129 @@ msgstr "请选择一个有效的频道。"
 
 #. JS File: Core.Agent.Chat
 msgid "Display Chat if no agent is available"
-msgstr ""
+msgstr "如果没有服务人员可用，则显示聊天"
 
 #. JS File: Core.Agent.Chat
 msgid "Fall-back URL (only applies if above is set to \"Yes\")"
-msgstr ""
+msgstr "回退网址（仅在上面的设置为“是”时适用）"
 
 #. JS File: Core.Agent.Chat
 msgid "Pre-selected channel"
-msgstr ""
+msgstr "预选频道"
 
 #. JS File: Core.Agent.Chat
 msgid "Layout & Colors"
-msgstr ""
+msgstr "布局和配色"
 
 #. JS File: Core.Agent.Chat
 msgid "Position of the chat widget"
-msgstr ""
+msgstr "聊天小部件的位置"
 
 #. JS File: Core.Agent.Chat
 msgid "Bottom left"
-msgstr ""
+msgstr "左下"
 
 #. JS File: Core.Agent.Chat
 msgid "Bottom right"
-msgstr ""
+msgstr "右下"
 
 #. JS File: Core.Agent.Chat
 msgid "Delay (in miliseconds) until the chat shows up"
-msgstr ""
+msgstr "聊天显示出来前的延迟（毫秒）"
 
 #. JS File: Core.Agent.Chat
 msgid "Height in pixels to which the chat should expand"
-msgstr ""
+msgstr "聊天应该展开的高度（以像素为单位）"
 
 #. JS File: Core.Agent.Chat
 msgid "Should the chat already be maximized when it shows up?"
-msgstr ""
+msgstr "聊天在显示出来时是否要最大化？"
 
 #. JS File: Core.Agent.Chat
 msgid "Background color of the inner chat window"
-msgstr ""
+msgstr "内嵌聊天窗口的背景颜色"
 
 #. JS File: Core.Agent.Chat
 msgid "Background color of the headline on top of the chat"
-msgstr ""
+msgstr "聊天顶部标题的背景颜色"
 
 #. JS File: Core.Agent.Chat
 msgid "Text color of the headline on top of the chat"
-msgstr ""
+msgstr "聊天顶部标题的文本颜色"
 
 #. JS File: Core.Agent.Chat
 msgid "Background color of the send button"
-msgstr ""
+msgstr "发送按钮的背景颜色"
 
 #. JS File: Core.Agent.Chat
 msgid "Text color of the send button"
-msgstr ""
+msgstr "发送按钮的文本颜色"
 
 #. JS File: Core.Agent.Chat
 msgid "Text color of the chatter Name in the chat"
-msgstr ""
+msgstr "聊天中聊天名称的文本颜色"
 
 #. JS File: Core.Agent.Chat
 msgid "Texts"
-msgstr ""
+msgstr "文本"
 
 #. JS File: Core.Agent.Chat
 msgid "How can we help you?"
-msgstr ""
+msgstr "我们该怎样帮助你？"
 
 #. JS File: Core.Agent.Chat
 msgid "Placeholder for the channel selection"
-msgstr ""
+msgstr "频道选择的占位符"
 
 #. JS File: Core.Agent.Chat
 msgid "Please select a topic for your request..."
-msgstr ""
+msgstr "请为您的请求选择一个主题..."
 
 #. JS File: Core.Agent.Chat
 msgid "Placeholder for the name input"
-msgstr ""
+msgstr "名称输入的占位符"
 
 #. JS File: Core.Agent.Chat
 msgid "Your name..."
-msgstr ""
+msgstr "你的大名..."
 
 #. JS File: Core.Agent.Chat
 msgid "Placeholder for the message input"
-msgstr ""
+msgstr "消息输入的占位符"
 
 #. JS File: Core.Agent.Chat
 msgid "Your message..."
-msgstr ""
+msgstr "你的信息..."
 
 #. JS File: Core.Agent.Chat
 msgid "Confirmation message if the user decides to close the chat"
-msgstr ""
+msgstr "用户决定关闭聊天时的确认消息"
 
 #. JS File: Core.Agent.Chat
 msgid "Are you sure you would like to end the chat?"
-msgstr ""
+msgstr "你确定要结束聊天吗？"
 
 #. JS File: Core.Agent.Chat
 msgid "Message which is displayed after the chat was ended by an agent"
-msgstr ""
+msgstr "服务人员结束聊天后显示的消息"
 
 #. JS File: Core.Agent.Chat
 msgid "Thank you! The chat was ended."
-msgstr ""
+msgstr "谢谢！ 聊天结束。"
 
 #. JS File: Core.Agent.Chat
 msgid "configuration"
-msgstr ""
+msgstr "配置"
 
 #. JS File: Core.Agent.Chat
 msgid "Click the reload icon to preview your current chat configuration."
-msgstr ""
+msgstr "点击重新加载图标以预览当前的聊天配置。"
 
 #. JS File: Core.Agent.Chat
 msgid ""
 "Click the reload icon to preview your current chat configuration. Please "
 "note that the public chat is currently disabled and will not show up."
-msgstr ""
+msgstr "点击重新加载图标以预览当前的聊天配置。 请注意，公共聊天功能目前处于禁用状态，不会显示。"
 
 #. JS File: Core.Agent.Chat
 msgid "Your chat could not be started because of an internal error."
@@ -1993,11 +1993,11 @@ msgstr "搜索服务人员动态字段数据库"
 
 #. SysConfig
 msgid "Agent FAQ Related Articles"
-msgstr ""
+msgstr "服务人员FAQ相关的文章"
 
 #. SysConfig
 msgid "Agent FAQ Related Articles."
-msgstr ""
+msgstr "服务人员FAQ相关的文章。"
 
 #. SysConfig
 msgid "Agent Information"
@@ -2059,7 +2059,7 @@ msgstr "服务人员界面检查聊天请求的通知模块。"
 msgid ""
 "AgentTicketZoom widget that displays Contact with data dynamic field in the "
 "side bar."
-msgstr ""
+msgstr "服务人员工单详情小部件，在侧边栏显示联系人数据的动态字段。"
 
 #. SysConfig
 msgid "Allow customer to select only channels that have available agent(s)."
@@ -2086,11 +2086,11 @@ msgstr "追加聊天到工单。"
 
 #. SysConfig
 msgid "Below body"
-msgstr ""
+msgstr "在正文下方"
 
 #. SysConfig
 msgid "Below subject"
-msgstr ""
+msgstr "在主题下方"
 
 #. SysConfig
 msgid "Calendar Notifications"
@@ -2351,7 +2351,7 @@ msgstr "定义聊天窗口的顺序。"
 msgid ""
 "Defines the path to the Google Chrome or Chromium binary. If set, this "
 "binary will be used instead of PhantomJS::Bin."
-msgstr ""
+msgstr "定义Google Chrome或Chromium二进制文件的路径。 如果设置了，将使用该二进制代替PhantomJS::Bin。"
 
 #. SysConfig
 msgid ""
@@ -2367,7 +2367,7 @@ msgstr "定义显示“无应答”消息给客户的时间段（分钟）。"
 
 #. SysConfig
 msgid "Defines the position where the related FAQ articles widget is located."
-msgstr ""
+msgstr "定义相关的FAQ文章小部件所在的位置。"
 
 #. SysConfig
 msgid "Defines the settings for appointment notification."
@@ -2440,7 +2440,7 @@ msgstr "编辑联系信息。"
 
 #. SysConfig
 msgid "Enable the related article feature for the agent frontend."
-msgstr ""
+msgstr "启用服务人员前端的相关文章功能。"
 
 #. SysConfig
 msgid ""
