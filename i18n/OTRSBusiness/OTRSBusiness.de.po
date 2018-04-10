@@ -3,6 +3,7 @@
 # christopher.kuhn <christopher.kuhn@otrs.com>, 2016
 # Dusan Vuckovic, 2017
 # Ettore Atalan <atalanttore@googlemail.com>, 2016-2017
+# Felix Brinkmann <payartz12@gmail.com>, 2018
 # Jonas Kohls <Jonas.kohls@outlook.de>, 2016
 # zottto <mail@marcnilius.de>, 2017
 # Marc A. Bonsels, 2016-2017
@@ -15,9 +16,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-02-07 08:14+0000\n"
-"PO-Revision-Date: 2018-02-07 08:15+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"POT-Creation-Date: 2018-03-19 16:39+0000\n"
+"PO-Revision-Date: 2018-04-10 05:47+0000\n"
+"Last-Translator: Felix Brinkmann <payartz12@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -295,6 +296,12 @@ msgid ""
 "Cache time to live (in minutes), to save the retrieved possible values."
 msgstr "Cache TTL (in Minuten), um die gelieferten Werte zu speichern."
 
+#. Template: AdminDynamicFieldWebService
+msgid ""
+"Here you can specify an optional HTTP link for the field value in Overviews "
+"and Zoom screens. Optional HTTP link works only for single-select fields."
+msgstr ""
+
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr "Empfänger-SMS-Nummern"
@@ -568,6 +575,10 @@ msgid ""
 "You can easily integrate the chat into a web page. Just set up a few "
 "parameters and copy the integration code to your clip board."
 msgstr "Sie können den Chat leicht in eine Webseite integrieren. Einfach ein paar Parameter setzen und den Integrations-Code in Ihre Zwischenablage kopieren."
+
+#. Template: AgentChat
+msgid "Configure Chat Integration"
+msgstr "Konfiguriere die Chatintegration"
 
 #. Template: AgentChat
 msgid ""
@@ -1236,10 +1247,6 @@ msgid "Preview"
 msgstr "Vorschau"
 
 #. JS Template: ChatIntegrationDialog
-msgid "Integrate this into the <head> section of your page:"
-msgstr "Integrieren Sie diesen in den <head>-Abschnitt Ihrer Seite."
-
-#. JS Template: ChatIntegrationDialog
 msgid ""
 "Integrate this into the bottom of your page (after jQuery has been loaded):"
 msgstr "Integrieren Sie diesen am unteren Ende Ihrer Seite (nachdem jQuery geladen wurde):"
@@ -1374,7 +1381,7 @@ msgstr "%s hat den Chat als Beobachter betreten."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Customer <b>%s</b> invited you to an audio call."
-msgstr ""
+msgstr "Der Kunde <b>%s</b> hat Sie zu einem Audio-Anruf eingeladen."
 
 #. Perl Module: Kernel/Modules/AgentChat.pm
 msgid "Customer <b>%s</b> invited you to a video call."
@@ -2818,7 +2825,7 @@ msgstr "Text, der bei der Auswahl dieses SLA in CustomerTicketMessage angezeigt 
 
 #. SysConfig
 msgid "The default languages for the related FAQ articles."
-msgstr ""
+msgstr "Standard-Sprache für passende FAQ-Artikel."
 
 #. SysConfig
 msgid ""

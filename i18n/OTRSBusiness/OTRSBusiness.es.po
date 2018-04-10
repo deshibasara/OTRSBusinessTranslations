@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-02-07 08:14+0000\n"
-"PO-Revision-Date: 2018-02-07 08:15+0000\n"
+"POT-Creation-Date: 2018-03-19 16:39+0000\n"
+"PO-Revision-Date: 2018-03-19 16:42+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Spanish (http://www.transifex.com/otrs/OTRS/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -287,6 +287,12 @@ msgid ""
 "Cache time to live (in minutes), to save the retrieved possible values."
 msgstr ""
 
+#. Template: AdminDynamicFieldWebService
+msgid ""
+"Here you can specify an optional HTTP link for the field value in Overviews "
+"and Zoom screens. Optional HTTP link works only for single-select fields."
+msgstr ""
+
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr "Números de destinatarios del SMS"
@@ -559,6 +565,10 @@ msgstr ""
 msgid ""
 "You can easily integrate the chat into a web page. Just set up a few "
 "parameters and copy the integration code to your clip board."
+msgstr ""
+
+#. Template: AgentChat
+msgid "Configure Chat Integration"
 msgstr ""
 
 #. Template: AgentChat
@@ -1226,10 +1236,6 @@ msgstr ""
 #. JS Template: ChatIntegrationDialog
 msgid "Preview"
 msgstr "Vista previa"
-
-#. JS Template: ChatIntegrationDialog
-msgid "Integrate this into the <head> section of your page:"
-msgstr ""
 
 #. JS Template: ChatIntegrationDialog
 msgid ""

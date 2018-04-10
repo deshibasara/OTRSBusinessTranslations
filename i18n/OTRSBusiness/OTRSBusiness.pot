@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRSBusiness\n"
-"POT-Creation-Date: 2018-03-19 16:39+0000\n"
+"POT-Creation-Date: 2018-04-10 16:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -911,7 +911,11 @@ msgid "This statistics report contains configuration errors and can currently no
 msgstr ""
 
 #. Template: AgentTicketAttachmentView
-msgid "Attachments of"
+msgid "Attachments of %s%s%s - %s"
+msgstr ""
+
+#. Template: AgentTicketAttachmentView
+msgid "Close this window"
 msgstr ""
 
 #. Template: AgentTicketAttachmentView
@@ -2315,6 +2319,10 @@ msgid "Frontend module registration (disable SMS ticket screen if cloud service 
 msgstr ""
 
 #. SysConfig
+msgid "Frontend module registration for the public interface."
+msgstr ""
+
+#. SysConfig
 msgid "Generate HTML comment hooks for the specified blocks so that filters can use them."
 msgstr ""
 
@@ -2600,6 +2608,10 @@ msgstr ""
 
 #. SysConfig
 msgid "The default languages for the related FAQ articles."
+msgstr ""
+
+#. SysConfig
+msgid "The logo shown in the header of the agent interface for the skin \"High Contrast\". See \"AgentLogo\" for further description."
 msgstr ""
 
 #. SysConfig

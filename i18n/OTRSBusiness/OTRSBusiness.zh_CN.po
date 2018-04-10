@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-02-07 08:14+0000\n"
-"PO-Revision-Date: 2018-03-05 14:29+0000\n"
+"POT-Creation-Date: 2018-03-19 16:39+0000\n"
+"PO-Revision-Date: 2018-03-29 02:10+0000\n"
 "Last-Translator: 汇民 王 <whuim@qq.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -287,6 +287,12 @@ msgid ""
 "Cache time to live (in minutes), to save the retrieved possible values."
 msgstr "缓存生存的时间（单位：分钟），以保存检索到的可能值。"
 
+#. Template: AdminDynamicFieldWebService
+msgid ""
+"Here you can specify an optional HTTP link for the field value in Overviews "
+"and Zoom screens. Optional HTTP link works only for single-select fields."
+msgstr "可以为字段值指定一个可选的HTTP链接，显示在工单概览和工单详情屏幕中。可选的HTTP链接只能用于单选字段。"
+
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr "收件人短信号码"
@@ -560,6 +566,10 @@ msgid ""
 "You can easily integrate the chat into a web page. Just set up a few "
 "parameters and copy the integration code to your clip board."
 msgstr "你可以轻松将聊天集成到网页中。 只需设置一些参数并将集成代码复制到剪贴板即可。"
+
+#. Template: AgentChat
+msgid "Configure Chat Integration"
+msgstr "配置聊天集成"
 
 #. Template: AgentChat
 msgid ""
@@ -1226,10 +1236,6 @@ msgstr "集成代码"
 #. JS Template: ChatIntegrationDialog
 msgid "Preview"
 msgstr "预览"
-
-#. JS Template: ChatIntegrationDialog
-msgid "Integrate this into the <head> section of your page:"
-msgstr "将本处内容集成到你网页的<head>部分："
 
 #. JS Template: ChatIntegrationDialog
 msgid ""

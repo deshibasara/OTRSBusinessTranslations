@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-02-07 08:14+0000\n"
-"PO-Revision-Date: 2018-02-07 08:17+0000\n"
+"POT-Creation-Date: 2018-03-19 16:39+0000\n"
+"PO-Revision-Date: 2018-03-19 16:42+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Serbian (http://www.transifex.com/otrs/OTRS/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -285,6 +285,12 @@ msgid ""
 "Cache time to live (in minutes), to save the retrieved possible values."
 msgstr "Време кеширања (у минутима) за чување прибављених могућих вредности."
 
+#. Template: AdminDynamicFieldWebService
+msgid ""
+"Here you can specify an optional HTTP link for the field value in Overviews "
+"and Zoom screens. Optional HTTP link works only for single-select fields."
+msgstr ""
+
 #. Template: AdminNotificationEventTransportSMSSettings
 msgid "Recipient SMS numbers"
 msgstr "Бројеви примаоца SMS"
@@ -558,6 +564,10 @@ msgid ""
 "You can easily integrate the chat into a web page. Just set up a few "
 "parameters and copy the integration code to your clip board."
 msgstr "Ћаскање можете врло једноставно интегрисати у веб страницу. Подесите само пар параметара и преузмите генерисан интеграциони код."
+
+#. Template: AgentChat
+msgid "Configure Chat Integration"
+msgstr ""
 
 #. Template: AgentChat
 msgid ""
@@ -1224,10 +1234,6 @@ msgstr "Интеграциони код"
 #. JS Template: ChatIntegrationDialog
 msgid "Preview"
 msgstr "Приказ"
-
-#. JS Template: ChatIntegrationDialog
-msgid "Integrate this into the <head> section of your page:"
-msgstr "Убаците овај код у <head> секцију ваше странице:"
 
 #. JS Template: ChatIntegrationDialog
 msgid ""
