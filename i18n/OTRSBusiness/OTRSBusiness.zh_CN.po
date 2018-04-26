@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-03-19 16:39+0000\n"
-"PO-Revision-Date: 2018-03-29 02:10+0000\n"
+"POT-Creation-Date: 2018-04-10 16:28+0000\n"
+"PO-Revision-Date: 2018-04-10 16:28+0000\n"
 "Last-Translator: 汇民 王 <whuim@qq.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -971,8 +971,12 @@ msgid ""
 msgstr "该统计报告有配置错误，当前无法使用。"
 
 #. Template: AgentTicketAttachmentView
-msgid "Attachments of"
-msgstr "附件"
+msgid "Attachments of %s%s%s - %s"
+msgstr ""
+
+#. Template: AgentTicketAttachmentView
+msgid "Close this window"
+msgstr "关闭本窗口"
 
 #. Template: AgentTicketAttachmentView
 msgid "Attachment Overview"
@@ -2479,6 +2483,10 @@ msgid ""
 msgstr "前端模块注册（如果没有激活云服务，禁用短信工单窗口）。"
 
 #. SysConfig
+msgid "Frontend module registration for the public interface."
+msgstr "公共界面的前端模块注册。"
+
+#. SysConfig
 msgid ""
 "Generate HTML comment hooks for the specified blocks so that filters can use"
 " them."
@@ -2817,6 +2825,12 @@ msgstr "在该SLA选定的客户工单消息上显示的文本。"
 #. SysConfig
 msgid "The default languages for the related FAQ articles."
 msgstr "相关FAQ文章的默认语言。"
+
+#. SysConfig
+msgid ""
+"The logo shown in the header of the agent interface for the skin \"High "
+"Contrast\". See \"AgentLogo\" for further description."
+msgstr ""
 
 #. SysConfig
 msgid ""

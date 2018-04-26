@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRSBusiness\n"
-"POT-Creation-Date: 2018-04-10 16:28+0000\n"
+"POT-Creation-Date: 2018-04-26 10:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2319,10 +2319,6 @@ msgid "Frontend module registration (disable SMS ticket screen if cloud service 
 msgstr ""
 
 #. SysConfig
-msgid "Frontend module registration for the public interface."
-msgstr ""
-
-#. SysConfig
 msgid "Generate HTML comment hooks for the specified blocks so that filters can use them."
 msgstr ""
 
@@ -2608,10 +2604,6 @@ msgstr ""
 
 #. SysConfig
 msgid "The default languages for the related FAQ articles."
-msgstr ""
-
-#. SysConfig
-msgid "The logo shown in the header of the agent interface for the skin \"High Contrast\". See \"AgentLogo\" for further description."
 msgstr ""
 
 #. SysConfig

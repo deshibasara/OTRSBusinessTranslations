@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-03-19 16:39+0000\n"
-"PO-Revision-Date: 2018-03-19 17:14+0000\n"
+"POT-Creation-Date: 2018-04-10 16:28+0000\n"
+"PO-Revision-Date: 2018-04-11 17:47+0000\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/otrs/OTRS/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -968,8 +968,12 @@ msgid ""
 msgstr "Ez a statisztikai jelentés beállítási hibákat tartalmaz, és jelenleg nem használható."
 
 #. Template: AgentTicketAttachmentView
-msgid "Attachments of"
-msgstr "Melléklete ennek"
+msgid "Attachments of %s%s%s - %s"
+msgstr "%s%s%s mellékletei – %s"
+
+#. Template: AgentTicketAttachmentView
+msgid "Close this window"
+msgstr "Ablak bezárása"
 
 #. Template: AgentTicketAttachmentView
 msgid "Attachment Overview"
@@ -2476,6 +2480,10 @@ msgid ""
 msgstr "Előtétprogram-modul regisztráció (SMS jegy képernyő letiltása, ha a felhőszolgáltatás nincs aktiválva)."
 
 #. SysConfig
+msgid "Frontend module registration for the public interface."
+msgstr "Előtétprogram-modul regisztráció a nyilvános felülethez."
+
+#. SysConfig
 msgid ""
 "Generate HTML comment hooks for the specified blocks so that filters can use"
 " them."
@@ -2814,6 +2822,12 @@ msgstr "Az a szöveg, amely ezen SLA kijelölésén jelenik meg a CustomerTicket
 #. SysConfig
 msgid "The default languages for the related FAQ articles."
 msgstr "Az alapértelmezett nyelvek a kapcsolódó GyIK bejegyzéseknél."
+
+#. SysConfig
+msgid ""
+"The logo shown in the header of the agent interface for the skin \"High "
+"Contrast\". See \"AgentLogo\" for further description."
+msgstr "Az ügyintézői felület fejlécében megjelenített logó a „Nagy kontraszt” felszínnél. További leírásért nézze meg az „AgentLogo” beállítást."
 
 #. SysConfig
 msgid ""

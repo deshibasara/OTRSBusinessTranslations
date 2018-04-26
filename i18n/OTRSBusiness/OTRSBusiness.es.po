@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-03-19 16:39+0000\n"
-"PO-Revision-Date: 2018-03-19 16:42+0000\n"
-"Last-Translator: Dusan Vuckovic\n"
+"POT-Creation-Date: 2018-04-10 16:28+0000\n"
+"PO-Revision-Date: 2018-04-10 16:28+0000\n"
+"Last-Translator: Carlos Rodríguez <carlos.rodriguez@otrs.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/otrs/OTRS/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -971,8 +971,12 @@ msgid ""
 msgstr "Este reporte estadístico contiene errores de configuración y actualmente no se puede utilizar."
 
 #. Template: AgentTicketAttachmentView
-msgid "Attachments of"
-msgstr "Archivos adjuntos de"
+msgid "Attachments of %s%s%s - %s"
+msgstr ""
+
+#. Template: AgentTicketAttachmentView
+msgid "Close this window"
+msgstr "Cerrar ésta ventana"
 
 #. Template: AgentTicketAttachmentView
 msgid "Attachment Overview"
@@ -2479,6 +2483,10 @@ msgid ""
 msgstr ""
 
 #. SysConfig
+msgid "Frontend module registration for the public interface."
+msgstr "Registro de módulo \"Frontend\" en la interfaz pública."
+
+#. SysConfig
 msgid ""
 "Generate HTML comment hooks for the specified blocks so that filters can use"
 " them."
@@ -2817,6 +2825,12 @@ msgstr ""
 #. SysConfig
 msgid "The default languages for the related FAQ articles."
 msgstr "Los lenguajes por de defecto de los artículos relacionados de Preguntas frecuentes."
+
+#. SysConfig
+msgid ""
+"The logo shown in the header of the agent interface for the skin \"High "
+"Contrast\". See \"AgentLogo\" for further description."
+msgstr ""
 
 #. SysConfig
 msgid ""
