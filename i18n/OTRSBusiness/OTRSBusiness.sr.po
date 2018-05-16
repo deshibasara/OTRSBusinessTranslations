@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-04-10 16:28+0000\n"
-"PO-Revision-Date: 2018-04-10 16:33+0000\n"
+"POT-Creation-Date: 2018-04-26 10:37+0000\n"
+"PO-Revision-Date: 2018-04-26 10:37+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Serbian (http://www.transifex.com/otrs/OTRS/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -2481,10 +2481,6 @@ msgid ""
 msgstr "Регистрација модула приступа (онемогућава везу за SMS тикет уколико сервис у облаку није активиран)."
 
 #. SysConfig
-msgid "Frontend module registration for the public interface."
-msgstr "Регистрација приступног модула за јавни интерфејс."
-
-#. SysConfig
 msgid ""
 "Generate HTML comment hooks for the specified blocks so that filters can use"
 " them."
@@ -2823,12 +2819,6 @@ msgstr "Текст који ће бити приказан приликом се
 #. SysConfig
 msgid "The default languages for the related FAQ articles."
 msgstr "Подразумевани језици за сродне FAQ чланке."
-
-#. SysConfig
-msgid ""
-"The logo shown in the header of the agent interface for the skin \"High "
-"Contrast\". See \"AgentLogo\" for further description."
-msgstr "Лого приказан у заглављу интерфејса оператера за изглед \"High Contrast\". Погледајте \"AgentLogo\" за детаљнији опис."
 
 #. SysConfig
 msgid ""

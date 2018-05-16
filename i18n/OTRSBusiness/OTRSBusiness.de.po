@@ -16,9 +16,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-04-10 16:28+0000\n"
-"PO-Revision-Date: 2018-04-10 16:28+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"POT-Creation-Date: 2018-04-26 10:37+0000\n"
+"PO-Revision-Date: 2018-04-26 10:37+0000\n"
+"Last-Translator: Dusan Vuckovic\n"
 "Language-Team: German (http://www.transifex.com/otrs/OTRS/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2492,10 +2492,6 @@ msgid ""
 msgstr "Frontend-Modulregistrierung (verberge SMS-Ticket-Bildschirm, wenn Cloud-Services nicht aktiviert sind)."
 
 #. SysConfig
-msgid "Frontend module registration for the public interface."
-msgstr "Frontendmodul-Registrierung für das Public-Interface."
-
-#. SysConfig
 msgid ""
 "Generate HTML comment hooks for the specified blocks so that filters can use"
 " them."
@@ -2834,12 +2830,6 @@ msgstr "Text, der bei der Auswahl dieses SLA in CustomerTicketMessage angezeigt 
 #. SysConfig
 msgid "The default languages for the related FAQ articles."
 msgstr "Standard-Sprache für passende FAQ-Artikel."
-
-#. SysConfig
-msgid ""
-"The logo shown in the header of the agent interface for the skin \"High "
-"Contrast\". See \"AgentLogo\" for further description."
-msgstr ""
 
 #. SysConfig
 msgid ""
