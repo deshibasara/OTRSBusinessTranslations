@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRSBusiness\n"
-"POT-Creation-Date: 2018-05-16 14:54+0000\n"
+"POT-Creation-Date: 2018-07-18 06:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2331,27 +2331,27 @@ msgid "If enabled it will check agents availability on login. If user is availab
 msgstr ""
 
 #. SysConfig
-msgid "If this flag is set to Yes, a notification will be displayed on each page if the current agent is not available for chat."
+msgid "If enabled, a notification will be displayed on each page if the current agent is not available for chat."
 msgstr ""
 
 #. SysConfig
-msgid "If this flag is set to Yes, agents can start a chat with a customer without a ticket."
+msgid "If enabled, agents can start a chat with a customer without a ticket."
 msgstr ""
 
 #. SysConfig
-msgid "If this flag is set to Yes, customers can start a chat with an agent without a ticket."
+msgid "If enabled, customers can start a chat with an agent without a ticket."
 msgstr ""
 
 #. SysConfig
-msgid "If this flag is set to Yes, only the ticket customer can start a chat from a ticket zoom view."
+msgid "If enabled, only the ticket customer can start a chat from a ticket zoom view."
 msgstr ""
 
 #. SysConfig
-msgid "If this flag is set to Yes, starting a chat from agent ticket zoom view will only be possible, if the ticket customer is online."
+msgid "If enabled, starting a chat from agent ticket zoom view will only be possible, if the ticket customer is online."
 msgstr ""
 
 #. SysConfig
-msgid "If this flag is set to Yes, starting a chat from customer ticket zoom view will only be possible, if there are available agents in the linked chat channel."
+msgid "If enabled, starting a chat from customer ticket zoom view will only be possible, if there are available agents in the linked chat channel."
 msgstr ""
 
 #. SysConfig

@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-04-26 10:37+0000\n"
-"PO-Revision-Date: 2018-05-16 10:23+0000\n"
-"Last-Translator: 汇民 王 <whuim@qq.com>\n"
+"POT-Creation-Date: 2018-07-18 06:08+0000\n"
+"PO-Revision-Date: 2018-07-18 06:09+0000\n"
+"Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2501,40 +2501,35 @@ msgstr "如果启用本选项，将在登录时检查服务人员的可用性。
 
 #. SysConfig
 msgid ""
-"If this flag is set to Yes, a notification will be displayed on each page if"
-" the current agent is not available for chat."
-msgstr "如果本选项设置为“是”，就在每个页面上显示一条当前服务人员无法聊天的通知消息。"
+"If enabled, a notification will be displayed on each page if the current "
+"agent is not available for chat."
+msgstr ""
+
+#. SysConfig
+msgid "If enabled, agents can start a chat with a customer without a ticket."
+msgstr ""
+
+#. SysConfig
+msgid "If enabled, customers can start a chat with an agent without a ticket."
+msgstr ""
 
 #. SysConfig
 msgid ""
-"If this flag is set to Yes, agents can start a chat with a customer without "
-"a ticket."
-msgstr "如果本选项设置为“是”，服务人员无需工单就能与客户发起聊天。"
+"If enabled, only the ticket customer can start a chat from a ticket zoom "
+"view."
+msgstr ""
 
 #. SysConfig
 msgid ""
-"If this flag is set to Yes, customers can start a chat with an agent without"
-" a ticket."
-msgstr "如果本选项设置为“是”，客户无需工单就能与服务人员发起聊天。"
+"If enabled, starting a chat from agent ticket zoom view will only be "
+"possible, if the ticket customer is online."
+msgstr ""
 
 #. SysConfig
 msgid ""
-"If this flag is set to Yes, only the ticket customer can start a chat from a"
-" ticket zoom view."
-msgstr "如果本选项设置为“是”，仅工单详情视图中的工单客户可以发起聊天。"
-
-#. SysConfig
-msgid ""
-"If this flag is set to Yes, starting a chat from agent ticket zoom view will"
-" only be possible, if the ticket customer is online."
-msgstr "如果本选项设置为“是”，在服务人员工单详情视图仅当工单客户在线时才能发起聊天。"
-
-#. SysConfig
-msgid ""
-"If this flag is set to Yes, starting a chat from customer ticket zoom view "
-"will only be possible, if there are available agents in the linked chat "
-"channel."
-msgstr "如果本选项设置为“是”，在客户工单详情视图仅当可用的服务人员在链接的聊天频道时才能发起聊天。"
+"If enabled, starting a chat from customer ticket zoom view will only be "
+"possible, if there are available agents in the linked chat channel."
+msgstr ""
 
 #. SysConfig
 msgid "Is being displayed if a customer chooses this SLA on ticket creation."

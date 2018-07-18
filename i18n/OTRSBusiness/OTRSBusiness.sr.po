@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2018-04-26 10:37+0000\n"
-"PO-Revision-Date: 2018-04-26 10:37+0000\n"
+"POT-Creation-Date: 2018-07-18 06:08+0000\n"
+"PO-Revision-Date: 2018-07-18 06:13+0000\n"
 "Last-Translator: Dusan Vuckovic\n"
 "Language-Team: Serbian (http://www.transifex.com/otrs/OTRS/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -2499,40 +2499,35 @@ msgstr "Уколико је омогућено, проверава доступ�
 
 #. SysConfig
 msgid ""
-"If this flag is set to Yes, a notification will be displayed on each page if"
-" the current agent is not available for chat."
-msgstr "Уколико је ово подешено на Да и оператер није доступан за ћаскања, биће приказано обавештење на свакој страни."
+"If enabled, a notification will be displayed on each page if the current "
+"agent is not available for chat."
+msgstr "Уколико је укључено и оператер није доступан за ћаскања, биће приказано обавештење на свакој страни."
+
+#. SysConfig
+msgid "If enabled, agents can start a chat with a customer without a ticket."
+msgstr "Уколико је укључено, оператери могу да покрену ћаскање са клијентом без тикета."
+
+#. SysConfig
+msgid "If enabled, customers can start a chat with an agent without a ticket."
+msgstr "Уколико је укључено, клијенти могу да покрену ћаскање са оператером без тикета."
 
 #. SysConfig
 msgid ""
-"If this flag is set to Yes, agents can start a chat with a customer without "
-"a ticket."
-msgstr "Уколико је ово подешено на Да, оператери могу да покрену ћаскање са клијентом без тикета."
+"If enabled, only the ticket customer can start a chat from a ticket zoom "
+"view."
+msgstr "Уколико је укључено, само клијент тикета може покренути ћаскање из детаљног приказа."
 
 #. SysConfig
 msgid ""
-"If this flag is set to Yes, customers can start a chat with an agent without"
-" a ticket."
-msgstr "Уколико је ово подешено на Да, клијенти могу да покрену ћаскање са оператером без тикета."
+"If enabled, starting a chat from agent ticket zoom view will only be "
+"possible, if the ticket customer is online."
+msgstr "Уколико је укључено, покретање ћаскања из детаљног приказа тикета ће бити могуће само уколико је клијент на вези."
 
 #. SysConfig
 msgid ""
-"If this flag is set to Yes, only the ticket customer can start a chat from a"
-" ticket zoom view."
-msgstr "Уколико је ово подешено на Да, само клијент тикета може покренути ћаскање из детаљног приказа."
-
-#. SysConfig
-msgid ""
-"If this flag is set to Yes, starting a chat from agent ticket zoom view will"
-" only be possible, if the ticket customer is online."
-msgstr "Уколико је ово подешено на Да, покретање ћаскања из детаљног приказа тикета ће бити могуће само уколико је клијент на вези."
-
-#. SysConfig
-msgid ""
-"If this flag is set to Yes, starting a chat from customer ticket zoom view "
-"will only be possible, if there are available agents in the linked chat "
-"channel."
-msgstr "Уколико је ово подешено на Да, покретање ћаскања из детаљног приказа тикета ће бити могуће само уколико има доступних оператера у одговарајућем каналу."
+"If enabled, starting a chat from customer ticket zoom view will only be "
+"possible, if there are available agents in the linked chat channel."
+msgstr "Уколико је укључено, покретање ћаскања из детаљног приказа тикета клијента ће бити могуће само уколико има доступних оператера у повезаном каналу."
 
 #. SysConfig
 msgid "Is being displayed if a customer chooses this SLA on ticket creation."
